@@ -131,7 +131,7 @@ for index in indexes.flatten():
     x,y,w,h = boxes[index]
     confidence = str(round(confidences[index],2))#round 四舍五入
     cv2.rectangle(img,(x,y),(x+w,y+h),color,2)
-    
+    print(x,y,x+w,y+h)
     string = f'{class_names[index]} {confidence}'
     cv2.putText(img,string,(x,y+20),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),1)
     
