@@ -1,50 +1,80 @@
-from collections import OrderedDict
-from os import SEEK_CUR
-import torch 
 from torch import nn
+import torch
+from YOLOv3.yolo3_md import conv2d 
 
-from YOLOv3.darknet import darkNet53
+from darknet import darkNet53
 
-def conv2d(filter_in, filter_out, kernel_size):
-    pad = (kernel_size - 1) // 2 if kernel_size else 0
-    return nn.Sequential(OrderedDict([
-        ("conv", nn.Conv2d(filter_in, filter_out, kernel_size=kernel_size, stride=1, padding=pad, bias=False)),
-        ("bn", nn.BatchNorm2d(filter_out)),
-        ("relu", nn.LeakyReLU(0.1)),
-    ]))
+class YOLOv3(nn.Module): 
+    def __init__(self,anchor_masks,classes_num):
+        """ YOLOv3
+        Args:
+            anchor_masks (list): the anchors shape from kmeans
+            classes_num (int): the number of classes 
+        """        
+        super(YOLOv3,self).__init__()
+        self.backbone = darkNet53()
+        # ===========================#
+        # convolutional set
+        # 五部分: (kernel_size) 1,3,1,3,1
+        # ===========================#
+        
+        #conv1--------------------------------------------------------
+        self.convolutionalSet0  = self._createConvoltionalSet(1024,512)
+        #get 13,13,weneed
+        self.branch_out0 = self._createBranchOut(512,1024,len(anchor_masks[0]*(classes_num+5)))
+        self.branch_down0 =self._createBranchDown(512,216)
+        
+        #conv2-------------------------------------------------------
+        
+        
+    def forward(self,x):
+        """_summary_
 
-def make_last_layers(filter_list,in_filter,out_filters):
-        m = nn.ModuleList([
-            conv2d(in_filter,filter_list[0],1),
-            conv2d(filter_list[0],filter_list[1],3),
-            conv2d(filter_list[1],filter_list[0],1),
-            conv2d(filter_list[0],filter_list[1],3),
-            conv2d(filter_list[1],filter_list[0],1),
-            conv2d(filter_list[0],filter_list[1],3),
-            #调整通道数
-            nn.Conv2d(filter_list[1],out_filters,kernel_size=1,stride=1,padding=0,bias=True)
+        Returns:
+            out0: [13,13,need]
+            
+        """        
+        # out2 : [52,52,256]  out1: [ 26,26,512]  out0:[13,13,1024]
+        out2,out1,out0 = self.backbone(x)
+        
+        out0 = self.convolutionalSet0(out0)
+        out0_out = self.branch_out0(out0)#[13,13,need]
+        out0_down = self.branch_down0(out0)#[26,26,216]
+        out0_down = torch.cat([out0_down,out1],1)#[26,26,728]
+        
+        
+        
+        return out0
+        
+        
+    def conv2d(channel_in,channel_out,kernel_size):
+        pad = (kernel_size - 1) // 2 if kernel_size else 0
+        return nn.Sequential([
+            nn.Conv2d(channel_in,channel_out,kernel_size=kernel_size,stride=1,padding=pad,bias=False),
+            nn.BatchNorm2d(channel_out),
+            nn.LeakyReLU(0.1)
+        ])
+    
+    def _createConvoltionalSet(self,channel_0,channel_1):
+        return nn.Sequential([
+            self.conv2d(channel_0,channel_1,1),
+            self.conv2d(channel_1,channel_0,3),
+            self.conv2d(channel_0,channel_1,1),
+            self.conv2d(channel_1,channel_0,3),
+            self.conv2d(channel_0,channel_1,1),
         ])
         
-        return m
+    def _createBranchOut(self,channel_in,channel_out,channel_need):
+        return nn.Sequential([
+            self.conv2d(channel_in,channel_out,3),
+            nn.Conv2d(channel_out,channel_need,kernel_size=1,padding=0,stride=1,bias=True)
+        ])
 
-class YoloBody(nn.Module):
-    def __init__(self,config):
-        super(YoloBody,self).__init__()
-        self.config = config 
-        self.backbone = darkNet53()
-        out_filters = self.backbone.layers_out_filters
-        #就是每个grad cell的输出 : 3*25 原文为3*(5+80)
-        final_out_filter0 = len(config['yolo']['anchor'][0]) * (5+config["yolo"]["classes"])
-        self.last_layer0 = make_last_layers([512,1024],out_filters[-1],final_out_filter0)
+    def _createBranchDown(self,channel_in,channel_out):
+        return nn.Sequential([
+            conv2d(channel_in,channel_out,1),
+            nn.Upsample(scale_factor=2,mode='nearest')
+        ])
         
-        final_out_filter1 = len(config['yolo']['anchor'][1]) * (5+config["yolo"]["classes"])
-        self.last_layer1_conv = conv2d(512,256,1)
-        self.last_layer1_upSample = nn.Upsample(scale_factor=2,mode='nearest')
-        self.last_layer1 = make_last_layers([256,512],out_filters[-2]+256,final_out_filter1)
-        
-        
-        final_out_filter2 = len(config['yolo']['anchor'][2]) * (5+config["yolo"]["classes"])
-        self.last_layer2_conv = conv2d(256,128,1)
-        self.last_layer2_upSample = nn.Upsample(scale_factor=2,mode='nearest')
-        self.last_layer2 = make_last_layers([128,256],out_filters[-3]+128,final_out_filter2)
     
+        
