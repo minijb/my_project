@@ -61,7 +61,7 @@ class DarkNet(nn.Module):
         self.layers_out_filters = [64, 128, 256, 512, 1024]
         
         
-    def forward(self):
+    def forward(self,x):
         x = self.conv1(x)
         x = self.bn1(x)
         x = self.relu1(x)
@@ -92,5 +92,5 @@ def darkNet53():
     return  m
 
 m = darkNet53()
-print(m.layers_out_filters)
+# print(m.layers_out_filters)
 

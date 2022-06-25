@@ -1,7 +1,7 @@
 from collections import OrderedDict
 import torch 
 from torch import nn
-
+from rich import print
 from darknet import darkNet53
 
 def conv2d(filter_in, filter_out, kernel_size):
@@ -62,9 +62,10 @@ class YoloBody(nn.Module):
         
         x1_in = self.last_layer1_conv(out0_branch)
         x1_in = self.last_layer1_upSample(x1_in)
+        print(f"x1_in,x1",x1_in.shape,x1.shape)
         x1_in = torch.cat([x1_in,x1],1)
         out1,out1_branch= _branch(self.last_layer1,x1_in)
-        
+        print(f"after cat x1:",x1_in.shape,out1.shape)
         x2_in = self.last_layer2_conv(out1_branch)
         x2_in = self.last_layer2_upSample(x2_in)
         x2_in = torch.cat([x2_in,x2],1)
@@ -82,4 +83,5 @@ config = {
     
 } 
 model = YoloBody(config)
-print(model)
+x = torch.ones([1,3,416,416])
+x1,x2,x3 = model(x)
