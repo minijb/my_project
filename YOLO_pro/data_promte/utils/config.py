@@ -3,7 +3,7 @@ from rich import print
 from PIL import Image
 import os
 from lxml import etree
-
+import cv2
 class config:
     def __init__(self,url=None) -> None:
         if url!=None:
@@ -25,31 +25,34 @@ class config:
         self.xml_path = os.path.join(base_url,xml_dir,xml_name)
         
 
-    def get_img(self):
+    def get_img_PIL(self):
         img = Image.open(self.img_path)
         img = img.convert("RGB")
         return img
+    
+    def get_img_CV(self):
+        img = cv2.imread(self.img_path)
+        img = cv2.cvtColor(img,cv2.COLOR_RGB2BGR)
+        return img
+    
     def get_xml(self):
         with open(self.xml_path,'r') as f:
             xml_text = f.read()
         tree  = etree.XML(xml_text)
-        img_ann = []
         obj_ann = []
         size_ele = tree.xpath("/annotation/size")[0]
-        img_ann.append(size_ele.xpath("./width/text()")[0])
-        img_ann.append(size_ele.xpath("./height/text()")[0])
         for obj in tree.xpath("/annotation/object"):
             object ={}
             object["name"] = obj.xpath("./name/text()")[0]
             bndbox = obj.xpath("./bndbox")[0]
             object["bndbox"] = [
-                bndbox.xpath("./xmin/text()")[0],
-                bndbox.xpath("./ymin/text()")[0],
-                bndbox.xpath("./xmax/text()")[0],
-                bndbox.xpath("./ymax/text()")[0]
+                int(bndbox.xpath("./xmin/text()")[0]),
+                int(bndbox.xpath("./ymin/text()")[0]),
+                int(bndbox.xpath("./xmax/text()")[0]),
+                int(bndbox.xpath("./ymax/text()")[0])
             ]
             obj_ann.append(object)
-        return img_ann,obj_ann
+        return obj_ann
     
     def get_mixupConfig(self):
         return self.mixup_config
