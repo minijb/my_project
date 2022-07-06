@@ -4,6 +4,10 @@ from PIL import Image
 import matplotlib.pylab as plt
 from rich import print
 
+
+def rand(a=0, b=1):
+    return np.random.rand()*(b-a) + a
+
 def show(img):
     cv2.imshow("img",img)
     cv2.waitKey(0)
@@ -86,12 +90,6 @@ def  base_img(image, input_size, xml):
     # ===========================#
     ih, iw = image.shape[:2]
     w, h = input_size
-    '''
-    bboxes:{
-        name:"xxx",
-        bndbox:[1,2,3,4]
-    }
-    '''
     scale = min(w/iw, h/ih)
     nw = int(iw*scale)
     nh = int(ih*scale)   
@@ -108,11 +106,96 @@ def  base_img(image, input_size, xml):
     # ===========================#
     # 修改预测框
     # ===========================#
-    print(xml)
+    bbox_list = []
     for bbox_dic in xml:
         bbox=bbox_dic['bndbox']
         bbox = np.array(bbox)
         bbox[[0,2]] = bbox[[0,2]]*nw/iw+dx
         bbox[[1,3]] = bbox[[1,3]]*nh/ih + dy
-    return new_img,bbox
+        bbox_list.append(bbox)
+    return new_img,bbox_list
+
+def random_img(image, input_size, xml,nums_ch):
+    # ===========================#
+    # 得到图像以及目标图像的wh
+    # ===========================#
+    image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
+    ih, iw = image.shape[:2]
+    w, h = input_size
+    scale = min(w/iw, h/ih)  
+    # ===========================#
+    # 得到数值参数
+    # ===========================#
+    jitter = nums_ch[1]
+    hue = nums_ch[2]
+    sat = nums_ch[3]
+    val = nums_ch[4]
+    # ===========================#
+    # 对长宽进行扭曲
+    # ===========================#
+
     
+    new_ar = iw/ih * rand(1-jitter,1+jitter) / rand(1-jitter,1+jitter)
+    scale = rand(.25,2)
+    
+    if new_ar < 1:
+        nh = int(scale*h)
+        nw = int(nh*new_ar)
+    else:
+        nw = int(scale*w)
+        nh = int(nw/new_ar)
+    if nw>w: nw = int(rand(0,w))
+    if nh>h: nh = int(rand(0,h))
+    
+    # ===========================#
+    # 翻转
+    # ===========================#
+    flip = rand()<.5
+    if flip:
+        image = cv2.flip(image,1)
+        for bbox_dic in xml:
+            bbox=bbox_dic['bndbox']
+            origin_xmin = bbox[0]
+            origin_xmax = bbox[2]
+            bbox[0]=image.shape[1]-origin_xmax
+            bbox[2]=image.shape[1]-origin_xmin
+    
+    image = cv2.resize(image,(nw,nh),interpolation=cv2.INTER_LINEAR)
+    dx = int(rand(0, (w-nw)//2))
+    dy = int(rand(0, (h-nh)//2))
+    # show(image)
+    new_img = np.zeros((w,h,3),dtype=np.uint8)+128
+    print(new_img[dy:dy+nh,dx:dx+nw].shape,image.shape)
+    new_img[dy:dy+nh,dx:dx+nw] = image
+    image = new_img
+    # image = new_img
+
+    #---------------------------------#
+    #   对图像进行色域变换
+    #   计算色域变换的参数
+    #---------------------------------#
+    r = np.random.uniform(-1,1,3)*[hue,sat,val]+1
+    #---------------------------------#
+    #   将图像转到HSV上
+    #---------------------------------#
+    hue, sat, val   = cv2.split(cv2.cvtColor(image, cv2.COLOR_RGB2HSV))
+    dtype           = image.dtype
+     #---------------------------------#
+    #   应用变换
+    #---------------------------------#
+    x       = np.arange(0, 256, dtype=r.dtype)
+    lut_hue = ((x * r[0]) % 180).astype(dtype)
+    lut_sat = np.clip(x * r[1], 0, 255).astype(dtype)
+    lut_val = np.clip(x * r[2], 0, 255).astype(dtype)
+    image = cv2.merge((cv2.LUT(hue, lut_hue), cv2.LUT(sat, lut_sat), cv2.LUT(val, lut_val)))
+    image = cv2.cvtColor(image, cv2.COLOR_HSV2RGB)
+    
+    bbox_list = []
+    for bbox_dic in xml:
+        bbox=bbox_dic['bndbox']
+        bbox = np.array(bbox)
+        bbox[[0,2]] = bbox[[0,2]]*nw/iw+dx
+        bbox[[1,3]] = bbox[[1,3]]*nh/ih+dy
+        bbox_list.append(bbox)
+    
+    return image,bbox_list

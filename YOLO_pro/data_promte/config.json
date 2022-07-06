@@ -3,10 +3,10 @@
         "base_url": "D:\\datasets\\VOCdevkit\\VOC2007",
         "img_dir": "JPEGImages",
         "xml_dir": "Annotations",
-        "img_name": "000012",
+        "img_name": "000131",
         "action": 1
     },
-    "mixup": {
+    "random": {
         "random": false,
         "jitter": 0.3,
         "hue": 0.1,

@@ -4,6 +4,7 @@ from PIL import Image
 import os
 from lxml import etree
 import cv2
+
 class config:
     def __init__(self,url=None) -> None:
         if url!=None:
@@ -15,7 +16,7 @@ class config:
             str_json = f.read()
         config = json.loads(str_json)
         base_config = config['base']
-        self.mixup_config = config['mixup']
+        self.random = config['random']
         base_url = base_config['base_url']
         img_dir = base_config['img_dir']
         xml_dir = base_config['xml_dir']
@@ -40,7 +41,6 @@ class config:
             xml_text = f.read()
         tree  = etree.XML(xml_text)
         obj_ann = []
-        size_ele = tree.xpath("/annotation/size")[0]
         for obj in tree.xpath("/annotation/object"):
             object ={}
             object["name"] = obj.xpath("./name/text()")[0]
@@ -55,9 +55,14 @@ class config:
         return obj_ann
     
     def get_mixupConfig(self):
-        return self.mixup_config
+        random  =  self.random["random"]
+        jitter = self.random["jitter"]
+        hue = self.random["hue"]
+        sat = self.random["sat"]
+        val = self.random["val"]
+        return [random,jitter,hue,sat,val]
 # config = config()
 # print(config.get_xml())
-
+# print(config.get_mixupConfig())
 
         
