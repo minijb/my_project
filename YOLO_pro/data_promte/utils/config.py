@@ -54,6 +54,8 @@ class config:
             obj_ann.append(object)
         return obj_ann
     
+    
+    
     def get_mixupConfig(self):
         random  =  self.random["random"]
         jitter = self.random["jitter"]
