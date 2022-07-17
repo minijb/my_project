@@ -21,6 +21,7 @@ Depositional_environment|Depositional_environment|Void-filling and pore-lining c
 Carbonate_factory|Carbonate_factory|Calcite cement precipitated in meniscus style at or near grain-to-grain contacts in pores containing both air and water. Exhibits a curved surface below grains. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
 Carbonate_Grains|Carbonate_Grains|Include the types, texture and content.
 Matrix|Matrix|Characterized by a peloidal (or pelleted) fabric composed of tiny peloids (size <100 µm) within a microcrystalline calcite matrix. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+content_of_matrix|content_of_matrix|Calcite cement consisting of medium to coarse-grained crystals without a preferred orientation. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
 Sedimentary_structure|Sedimentary_structure|Substrate-controlled overgrowth around a host grain made by a single crystal (usually High-Mg calcitic echinoderm fragments). Overgrowth often in crystallographic lattice continuity with the host grain. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
 Sedimentary_texture|Sedimentary_texture|Micron-sized curved rhombic crystals. Forms thin coatings around grains, lines intraskeletal pores, fills pores completely or constructs bridges between grains (contributing to meniscus cement). @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
 #Allochemical_rocks 3级目录
@@ -58,7 +59,7 @@ Dismicrite|Dismicrite|Limestone is dominated by micrite(<4 μm) with less than 1
 Fossiliferous_micrite|Fossiliferous_micrite|A limestone consists of allochems set in a micrite matrix (<4 μm). The content of allochems is between 1% and 10%. The ratio of intraclast to whole allochems is less than 25%; the ratio of ooid to whole allochems is also less than 25%. The ratio of fossils to pellets is larger than 3:1.
 Pelletiferous_micrite|Pelletiferous_micrite|A limestone consists of allochems set in a micrite matrix (<4 μm). The content of allochems is between 1% and 10%. The ratio of intraclast to whole allochems is less than 25%; the ratio of ooid to whole allochems is also less than 25%. The ratio of fossils to pellets is less than 3:1.
 Oolite_bearing_micrite|Oolite_bearing_micrite|A limestone consists of allochems set in a micrite matrix (<4 μm). The content of allochems is between 1% and 10%. The ratio of ooids to whole allochems is larger than 25%.
-Intraclast_bearing_micrite|A limestone consists of allochems set in a micrite matrix (<4 μm). The content of allochems is between 1% and 10%. The ratio of intraclast to whole allochems is larger than 25%.
+Intraclast_bearing_micrite|Intraclast_bearing_micrite|A limestone consists of allochems set in a micrite matrix (<4 μm). The content of allochems is between 1% and 10%. The ratio of intraclast to whole allochems is larger than 25%.
 #Crystalline_carbonate 3级目录
 Dunhams_classification_1962|Dunhams_classification_1962|None
 Embry_and_Klovans_classification_1971|Embry_and_Klovans_classification_1971|None
@@ -82,3 +83,177 @@ Equigranular|Equigranular|Equigranular describe the constituent crystals are of 
 Porphyrotopic|Porphyrotopic|Porphyrotopic is a term, here proposed, which describes the mutual relationships of mineral crystals in a sedimentary rock in which the constituent crystals are of more than one size (inequigranular) and in which larger crystals (porphyrotopes) are enclosed in a finer-grained matrix. This term is restricted to carbonate rocks in which the depositional fabric has undergone recrystallization and to sediments formed by precipitation. @Friedman G M. Terminology of crystallization textures and fabrics in sedimentary rocks. Journal of Sedimentary Research, 1965, 35(3): 643-655.
 Poikilotopic|Poikilotopic|Poikilotopic is a term, here proposed, which relates to the fabric of inequigranular sedimentary rocks which have undergone recrystallization or which have formed by precipitation, in which the constituent crystals are of more than one size, and in which larger crystals enclose smaller crystals of another mineral. @Friedman G M. Terminology of crystallization textures and fabrics in sedimentary rocks. Journal of Sedimentary Research, 1965, 35(3): 643-655.
 #Allochthonous_carbonate 3级目录
+Carbonate_mudstone|Carbonate_mudstone|Carbonate mudstone is defined as a matrix-supported carbonate-dominated rock comprised of more than 90% carbonate mud (<63 μm) component. @Lokier S W, Al Junaibi M. The petrographic description of carbonate facies: are we all speaking the same language?. Sedimentology, 2016, 63(7): 1843-1885.
+Wackestone|Wackestone|A wackestone is a carbonate-dominated rock in which the carbonate mud (<63 μm) component supports a fabric comprising 10% or more very fine-sand grade (63 μm) or larger grains but where less than 10% of the rock is formed of grains larger than sand grade (>2 mm). @Lokier S W, Al Junaibi M. The petrographic description of carbonate facies: are we all speaking the same language?. Sedimentology, 2016, 63(7): 1843-1885.
+Packstone|Packstone|Packstone is a carbonate-dominated lithology containing carbonate mud (<63 μm) in a fabric supported by a sand grade (63 μm to 2 mm) grain-size fraction and where less than 10% of the volume is comprised of grains >2 mm. @Lokier S W, Al Junaibi M. The petrographic description of carbonate facies: are we all speaking the same language?[J]. Sedimentology, 2016, 63(7): 1843-1885.
+Grainstone|Grainstone|Grainstone is defined as a carbonate-dominated rock that does not contain any carbonate mud and where less than 10% of the components are larger than 2 mm. @Lokier S W, Al Junaibi M. The petrographic description of carbonate facies: are we all speaking the same language?. Sedimentology, 2016, 63(7): 1843-1885.
+Floatstone|Floatstone|A floatstone is a carbonate-dominated rock where more than 10% of the volume is comprised of grains larger than 2 mm and the fabric is supported by the component that is 2 mm and smaller. @Lokier S W, Al Junaibi M. The petrographic description of carbonate facies: are we all speaking the same language? Sedimentology, 2016, 63(7): 1843-1885.
+Rudstone|Rudstone|Rudstone is a carbonate-dominated rock where more than 10% of the volume is comprised of grains larger than 2 mm and these grains support the fabric of the rock. @Lokier S W, Al Junaibi M. The petrographic description of carbonate facies: are we all speaking the same language? Sedimentology, 2016, 63(7): 1843-1885.
+#Boundstone 3级目录
+Framestone|Framestone|Carbonate reef rock consisting of a rigid framework of colonies, shells or skeletons, with internal cavities filled with fine sediment; usually created through the activities of colonial organisms. @CGI
+Bafflestone|Bafflestone|Bafflestones contain in-situ stalk-shaped fossils which trapped sediment during deposition by acting as baffles (i.e. reducing the rate of flow of water, thus causing deposition). @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Bindstone|Bindstone|A bindstone is an autochthonous carbonate dominated rock in which the original components of the supporting matrix were organically-bound through stabilization of the sediment at the time of deposition. @Lokier S W, Al Junaibi M. The petrographic description of carbonate facies: are we all speaking the same language? Sedimentology, 2016, 63(7): 1843-1885.
+#Cement 3级目录
+Cement_shape|Cement_shape|The shape of cement.
+Content_of_cement|Content_of_cement|Fibrous crystals, growing normal to the substrate. Crystal shape is needle-like or columnar (length to width ratio > 6:1, width > 10 µm). @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Cement_fabric|Cement_fabric|Fibrous crystals, growing normal to the substrate. Crystal shape is needle-like or columnar (length to width ratio > 6:1, width > 10 µm). @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Cement_shape 4级目录
+Acicular|Acicular|Needle-like crystals, growing normal to the substrate. Width < 10 µm, length about 100 µm and more. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
+Fibrous|Fibrous|Fibrous crystals, growing normal to the substrate. Crystal shape is needle-like or columnar (length to width ratio > 6:1, width > 10 µm). @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Botryoidal|Botryoidal|Pore-filling cement made of individual and coalescent mamelons exhibiting discontinuous horizons. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Radiaxial_fibrous|Radiaxial_fibrous|Large, often cloudy and turbid, inclusion-rich calcite crystals with undulose extinction. Size medium to coarse crystalline. Sometimes extending several millimeters in length, usually about 30 to 300 µm. Crystal length/width ratio 1:3 to 1:10. Crystals show a pattern of subcrystal units. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Dog_tooth|Dog_tooth|Sharply pointed acute calcite crystals of elongated scalenohedral or rhombohedral form, growing normal and subnormal to the substrate. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Bladed|Bladed|Crystals that are not equidimensional and not fibrous. They correspond to elongate crystals somewhat wider than fibrous crystals (length/width ratio between 1.5:1 to 6:1) and exhibiting broad flattened and pyramid-like terminations. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
+Meniscus|Meniscus|Calcite cement precipitated in meniscus style at or near grain-to-grain contacts in pores containing both air and water. Exhibits a curved surface below grains. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Drusy|Drusy|Void-filling and pore-lining cement in intergranular and intraskeletal pores, molds and fractures, characterized by equant to elongated, anhedral to subhedral non-ferroan calcite crystals. Size usually >10 µm. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
+Granular|Granular|Calcite cement consisting of relatively equidimensional pore-filling small crystals. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Blocky|Blocky|Calcite cement consisting of medium to coarse-grained crystals without a preferred orientation. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
+Syntaxial_overgrowth|Syntaxial_overgrowth|Substrate-controlled overgrowth around a host grain made by a single crystal (usually High-Mg calcitic echinoderm fragments). Overgrowth often in crystallographic lattice continuity with the host grain. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
+Peloidal_microcrystalline|Peloidal_microcrystalline|Characterized by a peloidal (or pelleted) fabric composed of tiny peloids (size <100 µm) within a microcrystalline calcite matrix. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Microcrystalline_or_micrite|Microcrystalline_or_micrite|Micron-sized curved rhombic crystals. Forms thin coatings around grains, lines intraskeletal pores, fills pores completely or constructs bridges between grains (contributing to meniscus cement). @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
+#Cement_fabric 4级目录
+Dripstone|Dripstone|Pendant cement characterized by distinct thickening of cement crusts beneath grains or under the roofs of intergranular and solution voids. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Bladed|Bladed|Crystals that are not equidimensional and not fibrous. They correspond to elongate crystals somewhat wider than fibrous crystals (length/width ratio between 1.5:1 to 6:1) and exhibiting broad flattened and pyramid-like terminations. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Carbonate_factory 3级目录
+T_factory|T_factory|None
+M_factory|M_factory|None
+C_factory|C_factory|None
+#Carbonate_Grains 3级目录
+Content_of_carbonate_grain|Content_of_carbonate_grain|Pore-filling cement made of individual and coalescent mamelons exhibiting discontinuous horizons. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Allochems|Allochems|Large, often cloudy and turbid, inclusion-rich calcite crystals with undulose extinction. Size medium to coarse crystalline. Sometimes extending several millimeters in length, usually about 30 to 300 µm. Crystal length/width ratio 1:3 to 1:10. Crystals show a pattern of subcrystal units. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Skeletal_grains|Skeletal_grains|Skeletal grains are fossil debris that may be whole or fragmental. @Horowitz, Alan S., and Paul E. Potter. Introductory petrography of fossils. Springer Science & Business Media, 1971.
+Non_skeletal_grain|Non_skeletal_grain|Non-skeletal grains are those not obviously derived from the skeletal material of micro-oragnisms, invertebrates or the thalli of calcareous plants. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Skeletal_grains 4级目录
+Bioclast|Bioclast|Needle-like crystals, growing normal to the substrate. Width < 10 µm, length about 100 µm and more. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. 
+Cynobacteria|Cynobacteria|Link to paleontology.
+Calcareous_algae|Calcareous_algae|Link to paleontology.
+Foraminifer|Foraminifer|Link to paleontology.
+Calciphere|Calciphere|None
+Calpionellid|Calpionellid|None
+Dinoflagellates|Dinoflagellates|None
+Tentaculitid|Tentaculitid|None
+Serpulid|Serpulid|None
+Archaeocyath|Archaeocyath|None
+Sponge|Sponge|None
+Stromatoporoid|Stromatoporoid|None
+Coral|Coral|Link to paleontology.
+Bryozoan|Bryozoan|Link to paleontology.
+Brachipod|Brachipod|Link to paleontology.
+Mollusk|Mollusk|Link to paleontology.
+Echinoderms|Echinoderms|Link to paleontology.
+Arthropod|Arthropod|Link to paleontology.
+Condont|Condont|Link to paleontology.
+#Calcareous_algae 5级目录
+Green_algae|Green_algae|None
+Red_alage|Red_alage|None
+#Green_algae 6级目录
+Udoteacean_green_algae|Udoteacean_green_algae|None
+Gymnocodiacean_algae|Gymnocodiacean_algae|None
+Phylloid_algae|Phylloid_algae|None
+Dasyclad_greenalgae|Dasyclad_greenalgae|None
+#Red_algae 6级目录
+Corallinacean_red_alage|Corallinacean_red_alage|None
+Peyssoneliacean_red_alage|Peyssoneliacean_red_alage|None
+Solenoporacean_red_alage|Solenoporacean_red_alage|None
+Ancestral_red_alage|Ancestral_red_alage|None
+#Foraminifer 5级目录
+Benthic_foraminifer|Benthic_foraminifer|None
+Planktonic_foraminifer|Planktonic_foraminifer|None
+#Coral  5级目录
+Tabulate_coral|Tabulate_coral|None
+Rugose_coral|Rugose_coral|None
+Scleractinian_coral|Scleractinian_coral|None
+Octocoral|Octocoral|None
+#Mollusk 5级目录
+Gastropod|Gastropod|None
+Bivavle|Bivavle|None
+Cephalopod|Cephalopod|None
+Scaphopod|Scaphopod|None
+#Echinoderms 5级目录
+Echinoid|Echinoid|None
+Crinoid|Crinoid|None
+#Arthropod 5级目录
+Trilobite|Trilobite|None
+Ostracode|Ostracode|None
+Barnacle|Barnacle|None
+#Non_skeletal_grain 3级目录
+Peloid|Peloid|Small micritic grains, commonly without internal structure. Subrounded, spherical, ovoid or irregular in shape. Size between <0.02 and about 1 mm, commonly 0.10 to 0.50 mm. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.A usually rounded aggregate of clay-sized calcareous (micritic) material, origin and size is not specified. @CGI
+Coated_grain|Coated_grain|Coated grain is a general term used for all carbonate grains composed of a nucleus surrounded by an enclosing layer or layers commonly called the cortex. @Boggs Jr, Sam, and Sam Boggs. Petrology of sedimentary rocks. Cambridge University Press, 2009.A general term for a grain that has coats or layers of foreign material, usually fine mud-sized and occasionally recrystallized, that form concentric or overlapping shells around a core of rock, shell, peloidal, or intraclastic material. (eg: oolith, pisolith). @CGI
+Grain_aggregate|Grain_aggregate|Compound grains consisting of two or more originally separated particles (e.g. ooids, skeletal grains) that have been bound and cemented together, forming grape-like or rounded lumps. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Clast|Clast|Synsedimentary or postsedimentary lime clasts, reworked partly consolidated carbonate sediment or already lithified material. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Peloid 4级目录
+Fecal_pellet|Fecal_pellet|An organic excrement, mainly of invertebrates, occuring especially in modern marine sediments but also fossilised in some sedimentary rocks, usually with simple ovoid form, less commonly rod-shaped. @CGI
+Mud_peloid|Mud_peloid|This category includes variously shaped micritic grains caused by the reworking of lithified carbonate mud and micrite clasts. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Mold_peloid|Mold_peloid|Internal molds of thin-shelled ostracods, mollusks and foraminifera can be preserved as small peloids when the shells are dissolved. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Bahamite_peloid|Bahamite_peloid|Ooids and rounded skeletal grains whose microstructures have been lost through mictization. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Pelletoid|Pelletoid|The term was introduced by Blatt et al. (1972) for microcrystalline grains that have been generated by the recrystallization of various carbonate particles, such as skeletal grains (e.g. foraminifera) and ooids. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Microbial_peloid|Microbial_peloid|Biochemical precipitation triggered by microbes and organinc substances. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Precipitated_peloid|Precipitated_peloid|Inorganic and organically induced chemical in-situ precipitation has been proved for the origin of very small (20–60 µm, usually 40 µm) peloids within calcite cements and occurring within inter- and intraskeletal cavities of reefs as well as in non-reef cavities. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Algal_peloid|Algal_peloid|Abrasional products of  algae and calcimicrobes. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Bioerosional_peloid|Bioerosional_peloid|Grains resulting from hardpart-boring and rasping activity of organisms. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Coated_grain 4级目录
+Cortoid|Cortoid|Rounded skeletal grains and other grains covered by a thin micrite envelope. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Oncoid|Oncoid|Large and small grains consisting of a more or less distinct nucleus (e.g. a fossil) and a thick cortex formed by irregular, non-concentric, partially overlapping micritic laminae. Laminae may exhibit biogenic structures.@Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010. A '...coated grain with a cortex of irregular, partially overlapping laminae. They are typically irregular in shape and may exhibit biogenic structures. Some forms lack a distinct nucleus. Oncoids are generally larger than 2 mm.' (Hallsworth and Knox, 1999, p. 27). Synonymous with oncolite: A small, variously shaped, concentrically laminated, calcareous sedimentary structure, resembling an oolith, and formed by the accretion of successive layer[s]... It...generally does not exceed 10 cm in dimension. (Jackson, 1997, p. 446). @CGI
+Rhodoid|Rhodoid|Rhodoids are unattached nodules composed predominantly of free-living encrusting calcareous red algae. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Macroid|Macroid|Centimeter-sized unattached nodules, predominantly consisting of encrusting organisms other than coralline algae (e.g. foraminifera), are called macroids. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Ooid|Ooid|Spherical or ovoid grains, consisting of smooth and regular laminae formed as successive concentric coatings around a nucleus. Laminae may exhibit tangential and radial microfabrics. Size between 0.20 and about 2 mm, commonly between 0.5 and 1 mm. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.A general, nongenetic term for a particle that resembles an oolith in outer appearance and size- (Jackson, 1997, p. 447). Hallsworth and Knox (1999, p. 27) describe ooids as coated grains that typically are spherical or ellipsoidal in shape, with the degree of roundness increasing outward. Concentric to semi-concentric coats are smoothly and evenly laminated. A nucleus usually is present, and may have a composition different from the coatings. Biogenic structures are not obvious. NADMSC SLTTs (2004) considers synomous with oolith. @CGI
+Pisoid|Pisoid|Large subspherical and irregularly shaped grains, consisting of a mostly nonbiogenic nucleus and a thick cortex formed by conspicuously, often densely spaced laminae exhibiting tangential and radial microfabrics. Size generally >2 mm, up to >1 cm. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.A round or ellipsoidal accretionary body resembling a pea in size and shape.... A pisoid...is larger and less regular in form than an ooid, although it may have the same concentric and/or radial internal structure (Jackson, 1997, p. 489). @CGI
+#Oncoid 5级目录
+Micrite_oncoid|Micrite_oncoid|Micrite oncoids consist of micrite, exhibit no distinct lamination, but are comparable in shape to other oncoid types. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Spongiostromate_oncoid|Spongiostromate_oncoid|Spongiostromate oncoid is used for micrite oncoids possessing a laminated dense micritic or spongy fabric without visible filaments. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Porostromate_oncoid|Porostromate_oncoid|Porostromate oncoid applies to grains exhibiting fine micritic-walled tubes, generally less than 100 µm in size. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Foraminifera_oncoid|Foraminifera_oncoid|Foraminiferal oncoids are formed by encrustations of calcareous or agglutinated tests, starting with settlement on a hard surface. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Composite_oncoid|Composite_oncoid|Composite oncoids consist of several taxa that form alternating layers. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Ooid 5级目录
+Concentric_ooid|Concentric_ooid|Concentric laminae consisting of tangentially arranged crystals whose long axes are alighned to the surface of the laminea. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Micritic_ooid|Micritic_ooid|Laminae composed of randomly arranged microcrstalline crystals or laminae obliterated or absent due to a pervasive micritization of the cortex. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Radial_ooid|Radial_ooid|Laminae consisting of radially arranged crystals; long crystal axes perpendicular to the laminae. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Grain_aggregate 4级目录
+Grapestone|Grapestone|Aggregates of spherical grains (often micritized ooids) whose external shape resembles microscopic clusters of grapes. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.\
+Lump|Lump|Aggregates with a smoother outline than grapestones; they commonly have hollow interiors and are often strongly micritized. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Microbial_aggregate_grain|Microbial_aggregate_grain|Aggregates with a smoother outline than grapestones; they commonly have hollow interiors and are often strongly micritized. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+Encrusted_aggregate_grain|Encrusted_aggregate_grain|These grains are characterized by strong biogenic encrustations with sessile foraminifera, calcareous algae, serpulids and other organisms. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Clast 4级目录
+Intraclast|Intraclast|An intraclast is a carbonate fragment of lithified or partly lithified sediment, derived from the erosion of nearby penecontemporaneous sediment from within the basin and redeposited within the same area. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.A broad, general term introduced by Folk (1959, p. 4) for a component of limestone, representing a torn-up and re-worked fragment of a penecontemporaneous sediment (usually weakly consolidated) that has been eroded within the basin of deposition...and re-deposited there...The fragment may range in size from fine sand to gravel... @CGI
+Extraclast|Extraclast|An extraclast is a fragment of carbonate rock derived from the erosion of an exposed ancient limestone on land outside the depositional basin in which it is found. @Flügel, Erik. Microfacies of carbonate rocks: analysis, interpretation and application. Springer Science & Business Media, 2010.
+#Sedimentary_texture 3级目录
+Average_grain_size|Average_grain_size|None
+Sorting|Sorting|None
+Grain_fabric|Grain_fabric|None
+Roundness|Roundness|None
+#Average_grain_size 4级目录
+Boulder|Boulder|256 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Cobble|Cobble|64-256 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Pebble|Pebble|4-64 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Granule|Granule|2-4 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Very_coarse_sand|Very coarse sand|1-2 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Coarse_sand|Coarse_sand|0.5-1 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Medium_sand|Medium_sand|0.25-0.5 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Fine_sand|Fine_sand|0.125-0.25 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Very_fine_sand|Very_fine_sand|0.0625-0.125 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Coarse_silt|Coarse_silt|0.03125-0.0625 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Mediem_silt|Mediem_silt|0.016-0.03125 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Fine_silt|Fine_silt|0.008-0.016 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Very_fine_silt|Very_fine_silt|0.004-0.008 mm@Wentworth, C. K0.002-0.004 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+Clay|Clay|0.002-0.004 mm@Wentworth, C. K., 1922, A scale of grade and class terms for clastic sediments: J. Geol., 30,377-392.
+#Sorting 4级目录
+very_well_sorted|very_well_sorted|None
+well_sorted|well sorted|None
+moderately_well_sorted|moderately_well_sorted|None
+moderately_sorted|moderately_sorted|None
+poorly_sorted|poorly_sorted|None
+very_poorly_sorted|very_poorly_sorted|None
+#Grain_fabric 4级目录
+Point_contact|Point_contact|None
+Concavo_convex_contact|Concavo_convex_contact|None
+Sutured_contact|Sutured_contact|None
+Preferred_orientation|Preferred_orientation|None
+#Roundness 4级目录
+Very_angular|Very_angular|None
+Angular|Angular|None
+Subangular|Subangular|None
+Subrounded|Subrounded|None
+Rounded|Rounded|None
+Well_rounded|Well_rounded|None
+#other
+Folks_classification1959|Folks_classification1959|None
