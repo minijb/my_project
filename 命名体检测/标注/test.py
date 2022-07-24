@@ -10,9 +10,9 @@ nn_list = nn.split("，")
 print(nn_list)
 
 
-sheet = "Sheet1"
+sheet = "Sheet2"
 row_start = 24
-column_start = 10
+column_start = 2
 
 def print_ex(sheet,row_start,column_start,nn_list):
     wb = load_workbook(file_name)

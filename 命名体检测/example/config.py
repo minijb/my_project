@@ -1,2 +1,2 @@
-ORIGIN_DIR = './input/origin'
-ANNOTATION_DIR = './output/annotation'
+ORIGIN_DIR = './input/origin/'
+ANNOTATION_DIR = './output/annotation/'
