@@ -1,0 +1,4462 @@
+病,0
+例,0
+报,0
+告,0
+"
+",0
+碧,0
+辉,0
+、,0
+秦,0
+映,0
+芬,0
+、,0
+梁,0
+杏,0
+欢,0
+),0
+"
+",0
+暴,B-Disease
+发,I-Disease
+性,I-Disease
+ ,I-Disease
+1,I-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+并,0
+多,B-Symptom
+器,I-Symptom
+官,I-Symptom
+损,I-Symptom
+害,I-Symptom
+一,0
+例,0
+"
+",0
+何,0
+志,0
+钧,0
+ ,0
+ ,0
+艾,0
+琼,0
+嘉,0
+ ,0
+ ,0
+蔡,0
+劲,0
+薇,0
+ ,0
+ ,0
+李,0
+励,0
+ ,0
+ ,0
+周,0
+嘉,0
+ ,0
+ ,0
+蒙,0
+碧,0
+辉,0
+ ,0
+ ,0
+秦,0
+映,0
+芬,0
+ ,0
+ ,0
+梁,0
+杏,0
+欢,0
+"
+",0
+O,0
+n,0
+e,0
+ ,0
+c,0
+a,0
+s,0
+e,0
+ ,0
+o,0
+f,0
+ ,0
+f,0
+u,0
+l,0
+m,0
+i,0
+n,0
+a,0
+n,0
+t,0
+ ,0
+t,0
+y,0
+p,0
+e,0
+ ,0
+1,0
+ ,0
+d,0
+i,0
+a,0
+b,0
+e,0
+t,0
+e,0
+s,0
+ ,0
+m,0
+e,0
+l,0
+l,0
+i,0
+t,0
+u,0
+s,0
+ ,0
+w,0
+i,0
+t,0
+h,0
+ ,0
+m,0
+u,0
+l,0
+t,0
+i,0
+p,0
+l,0
+e,0
+ ,0
+o,0
+r,0
+g,0
+a,0
+n,0
+s,0
+ ,0
+i,0
+n,0
+j,0
+u,0
+r,0
+y,0
+ ,0
+H,0
+e,0
+ ,0
+Z,0
+h,0
+i,0
+j,0
+u,0
+n,0
+*,0
+",",0
+ ,0
+A,0
+i,0
+ ,0
+Q,0
+i,0
+o,0
+n,0
+g,0
+j,0
+i,0
+a,0
+",",0
+ ,0
+C,0
+a,0
+i,0
+"
+",0
+J,0
+i,0
+n,0
+g,0
+w,0
+e,0
+i,0
+",",0
+ ,0
+L,0
+i,0
+ ,0
+L,0
+i,0
+",",0
+ ,0
+Z,0
+h,0
+o,0
+u,0
+ ,0
+J,0
+i,0
+a,0
+",",0
+ ,0
+M,0
+e,0
+n,0
+g,0
+ ,0
+B,0
+i,0
+h,0
+u,0
+i,0
+",",0
+ ,0
+Q,0
+i,0
+n,0
+ ,0
+Y,0
+i,0
+n,0
+g,0
+f,0
+e,0
+n,0
+",",0
+ ,0
+L,0
+i,0
+a,0
+n,0
+g,0
+ ,0
+X,0
+i,0
+n,0
+g,0
+h,0
+u,0
+a,0
+n,0
+.,0
+ ,0
+*,0
+D,0
+e,0
+p,0
+a,0
+r,0
+t,0
+m,0
+e,0
+n,0
+t,0
+ ,0
+o,0
+f,0
+ ,0
+G,0
+a,0
+s,0
+t,0
+r,0
+o,0
+e,0
+n,0
+t,0
+e,0
+r,0
+o,0
+l,0
+o,0
+g,0
+y,0
+",",0
+ ,0
+T,0
+h,0
+e,0
+ ,0
+F,0
+i,0
+r,0
+s,0
+t,0
+"
+",0
+A,0
+f,0
+f,0
+i,0
+l,0
+i,0
+a,0
+t,0
+e,0
+d,0
+ ,0
+H,0
+o,0
+s,0
+p,0
+i,0
+t,0
+a,0
+l,0
+ ,0
+o,0
+f,0
+ ,0
+G,0
+u,0
+a,0
+n,0
+g,0
+x,0
+i,0
+ ,0
+M,0
+e,0
+d,0
+i,0
+c,0
+a,0
+l,0
+ ,0
+U,0
+n,0
+i,0
+v,0
+e,0
+r,0
+s,0
+i,0
+t,0
+y,0
+",",0
+ ,0
+N,0
+a,0
+n,0
+n,0
+i,0
+n,0
+g,0
+ ,0
+5,0
+3,0
+0,0
+0,0
+2,0
+1,0
+",",0
+ ,0
+C,0
+h,0
+i,0
+n,0
+a,0
+"
+",0
+患,0
+者,0
+男,0
+性,0
+",",0
+3,0
+7,0
+ ,0
+岁,0
+",",0
+因,0
+“,0
+咳,B-Symptom
+嗽,I-Symptom
+伴,0
+发,B-Symptom
+热,I-Symptom
+ ,0
+8,B-Duration
+ ,I-Duration
+d,I-Duration
+",",0
+多,B-Symptom
+饮,I-Symptom
+、,0
+多,B-Symptom
+尿,I-Symptom
+ ,0
+3,B-Duration
+ ,I-Duration
+d,I-Duration
+",",0
+嗜,B-Symptom
+睡,I-Symptom
+ ,0
+1,B-Duration
+"
+",I-Duration
+d,I-Duration
+冶,0
+入,0
+院,0
+。,0
+ ,0
+入,0
+院,0
+ ,0
+8,0
+ ,0
+d,0
+ ,0
+前,0
+受,B-Reason
+凉,I-Reason
+后,0
+出,0
+现,0
+咳,B-Symptom
+嗽,I-Symptom
+、,0
+发,B-Symptom
+热,I-Symptom
+等,0
+症,0
+状,0
+",",0
+按,0
+“,0
+上,B-Disease
+感,I-Disease
+冶,0
+"
+",0
+在,0
+当,0
+地,0
+诊,0
+所,0
+输,0
+液,0
+后,0
+好,0
+转,0
+;,0
+入,0
+院,0
+ ,0
+3,0
+d,0
+ ,0
+前,0
+出,0
+现,0
+多,B-Symptom
+饮,I-Symptom
+、,0
+多,B-Symptom
+尿,I-Symptom
+、,0
+呕,B-Symptom
+吐,I-Symptom
+胃,I-Symptom
+内,I-Symptom
+"
+",I-Symptom
+容,I-Symptom
+物,I-Symptom
+ ,0
+8,B-Frequency
+ ,I-Frequency
+次,I-Frequency
+;,0
+入,0
+院,0
+ ,0
+1,0
+ ,0
+d,0
+ ,0
+前,0
+渐,0
+出,0
+现,0
+嗜,B-Symptom
+睡,I-Symptom
+、,0
+懒,B-Symptom
+言,I-Symptom
+",",0
+至,0
+本,0
+院,0
+急,0
+诊,0
+科,0
+。,0
+ ,0
+查,0
+体,0
+:,0
+"
+",0
+体,B-Test
+温,I-Test
+ ,0
+3,B-Test_Value
+6,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+7,I-Test_Value
+℃,I-Test_Value
+",",0
+脉,B-Test
+搏,I-Test
+ ,0
+1,B-Test_Value
+2,I-Test_Value
+1,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+血,B-Test
+压,I-Test
+ ,0
+8,B-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+4,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+H,I-Test_Value
+g,I-Test_Value
+(,0
+1,0
+ ,0
+m,0
+m,0
+H,0
+g,0
+ ,0
+=,0
+"
+",0
+0,0
+.,0
+ ,0
+1,0
+3,0
+3,0
+ ,0
+k,0
+P,0
+a,0
+),0
+。,0
+ ,0
+重,B-Level
+度,I-Level
+脱,B-Symptom
+水,I-Symptom
+貌,I-Symptom
+",",0
+双,B-Anatomy
+下,I-Anatomy
+肺,I-Anatomy
+闻,0
+及,0
+少,0
+量,0
+湿,B-Symptom
+性,I-Symptom
+啰,I-Symptom
+音,I-Symptom
+",",0
+上,B-Anatomy
+腹,I-Anatomy
+部,I-Anatomy
+"
+",0
+轻,B-Level
+压,B-Symptom
+痛,I-Symptom
+",",0
+无,B-Symptom
+反,I-Symptom
+跳,I-Symptom
+痛,I-Symptom
+。,0
+ ,0
+既,0
+往,0
+体,0
+健,0
+",",0
+不,0
+嗜,0
+酒,0
+",",0
+无,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+家,0
+族,0
+史,0
+。,0
+ ,0
+急,0
+"
+",0
+查,0
+:,0
+白,B-Test
+细,I-Test
+胞,I-Test
+ ,0
+1,B-Test_Value
+9,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+4,I-Test_Value
+×,I-Test_Value
+1,I-Test_Value
+0,I-Test_Value
+9,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+中,B-Test
+性,I-Test
+粒,I-Test
+细,I-Test
+胞,I-Test
+ ,0
+9,B-Test_Value
+1,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+3,I-Test_Value
+%,I-Test_Value
+ ,0
+;,0
+尿,B-Test
+常,I-Test
+规,I-Test
+:,0
+潜,B-Test
+血,I-Test
+ ,0
+3,B-Test_Value
++,I-Test_Value
+",",0
+"
+",0
+尿,B-Test
+蛋,I-Test
+白,I-Test
+ ,0
+±,B-Test_Value
+ ,0
+",",0
+酮,B-Test
+体,I-Test
+ ,0
+2,B-Test_Value
+ ,I-Test_Value
++,I-Test_Value
+",",0
+葡,B-Test
+萄,I-Test
+糖,I-Test
+ ,0
+4,B-Test_Value
+ ,I-Test_Value
++,I-Test_Value
+;,0
+血,B-Test
+气,I-Test
+全,0
+套,0
+:,0
+p,B-Test
+H,I-Test
+ ,0
+7,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+5,I-Test_Value
+",",0
+P,B-Test
+O,I-Test
+2,I-Test
+ ,0
+9,B-Test_Value
+0,I-Test_Value
+"
+",I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+H,I-Test_Value
+g,I-Test_Value
+",",0
+P,B-Test
+C,I-Test
+O,I-Test
+2,I-Test
+ ,0
+3,B-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+H,I-Test_Value
+g,I-Test_Value
+",",0
+ ,0
+碱,B-Test
+剩,I-Test
+ ,I-Test
+余,I-Test
+ ,0
+-,0
+ ,0
+7,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+ ,0
+H,B-Test
+C,I-Test
+O,I-Test
+3,I-Test
+ ,0
+-,0
+ ,0
+1,B-Test_Value
+2,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+"
+",I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+K,B-Test
++,I-Test
+ ,0
+6,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+5,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+N,B-Test
+a,I-Test
++,I-Test
+ ,0
+1,B-Test_Value
+3,I-Test_Value
+2,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+6,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+;,0
+随,B-Test
+机,I-Test
+静,I-Test
+脉,I-Test
+血,I-Test
+糖,I-Test
+"
+",0
+4,B-Test_Value
+4,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+9,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+;,0
+血,B-Test
+淀,I-Test
+粉,I-Test
+酶,I-Test
+ ,0
+7,B-Test_Value
+8,I-Test_Value
+7,I-Test_Value
+ ,I-Test_Value
+U,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+;,0
+心,B-Test
+电,I-Test
+图,I-Test
+:,0
+窦,B-Test_Value
+性,I-Test_Value
+心,I-Test_Value
+律,I-Test_Value
+",",0
+域,0
+、,0
+3,0
+、,0
+"
+",0
+a,0
+v,0
+F,0
+ ,0
+导,0
+联,0
+异,B-Test_Value
+常,I-Test_Value
+ ,I-Test_Value
+Q,I-Test_Value
+ ,I-Test_Value
+波,I-Test_Value
+",",0
+V,B-Test_Value
+3,I-Test_Value
+-,I-Test_Value
+5,I-Test_Value
+ ,I-Test_Value
+R,I-Test_Value
+ ,I-Test_Value
+波,I-Test_Value
+上,I-Test_Value
+升,I-Test_Value
+不,I-Test_Value
+良,I-Test_Value
+。,0
+ ,0
+C,B-Test
+T,I-Test
+:,0
+两,B-Test_Value
+肺,I-Test_Value
+炎,I-Test_Value
+症,I-Test_Value
+",",0
+胰,B-Test_Value
+腺,I-Test_Value
+未,I-Test_Value
+"
+",I-Test_Value
+见,I-Test_Value
+异,I-Test_Value
+常,I-Test_Value
+(,0
+余,0
+化,0
+验,0
+见,0
+表,0
+ ,0
+1,0
+),0
+。,0
+ ,0
+急,0
+诊,0
+科,0
+予,0
+禁,B-Treatment
+食,I-Treatment
+、,0
+补,B-Treatment
+液,I-Treatment
+、,0
+超,B-Drug
+短,I-Drug
+效,I-Drug
+胰,I-Drug
+岛,I-Drug
+素,I-Drug
+"
+",0
+控,B-Treatment
+制,I-Treatment
+血,I-Treatment
+糖,I-Treatment
+、,0
+纠,B-Treatment
+正,I-Treatment
+电,I-Treatment
+解,I-Treatment
+质,I-Treatment
+紊,I-Treatment
+乱,I-Treatment
+、,0
+护,B-Treatment
+胃,I-Treatment
+、,0
+抑,B-Treatment
+制,I-Treatment
+胰,I-Treatment
+液,I-Treatment
+分,I-Treatment
+泌,I-Treatment
+、,0
+抗,B-Treatment
+感,I-Treatment
+染,I-Treatment
+等,0
+治,0
+"
+",0
+疗,0
+后,0
+",",0
+次,0
+日,0
+患,0
+者,0
+上,0
+症,0
+好,0
+转,0
+并,0
+收,0
+入,0
+内,0
+分,0
+泌,0
+科,0
+住,0
+院,0
+。,0
+"
+",0
+入,0
+院,0
+后,0
+检,0
+查,0
+:,0
+ ,0
+血,B-Test
+电,I-Test
+解,I-Test
+质,I-Test
+:,0
+ ,0
+K,B-Test
++,I-Test
+ ,0
+4,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+ ,0
+N,B-Test
+a,I-Test
++,I-Test
+ ,0
+1,B-Test_Value
+5,I-Test_Value
+4,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+"
+",I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+随,B-Test
+机,I-Test
+静,I-Test
+脉,I-Test
+血,I-Test
+糖,I-Test
+ ,0
+1,B-Test_Value
+7,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+9,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+;,0
+H,B-Test
+B,I-Test
+A,I-Test
+1,I-Test
+C,I-Test
+ ,0
+8,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+%,I-Test_Value
+ ,0
+;,0
+血,B-Test
+ ,I-Test
+C,I-Test
+-,I-Test
+肽,I-Test
+(,0
+空,0
+"
+",0
+腹,0
+、,0
+餐,0
+后,0
+ ,0
+2,0
+ ,0
+h,0
+),0
+0,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+2,I-Test_Value
+、,0
+0,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+ ,I-Test_Value
+n,I-Test_Value
+g,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+l,I-Test_Value
+(,0
+正,0
+常,0
+参,0
+考,0
+范,0
+围,0
+ ,0
+0,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+3,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+3,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+7,I-Test_Value
+3,I-Test_Value
+",",0
+下,0
+"
+",0
+同,0
+),0
+。,0
+ ,0
+谷,B-Test
+氨,I-Test
+酸,I-Test
+脱,I-Test
+羧,I-Test
+酶,I-Test
+抗,I-Test
+体,I-Test
+(,0
+G,B-Test
+A,I-Test
+D,I-Test
+A,I-Test
+),0
+ ,0
+±,B-Test_Value
+ ,0
+。,0
+ ,0
+血,B-Test
+清,I-Test
+肌,I-Test
+钙,I-Test
+蛋,I-Test
+白,I-Test
+ ,I-Test
+I,I-Test
+(,0
+ ,0
+T,B-Test
+n,I-Test
+I,I-Test
+),0
+"
+",0
+3,B-Test_Value
+3,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+ ,I-Test_Value
+n,I-Test_Value
+g,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+l,I-Test_Value
+(,0
+0,B-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+3,I-Test_Value
+),0
+。,0
+ ,0
+血,B-Test
+肌,I-Test
+红,I-Test
+蛋,I-Test
+白,I-Test
+>,B-Test_Value
+1,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+0,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+n,I-Test_Value
+g,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+l,I-Test_Value
+。,0
+ ,0
+肌,B-Test
+肉,I-Test
+活,I-Test
+检,I-Test
+病,I-Test
+"
+",I-Test
+理,I-Test
+:,0
+肌,B-Test_Value
+核,I-Test_Value
+增,I-Test_Value
+多,I-Test_Value
+",",0
+部,B-Test_Value
+分,I-Test_Value
+肌,I-Test_Value
+纤,I-Test_Value
+维,I-Test_Value
+模,I-Test_Value
+糊,I-Test_Value
+或,I-Test_Value
+消,I-Test_Value
+失,I-Test_Value
+",",0
+未,B-Test_Value
+见,I-Test_Value
+明,I-Test_Value
+显,I-Test_Value
+炎,I-Test_Value
+细,I-Test_Value
+胞,I-Test_Value
+浸,I-Test_Value
+润,I-Test_Value
+。,0
+"
+",0
+E,B-Test
+B,I-Test
+ ,I-Test
+病,I-Test
+毒,I-Test
+抗,I-Test
+体,I-Test
+、,0
+抗,B-Test
+胰,I-Test
+岛,I-Test
+素,I-Test
+自,I-Test
+身,I-Test
+抗,I-Test
+体,I-Test
+ ,0
+(,0
+ ,0
+I,B-Test
+A,I-Test
+A,I-Test
+),0
+、,0
+抗,B-Test
+胰,I-Test
+岛,I-Test
+细,I-Test
+胞,I-Test
+抗,I-Test
+体,I-Test
+"
+",0
+(,0
+I,B-Test
+C,I-Test
+A,I-Test
+),0
+、,0
+抗,B-Test
+核,I-Test
+抗,I-Test
+体,I-Test
+谱,I-Test
+、,0
+肝,B-Test
+炎,I-Test
+标,I-Test
+志,I-Test
+物,I-Test
+均,0
+阴,0
+性,0
+。,0
+ ,0
+胰,B-Test
+腺,I-Test
+、,I-Test
+泌,I-Test
+尿,I-Test
+系,I-Test
+超,I-Test
+声,I-Test
+未,0
+"
+",0
+见,0
+异,0
+常,0
+(,0
+余,0
+化,0
+验,0
+见,0
+表,0
+ ,0
+1,0
+),0
+。,0
+"
+",0
+住,0
+院,0
+治,0
+疗,0
+情,0
+况,0
+:,0
+治,0
+疗,0
+方,0
+案,0
+基,0
+本,0
+同,0
+急,0
+诊,0
+科,0
+。,0
+ ,0
+入,0
+院,0
+第,0
+ ,0
+2,0
+ ,0
+天,0
+患,0
+者,0
+"
+",0
+肌,B-Test
+酶,I-Test
+急,B-Test_Value
+骤,I-Test_Value
+升,I-Test_Value
+高,I-Test_Value
+",",0
+肾,B-Disease
+功,I-Disease
+能,I-Disease
+不,I-Disease
+全,I-Disease
+加,0
+重,0
+",",0
+予,0
+碱,B-Treatment
+化,I-Treatment
+尿,I-Treatment
+液,I-Treatment
+",",0
+间,B-Treatment
+段,I-Treatment
+性,I-Treatment
+血,I-Treatment
+液,I-Treatment
+滤,I-Treatment
+过,I-Treatment
+"
+",0
+5,B-Frequency
+ ,I-Frequency
+次,I-Frequency
+(,0
+第,0
+ ,0
+2,0
+、,0
+3,0
+、,0
+4,0
+、,0
+6,0
+、,0
+9,0
+ ,0
+天,0
+",",0
+约,0
+ ,0
+4,B-Frequency
+ ,I-Frequency
+h,I-Frequency
+ ,I-Frequency
+/,I-Frequency
+次,I-Frequency
+),0
+等,0
+治,0
+疗,0
+。,0
+ ,0
+尿,B-Test
+色,I-Test
+第,0
+ ,0
+2,0
+ ,0
+~,0
+ ,0
+4,0
+ ,0
+天,0
+为,0
+浓,B-Test_Value
+"
+",I-Test_Value
+茶,I-Test_Value
+样,I-Test_Value
+",",0
+第,0
+ ,0
+5,0
+ ,0
+天,0
+渐,0
+转,0
+为,0
+淡,B-Test_Value
+黄,I-Test_Value
+",",0
+住,0
+院,0
+期,0
+间,0
+尿,B-Test
+量,I-Test
+ ,0
+2,B-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+0,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+d,I-Test_Value
+ ,I-Test_Value
+以,I-Test_Value
+上,I-Test_Value
+。,0
+ ,0
+入,0
+院,0
+"
+",0
+第,0
+ ,0
+3,0
+ ,0
+天,0
+",",0
+患,0
+者,0
+无,B-Symptom
+明,I-Symptom
+显,I-Symptom
+腹,I-Symptom
+痛,I-Symptom
+",",0
+复,0
+查,0
+胰,B-Test
+腺,I-Test
+ ,I-Test
+B,I-Test
+ ,I-Test
+超,I-Test
+、,0
+胰,B-Test
+腺,I-Test
+ ,I-Test
+C,I-Test
+T,I-Test
+ ,0
+未,0
+见,0
+异,0
+常,0
+",",0
+停,0
+"
+",0
+用,0
+生,B-Drug
+长,I-Drug
+抑,I-Drug
+素,I-Drug
+",",0
+予,B-Treatment
+进,I-Treatment
+食,I-Treatment
+。,0
+ ,0
+住,0
+院,0
+第,0
+ ,0
+1,0
+8,0
+ ,0
+天,0
+",",0
+除,0
+血,B-Test
+肌,I-Test
+酐,I-Test
+ ,0
+2,B-Test_Value
+1,I-Test_Value
+2,I-Test_Value
+ ,I-Test_Value
+μ,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+ ,0
+外,0
+",",0
+"
+",0
+各,0
+生,0
+化,0
+指,0
+标,0
+基,0
+本,0
+恢,0
+复,0
+正,0
+常,0
+",",0
+上,0
+症,0
+好,0
+转,0
+出,0
+院,0
+。,0
+"
+",0
+患,0
+者,0
+出,0
+院,0
+后,0
+自,0
+行,0
+停,0
+用,0
+基,B-Drug
+础,I-Drug
+胰,I-Drug
+岛,I-Drug
+素,I-Drug
+及,0
+调,B-Drug
+脂,I-Drug
+药,I-Drug
+",",0
+保,0
+留,0
+超,B-Drug
+短,I-Drug
+效,I-Drug
+胰,I-Drug
+"
+",I-Drug
+岛,I-Drug
+素,I-Drug
+",",0
+血,B-Test
+糖,I-Test
+偏,B-Test_Value
+高,I-Test_Value
+",",0
+出,0
+院,0
+后,0
+ ,0
+4,0
+ ,0
+个,0
+月,0
+随,0
+访,0
+",",0
+血,B-Test
+常,I-Test
+规,I-Test
+、,0
+脂,B-Test
+肪,I-Test
+酶,I-Test
+、,0
+T,B-Test
+n,I-Test
+I,I-Test
+ ,0
+正,B-Test_Value
+常,I-Test_Value
+;,0
+"
+",0
+空,B-Test
+腹,I-Test
+血,I-Test
+糖,I-Test
+ ,0
+1,B-Test_Value
+8,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+H,B-Test
+B,I-Test
+A,I-Test
+1,I-Test
+C,I-Test
+ ,0
+1,B-Test_Value
+3,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+0,I-Test_Value
+%,I-Test_Value
+ ,0
+",",0
+糖,B-Test
+化,I-Test
+血,I-Test
+清,I-Test
+蛋,I-Test
+白,I-Test
+ ,0
+9,B-Test_Value
+7,I-Test_Value
+7,I-Test_Value
+"
+",I-Test_Value
+μ,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+(,0
+1,B-Test_Value
+0,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+8,I-Test_Value
+5,I-Test_Value
+),0
+",",0
+血,B-Test
+ ,I-Test
+C,I-Test
+-,I-Test
+肽,I-Test
+(,0
+空,0
+腹,0
+、,0
+餐,0
+后,0
+ ,0
+2,0
+ ,0
+h,0
+),0
+0,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+5,I-Test_Value
+、,0
+0,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+6,I-Test_Value
+ ,I-Test_Value
+n,I-Test_Value
+g,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+l,I-Test_Value
+",",0
+"
+",0
+G,B-Test
+A,I-Test
+D,I-Test
+A,I-Test
+±,B-Test_Value
+ ,0
+。,0
+ ,0
+血,B-Test
+脂,I-Test
+情,0
+况,0
+:,0
+总,B-Test
+胆,I-Test
+固,I-Test
+醇,I-Test
+ ,0
+7,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+5,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+甘,B-Test
+油,I-Test
+三,I-Test
+酯,I-Test
+ ,0
+2,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+5,I-Test_Value
+2,I-Test_Value
+"
+",I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+高,B-Test
+密,I-Test
+度,I-Test
+脂,I-Test
+蛋,I-Test
+白,I-Test
+胆,I-Test
+固,I-Test
+醇,I-Test
+ ,0
+0,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+7,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+低,B-Test
+密,I-Test
+度,I-Test
+脂,I-Test
+蛋,I-Test
+白,I-Test
+胆,I-Test
+固,I-Test
+"
+",I-Test
+醇,I-Test
+ ,0
+4,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+1,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+(,0
+表,0
+ ,0
+1,0
+),0
+。,0
+ ,0
+予,0
+护,B-Treatment
+肝,I-Treatment
+、,0
+调,B-Treatment
+脂,I-Treatment
+、,0
+严,B-Treatment
+格,I-Treatment
+控,I-Treatment
+制,I-Treatment
+血,I-Treatment
+糖,I-Treatment
+ ,0
+6,B-Duration
+ ,I-Duration
+周,I-Duration
+后,0
+"
+",0
+(,0
+即,0
+出,0
+院,0
+ ,0
+5,0
+.,0
+ ,0
+5,0
+ ,0
+个,0
+月,0
+后,0
+),0
+复,0
+查,0
+肝,B-Test
+功,I-Test
+能,I-Test
+基,0
+本,0
+恢,0
+复,0
+正,0
+常,0
+",",0
+一,0
+般,0
+情,0
+况,0
+好,0
+。,0
+"
+",0
+讨,0
+论,0
+ ,0
+ ,0
+ ,0
+暴,B-Disease
+ ,I-Disease
+发,I-Disease
+ ,I-Disease
+性,I-Disease
+ ,I-Disease
+1,I-Disease
+ ,I-Disease
+型,I-Disease
+ ,I-Disease
+糖,I-Disease
+ ,I-Disease
+尿,I-Disease
+ ,I-Disease
+病,I-Disease
+ ,0
+(,0
+ ,0
+f,0
+u,0
+l,0
+m,0
+i,0
+n,0
+a,0
+n,0
+t,0
+ ,0
+t,0
+y,0
+p,0
+e,0
+ ,0
+1,0
+ ,0
+d,0
+i,0
+a,0
+b,0
+e,0
+t,0
+e,0
+s,0
+"
+",0
+m,0
+e,0
+l,0
+l,0
+i,0
+t,0
+u,0
+s,0
+",",0
+ ,0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+),0
+起,B-Level
+病,I-Level
+急,I-Level
+、,0
+进,B-Level
+展,I-Level
+快,I-Level
+",",0
+胰,B-Reason
+岛,I-Reason
+ ,I-Reason
+β,I-Reason
+ ,I-Reason
+细,I-Reason
+胞,I-Reason
+短,I-Reason
+期,I-Reason
+内,I-Reason
+被,I-Reason
+大,I-Reason
+量,I-Reason
+破,I-Reason
+坏,I-Reason
+"
+",0
+导,0
+致,0
+严,B-Level
+重,I-Level
+代,B-Disease
+谢,I-Disease
+紊,I-Disease
+乱,I-Disease
+及,0
+并,0
+发,0
+症,0
+多,0
+样,0
+的,0
+特,B-Disease
+发,I-Disease
+性,I-Disease
+ ,I-Disease
+1,I-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+",",0
+诊,0
+断,0
+上,0
+"
+",0
+主,0
+要,0
+参,0
+考,0
+ ,0
+2,0
+0,0
+1,0
+2,0
+ ,0
+年,0
+日,0
+本,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+协,0
+会,0
+提,0
+出,0
+的,0
+标,0
+准,0
+[,0
+1,0
+],0
+ ,0
+。,0
+ ,0
+国,0
+内,0
+外,0
+报,0
+道,0
+"
+",0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+多,0
+为,0
+单,0
+独,0
+出,0
+现,0
+胰,B-Anatomy
+腺,I-Anatomy
+、,0
+心,B-Anatomy
+肌,I-Anatomy
+、,0
+横,B-Anatomy
+纹,I-Anatomy
+肌,I-Anatomy
+损,I-Anatomy
+害,I-Anatomy
+的,0
+病,0
+例,0
+报,0
+道,0
+",",0
+本,0
+病,0
+"
+",0
+例,0
+ ,0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+并,0
+酮,B-Disease
+症,I-Disease
+酸,I-Disease
+中,I-Disease
+毒,I-Disease
+(,0
+D,B-Disease
+K,I-Disease
+A,I-Disease
+),0
+、,0
+高,B-Disease
+血,I-Disease
+糖,I-Disease
+高,I-Disease
+渗,I-Disease
+状,I-Disease
+态,I-Disease
+、,0
+低,B-Disease
+血,I-Disease
+容,I-Disease
+量,I-Disease
+性,I-Disease
+"
+",I-Disease
+休,I-Disease
+克,I-Disease
+、,0
+急,B-Disease
+性,I-Disease
+肾,I-Disease
+损,I-Disease
+伤,I-Disease
+(,0
+肾,0
+前,0
+性,0
+、,0
+肾,0
+性,0
+),0
+、,0
+横,B-Disease
+纹,I-Disease
+肌,I-Disease
+溶,I-Disease
+解,I-Disease
+症,I-Disease
+、,0
+急,B-Disease
+性,I-Disease
+肝,I-Disease
+损,I-Disease
+伤,I-Disease
+、,0
+"
+",0
+急,B-Disease
+性,I-Disease
+心,I-Disease
+肌,I-Disease
+损,I-Disease
+伤,I-Disease
+、,0
+社,B-Disease
+区,I-Disease
+获,I-Disease
+得,I-Disease
+性,I-Disease
+肺,I-Disease
+炎,I-Disease
+、,0
+非,B-Disease
+酒,I-Disease
+精,I-Disease
+性,I-Disease
+脂,I-Disease
+肪,I-Disease
+肝,I-Disease
+",",0
+类,0
+似,0
+本,0
+病,0
+例,0
+"
+",0
+国,0
+内,0
+外,0
+罕,0
+见,0
+。,0
+"
+",0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+以,0
+成,0
+人,0
+发,0
+病,0
+为,0
+主,0
+",",0
+亚,0
+洲,0
+地,0
+区,0
+高,0
+发,0
+",",0
+ ,0
+病,0
+因,0
+可,0
+能,0
+与,0
+病,B-Reason
+毒,I-Reason
+感,I-Reason
+"
+",0
+表,0
+ ,0
+1,0
+ ,0
+ ,0
+相,0
+关,0
+检,0
+查,0
+随,0
+治,0
+疗,0
+时,0
+间,0
+动,0
+态,0
+变,0
+化,0
+"
+",0
+入,0
+院,0
+时,0
+ ,0
+第,0
+ ,0
+1,0
+ ,0
+天,0
+ ,0
+第,0
+ ,0
+2,0
+ ,0
+天,0
+ ,0
+第,0
+ ,0
+3,0
+ ,0
+天,0
+ ,0
+第,0
+ ,0
+4,0
+ ,0
+天,0
+ ,0
+第,0
+ ,0
+6,0
+ ,0
+天,0
+ ,0
+第,0
+ ,0
+1,0
+0,0
+ ,0
+天,0
+ ,0
+第,0
+ ,0
+1,0
+8,0
+ ,0
+天,0
+ ,0
+出,0
+院,0
+第,0
+ ,0
+4,0
+ ,0
+个,0
+月,0
+ ,0
+参,0
+考,0
+值,0
+"
+",0
+肌,0
+酸,0
+激,0
+酶,0
+(,0
+U,0
+ ,0
+/,0
+ ,0
+L,0
+),0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+3,0
+7,0
+1,0
+ ,0
+-,0
+ ,0
+5,0
+6,0
+ ,0
+3,0
+1,0
+4,0
+ ,0
+5,0
+0,0
+ ,0
+5,0
+2,0
+0,0
+ ,0
+1,0
+4,0
+ ,0
+8,0
+3,0
+5,0
+ ,0
+4,0
+ ,0
+5,0
+8,0
+9,0
+ ,0
+5,0
+4,0
+9,0
+ ,0
+1,0
+6,0
+7,0
+ ,0
+1,0
+7,0
+2,0
+ ,0
+ ,0
+ ,0
+3,0
+8,0
+-,0
+1,0
+7,0
+4,0
+"
+",0
+血,B-Test
+肌,I-Test
+酐,I-Test
+(,0
+μ,0
+m,0
+o,0
+l,0
+ ,0
+/,0
+ ,0
+L,0
+),0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+4,0
+1,0
+3,0
+ ,0
+3,0
+3,0
+7,0
+ ,0
+3,0
+3,0
+7,0
+ ,0
+3,0
+9,0
+7,0
+ ,0
+3,0
+0,0
+0,0
+ ,0
+4,0
+6,0
+2,0
+ ,0
+3,0
+4,0
+0,0
+ ,0
+2,0
+1,0
+2,0
+ ,0
+9,0
+4,0
+ ,0
+ ,0
+ ,0
+4,0
+5,0
+-,0
+8,0
+4,0
+"
+",0
+丙,0
+氨,0
+酸,0
+氨,0
+基,0
+转,0
+移,0
+酶,0
+(,0
+U,0
+ ,0
+/,0
+ ,0
+L,0
+),0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+3,0
+8,0
+ ,0
+2,0
+1,0
+3,0
+ ,0
+2,0
+1,0
+3,0
+ ,0
+3,0
+1,0
+3,0
+ ,0
+3,0
+8,0
+9,0
+ ,0
+2,0
+7,0
+9,0
+ ,0
+1,0
+2,0
+0,0
+ ,0
+7,0
+3,0
+ ,0
+2,0
+9,0
+9,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+5,0
+-,0
+4,0
+0,0
+"
+",0
+天,0
+门,0
+冬,0
+氨,0
+酸,0
+氨,0
+基,0
+转,0
+移,0
+酶,0
+(,0
+U,0
+ ,0
+/,0
+ ,0
+L,0
+),0
+ ,0
+3,0
+0,0
+ ,0
+8,0
+1,0
+6,0
+ ,0
+8,0
+1,0
+6,0
+ ,0
+1,0
+ ,0
+2,0
+1,0
+4,0
+ ,0
+7,0
+4,0
+8,0
+ ,0
+3,0
+3,0
+2,0
+ ,0
+9,0
+0,0
+ ,0
+4,0
+6,0
+ ,0
+3,0
+2,0
+5,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+8,0
+-,0
+4,0
+0,0
+"
+",0
+血,0
+淀,0
+粉,0
+酶,0
+(,0
+U,0
+ ,0
+/,0
+ ,0
+L,0
+),0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+7,0
+8,0
+7,0
+ ,0
+6,0
+4,0
+7,0
+ ,0
+7,0
+8,0
+2,0
+ ,0
+6,0
+4,0
+7,0
+ ,0
+-,0
+ ,0
+-,0
+ ,0
+3,0
+9,0
+3,0
+ ,0
+3,0
+0,0
+9,0
+ ,0
+1,0
+6,0
+6,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+0,0
+-,0
+2,0
+2,0
+0,0
+"
+",0
+血,0
+脂,0
+肪,0
+酶,0
+(,0
+U,0
+ ,0
+/,0
+ ,0
+L,0
+),0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+-,0
+ ,0
+8,0
+8,0
+ ,0
+1,0
+7,0
+5,0
+ ,0
+-,0
+ ,0
+-,0
+ ,0
+6,0
+4,0
+8,0
+ ,0
+4,0
+0,0
+2,0
+ ,0
+2,0
+5,0
+0,0
+ ,0
+6,0
+6,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+0,0
+-,0
+6,0
+0,0
+"
+",0
+注,0
+:,0
+入,0
+院,0
+时,0
+指,0
+在,0
+急,0
+诊,0
+测,0
+定,0
+;,0
+第,0
+ ,0
+1,0
+ ,0
+~,0
+ ,0
+1,0
+8,0
+ ,0
+天,0
+为,0
+住,0
+院,0
+期,0
+间,0
+"
+",0
+染,0
+、,0
+遗,B-Reason
+传,I-Reason
+易,I-Reason
+感,I-Reason
+性,I-Reason
+、,0
+免,B-Reason
+疫,I-Reason
+异,I-Reason
+常,I-Reason
+反,I-Reason
+应,I-Reason
+、,0
+妊,B-Reason
+娠,I-Reason
+、,0
+药,B-Reason
+物,I-Reason
+过,I-Reason
+敏,I-Reason
+综,I-Reason
+合,I-Reason
+征,I-Reason
+等,0
+有,0
+关,0
+",",0
+"
+",0
+具,0
+体,0
+发,0
+病,0
+机,0
+制,0
+未,0
+明,0
+",",0
+目,0
+前,0
+认,0
+为,0
+ ,0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+可,0
+能,0
+是,0
+主,0
+要,0
+累,0
+及,0
+胰,B-Anatomy
+腺,I-Anatomy
+的,0
+全,B-Disease
+"
+",I-Disease
+身,I-Disease
+非,I-Disease
+特,I-Disease
+异,I-Disease
+性,I-Disease
+炎,I-Disease
+症,I-Disease
+反,I-Disease
+应,I-Disease
+所,0
+致,0
+[,0
+2,0
+],0
+ ,0
+。,0
+"
+",0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+的,0
+器,0
+官,0
+并,0
+发,0
+症,0
+:,0
+"
+",0
+1,0
+.,0
+ ,0
+胰,B-Disease
+腺,I-Disease
+内,I-Disease
+外,I-Disease
+分,I-Disease
+泌,I-Disease
+功,I-Disease
+能,I-Disease
+受,I-Disease
+损,I-Disease
+:,0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+引,0
+起,0
+胰,B-Anatomy
+腺,I-Anatomy
+体,0
+积,0
+缩,0
+小,0
+",",0
+胰,0
+岛,0
+"
+",0
+α,0
+、,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+均,0
+受,0
+累,0
+且,0
+程,0
+度,0
+较,0
+ ,0
+1,B-Disease
+A,I-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+严,0
+重,0
+[,0
+3,0
+],0
+ ,0
+。,0
+ ,0
+大,0
+量,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+短,0
+"
+",0
+期,0
+内,0
+被,0
+破,0
+坏,0
+",",0
+胰,B-Anatomy
+岛,I-Anatomy
+素,I-Anatomy
+分,0
+泌,0
+严,B-Level
+重,I-Level
+缺,0
+乏,0
+",",0
+出,0
+现,0
+多,B-Symptom
+饮,I-Symptom
+、,0
+多,B-Symptom
+尿,I-Symptom
+、,0
+易,B-Symptom
+饥,I-Symptom
+等,0
+高,B-Symptom
+"
+",I-Symptom
+血,I-Symptom
+糖,I-Symptom
+症,I-Symptom
+状,I-Symptom
+",",0
+未,0
+处,0
+理,0
+者,0
+ ,0
+1,0
+ ,0
+周,0
+内,0
+可,0
+并,0
+发,0
+酮,B-Disease
+症,I-Disease
+或,0
+ ,0
+D,B-Disease
+K,I-Disease
+A,I-Disease
+。,0
+ ,0
+大,0
+部,0
+分,0
+患,0
+者,0
+可,0
+"
+",0
+表,0
+现,0
+淀,B-Test
+粉,I-Test
+酶,I-Test
+、,0
+脂,B-Test
+肪,I-Test
+酶,I-Test
+等,0
+非,B-Disease
+急,I-Disease
+性,I-Disease
+胰,I-Disease
+腺,I-Disease
+炎,I-Disease
+所,0
+致,0
+胰,B-Test
+酶,I-Test
+升,B-Test_Value
+高,I-Test_Value
+",",0
+发,0
+生,0
+一,0
+过,0
+"
+",0
+性,0
+胰,B-Symptom
+腺,I-Symptom
+外,I-Symptom
+分,I-Symptom
+泌,I-Symptom
+功,I-Symptom
+能,I-Symptom
+受,I-Symptom
+损,I-Symptom
+",",0
+可,0
+能,0
+与,0
+胰,B-Anatomy
+腺,I-Anatomy
+淋,B-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+浸,0
+润,0
+引,0
+起,0
+的,0
+胰,B-Reason
+腺,I-Reason
+"
+",I-Reason
+外,I-Reason
+分,I-Reason
+泌,I-Reason
+受,I-Reason
+损,I-Reason
+、,0
+胰,B-Reason
+腺,I-Reason
+外,I-Reason
+组,I-Reason
+织,I-Reason
+(,I-Reason
+如,I-Reason
+腮,I-Reason
+腺,I-Reason
+),I-Reason
+分,I-Reason
+泌,I-Reason
+增,I-Reason
+加,I-Reason
+、,0
+肾,B-Reason
+脏,I-Reason
+对,I-Reason
+胰,I-Reason
+酶,I-Reason
+清,I-Reason
+除,I-Reason
+"
+",I-Reason
+下,I-Reason
+降,I-Reason
+等,0
+有,0
+关,0
+。,0
+ ,0
+注,0
+意,0
+与,0
+急,B-Disease
+性,I-Disease
+胰,I-Disease
+腺,I-Disease
+炎,I-Disease
+区,0
+别,0
+",",0
+尤,0
+其,0
+与,0
+重,B-Level
+症,I-Level
+胰,I-Disease
+腺,I-Disease
+炎,I-Disease
+合,0
+并,0
+"
+",0
+特,B-Disease
+殊,I-Disease
+类,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+的,0
+病,0
+例,0
+区,0
+别,0
+",",0
+后,0
+者,0
+多,0
+以,0
+胆,B-Reason
+石,I-Reason
+症,I-Reason
+、,0
+暴,B-Reason
+饮,I-Reason
+暴,I-Reason
+食,I-Reason
+、,0
+酒,B-Reason
+后,I-Reason
+"
+",0
+等,0
+病,0
+因,0
+引,0
+起,0
+剧,B-Level
+烈,I-Level
+持,I-Level
+续,I-Level
+腹,B-Symptom
+痛,I-Symptom
+",",0
+胰,B-Anatomy
+腺,I-Anatomy
+出,0
+现,0
+渗,0
+出,0
+、,0
+水,0
+肿,0
+、,0
+坏,0
+死,0
+等,0
+改,0
+变,0
+",",0
+"
+",0
+需,0
+常,0
+规,0
+禁,B-Treatment
+食,I-Treatment
+、,0
+抑,B-Treatment
+制,I-Treatment
+胰,I-Treatment
+液,I-Treatment
+分,I-Treatment
+泌,I-Treatment
+等,0
+治,0
+疗,0
+。,0
+"
+",0
+2,0
+.,0
+ ,0
+横,B-Disease
+纹,I-Disease
+肌,I-Disease
+溶,I-Disease
+解,I-Disease
+症,I-Disease
+(,0
+ ,0
+r,0
+h,0
+a,0
+b,0
+d,0
+o,0
+m,0
+y,0
+o,0
+l,0
+y,0
+s,0
+i,0
+s,0
+",",0
+ ,0
+R,B-Disease
+M,I-Disease
+),0
+是,0
+强,B-Reason
+体,I-Reason
+力,I-Reason
+活,I-Reason
+动,I-Reason
+、,0
+感,B-Reason
+"
+",I-Reason
+染,I-Reason
+、,0
+肌,B-Reason
+肉,I-Reason
+挤,I-Reason
+压,I-Reason
+、,0
+药,B-Reason
+物,I-Reason
+、,0
+电,B-Reason
+解,I-Reason
+质,I-Reason
+紊,I-Reason
+乱,I-Reason
+、,0
+内,B-Reason
+分,I-Reason
+泌,I-Reason
+失,I-Reason
+衡,I-Reason
+等,0
+各,0
+种,0
+病,0
+因,0
+导,0
+致,0
+"
+",0
+横,B-Disease
+纹,I-Disease
+肌,I-Disease
+损,I-Disease
+伤,I-Disease
+",",0
+肌,B-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+内,0
+成,0
+分,0
+进,0
+入,0
+血,B-Anatomy
+液,I-Anatomy
+循,I-Anatomy
+环,I-Anatomy
+引,0
+起,0
+一,0
+系,0
+列,0
+生,B-Symptom
+化,I-Symptom
+紊,I-Symptom
+乱,I-Symptom
+"
+",0
+及,0
+组,B-Symptom
+织,I-Symptom
+器,I-Symptom
+官,I-Symptom
+损,I-Symptom
+害,I-Symptom
+的,0
+临,0
+床,0
+综,0
+合,0
+征,0
+。,0
+ ,0
+主,0
+要,0
+症,0
+状,0
+表,0
+现,0
+为,0
+肌,B-Symptom
+痛,I-Symptom
+(,0
+但,0
+超,0
+过,0
+"
+",0
+3,0
+0,0
+%,0
+患,0
+者,0
+可,B-Symptom
+无,I-Symptom
+肌,I-Symptom
+肉,I-Symptom
+损,I-Symptom
+伤,I-Symptom
+症,I-Symptom
+状,I-Symptom
+),0
+、,0
+乏,B-Symptom
+力,I-Symptom
+、,0
+浓,B-Symptom
+茶,I-Symptom
+样,I-Symptom
+尿,I-Symptom
+",",0
+肌,B-Test
+肉,I-Test
+活,I-Test
+检,I-Test
+病,I-Test
+理,I-Test
+"
+",0
+可,0
+见,0
+部,B-Test_Value
+分,I-Test_Value
+肌,I-Test_Value
+纤,I-Test_Value
+维,I-Test_Value
+消,I-Test_Value
+失,I-Test_Value
+",",I-Test_Value
+间,I-Test_Value
+质,I-Test_Value
+炎,I-Test_Value
+细,I-Test_Value
+胞,I-Test_Value
+浸,I-Test_Value
+润,I-Test_Value
+",",0
+C,B-Test
+K,I-Test
+≥,B-Test_Value
+正,I-Test_Value
+常,I-Test_Value
+峰,I-Test_Value
+值,I-Test_Value
+ ,I-Test_Value
+5,I-Test_Value
+ ,I-Test_Value
+倍,I-Test_Value
+(,0
+>,B-Test_Value
+"
+",I-Test_Value
+1,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+0,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+U,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+),0
+ ,0
+[,0
+4,0
+],0
+ ,0
+。,0
+ ,0
+因,0
+肌,B-Reason
+红,I-Reason
+蛋,I-Reason
+白,I-Reason
+管,I-Reason
+型,I-Reason
+阻,I-Reason
+塞,I-Reason
+肾,I-Reason
+小,I-Reason
+管,I-Reason
+、,0
+肌,B-Reason
+红,I-Reason
+蛋,I-Reason
+白,I-Reason
+分,I-Reason
+解,I-Reason
+产,I-Reason
+"
+",I-Reason
+物,I-Reason
+对,I-Reason
+肾,I-Reason
+小,I-Reason
+管,I-Reason
+上,I-Reason
+皮,I-Reason
+细,I-Reason
+胞,I-Reason
+产,I-Reason
+生,I-Reason
+过,I-Reason
+氧,I-Reason
+化,I-Reason
+损,I-Reason
+伤,I-Reason
+、,0
+有,B-Reason
+效,I-Reason
+循,I-Reason
+环,I-Reason
+血,I-Reason
+量,I-Reason
+不,I-Reason
+足,I-Reason
+、,0
+一,0
+"
+",0
+氧,0
+化,0
+氮,0
+血,0
+管,0
+舒,0
+张,0
+因,0
+子,0
+减,0
+少,0
+引,0
+起,0
+肾,B-Anatomy
+小,I-Anatomy
+管,I-Anatomy
+缺,0
+血,0
+性,0
+损,0
+伤,0
+等,0
+因,0
+素,0
+均,0
+可,0
+"
+",0
+加,0
+重,0
+肾,B-Symptom
+脏,I-Symptom
+损,I-Symptom
+伤,I-Symptom
+[,0
+5,0
+],0
+ ,0
+。,0
+ ,0
+肌,B-Reason
+细,I-Reason
+胞,I-Reason
+溶,I-Reason
+解,I-Reason
+、,0
+肾,B-Reason
+灌,I-Reason
+注,I-Reason
+不,I-Reason
+足,I-Reason
+可,0
+导,0
+致,0
+急,B-Symptom
+性,I-Symptom
+肾,I-Symptom
+脏,I-Symptom
+损,I-Symptom
+"
+",I-Symptom
+伤,I-Symptom
+[,0
+6,0
+],0
+ ,0
+",",0
+此,0
+类,0
+肾,B-Symptom
+功,I-Symptom
+能,I-Symptom
+损,I-Symptom
+伤,I-Symptom
+若,0
+处,0
+理,0
+及,0
+时,0
+得,0
+当,0
+",",0
+肾,B-Symptom
+脏,I-Symptom
+损,I-Symptom
+伤,I-Symptom
+完,0
+全,0
+可,0
+逆,0
+。,0
+"
+",0
+本,0
+例,0
+患,0
+者,0
+有,0
+前,B-Reason
+驱,I-Reason
+感,I-Reason
+染,I-Reason
+史,0
+、,0
+低,B-Reason
+钠,I-Reason
+、,0
+低,B-Reason
+血,I-Reason
+容,I-Reason
+量,I-Reason
+、,0
+用,B-Reason
+药,I-Reason
+史,I-Reason
+等,0
+均,0
+是,0
+诱,0
+发,0
+"
+",0
+R,B-Disease
+M,I-Disease
+ ,0
+因,0
+素,0
+",",0
+经,0
+大,B-Amount
+量,I-Amount
+补,B-Treatment
+液,I-Treatment
+、,0
+血,B-Treatment
+液,I-Treatment
+滤,I-Treatment
+过,I-Treatment
+等,0
+治,0
+疗,0
+",",0
+虽,0
+出,0
+院,0
+时,0
+血,B-Test
+肌,I-Test
+酐,I-Test
+未,0
+恢,0
+"
+",0
+复,0
+正,0
+常,0
+",",0
+但,0
+出,0
+院,0
+ ,0
+4,0
+ ,0
+个,0
+月,0
+后,0
+复,0
+查,0
+肾,B-Test
+功,I-Test
+能,I-Test
+已,0
+恢,0
+复,0
+正,0
+常,0
+。,0
+"
+",0
+3,0
+.,0
+ ,0
+其,0
+它,0
+:,0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+并,0
+发,0
+急,B-Disease
+性,I-Disease
+心,I-Disease
+肌,I-Disease
+损,I-Disease
+伤,I-Disease
+可,0
+无,B-Symptom
+胸,I-Symptom
+部,I-Symptom
+不,I-Symptom
+适,I-Symptom
+症,I-Symptom
+状,I-Symptom
+",",0
+出,0
+现,0
+"
+",0
+心,B-Test
+肌,I-Test
+酶,I-Test
+升,B-Test_Value
+高,I-Test_Value
+、,0
+心,B-Test
+电,I-Test
+图,I-Test
+改,0
+变,0
+可,0
+能,0
+是,0
+机,0
+体,0
+处,0
+于,0
+ ,0
+D,B-Disease
+K,I-Disease
+A,I-Disease
+ ,0
+应,0
+激,0
+状,0
+态,0
+下,0
+",",0
+体,0
+"
+",0
+内,0
+儿,B-Test
+茶,I-Test
+酚,I-Test
+胺,I-Test
+、,0
+肾,B-Test
+上,I-Test
+腺,I-Test
+素,I-Test
+水,0
+平,0
+升,B-Test_Value
+高,I-Test_Value
+",",0
+引,0
+起,0
+冠,B-Symptom
+状,I-Symptom
+动,I-Symptom
+脉,I-Symptom
+痉,I-Symptom
+挛,I-Symptom
+与,I-Symptom
+收,I-Symptom
+缩,I-Symptom
+以,0
+"
+",0
+及,0
+机,B-Symptom
+体,I-Symptom
+高,I-Symptom
+代,I-Symptom
+谢,I-Symptom
+状,I-Symptom
+态,I-Symptom
+",",0
+心,B-Anatomy
+肌,I-Anatomy
+代,0
+谢,0
+增,0
+强,0
+导,0
+致,0
+心,B-Anatomy
+肌,I-Anatomy
+耗,0
+氧,0
+量,0
+增,0
+加,0
+",",0
+共,0
+同,0
+"
+",0
+导,0
+致,0
+心,B-Anatomy
+肌,I-Anatomy
+缺,0
+血,0
+缺,0
+氧,0
+",",0
+引,0
+起,0
+心,B-Anatomy
+肌,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+损,0
+伤,0
+",",0
+释,0
+放,0
+心,B-Test
+肌,I-Test
+坏,I-Test
+死,I-Test
+标,I-Test
+志,I-Test
+"
+",I-Test
+物,I-Test
+[,0
+7,0
+],0
+ ,0
+。,0
+ ,0
+本,0
+例,0
+患,0
+者,0
+有,0
+前,B-Disease
+驱,I-Disease
+感,I-Disease
+染,I-Disease
+史,0
+",",0
+起,0
+病,0
+时,0
+出,0
+现,0
+呕,B-Symptom
+吐,I-Symptom
+、,0
+上,B-Symptom
+腹,I-Symptom
+痛,I-Symptom
+、,0
+休,B-Symptom
+"
+",I-Symptom
+克,I-Symptom
+",",0
+A,B-Test
+S,I-Test
+T,I-Test
+、,0
+C,B-Test
+K,I-Test
+-,I-Test
+M,I-Test
+B,I-Test
+、,0
+T,B-Test
+n,I-Test
+I,I-Test
+ ,0
+分,0
+别,0
+为,0
+正,0
+常,0
+上,0
+限,0
+的,0
+ ,0
+3,B-Test_Value
+1,I-Test_Value
+ ,I-Test_Value
+倍,I-Test_Value
+、,0
+3,B-Test_Value
+5,I-Test_Value
+ ,I-Test_Value
+倍,I-Test_Value
+、,0
+1,B-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+0,I-Test_Value
+7,I-Test_Value
+ ,I-Test_Value
+倍,I-Test_Value
+",",0
+"
+",0
+心,B-Test
+电,I-Test
+图,I-Test
+异,B-Test_Value
+常,I-Test_Value
+ ,I-Test_Value
+Q,I-Test_Value
+ ,I-Test_Value
+波,I-Test_Value
+",",0
+注,0
+意,0
+与,0
+急,B-Disease
+性,I-Disease
+心,I-Disease
+肌,I-Disease
+梗,I-Disease
+死,I-Disease
+鉴,0
+别,0
+",",0
+后,0
+者,0
+常,0
+有,0
+缺,B-Symptom
+血,I-Symptom
+性,I-Symptom
+"
+",I-Symptom
+胸,I-Symptom
+痛,I-Symptom
+表,0
+现,0
+",",0
+心,B-Test
+肌,I-Test
+酶,I-Test
+、,0
+心,B-Test
+电,I-Test
+图,I-Test
+动,0
+态,0
+变,0
+化,0
+。,0
+ ,0
+此,0
+外,0
+",",0
+当,0
+转,B-Test
+氨,I-Test
+酶,I-Test
+短,B-Test_Value
+期,I-Test_Value
+内,I-Test_Value
+升,I-Test_Value
+"
+",I-Test_Value
+高,I-Test_Value
+超,I-Test_Value
+过,I-Test_Value
+正,I-Test_Value
+常,I-Test_Value
+上,I-Test_Value
+限,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+倍,I-Test_Value
+时,0
+",",0
+称,0
+为,0
+急,B-Disease
+性,I-Disease
+肝,I-Disease
+损,I-Disease
+伤,I-Disease
+",",0
+可,0
+能,0
+与,0
+肝,B-Reason
+脏,I-Reason
+血,I-Reason
+液,I-Reason
+低,I-Reason
+"
+",I-Reason
+灌,I-Reason
+注,I-Reason
+、,0
+脂,B-Reason
+及,I-Reason
+糖,I-Reason
+代,I-Reason
+谢,I-Reason
+紊,I-Reason
+乱,I-Reason
+、,0
+R,B-Reason
+M,I-Reason
+、,0
+感,B-Reason
+染,I-Reason
+、,0
+药,B-Reason
+物,I-Reason
+毒,I-Reason
+性,I-Reason
+等,0
+因,0
+素,0
+有,0
+关,0
+。,0
+ ,0
+出,0
+院,0
+"
+",0
+4,0
+ ,0
+个,0
+月,0
+后,0
+随,0
+访,0
+发,0
+现,0
+患,0
+者,0
+转,B-Test
+氨,I-Test
+酶,I-Test
+再,0
+次,0
+升,0
+高,0
+",",0
+但,0
+经,0
+护,B-Treatment
+肝,I-Treatment
+、,0
+调,B-Treatment
+脂,I-Treatment
+、,0
+严,B-Treatment
+格,I-Treatment
+"
+",I-Treatment
+控,I-Treatment
+制,I-Treatment
+血,I-Treatment
+糖,I-Treatment
+后,0
+肝,B-Test
+功,I-Test
+能,I-Test
+恢,0
+复,0
+正,B-Test_Value
+常,I-Test_Value
+",",0
+排,0
+除,0
+酒,B-Disease
+精,I-Disease
+性,I-Disease
+肝,I-Disease
+病,I-Disease
+、,0
+病,B-Disease
+毒,I-Disease
+性,I-Disease
+及,I-Disease
+药,I-Disease
+物,I-Disease
+"
+",I-Disease
+性,I-Disease
+肝,I-Disease
+病,I-Disease
+、,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+肝,I-Disease
+病,I-Disease
+、,0
+寄,B-Reason
+生,I-Reason
+虫,I-Reason
+感,B-Reason
+染,I-Reason
+等,0
+因,0
+素,0
+引,0
+起,0
+肝,B-Disease
+功,I-Disease
+能,I-Disease
+损,I-Disease
+害,I-Disease
+",",0
+"
+",0
+肝,B-Reason
+糖,I-Reason
+原,I-Reason
+异,I-Reason
+常,I-Reason
+沉,I-Reason
+积,I-Reason
+、,0
+脂,B-Reason
+质,I-Reason
+过,I-Reason
+氧,I-Reason
+化,I-Reason
+损,I-Reason
+伤,I-Reason
+导,0
+致,0
+的,0
+非,B-Disease
+酒,I-Disease
+精,I-Disease
+性,I-Disease
+脂,I-Disease
+肪,I-Disease
+性,I-Disease
+肝,I-Disease
+炎,I-Disease
+"
+",0
+可,0
+能,0
+是,0
+主,0
+要,0
+因,0
+素,0
+。,0
+"
+",0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+治,0
+疗,0
+主,0
+要,0
+针,0
+对,0
+诱,0
+因,0
+、,0
+并,0
+发,0
+症,0
+及,0
+终,0
+身,0
+胰,B-Drug
+岛,I-Drug
+素,I-Drug
+替,0
+代,0
+治,0
+疗,0
+。,0
+"
+",0
+治,0
+疗,0
+原,0
+则,0
+与,0
+ ,0
+1,B-Disease
+A,I-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+相,0
+同,0
+。,0
+ ,0
+对,0
+ ,0
+R,B-Disease
+M,I-Disease
+ ,0
+合,0
+并,0
+急,B-Disease
+性,I-Disease
+肾,I-Disease
+衰,I-Disease
+者,0
+应,0
+早,0
+期,0
+"
+",0
+充,0
+分,0
+进,0
+行,0
+血,B-Treatment
+液,I-Treatment
+净,I-Treatment
+化,I-Treatment
+治,I-Treatment
+疗,I-Treatment
+",",0
+常,0
+规,0
+血,B-Treatment
+液,I-Treatment
+透,I-Treatment
+析,I-Treatment
+难,0
+以,0
+清,0
+除,0
+分,0
+子,0
+量,0
+为,0
+ ,0
+1,0
+8,0
+"
+",0
+k,0
+D,0
+a,0
+ ,0
+的,0
+肌,B-Anatomy
+红,I-Anatomy
+蛋,I-Anatomy
+白,I-Anatomy
+",",0
+但,0
+其,0
+易,0
+被,0
+血,B-Treatment
+液,I-Treatment
+滤,I-Treatment
+过,I-Treatment
+、,0
+血,B-Treatment
+浆,I-Treatment
+置,I-Treatment
+换,I-Treatment
+、,0
+免,B-Treatment
+疫,I-Treatment
+吸,I-Treatment
+附,I-Treatment
+所,0
+清,0
+"
+",0
+除,0
+[,0
+8,0
+],0
+ ,0
+。,0
+ ,0
+无,B-Disease
+症,I-Disease
+状,I-Disease
+性,I-Disease
+急,I-Disease
+性,I-Disease
+心,I-Disease
+肌,I-Disease
+损,I-Disease
+伤,I-Disease
+、,0
+胰,B-Test
+酶,I-Test
+及,0
+转,B-Test
+氨,I-Test
+酶,I-Test
+升,B-Test_Value
+高,I-Test_Value
+",",0
+通,0
+常,0
+只,0
+需,0
+"
+",0
+要,0
+辅,0
+助,0
+治,0
+疗,0
+。,0
+ ,0
+本,0
+例,0
+患,0
+者,0
+饮,0
+食,0
+(,0
+禁,B-Treatment
+食,I-Treatment
+",",0
+进,0
+食,0
+量,0
+变,0
+化,0
+),0
+、,0
+肾,B-Disease
+功,I-Disease
+能,I-Disease
+不,I-Disease
+全,I-Disease
+"
+",0
+改,0
+善,0
+、,0
+血,B-Treatment
+液,I-Treatment
+净,I-Treatment
+化,I-Treatment
+治,I-Treatment
+疗,I-Treatment
+等,0
+均,0
+影,0
+响,0
+血,B-Test
+糖,I-Test
+的,0
+调,0
+控,0
+",",0
+故,0
+早,0
+期,0
+血,B-Test
+糖,I-Test
+波,0
+动,0
+大,0
+",",0
+"
+",0
+需,0
+密,0
+切,0
+监,0
+测,0
+血,B-Test
+糖,I-Test
+变,0
+化,0
+。,0
+"
+",0
+F,B-Disease
+T,I-Disease
+1,I-Disease
+D,I-Disease
+ ,0
+起,0
+病,0
+急,0
+、,0
+进,0
+展,0
+快,0
+",",0
+对,0
+于,0
+存,0
+在,0
+前,B-Disease
+驱,I-Disease
+感,I-Disease
+染,I-Disease
+史,0
+",",0
+高,B-Symptom
+血,I-Symptom
+糖,I-Symptom
+症,I-Symptom
+状,I-Symptom
+"
+",0
+出,0
+现,0
+后,0
+迅,0
+速,0
+表,0
+现,0
+为,0
+酮,B-Disease
+症,I-Disease
+或,0
+酮,B-Disease
+症,I-Disease
+酸,I-Disease
+中,I-Disease
+毒,I-Disease
+伴,0
+酶,B-Test
+学,I-Test
+改,0
+变,0
+的,0
+首,0
+诊,0
+者,0
+",",0
+应,0
+"
+",0
+考,0
+虑,0
+暴,B-Disease
+发,I-Disease
+性,I-Disease
+ ,I-Disease
+1,I-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+",",0
+及,0
+时,0
+行,0
+血,B-Test
+糖,I-Test
+、,0
+H,B-Test
+B,I-Test
+A,I-Test
+1,I-Test
+C,I-Test
+、,0
+胰,B-Test
+岛,I-Test
+相,I-Test
+关,I-Test
+自,I-Test
+身,I-Test
+抗,I-Test
+"
+",I-Test
+体,I-Test
+及,0
+酶,B-Test
+学,I-Test
+检,I-Test
+测,I-Test
+",",0
+以,0
+免,0
+误,0
+诊,0
+漏,0
+诊,0
+。,0
+"
+",0

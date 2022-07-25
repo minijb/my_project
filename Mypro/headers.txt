@@ -1,0 +1,588 @@
+Carbon_CaCO3 (wt%) __!__ carbonCaco3
+Carbon_Carbonate (wt%) __!__ carbonCarbonate
+Carbon_Inorganic (wt%) __!__ carbonInorganic
+Carbon_Organic (wt%) __!__ carbonOrganic
+Carbon_Total (wt%) __!__ carbonTotal
+Hydrogen (wt%) __!__ hydrogen
+Hydrogen (mg HC/g) __!__ hydrogenMgHcdivg
+Nitrogen (wt%) __!__ nitrogen
+Sulfur (wt%) __!__ sulfur
+Comment_CHNS __!__ commentChns
+Method_CHNS __!__ methodChns
+Smectite, % __!__ smectiteCenti
+Illite, %  __!__ illiteCenti
+Kaolinite, % __!__ kaoliniteCenti
+Chlorite, % __!__ chloriteCenti
+Illite Crystallinity __!__ illiteCrystallinity
+Illite Chemistry Index __!__ illiteChemistryIndex
+Age, kyr __!__ ageKyr
+Advanced (m) __!__ advancedM
+Bottom depth recovered (m) __!__ bottomDepthRecoveredM
+Top depth cored CSF (m) __!__ topDepthCoredCsfM
+Top depth drilled DSF (m) __!__ topDepthDrilledDsfM
+Sections (no.) __!__ sectionsNo
+Curated length (m) __!__ curatedLengthM
+APC cores (no.) __!__ apcCoresNo
+Cored interval (m) __!__ coredIntervalM
+Drilled interval (m) __!__ drilledIntervalM
+Drilled interval (no.) __!__ drilledIntervalNo
+HLAPC cores (no.) __!__ hlapcCoresNo
+Latitude __!__ latitude
+Longitude __!__ longitude
+Other cores (no.) __!__ otherCoresNo
+Penetration DSF (m) __!__ penetrationDsfM
+RCB cores (no.) __!__ rcbCoresNo
+Total cores (no.) __!__ totalCoresNo
+Water depth (m) __!__ waterDepthM
+XCB cores (no.) __!__ xcbCoresNo
+Recovery (%) __!__ recoveryCenti
+Recovered length (m) __!__ recoveredLengthM
+Section half samples (no.) __!__ sectionHalfSamplesNo
+Al  ppm  308.2 nm __!__ alPpm3082Nm
+Al2O3  percent  308.2 nm __!__ al2O3Percent3082Nm
+Al2O3  percent  309.3 nm __!__ al2O3Percent3093Nm
+Al2O3  percent  394.4 nm __!__ al2O3Percent3944Nm
+Al2O3  percent  396.2 nm __!__ al2O3Percent3962Nm
+Al2O3  percent __!__ al2O3Percent
+Ba  ppm  233.5 nm __!__ baPpm2335Nm
+Ba  ppm  455.4 nm __!__ baPpm4554Nm
+Ba  ppm  493.4 nm __!__ baPpm4934Nm
+Ba  ppm __!__ baPpm
+CaO  percent  315.9 nm __!__ caoPercent3159Nm
+CaO  percent  317.9 nm __!__ caoPercent3179Nm
+CaO  percent  393.4 nm __!__ caoPercent3934Nm
+CaO  percent  396.8 nm __!__ caoPercent3968Nm
+CaO  percent  422.7 nm __!__ caoPercent4227Nm
+CaO  percent __!__ caoPercent
+Ce  ppm __!__ cePpm
+Co  ppm  228.6 nm __!__ coPpm2286Nm
+Co  ppm __!__ coPpm
+Cr  ppm  205.6 nm __!__ crPpm2056Nm
+Cr  ppm  206.1 nm __!__ crPpm2061Nm
+Cr  ppm  267.7 nm __!__ crPpm2677Nm
+Cr  ppm  283.6 nm __!__ crPpm2836Nm
+Cr  ppm __!__ crPpm
+Cu  ppm  224.7 nm __!__ cuPpm2247Nm
+Cu  ppm  324.8 nm __!__ cuPpm3248Nm
+Cu  ppm  327.4 nm __!__ cuPpm3274Nm
+Cu  ppm __!__ cuPpm
+Fe  ppm  238.2 nm __!__ fePpm2382Nm
+Fe2O3t  percent  238.2 nm __!__ fe2O3TPercent2382Nm
+Fe2O3t  percent  239.6 nm __!__ fe2O3TPercent2396Nm
+Fe2O3t  percent  259.9 nm __!__ fe2O3TPercent2599Nm
+Fe2O3t  percent __!__ fe2O3TPercent
+Ga  ppm __!__ gaPpm
+Ge  ppm __!__ gePpm
+Ge  ppm  219.9 nm __!__ gePpm2199Nm
+Ge  ppm  303.9 nm __!__ gePpm3039Nm
+K  ppm  769.9 nm __!__ kPpm7699Nm
+K2O  percent  766.5 nm __!__ k2OPercent7665Nm
+K2O  percent  769.9 nm __!__ k2OPercent7699Nm
+K2O  percent __!__ k2OPercent
+La  ppm __!__ laPpm
+LOI  wt percent __!__ loiWtPercent
+Mg  ppm  285.2 nm __!__ mgPpm2852Nm
+MgO  percent  202.6 nm __!__ mgoPercent2026Nm
+MgO  percent  279.6 nm __!__ mgoPercent2796Nm
+MgO  percent  280.3 nm __!__ mgoPercent2803Nm
+MgO  percent  285.2 nm __!__ mgoPercent2852Nm
+MgO  percent __!__ mgoPercent
+Mn  ppm  257.6 nm __!__ mnPpm2576Nm
+MnO  percent  257.6 nm __!__ mnoPercent2576Nm
+MnO  percent  259.4 nm __!__ mnoPercent2594Nm
+MnO  percent __!__ mnoPercent
+Mo  ppm  202.0nm __!__ moPpm2020Nm
+Na  ppm  589.6nm __!__ naPpm5896Nm
+Na2O  percent  589 nm __!__ na2OPercent589Nm
+Na2O  percent  589.6 nm __!__ na2OPercent5896Nm
+Na2O  percent __!__ na2OPercent
+Nb  ppm  309.4 nm __!__ nbPpm3094Nm
+Nb  ppm __!__ nbPpm
+P  ppm  214.9 nm __!__ pPpm2149Nm
+Ni  ppm  221.6 nm __!__ niPpm2216Nm
+Ni  ppm  231.6 nm __!__ niPpm2316Nm
+Ni  ppm  361.9 nm __!__ niPpm3619Nm
+Ni  ppm __!__ niPpm
+P2O5  percent  177.4 nm __!__ p2O5Percent1774Nm
+P2O5  percent  213.6 nm __!__ p2O5Percent2136Nm
+P2O5  percent  214.9 nm __!__ p2O5Percent2149Nm
+P2O5  percent __!__ p2O5Percent
+Rb  ppm __!__ rbPpm
+S  ppm __!__ sPpm
+Sc  ppm  357.3 nm __!__ scPpm3573Nm
+Sc  ppm  361.4 nm __!__ scPpm3614Nm
+Sc  ppm __!__ scPpm
+SiO2  percent  221.7 nm __!__ sio2Percent2217Nm
+SiO2  percent  250.7 nm __!__ sio2Percent2507Nm
+SiO2  percent  251.6 nm __!__ sio2Percent2516Nm
+SiO2  percent  288.2 nm __!__ sio2Percent2882Nm
+SiO2  percent __!__ sio2Percent
+Sr  ppm  407.8 nm __!__ srPpm4078Nm
+Sr  ppm  421.6 nm __!__ srPpm4216Nm
+Sr  ppm  460.7 nm __!__ srPpm4607Nm
+Sr  ppm __!__ srPpm
+TiO2  percent  334.9 nm __!__ tio2Percent3349Nm
+TiO2  percent  336.1 nm __!__ tio2Percent3361Nm
+TiO2  percent  337.3 nm __!__ tio2Percent3373Nm
+TiO2  percent __!__ tio2Percent
+V  nm  n/a nm __!__ vNmNm
+V  ppm  292.4 nm __!__ vPpm2924Nm
+V  ppm  309.3 nm __!__ vPpm3093Nm
+V  ppm  310.2 nm __!__ vPpm3102Nm
+V  ppm __!__ vPpm
+Y  ppm  360.1 nm __!__ yPpm3601Nm
+Y  ppm  371 nm __!__ yPpm371Nm
+Y  ppm  377.4 nm __!__ yPpm3774Nm
+Y  ppm __!__ yPpm
+Zn  ppm  202.5 nm __!__ znPpm2025Nm
+Zn  ppm  206.2 nm __!__ znPpm2062Nm
+Zn  ppm  213.9 nm __!__ znPpm2139Nm
+Zn  ppm __!__ znPpm
+Zr  ppm   273.5 nm __!__ zrPpm2735Nm
+Zr  ppm   327.307 nm __!__ zrPpm327307Nm
+Zr  ppm  339.2 nm __!__ zrPpm3392Nm
+Zr  ppm  343.8 nm __!__ zrPpm3438Nm
+Al  ppm __!__ alPpm
+Zr  ppm __!__ zrPpm
+Be  ppm __!__ bePpm
+Br  ppm __!__ brPpm
+Cs  ppm __!__ csPpm
+Dy  ppm __!__ dyPpm
+Er  ppm __!__ erPpm
+Fe  ppm __!__ fePpm
+Gd  ppm __!__ gdPpm
+Hf  ppm __!__ hfPpm
+K  ppm __!__ kPpm
+Mo  ppm __!__ moPpm
+Na  ppm __!__ naPpm
+Pb  ppm __!__ pbPpm
+Sm  ppm __!__ smPpm
+Yb  ppm __!__ ybPpm
+Alkalinity  mM __!__ alkalinityMm
+PH __!__ ph
+Salinity __!__ salinity
+DIC  mM __!__ dicMm
+DOC  mM __!__ docMm
+Ash(macro) __!__ ashmacro
+Bedding thickness __!__ beddingThickness
+Biogenic material __!__ biogenicMaterial
+Bioturbation intensity __!__ bioturbationIntensity
+Bioturbation intensity rank __!__ bioturbationIntensityRank
+Bioturbation type __!__ bioturbationType
+Classification(macro lithology) __!__ classificationmacroLithology
+Clast grain size __!__ clastGrainSize
+Clast igneous __!__ clastIgneous
+Clast sediment __!__ clastSediment
+Clast other lithology __!__ clastOtherLithology
+Clast volcaniclastic __!__ clastVolcaniclastic
+Clast color __!__ clastColor
+Clast percentage [%] __!__ clastPercentageCenti
+Clast roundness __!__ clastRoundness
+Clast sorting __!__ clastSorting
+Clast/matrix texture __!__ clastdivmatrixTexture
+Dominant gravel clasts __!__ dominantGravelClasts
+Subdominant gravel clasts __!__ subdominantGravelClasts
+Color __!__ color
+Color (name) __!__ colorName
+Deformational structures __!__ deformationalStructures
+Degree of alteration __!__ degreeOfAlteration
+Degree of Consolidation __!__ degreeOfConsolidation
+Diagenetic constituent __!__ diageneticConstituent
+Diagenetic structure __!__ diageneticStructure
+Dominant Clasts max. grain size class __!__ dominantClastsMaxGrainSizeClass
+Dominant grain size __!__ dominantGrainSize
+Drilling disturbance intensity __!__ drillingDisturbanceIntensity
+Drilling disturbance intensity rank __!__ drillingDisturbanceIntensityRank
+Drilling disturbance type __!__ drillingDisturbanceType
+Facies __!__ facies
+Fossil __!__ fossil
+Grading __!__ grading
+Grain size max __!__ grainSizeMax
+Groundmass color __!__ groundmassColor
+Groundmass grain size __!__ groundmassGrainSize
+Layer/Beddding __!__ layerdivbeddding
+Lamination __!__ lamination
+Subdominant clast roundness __!__ subdominantClastRoundness
+Lithology [%] __!__ lithologyCenti
+Major lithology [%] __!__ majorLithologyCenti
+Major lithology macrofossil __!__ majorLithologyMacrofossil
+Malor lithology prefix __!__ malorLithologyPrefix
+Malor lithology principal name __!__ malorLithologyPrincipalName
+Malor lithology suffix __!__ malorLithologySuffix
+Minor lithology [%] __!__ minorLithologyCenti
+Minor lithology macrofossil __!__ minorLithologyMacrofossil
+Minor lithology prefix __!__ minorLithologyPrefix
+Minor lithology principal name __!__ minorLithologyPrincipalName
+Minor lithology suffix __!__ minorLithologySuffix
+Lithology ave. grain size class __!__ lithologyAveGrainSizeClass
+Lithology name __!__ lithologyName
+Lithology name+suffix __!__ lithologyNameSuffix
+Lithology prefix + name __!__ lithologyPrefixName
+Lithology prefix+name+suffix __!__ lithologyPrefixNameSuffix
+Macrofossil abundance __!__ macrofossilAbundance
+Matrix abundance [%] __!__ matrixAbundanceCenti
+Minor trace fossils __!__ minorTraceFossils
+Non-skeletal components __!__ nonskeletalComponents
+Primary trace fossils __!__ primaryTraceFossils
+Subdominant sedimentary structure __!__ subdominantSedimentaryStructure
+Sedimentary structures __!__ sedimentaryStructures
+Skeletal components (intermediate) __!__ skeletalComponentsIntermediate
+Skeletal components (major) __!__ skeletalComponentsMajor
+Skeletal components (minor) __!__ skeletalComponentsMinor
+Subdominant Clasts __!__ subdominantClasts
+Subdominant Clasts ave. grain size class __!__ subdominantClastsAveGrainSizeClass
+Subdominant Clasts max. grain size class __!__ subdominantClastsMaxGrainSizeClass
+Section summary description __!__ sectionSummaryDescription
+Summary description __!__ summaryDescription
+>4 mm Grain Density (g/cm3) __!__ more4MmGrainDensity
+>4 mm Bulk Density (g/cm3) __!__ more4MmBulkDensity
+>4 mm Porosity (%) __!__ more4MmPorosityCenti
+>4 mm Void ratio __!__ more4MmVoidRatio
+1-4 mm Bulk Density (g/cm3) __!__ onetofourMmBulkDensity
+1-4 mm Grain Density (g/cm3) __!__ onetofourMmGrainDensity
+1-4 mm Porosity (%) __!__ onetofourMmPorosityCenti
+1-4 mm Void ratio __!__ onetofourMmVoidRatio
+Bulk Density  (g/cm3) __!__ bulkDensity
+Wet bulk density (g/cm3) __!__ wetBulkDensity
+Dry Density  (g/cm3) __!__ dryDensity
+Dry volume (cm3) __!__ dryVolumeCm3
+Grain Density  (g/cm3) __!__ grainDensity
+Mass dried sample (g) __!__ massDriedSampleG
+Mass porewater (g) __!__ massPorewaterG
+Mass salt (g) __!__ massSaltG
+Mass solids (g) __!__ massSolidsG
+Mass wet sample (g) __!__ massWetSampleG
+Moisture dry (wt%) __!__ moistureDry
+Moisture wet (wt%) __!__ moistureWet
+Porosity (fractional) __!__ porosityFractional
+Porosity (%) __!__ porosityCenti
+Wet Porosity (%) __!__ wetPorosityCenti
+Dry Porosity (%) __!__ dryPorosityCenti
+Void ratio __!__ voidRatio
+Vol porewater (cm3) __!__ volPorewaterCm3
+Vol salt (cm3) __!__ volSaltCm3
+Vol solids (cm3) __!__ volSolidsCm3
+Vol wet sample (cm3) __!__ volWetSampleCm3
+Water content (wt%) __!__ waterContent
+Wet Water content (wt%) __!__ wetWaterContent
+Dry Water content (wt%) __!__ dryWaterContent
+Comment_MAD __!__ commentMad
+Method_MAD __!__ methodMad
+Actinolite __!__ actinolite
+Alga __!__ alga
+Allanite  __!__ allanite
+Palagonite (altered) __!__ palagoniteAltered
+Amphibole __!__ amphibole
+Anhydrite __!__ anhydrite
+Apatite __!__ apatite
+Aragonite __!__ aragonite
+Ash __!__ ash
+Ash grain roundness __!__ ashGrainRoundness
+Augite/Pyroxene __!__ augitedivpyroxene
+Authigenic Pyrite __!__ authigenicPyrite
+Authigenic Quartz __!__ authigenicQuartz
+Barite __!__ barite
+Benthic foraminifer  __!__ benthicForaminifer
+Biogenic __!__ biogenic
+Biogenic carbonate __!__ biogenicCarbonate
+Biogenic fragment roundness __!__ biogenicFragmentRoundness
+Biogenic fragment size __!__ biogenicFragmentSize
+Biogenic silica __!__ biogenicSilica
+Biotite __!__ biotite
+Bivalve __!__ bivalve
+Brucite __!__ brucite
+Bryozoa __!__ bryozoa
+Calcareous bioclasts __!__ calcareousBioclasts
+Calcareous nannofossils __!__ calcareousNannofossils
+Calcareous sponge spicule __!__ calcareousSpongeSpicule
+Calcite __!__ calcite
+Calcite (allogenic) __!__ calciteAllogenic
+Carbonate __!__ carbonate
+Carbonate mud __!__ carbonateMud
+Charcoal __!__ charcoal
+Chert __!__ chert
+Chlorite __!__ chlorite
+Chloritoid __!__ chloritoid
+Clay texture [%] __!__ clayTextureCenti
+Clay Mineral __!__ clayMineral
+Clinoptilolite __!__ clinoptilolite
+Complete lithology __!__ completeLithology
+Corals __!__ corals
+Crystal abundance __!__ crystalAbundance
+Detrital carbonate __!__ detritalCarbonate
+Diagenetic __!__ diagenetic
+Diatoms __!__ diatoms
+Dinoflagelattes __!__ dinoflagelattes
+Dolomite __!__ dolomite
+Ebridians __!__ ebridians
+Echinoderm __!__ echinoderm
+Echinoids __!__ echinoids
+Enstatite __!__ enstatite
+Epidote __!__ epidote
+Fe oxide __!__ feOxide
+Fe sulfides __!__ feSulfides
+Feldspar __!__ feldspar
+Felsic tephra __!__ felsicTephra
+Felsitic __!__ felsitic
+Ferromagnesian minerals __!__ ferromagnesianMinerals
+Fish debris __!__ fishDebris
+Fish scales __!__ fishScales
+Fish teeth __!__ fishTeeth
+Framboidal pyrite __!__ framboidalPyrite
+Garnet __!__ garnet
+Glauconite __!__ glauconite
+Glauconitization __!__ glauconitization
+Gravel texture [%] __!__ gravelTextureCenti
+Gypsum __!__ gypsum
+Heavy minerals __!__ heavyMinerals
+Hypersthene __!__ hypersthene
+Igneous fragment __!__ igneousFragment
+Intraclast  __!__ intraclast
+K-Feldspar __!__ kfeldspar
+Kyanite __!__ kyanite
+Limestone __!__ limestone
+Lithic grain size __!__ lithicGrainSize
+Lithic roundness __!__ lithicRoundness
+Principal lithology __!__ principalLithology
+Lithology classification __!__ lithologyClassification
+Lithology prefix __!__ lithologyPrefix
+Lithology suffix __!__ lithologySuffix
+Mafic tephra __!__ maficTephra
+Magnetite __!__ magnetite
+Mn oxide __!__ mnOxide
+Marine organic matter __!__ marineOrganicMatter
+Maximum grain size __!__ maximumGrainSize
+Metamorphic lithic __!__ metamorphicLithic
+Mica __!__ mica
+Micrite __!__ micrite
+Microcrystalline Quartz __!__ microcrystallineQuartz
+Micronodules __!__ micronodules
+Minimum grain size __!__ minimumGrainSize
+Mollusk __!__ mollusk
+Mudstone  __!__ mudstone
+Muscovite __!__ muscovite
+Olivine __!__ olivine
+Ooids __!__ ooids
+Opaque __!__ opaque
+Organic debris __!__ organicDebris
+Ostracodes __!__ ostracodes
+Other __!__ other
+Other authigenic abundance __!__ otherAuthigenicAbundance
+Other Biclasts __!__ otherBiclasts
+Other calcareous bioclasts __!__ otherCalcareousBioclasts
+Other lithic __!__ otherLithic
+Other microfossils __!__ otherMicrofossils
+Other mineral __!__ otherMineral
+Other organic matter __!__ otherOrganicMatter
+Other sedimentary fragments __!__ otherSedimentaryFragments
+Other skeletal fragments __!__ otherSkeletalFragments
+Other volcanic __!__ otherVolcanic
+Oxide __!__ oxide
+Pelgaic __!__ pelgaic
+Pellets __!__ pellets
+Peloid  __!__ peloid
+Phillipsite __!__ phillipsite
+Phosphates __!__ phosphates
+Plagioclase __!__ plagioclase
+Planktonic foraminifers __!__ planktonicForaminifers
+Plant debris __!__ plantDebris
+Plutonic lithic  __!__ plutonicLithic
+Pollen __!__ pollen
+Pteropod fragments __!__ pteropodFragments
+Pyrite __!__ pyrite
+Pyroclasts/Volcanic lithics __!__ pyroclastsdivvolcanicLithics
+Quartz __!__ quartz
+Radiolaria __!__ radiolaria
+Rock fragments/Lithic grain __!__ rockFragmentsdivlithicGrain
+Rutile __!__ rutile
+Sand texture [%] __!__ sandTextureCenti
+Sedimentary lithic __!__ sedimentaryLithic
+Serpentine __!__ serpentine
+Shell fragments __!__ shellFragments
+Siderite __!__ siderite
+Biosiliceous fossil __!__ biosiliceousFossil
+Siliceous sponge spicule __!__ siliceousSpongeSpicule
+Siliciclastic __!__ siliciclastic
+Silicoflagelates __!__ silicoflagelates
+Sillimanite __!__ sillimanite
+Silt texture [%] __!__ siltTextureCenti
+Siltstone/Sandstone  __!__ siltstonedivsandstone
+Sparite __!__ sparite
+Spinel __!__ spinel
+Sponge spicule  __!__ spongeSpicule
+Staurolite __!__ staurolite
+Sulfides __!__ sulfides
+Talc __!__ talc
+Terrestrial organic matter __!__ terrestrialOrganicMatter
+Ti-oxides __!__ tioxides
+Titanite/Sphene __!__ titanitedivsphene
+Total bioclast __!__ totalBioclast
+Total texture __!__ totalTexture
+Tourrmaline __!__ tourrmaline
+Wood fragments __!__ woodFragments
+Zeolite __!__ zeolite
+Zircon __!__ zircon
+Zoisite __!__ zoisite
+Cuttings sample  __!__ cuttingsSample
+Instrument __!__ instrument
+Instrument group __!__ instrumentGroup
+A/W __!__ adivw
+Bottom depth (m) __!__ bottomDepthM
+Bottom depth CSF-A (m) __!__ bottomDepthCsfaM
+Bottom Depth CSF-B (m) __!__ bottomDepthCsfbM
+Bottom Depth MSF (m) __!__ bottomDepthMsfM
+Bottom offset [cm] __!__ bottomOffsetCm
+COMMENTS __!__ comments
+Core __!__ core
+Core-Sect __!__ coresect
+Top Depth (m) __!__ topDepthM
+Top depth CSF-A (m) __!__ topDepthCsfaM
+Top depth CSF-B (m) __!__ topDepthCsfbM
+Top Depth (mcd) __!__ topDepthMcd
+Top Depth MSF (m) __!__ topDepthMsfM
+Exp/Leg __!__ expdivleg
+Hole __!__ hole
+Interval (cm) __!__ intervalCm
+Midpoint depth (mbsf) __!__ midpointDepthMbsf
+Top Offset [cm] __!__ topOffsetCm
+Section __!__ section
+Site __!__ site
+Method __!__ method
+Type __!__ type
+Reference __!__ reference
+DOI __!__ doi
+Reflectance a __!__ reflectanceA
+Reflectance b __!__ reflectanceB
+Reflectance L __!__ reflectanceL
+Tristimulus X __!__ tristimulusX
+Tristimulus Y __!__ tristimulusY
+Tristimulus Z __!__ tristimulusZ
+Color Munsell __!__ colorMunsell
+Hydrogen index (HI) (n/a) __!__ hydrogenIndexHi
+Oxygen index (OI) (n/a) __!__ oxygenIndexOi
+Production index (PI) (n/a) __!__ productionIndexPi
+Pyrolysis carbon (PC) (mg/g) __!__ pyrolysisCarbonPcMgdivg
+RC (wt%) __!__ rc
+S1 (mg HC/g C) __!__ s1MgHcdivgC
+S2 (mg HC/g C) __!__ s2MgHcdivgC
+S3 (mg CO2/g) __!__ s3MgCo2Divg
+S3 (mg HC/g C) __!__ s3MgHcdivgC
+Tmax (°C) __!__ tmax
+Calculated Tmax (°C) __!__ calculatedTmax
+Measured Tmax (°C) __!__ measuredTmax
+TOC_SRA (wt%) __!__ tocSra
+Comment_SRA __!__ commentSra
+Method_SRA __!__ methodSra
+Cement __!__ cement
+Calcispheres __!__ calcispheres
+Gastropod __!__ gastropod
+Tunicate __!__ tunicate
+Pore space __!__ poreSpace
+Limonite __!__ limonite
+Microsparite __!__ microsparite
+Goethite __!__ goethite
+Hematite __!__ hematite
+Altered Grains __!__ alteredGrains
+Glaucophane __!__ glaucophane
+Sulfate __!__ sulfate
+Clinopyroxene __!__ clinopyroxene
+Collophane __!__ collophane
+Spherulite __!__ spherulite
+Monazite __!__ monazite
+Orthopyroxene __!__ orthopyroxene
+Ilmenite __!__ ilmenite
+Fluorite __!__ fluorite
+Sphalerite __!__ sphalerite
+Cassiterite __!__ cassiterite
+Sericite __!__ sericite
+Tremolite __!__ tremolite
+Skeletal Debris __!__ skeletalDebris
+Th ppm __!__ thPpm
+Nd ppm __!__ ndPpm
+Na   percent  XRF __!__ naPercentXrf
+Mg   percent  XRF __!__ mgPercentXrf
+Al   percent  XRF __!__ alPercentXrf
+Si   percent  XRF __!__ siPercentXrf
+P   percent  XRF __!__ pPercentXrf
+S   percent  XRF __!__ sPercentXrf
+K   percent  XRF __!__ kPercentXrf
+Ca   percent  XRF __!__ caPercentXrf
+Ti   percent  XRF __!__ tiPercentXrf
+Cr   percent  XRF __!__ crPercentXrf
+Mn   percent  XRF __!__ mnPercentXrf
+Fe   percent  XRF __!__ fePercentXrf
+Cl percent XRF __!__ clPercentXrf
+Salt   percent  XRF __!__ saltPercentXrf
+FeO  wt percent  XRF __!__ feoWtPercentXrf
+LOI  wt percent  XRF __!__ loiWtPercentXrf
+Total wt percent XRF __!__ totalWtPercentXrf
+Fe2O3 wt XRF __!__ fe2O3WtXrf
+Na2O wt percent XRF __!__ na2OWtPercentXrf
+MgO wt percent XRF __!__ mgoWtPercentXrf
+Al2O3 wt XRF __!__ al2O3WtXrf
+SiO2 wt XRF __!__ sio2WtXrf
+P2O5 wt percent XRF __!__ p2O5WtPercentXrf
+K2O wt percent XRF __!__ k2OWtPercentXrf
+CaO wt percent XRF __!__ caoWtPercentXrf
+TiO2 wt XRF __!__ tio2WtXrf
+MnO wt XRF __!__ mnoWtXrf
+Li  ppm  XRF __!__ liPpmXrf
+Tb  ppm  XRF __!__ tbPpmXrf
+Ta  ppm  XRF __!__ taPpmXrf
+Sm ppm  XRF __!__ smPpmXrf
+Lu  ppm  XRF __!__ luPpmXrf
+Eu  ppm  XRF __!__ euPpmXrf
+Ho  ppm  XRF __!__ hoPpmXrf
+U  ppm  XRF __!__ uPpmXrf
+W  ppm  XRF __!__ wPpmXrf
+W ppm XRF __!__ wPpmXrf
+Cu  ppm  XRF __!__ cuPpmXrf
+Nb  ppm XRF __!__ nbPpmXrf
+Zr  ppm XRF __!__ zrPpmXrf
+Y  ppm XRF __!__ yPpmXrf
+S  ppm XRF __!__ sPpmXrf
+Sr  ppm XRF __!__ srPpmXrf
+Rb  ppm XRF __!__ rbPpmXrf
+Sc  ppm XRF __!__ scPpmXrf
+Mo  ppm XRF __!__ moPpmXrf
+Be  ppm XRF __!__ bePpmXrf
+Th  ppm XRF __!__ thPpmXrf
+Co  ppm XRF __!__ coPpmXrf
+Gd  ppm XRF __!__ gdPpmXrf
+Dy  ppm XRF __!__ dyPpmXrf
+Er  ppm XRF __!__ erPpmXrf
+Yb  ppm XRF __!__ ybPpmXrf
+Hf  ppm XRF __!__ hfPpmXrf
+Pb  ppm XRF __!__ pbPpmXrf
+Ga  ppm XRF __!__ gaPpmXrf
+Zn  ppm XRF __!__ znPpmXrf
+Ni  ppm XRF __!__ niPpmXrf
+Cr  ppm XRF __!__ crPpmXrf
+V  ppm XRF __!__ vPpmXrf
+Ce  ppm XRF __!__ cePpmXrf
+Ba  ppm XRF __!__ baPpmXrf
+Cs  ppm XRF __!__ csPpmXrf
+La  ppm XRF __!__ laPpmXrf
+Nd  ppm XRF __!__ ndPpmXrf
+As ppm XRF __!__ asPpmXrf
+P ppm XRF __!__ pPpmXrf
+Ti ppm XRF __!__ tiPpmXrf
+Comment XRF __!__ commentXrf
+Sample Type XRF __!__ sampleTypeXrf
+Grain size __!__ grainSize
+Roundness __!__ roundness
+Comment IW __!__ commentIw
+Comment ICP __!__ commentIcp
+Comment RSC __!__ commentRsc
+id __!__ id
+V_(nm)_n/a nm __!__ vNm
+Major lithology prefix __!__ majorLithologyPrefix
+Major lithology principal name __!__ majorLithologyPrincipalName
+Major lithology suffix __!__ majorLithologySuffix
+Cored (m) __!__ coredM
+Total composition __!__ totalComposition
+Br_(ppm)_XRF __!__ brPpmXrf
+Palygorskite __!__ palygorskite
+Tephra type __!__ tephraType
+Lithification __!__ lithification
+Fe/Mn Oxide __!__ fedivmnOxide

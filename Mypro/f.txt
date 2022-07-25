@@ -1,0 +1,582 @@
+Public __!__ Exp/Leg
+Public __!__ Site
+Public __!__ Hole
+Public __!__ Latitude
+Public __!__ Longitude
+Public __!__ Water depth (m)
+Public __!__ Core
+Public __!__ Type
+Public __!__ Core-Sect
+Public __!__ Section
+Public __!__ A/W
+Public __!__ Interval (cm)
+Public __!__ Top Offset [cm]
+Public __!__ Top Depth (m)
+Public __!__ Top Depth (mcd)
+Public __!__ Top depth CSF-A (m)
+Public __!__ Top depth CSF-B (m)
+Public __!__ Top Depth MSF (m)
+Public __!__ Bottom offset [cm]
+Public __!__ Bottom depth (m)
+Public __!__ Bottom depth CSF-A (m)
+Public __!__ Bottom Depth CSF-B (m)
+Public __!__ Bottom Depth MSF (m)
+Public __!__ Midpoint depth (mbsf)
+Public __!__ Reference
+Public __!__ DOI
+Public __!__ Method
+Public __!__ Cuttings sample 
+Public __!__ Instrument
+Public __!__ Instrument group
+CHNS __!__ Carbon __!__ Carbon_CaCO3 (wt%)
+CHNS __!__ Carbon __!__ Carbon_Carbonate (wt%)
+CHNS __!__ Carbon __!__ Carbon_Inorganic (wt%)
+CHNS __!__ Carbon __!__ Carbon_Organic (wt%)
+CHNS __!__ Carbon __!__ Carbon_Total (wt%)
+CHNS __!__ Hydrogen __!__ Hydrogen (mg HC/g)
+CHNS __!__ Hydrogen __!__ Hydrogen (wt%)
+CHNS __!__ Nitrogen (wt%)
+CHNS __!__ Sulfur (wt%)
+CHNS __!__ Comment_CHNS
+CHNS __!__ Method_CHNS
+Clay minerals __!__ Age, kyr
+Clay minerals __!__ Chlorite, %
+Clay minerals __!__ Illite Chemistry Index
+Clay minerals __!__ Illite Crystallinity
+Clay minerals __!__ Illite, % 
+Clay minerals __!__ Kaolinite, %
+Clay minerals __!__ Smectite, %
+Core and section summary __!__ Advanced (m)
+Core and section summary __!__ Bottom depth recovered (m)
+Core and section summary __!__ Sections (no.)
+Core and section summary __!__ Top depth cored CSF (m)
+Core and section summary __!__ Top depth drilled DSF (m)
+Core and section summary __!__ Curated length (m)
+Core and section summary __!__ Section half samples (no.)
+Hole summary __!__ APC cores (no.)
+Hole summary __!__ Cored interval (m)
+Hole summary __!__ Drilled interval (m)
+Hole summary __!__ Drilled interval (no.)
+Hole summary __!__ HLAPC cores (no.)
+Hole summary __!__ Other cores (no.)
+Hole summary __!__ Penetration DSF (m)
+Hole summary __!__ RCB cores (no.)
+Hole summary __!__ Total cores (no.)
+Hole summary __!__ XCB cores (no.)
+Hole summary __!__ Recovery (%)
+Hole summary __!__ Recovered length (m)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Al2O3 __!__ Al2O3_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Al2O3 __!__ Al2O3_(%)_308.2 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Al2O3 __!__ Al2O3_(%)_309.3 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Al2O3 __!__ Al2O3_(%)_394.4 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Al2O3 __!__ Al2O3_(%)_396.2 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ CaO __!__ CaO_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ CaO __!__ CaO_(%)_315.9 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ CaO __!__ CaO_(%)_317.9 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ CaO __!__ CaO_(%)_393.4 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ CaO __!__ CaO_(%)_396.8 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ CaO __!__ CaO_(%)_422.7 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Fe2O3t __!__ Fe2O3t_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Fe2O3t __!__ Fe2O3t_(%)_238.2 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Fe2O3t __!__ Fe2O3t_(%)_239.6 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Fe2O3t __!__ Fe2O3t_(%)_259.9 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ K2O __!__ K2O_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ K2O __!__ K2O_(%)_766.5 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ K2O __!__ K2O_(%)_769.9 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MgO __!__ MgO_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MgO __!__ MgO_(%)_202.6 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MgO __!__ MgO_(%)_279.6 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MgO __!__ MgO_(%)_280.3 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MgO __!__ MgO_(%)_285.2 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MnO __!__ MnO_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MnO __!__ MnO_(%)_257.6 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ MnO __!__ MnO_(%)_259.4 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Na2O __!__ Na2O_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Na2O __!__ Na2O_(%)_589 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ Na2O __!__ Na2O_(%)_589.6 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ P2O5 __!__ P2O5_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ P2O5 __!__ P2O5_(%)_177.4 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ P2O5 __!__ P2O5_(%)_213.6 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ P2O5 __!__ P2O5_(%)_214.9 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ SiO2 __!__ SiO2_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ SiO2 __!__ SiO2_(%)_221.7 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ SiO2 __!__ SiO2_(%)_250.7 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ SiO2 __!__ SiO2_(%)_251.6 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ SiO2 __!__ SiO2_(%)_288.2 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ TiO2 __!__ TiO2_(%)
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ TiO2 __!__ TiO2_(%)_334.9 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ TiO2 __!__ TiO2_(%)_336.1 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ TiO2 __!__ TiO2_(%)_337.3 nm
+Geochemistry of sediments ICP-AES __!__ Major elements£®Oxide concentration, wt %£© __!__ LOI __!__ LOI_(wt%)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Al __!__ Al_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Al __!__ Al_(ppm)_308.2 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ba __!__ Ba_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ba __!__ Ba_(ppm)_233.5 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ba __!__ Ba_(ppm)_455.4 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ba __!__ Ba_(ppm)_493.4 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Be __!__ Be_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Br __!__ Br_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ce __!__ Ce_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Co __!__ Co_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Co __!__ Co_(ppm)_228.6 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cr __!__ Cr_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cr __!__ Cr_(ppm)_205.6 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cr __!__ Cr_(ppm)_206.1 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cr __!__ Cr_(ppm)_267.7 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cr __!__ Cr_(ppm)_283.6 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cs __!__ Cs_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cu __!__ Cu_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cu __!__ Cu_(ppm)_224.7 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cu __!__ Cu_(ppm)_324.8 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Cu __!__ Cu_(ppm)_327.4 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Dy __!__ Dy_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Er __!__ Er_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Fe __!__ Fe_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Fe __!__ Fe_(ppm)_238.2 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ga __!__ Ga_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Gd __!__ Gd_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ge __!__ Ge_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ge __!__ Ge_(ppm)_219.9 nm 
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ge __!__ Ge_(ppm)_303.9 nm 
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Hf __!__ Hf_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ K __!__ K_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ K __!__ K_(ppm)_769.9 nm 
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ La __!__ La_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Mg __!__ Mg_(ppm)_285.2 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Mn __!__ Mn_(ppm)_257.6 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Mo __!__ Mo_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Mo __!__ Mo_(ppm)_202.0nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Na __!__ Na_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Na __!__ Na_(ppm)_589.6nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Nb __!__ Nb_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Nb __!__ Nb_(ppm)_309.4 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Nd __!__ Nd_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ni __!__ Ni_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ni __!__ Ni_(ppm)_221.6 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ni __!__ Ni_(ppm)_231.6 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Ni __!__ Ni_(ppm)_361.9 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ P __!__ P_(ppm)_214.9 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Pb __!__ Pb_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Rb __!__ Rb_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ S __!__ S_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sc __!__ Sc_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sc __!__ Sc_(ppm)_357.3 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sc __!__ Sc_(ppm)_361.4 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sm __!__ Sm_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sr __!__ Sr_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sr __!__ Sr_(ppm)_407.8 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sr __!__ Sr_(ppm)_421.6 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Sr __!__ Sr_(ppm)_460.7 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Th __!__ Th_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ V __!__ V_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ V __!__ V_(ppm)_292.4 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ V __!__ V_(ppm)_309.3 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ V __!__ V_(ppm)_310.2 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Y __!__ Y_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Y __!__ Y_(ppm)_360.1 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Y __!__ Y_(ppm)_371 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Y __!__ Y_(ppm)_377.4 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Yb __!__ Yb_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zn __!__ Zn_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zn __!__ Zn_(ppm)_202.5 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zn __!__ Zn_(ppm)_206.2 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zn __!__ Zn_(ppm)_213.9 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zr __!__ Zr (ppm) _273.5 nm 
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zr __!__ Zr (ppm) _327.307 nm 
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zr __!__ Zr_(ppm)
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zr __!__ Zr_(ppm)_339.2 nm
+Geochemistry of sediments ICP-AES __!__ Elements (ppm) __!__ Zr __!__ Zr_(ppm)_343.8 nm
+Geochemistry of sediments ICP-AES __!__ Elements (nm) __!__ V_(nm)_n/a nm __!__ V_(nm)_n/a nm
+Geochemistry of sediments ICP-AES __!__ Comment_ICP __!__ Comment_ICP __!__ Comment_ICP
+Interstitial water chemistry __!__ Alkalinity (mM)
+Interstitial water chemistry __!__ Comment_IW
+Interstitial water chemistry __!__ DIC_(mM)
+Interstitial water chemistry __!__ DOC_(mM)
+Interstitial water chemistry __!__ PH
+Interstitial water chemistry __!__ Salinity
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ Al2O3_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ CaO_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ Fe2O3*_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ FeO_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ K2O_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ MgO_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ MnO_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ Na2O_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ P2O5_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ SiO2_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ TiO2_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ LOI_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements£®Oxide concentration, wt %£© __!__ Total_(wt%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Al_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Ca_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Cl_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Cr_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Fe_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ K_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Mg_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Mn_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Na_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ P_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ S_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Si_(%)_XRF
+Geochemistry of sediments XRF __!__ Major elements (wt %) __!__ Ti_(%)_XRF
+Geochemistry of sediments XRF __!__ Salt (wt%) __!__ Salt_(%)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ As_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Ba_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Be_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Br_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Ce_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Co_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Cr_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Cs_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Cu_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Dy_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Er_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Eu_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Ga_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Gd_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Hf_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Ho_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ La_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Li_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Lu_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Mo_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Nb_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Nd_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Ni_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ P_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Pb_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Rb_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ S_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Sc_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Sm(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Sr_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Ta_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Tb_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Th_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Ti_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ U_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ V_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ W_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Y_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Yb_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Zn_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Zr_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Elements (ppm) __!__ Dy_(ppm)_XRF
+Geochemistry of sediments XRF __!__ Sample type XRF __!__ Sample Type_XRF
+Geochemistry of sediments XRF __!__ Comment_XRF __!__ Comment_XRF
+Macroscopic-Lithology __!__ Drilling disturbance __!__ Drilling disturbance intensity
+Macroscopic-Lithology __!__ Drilling disturbance __!__ Drilling disturbance intensity rank
+Macroscopic-Lithology __!__ Drilling disturbance __!__ Drilling disturbance type
+Macroscopic-Lithology __!__ Structure __!__ Bedding thickness
+Macroscopic-Lithology __!__ Structure __!__ Layer/Beddding
+Macroscopic-Lithology __!__ Structure __!__ Lamination
+Macroscopic-Lithology __!__ Structure __!__ Grading
+Macroscopic-Lithology __!__ Structure __!__ Sedimentary structures
+Macroscopic-Lithology __!__ Structure __!__ Subdominant sedimentary structure
+Macroscopic-Lithology __!__ Structure __!__ Color
+Macroscopic-Lithology __!__ Structure __!__ Color (name)
+Macroscopic-Lithology __!__ Structure __!__ Facies
+Macroscopic-Lithology __!__ Structure __!__ Lithification
+Macroscopic-Lithology __!__ Diagenesis __!__ Deformational structures
+Macroscopic-Lithology __!__ Diagenesis __!__ Degree of alteration
+Macroscopic-Lithology __!__ Diagenesis __!__ Degree of Consolidation
+Macroscopic-Lithology __!__ Diagenesis __!__ Diagenetic constituent
+Macroscopic-Lithology __!__ Diagenesis __!__ Diagenetic structure
+Macroscopic-Lithology __!__ Bioturbation __!__ Bioturbation intensity
+Macroscopic-Lithology __!__ Bioturbation __!__ Bioturbation intensity rank
+Macroscopic-Lithology __!__ Bioturbation __!__ Bioturbation type
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Lithology name
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Lithology name+suffix
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Lithology prefix + name
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Lithology prefix+name+suffix
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Lithology [%]
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Ash(macro)
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Tephra type
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Biogenic material
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Classification(macro lithology)
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Lithology __!__ Lithology ave. grain size class
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Major lithology __!__ Major lithology [%]
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Major lithology __!__ Major lithology macrofossil
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Major lithology __!__ Major lithology prefix
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Major lithology __!__ Major lithology principal name
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Major lithology __!__ Major lithology suffix
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Minor lithology __!__ Minor lithology [%]
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Minor lithology __!__ Minor lithology macrofossil
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Minor lithology __!__ Minor lithology prefix
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Minor lithology __!__ Minor lithology principal name
+Macroscopic-Lithology __!__ Macro_Lithology __!__ Minor lithology __!__ Minor lithology suffix
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast igneous
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast sediment
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast volcaniclastic
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast other lithology
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Subdominant Clasts
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Dominant gravel clasts
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Subdominant gravel clasts
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast percentage [%]
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast grain size
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Dominant grain size
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Grain size max
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Dominant Clasts max. grain size class
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Subdominant Clasts ave. grain size class
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Subdominant Clasts max. grain size class
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast roundness
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Subdominant clast roundness
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast sorting
+Macroscopic-Lithology __!__ Component __!__ Detrial component __!__ Clast color
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Skeletal components (intermediate)
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Skeletal components (major)
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Skeletal components (minor)
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Non-skeletal components
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Primary trace fossils
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Minor trace fossils
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Fossil
+Macroscopic-Lithology __!__ Component __!__ Carbonate component __!__ Macrofossil abundance
+Macroscopic-Lithology __!__ Component __!__ Groundmass __!__ Groundmass color
+Macroscopic-Lithology __!__ Component __!__ Groundmass __!__ Groundmass grain size
+Macroscopic-Lithology __!__ Component __!__ Groundmass __!__ Matrix abundance [%]
+Macroscopic-Lithology __!__ Component __!__ Groundmass __!__ Clast/matrix texture
+Macroscopic-Core description __!__ Cored (m)
+Macroscopic-Core description __!__ Section summary description
+Macroscopic-Core description __!__ Summary description
+Moisture and density __!__ Density __!__ >4 mm Bulk Density (g/cm3)
+Moisture and density __!__ Density __!__ >4 mm Grain Density (g/cm3)
+Moisture and density __!__ Density __!__ 1-4 mm Bulk Density (g/cm3)
+Moisture and density __!__ Density __!__ 1-4 mm Grain Density (g/cm3)
+Moisture and density __!__ Density __!__ Bulk Density  (g/cm3)
+Moisture and density __!__ Density __!__ Grain Density  (g/cm3)
+Moisture and density __!__ Density __!__ Dry Density  (g/cm3)
+Moisture and density __!__ Density __!__ Wet bulk density (g/cm3)
+Moisture and density __!__ Moisture __!__ Moisture dry (wt%)
+Moisture and density __!__ Moisture __!__ Moisture wet (wt%)
+Moisture and density __!__ Moisture __!__ Water content (wt%)
+Moisture and density __!__ Moisture __!__ Wet Water content (wt%)
+Moisture and density __!__ Moisture __!__ Dry Water content (wt%)
+Moisture and density __!__ Volume __!__ Vol porewater (cm3)
+Moisture and density __!__ Volume __!__ Vol salt (cm3)
+Moisture and density __!__ Volume __!__ Vol solids (cm3)
+Moisture and density __!__ Volume __!__ Vol wet sample (cm3)
+Moisture and density __!__ Volume __!__ Dry volume (cm3)
+Moisture and density __!__ Mass __!__ Mass dried sample (g)
+Moisture and density __!__ Mass __!__ Mass porewater (g)
+Moisture and density __!__ Mass __!__ Mass salt (g)
+Moisture and density __!__ Mass __!__ Mass solids (g)
+Moisture and density __!__ Mass __!__ Mass wet sample (g)
+Moisture and density __!__ Porosity __!__ Porosity (%)
+Moisture and density __!__ Porosity __!__ Porosity (fractional)
+Moisture and density __!__ Porosity __!__ Wet Porosity (%)
+Moisture and density __!__ Porosity __!__ Dry Porosity (%)
+Moisture and density __!__ Porosity __!__ >4 mm Porosity (%)
+Moisture and density __!__ Porosity __!__ 1-4 mm Porosity (%)
+Moisture and density __!__ Void ratio __!__ Void ratio
+Moisture and density __!__ Void ratio __!__ >4 mm Void ratio
+Moisture and density __!__ Void ratio __!__ 1-4 mm Void ratio
+Moisture and density __!__ Comment_MAD __!__ Comment_MAD
+Moisture and density __!__ Method_MAD __!__ Method_MAD
+Reflectance Spectroscopy and Colorimetry __!__ Color_Munsell
+Reflectance Spectroscopy and Colorimetry __!__ Comment_RSC
+Reflectance Spectroscopy and Colorimetry __!__ Reflectance a*
+Reflectance Spectroscopy and Colorimetry __!__ Reflectance b*
+Reflectance Spectroscopy and Colorimetry __!__ Reflectance L*
+Reflectance Spectroscopy and Colorimetry __!__ Tristimulus X
+Reflectance Spectroscopy and Colorimetry __!__ Tristimulus Y
+Reflectance Spectroscopy and Colorimetry __!__ Tristimulus Z
+Source Rock Analysis __!__ Temperature __!__ Tmax (°„C)
+Source Rock Analysis __!__ Temperature __!__ Calculated Tmax (°„C)
+Source Rock Analysis __!__ Temperature __!__ Measured Tmax (°„C)
+Source Rock Analysis __!__ Hydrocarbon Content __!__ S1 (mg HC/g C)
+Source Rock Analysis __!__ Hydrocarbon Content __!__ S2 (mg HC/g C)
+Source Rock Analysis __!__ Hydrocarbon Content __!__ S3 (mg CO2/g)
+Source Rock Analysis __!__ Hydrocarbon Content __!__ S3 (mg HC/g C)
+Source Rock Analysis __!__ Carbon content assessment __!__ Pyrolysis carbon (PC) (mg/g)
+Source Rock Analysis __!__ Carbon content assessment __!__ RC (wt%)
+Source Rock Analysis __!__ Carbon content assessment __!__ TOC_SRA (wt%)
+Source Rock Analysis __!__ Oil-gas assessment index __!__ Hydrogen index (HI) (n/a)
+Source Rock Analysis __!__ Oil-gas assessment index __!__ Oxygen index (OI) (n/a)
+Source Rock Analysis __!__ Oil-gas assessment index __!__ Production index (PI) (n/a)
+Source Rock Analysis __!__ Comment_SRA __!__ Comment_SRA
+Source Rock Analysis __!__ Method_SRA __!__ Method_SRA
+Microscopic-smear slide __!__ Texture __!__ Clay texture [%]
+Microscopic-smear slide __!__ Texture __!__ Silt texture [%]
+Microscopic-smear slide __!__ Texture __!__ Sand texture [%]
+Microscopic-smear slide __!__ Texture __!__ Gravel texture [%]
+Microscopic-smear slide __!__ Texture __!__ Roundness
+Microscopic-smear slide __!__ Texture __!__ Ash grain roundness
+Microscopic-smear slide __!__ Texture __!__ Biogenic fragment roundness
+Microscopic-smear slide __!__ Texture __!__ Lithic roundness
+Microscopic-smear slide __!__ Texture __!__ Grain size
+Microscopic-smear slide __!__ Texture __!__ Biogenic fragment size
+Microscopic-smear slide __!__ Texture __!__ Lithic grain size
+Microscopic-smear slide __!__ Texture __!__ Maximum grain size
+Microscopic-smear slide __!__ Texture __!__ Minimum grain size
+Microscopic-smear slide __!__ Texture __!__ Pore space
+Microscopic-smear slide __!__ Texture __!__ Total texture
+Microscopic-smear slide __!__ Lithology and composition __!__ Complete lithology
+Microscopic-smear slide __!__ Lithology and composition __!__ Principal lithology
+Microscopic-smear slide __!__ Lithology and composition __!__ Lithology prefix
+Microscopic-smear slide __!__ Lithology and composition __!__ Lithology suffix
+Microscopic-smear slide __!__ Lithology and composition __!__ Lithology classification
+Microscopic-smear slide __!__ Lithology and composition __!__ Total composition
+Microscopic-smear slide __!__ Lithology and composition __!__ Siliciclastic
+Microscopic-smear slide __!__ Lithology and composition __!__ Biogenic
+Microscopic-smear slide __!__ Lithology and composition __!__ Biogenic carbonate
+Microscopic-smear slide __!__ Lithology and composition __!__ Biogenic silica
+Microscopic-smear slide __!__ Lithology and composition __!__ Carbonate
+Microscopic-smear slide __!__ Siliciclastic components __!__ Quartz
+Microscopic-smear slide __!__ Siliciclastic components __!__ Feldspar
+Microscopic-smear slide __!__ Siliciclastic components __!__ K-Feldspar
+Microscopic-smear slide __!__ Siliciclastic components __!__ Plagioclase
+Microscopic-smear slide __!__ Siliciclastic components __!__ Clay Mineral
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Rock fragments/Lithic grain
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Sedimentary lithic
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Calcite (allogenic)
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Chert
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Chlorite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Detrital carbonate
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Limestone
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Micrite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Microcrystalline Quartz
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Microsparite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Mudstone
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Other sedimentary fragments
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Siltstone/Sandstone
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Sparite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Metamorphic lithic
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Glauconitization
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Palagonite (altered)
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Serpentine
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Sericite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Diagenetic
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Altered Grains
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Igneous fragment
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Other volcanic
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Plutonic lithic
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Pyroclasts/Volcanic lithics
+Microscopic-smear slide __!__ Siliciclastic components __!__ Rock fragments __!__ Other lithic
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Heavy minerals
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Actinolite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Allanite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Amphibole
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Anhydrite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Apatite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Augite/Pyroxene
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Barite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Biotite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Cassiterite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Chloritoid
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Clinopyroxene
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Enstatite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Epidote
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Fluorite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Garnet
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Glaucophane
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Goethite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Gypsum
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Hematite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Hypersthene
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Ilmenite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Kyanite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Limonite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Magnetite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Mica
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Monazite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Muscovite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Olivine
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Opaque
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Orthopyroxene
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Oxide
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Rutile
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Siderite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Sillimanite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Sphalerite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Spinel
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Staurolite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Titanite/Sphene
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Tourrmaline
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Tremolite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Zeolite
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Zircon
+Microscopic-smear slide __!__ Siliciclastic components __!__ Heavy minerals __!__ Zoisite
+Microscopic-smear slide __!__ Volcaniclastic components __!__ Ash
+Microscopic-smear slide __!__ Volcaniclastic components __!__ Felsic tephra
+Microscopic-smear slide __!__ Volcaniclastic components __!__ Felsitic
+Microscopic-smear slide __!__ Volcaniclastic components __!__ Mafic tephra
+Microscopic-smear slide __!__ Biogenic components __!__ Total bioclast
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Calcareous bioclasts
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Calcareous nannofossils
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Planktonic foraminifers
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Calcareous sponge spicule
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Sponge spicule 
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Dinoflagelattes
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Calcispheres
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Pelgaic
+Microscopic-smear slide __!__ Biogenic components __!__ Calcareous bioclasts __!__ Other calcareous bioclasts
+Microscopic-smear slide __!__ Biogenic components __!__ Biosiliceous bioclastic __!__ Biosiliceous fossil
+Microscopic-smear slide __!__ Biogenic components __!__ Biosiliceous bioclastic __!__ Radiolaria
+Microscopic-smear slide __!__ Biogenic components __!__ Biosiliceous bioclastic __!__ Diatoms
+Microscopic-smear slide __!__ Biogenic components __!__ Biosiliceous bioclastic __!__ Siliceous sponge spicule
+Microscopic-smear slide __!__ Biogenic components __!__ Biosiliceous bioclastic __!__ Silicoflagelates
+Microscopic-smear slide __!__ Biogenic components __!__ Biosiliceous bioclastic __!__ Ebridians
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Alga
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Benthic foraminifer
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Bivalve
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Bryozoa
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Corals
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Echinoderm
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Echinoids
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Gastropod
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Intraclast
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Mollusk
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Ostracodes
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Other Biclasts
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Other microfossils
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Other skeletal fragments
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Pteropod fragments
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Shell fragments
+Microscopic-smear slide __!__ Biogenic components __!__ Neritic bioclastic __!__ Skeletal Debris
+Microscopic-smear slide __!__ Carbonate allochems __!__ Carbonate mud
+Microscopic-smear slide __!__ Carbonate allochems __!__ Cement
+Microscopic-smear slide __!__ Carbonate allochems __!__ Ooids
+Microscopic-smear slide __!__ Carbonate allochems __!__ Pellets
+Microscopic-smear slide __!__ Carbonate allochems __!__ Peloid
+Microscopic-smear slide __!__ Carbonate allochems __!__ Spherulite
+Microscopic-smear slide __!__ Metalliferous components __!__ Fe oxide
+Microscopic-smear slide __!__ Metalliferous components __!__ Fe sulfides
+Microscopic-smear slide __!__ Metalliferous components __!__ Mn oxide
+Microscopic-smear slide __!__ Metalliferous components __!__ Fe/Mn Oxide
+Microscopic-smear slide __!__ Metalliferous components __!__ Ferromagnesian minerals
+Microscopic-smear slide __!__ Carbonaceous components __!__ Charcoal
+Microscopic-smear slide __!__ Carbonaceous components __!__ Marine organic matter
+Microscopic-smear slide __!__ Carbonaceous components __!__ Organic debris
+Microscopic-smear slide __!__ Carbonaceous components __!__ Other organic matter
+Microscopic-smear slide __!__ Carbonaceous components __!__ Terrestrial organic matter
+Microscopic-smear slide __!__ Carbonaceous components __!__ Wood fragments
+Microscopic-smear slide __!__ Authigenic components __!__ Aragonite
+Microscopic-smear slide __!__ Authigenic components __!__ Authigenic Pyrite
+Microscopic-smear slide __!__ Authigenic components __!__ Authigenic Quartz
+Microscopic-smear slide __!__ Authigenic components __!__ Brucite
+Microscopic-smear slide __!__ Authigenic components __!__ Calcite
+Microscopic-smear slide __!__ Authigenic components __!__ Clinoptilolite
+Microscopic-smear slide __!__ Authigenic components __!__ Dolomite
+Microscopic-smear slide __!__ Authigenic components __!__ Framboidal pyrite
+Microscopic-smear slide __!__ Authigenic components __!__ Pyrite
+Microscopic-smear slide __!__ Authigenic components __!__ Other authigenic abundance
+Microscopic-smear slide __!__ Crystalline __!__ Crystal abundance
+Microscopic-smear slide __!__ Other components __!__ Collophane
+Microscopic-smear slide __!__ Other components __!__ Phosphates
+Microscopic-smear slide __!__ Other components __!__ Fish debris
+Microscopic-smear slide __!__ Other components __!__ Fish scales
+Microscopic-smear slide __!__ Other components __!__ Fish teeth
+Microscopic-smear slide __!__ Other components __!__ Glauconite
+Microscopic-smear slide __!__ Other components __!__ Micronodules
+Microscopic-smear slide __!__ Other components __!__ Other mineral
+Microscopic-smear slide __!__ Other components __!__ Palygorskite
+Microscopic-smear slide __!__ Other components __!__ Phillipsite
+Microscopic-smear slide __!__ Other components __!__ Plant debris
+Microscopic-smear slide __!__ Other components __!__ Pollen
+Microscopic-smear slide __!__ Other components __!__ Sulfate
+Microscopic-smear slide __!__ Other components __!__ Sulfides
+Microscopic-smear slide __!__ Other components __!__ Talc
+Microscopic-smear slide __!__ Other components __!__ Ti-oxides
+Microscopic-smear slide __!__ Other components __!__ Tunicate
+Microscopic-smear slide __!__ Other components __!__ Other

@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    /* letter-spacing: normal; */
+    color: #333333;
+    width: 800px;
+    height: 500px;
+    background: inherit;
+    background-color: rgba(47, 85, 151, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+.one {
+    /* background-color: #333333; */
+    height: 50px;
+}
+
+.one div {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.title {
+    height: 70px;
+    /* background-color: #333333; */
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+}
+
+.title .text {
+    margin: auto;
+    color: #F2F2F2;
+    font-weight: 700;
+    text-align: center;
+}
+
+#blank1 {
+    height: 30px;
+}
+
+.put {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.put .tit {
+    display: inline;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F2F2F2;
+    line-height: 40px;
+}
+
+.input {
+    font-size: 18px;
+    width: 300px;
+    height: 37px;
+}
+
+.input_blank {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+
+}
+
+.b1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.b1 div {
+    margin: auto;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.button1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #2F5597;
+    /* text-align: center; */
+    width: 152px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.button1_ch {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #D7D7D7;
+    /* text-align: center; */
+    width: 152px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: blue;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.button2 {
+    width: 193px;
+    height: 30px;
+    color: #D7D7D7;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    border-width: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    border-color: #D7D7D7;
+}
+
+.button2_ch {
+    width: 193px;
+    height: 30px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    border-width: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 640px) {
+    .main {
+        width: 90vw;
+    }
+
+    .input_blank {
+        display: none;
+    }
+
+    .put{
+        text-align: center;
+        height: 70px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    #blank1 {
+        height: 20px;
+    }
+}

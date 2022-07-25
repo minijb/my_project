@@ -1,0 +1,8 @@
+{
+  "name": "Mypro",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "file-saver": "^2.0.5"
+  }
+}

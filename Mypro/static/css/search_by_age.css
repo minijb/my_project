@@ -1,0 +1,276 @@
+
+.h1-1 {
+    color: #002060;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.middle_title{
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #000080;
+}
+
+.middle_class{
+    width: 1300px;
+    margin: auto;
+    
+}
+
+.box{
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(221, 232, 242, 1);
+}
+
+.box .title{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 70px;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #000080;
+}
+
+.content{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.box .ss{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #333333;
+}
+
+
+.content input{
+    display: inline-block;
+    vertical-align: top;
+    width: 221px;
+    height: 50px;
+    padding: 2px 2px 2px 2px;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: normal;
+    padding: 2px 2px 2px 2px;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: normal;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 1);
+}
+.blank {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.blank span{
+    margin: auto;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #7F7F7F;
+    font-size: 32px;
+}
+
+#exact{
+    margin-left: 200px;
+}
+
+.box2{
+    width: 100%;
+    height: 250px;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(221, 232, 242, 1);
+}
+    
+.box2 .content1{
+    display: inline-block;
+    /* background-color: #94080f; */
+    padding-left: 30px;
+    padding-top: 50px;
+    height: 150px;
+    width: 300px;
+    vertical-align: top;
+    
+
+}
+.content1 .span1{
+    margin: auto;
+    font-style: normal;
+    color: #000080;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 700;
+}
+.content1 .span2{
+    font-size: 24px;
+    margin: auto;
+    font-style: normal;
+    color: #000080;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.content2{
+    display: inline-block;
+    
+    width: 600px;
+    height: 250px;
+    margin-left: 80px;
+    vertical-align: top;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+}
+.con_line{
+    margin-top: 17px;
+    width: 100%;
+    height: 60px;
+    /* background-color: #555; */
+}
+.con_block{
+    width: 70px;
+    height: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.con_block span{
+    margin-top: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #7F7F7F;
+    font-size: 32px;
+}
+.con_line select{
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 2px 2px 2px;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: normal;
+    color: #AAAAAA;
+    width: 450px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+input::-webkit-input-placeholder {
+    color: #AAAAAA;
+}
+
+.con_img{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.con_text{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 70px;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #000080;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sub{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sub button{
+    margin: auto;
+    width: 197px;
+    height: 57px;
+    background: inherit;
+    background-color: rgba(0, 112, 192, 1);
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #F2F2F2;
+    text-align: center;
+    box-shadow: none;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.content .mouseOver{
+    color: #000080;
+    background-color: rgba(228, 228, 228, 1);
+}
+
+.content2 .mouseOver{
+    color: #000080;
+    background-color: rgba(228, 228, 228, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="checkbox"]{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}

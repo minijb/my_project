@@ -1,0 +1,168 @@
+.flex .top {
+    position: relative !important;
+}
+
+/* 创建两个不相等的列 */
+/* 左侧宽度 */
+.buju_side {
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    min-width: 160px;
+}
+
+/* 中间区域宽度 */
+.buju_middle {
+    float: left;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* 列后面清除浮动 */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h1-1 {
+    color: #002060;
+}
+
+.team {
+    height: fit-content;
+    width: 78vw;
+    background: #dce9f2;
+}
+
+.team1 {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    width: 10%;
+    min-width: 130px;
+    height: fit-content;
+}
+
+.team2 {
+    display: inline-block;
+    width: 80%;
+    min-width: 150px;
+    height: fit-content;
+    min-height: 210px;
+}
+
+.img-a {
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.team2-1 {
+    float: left;
+    width: 20%;
+    min-width: 120px;
+    height: 100%;
+    text-align: center;
+}
+
+#Funding_WenZi {
+    left: 120px;
+    top: 200px;
+    color: #002060;
+    width: 98%;
+    border: 2px solid #002060;
+    padding: 5px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.buju_side ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    background-color: #f1f1f1;
+}
+
+.buju_side li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.buju_side li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buju_side li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.partner div {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.partner img {
+    width: auto;
+    height: 120px;
+}
+@-webkit-keyframes slideupin {
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@keyframes slideupin {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.h1-1:target {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-animation: slideupin .35s .05s linear forwards;
+    animation: slideupin .35s .05s linear forwards;
+}
+@media only screen and (max-width: 1000px) {
+    .buju_side {
+        display: none;
+    }
+
+    .buju_middle {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    .team {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .team2-1{
+        float: unset;
+        display: inline-block;
+        width: 15%;
+    }
+    .team2{
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+    }
+}

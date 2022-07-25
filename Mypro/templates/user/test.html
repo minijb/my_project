@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello World!</title>
+
+
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/css/pluginsCss.css' />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/plugins.css' />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/css/luckysheet.css' />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/assets/iconfont/iconfont.css' />
+<script src="https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/js/plugin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/luckysheet/dist/luckysheet.umd.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/luckyexcel/dist/luckyexcel.umd.js"></script>
+     <script type="text/javascript" src="/static/js/xlsx.core.min.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <div id="lucky-mask-demo" style="position: absolute;z-index: 1000000;left: 0px;top: 0px;bottom: 0px;right: 0px; background: rgba(255, 255, 255, 0.8); text-align: center;font-size: 40px;align-items:center;justify-content: center;display: none;">Downloading</div>
+        <p style="text-align:center;"> <input style="font-size:16px;" type="file" id="Luckyexcel-demo-file" name="Luckyexcel-demo-file" change="demoHandler" />
+        <button  type="button" id="Luckyexcel-save-file" name="Luckyexcel-demo-file" onclick="save()">下载</button>
+        </p>
+        <div id="luckysheet" style="margin:0px;padding:0px;position:absolute;width:100%;left: 0px;top: 50px;bottom: 0px;outline: none;"></div>
+
+
+        <!-- <script type="module">
+            import l from './luckyexcel.js';
+            console.info('=====',l)
+            // window.onload = () => {
+            //     let upload = document.getElementById("file");
+            //     upload.addEventListener("change", function(evt){
+            //         var files = evt.target.files;
+            //         importFile(files[0]);
+            //     });
+            // }
+        </script> -->
+        <script>
+             $(function () {
+                //Configuration item
+                var options = {
+                    container: 'luckysheet', //luckysheet is the container id
+                    showinfobar:false,
+                }
+                luckysheet.create(options)
+            });
+            function demoHandler(){
+                let upload = document.getElementById("Luckyexcel-demo-file");
+                let selectADemo = document.getElementById("Luckyexcel-select-demo");
+                let downlodDemo = document.getElementById("Luckyexcel-downlod-file");
+                let mask = document.getElementById("lucky-mask-demo");
+                if(upload){
+
+                    window.onload = () => {
+
+                        upload.addEventListener("change", function(evt){
+                            var files = evt.target.files;
+                            if(files==null || files.length==0){
+                                alert("No files wait for import");
+                                return;
+                            }
+
+                            let name = files[0].name;
+                            let suffixArr = name.split("."), suffix = suffixArr[suffixArr.length-1];
+                            if(suffix!="xlsx"){
+                                alert("Currently only supports the import of xlsx files");
+                                return;
+                            }
+                            LuckyExcel.transformExcelToLucky(files[0], function(exportJson, luckysheetfile){
+
+                                if(exportJson.sheets==null || exportJson.sheets.length==0){
+                                    alert("Failed to read the content of the excel file, currently does not support xls files!");
+                                    return;
+                                }
+                                window.luckysheet.destroy();
+
+                                window.luckysheet.create({
+                                    container: 'luckysheet', //luckysheet is the container id
+                                    showinfobar:false,
+                                    data:exportJson.sheets,
+                                    title:exportJson.info.name,
+                                    userInfo:exportJson.info.name.creator
+                                });
+                            });
+                        });
+
+                        selectADemo.addEventListener("change", function(evt){
+                            var obj = selectADemo;
+                            var index = obj.selectedIndex;
+                            var value = obj.options[index].value;
+                            var name = obj.options[index].innerHTML;
+                            if(value==""){
+                                return;
+                            }
+                            mask.style.display = "flex";
+                            LuckyExcel.transformExcelToLuckyByUrl(value, name, function(exportJson, luckysheetfile){
+
+                                if(exportJson.sheets==null || exportJson.sheets.length==0){
+                                    alert("Failed to read the content of the excel file, currently does not support xls files!");
+                                    return;
+                                }
+                                console.log(exportJson, luckysheetfile);
+                                mask.style.display = "none";
+                                window.luckysheet.destroy();
+
+                                window.luckysheet.create({
+                                    container: 'luckysheet', //luckysheet is the container id
+                                    showinfobar:false,
+                                    data:exportJson.sheets,
+                                    title:exportJson.info.name,
+                                    userInfo:exportJson.info.name.creator
+                                });
+                            });
+                        });
+
+                        downlodDemo.addEventListener("click", function(evt){
+                            var obj = selectADemo;
+                            var index = obj.selectedIndex;
+                            var value = obj.options[index].value;
+
+                            if(value.length==0){
+                                alert("Please select a demo file");
+                                return;
+                            }
+
+                            var elemIF = document.getElementById("Lucky-download-frame");
+                            if(elemIF==null){
+                                elemIF = document.createElement("iframe");
+                                elemIF.style.display = "none";
+                                elemIF.id = "Lucky-download-frame";
+                                document.body.appendChild(elemIF);
+                            }
+                            elemIF.src = value;
+                        });
+                    }
+                }
+            }
+            demoHandler();
+            function save(){
+
+                let allSheetData = luckysheet.getluckysheetfile();
+let sheet1 = allSheetData[0];
+let downOriginData = sheet1.data;
+
+let arr = [];  // 所有的单元格数据组成的二维数组
+let bgConfig = {};
+let percentageReg = /%$/;
+let cellValue = null;
+// 获取单元格的背景色
+function setBackground(row, col, bg) {
+    var colA = luckysheet.luckysheetchatatABC(col);
+    var key = colA + (row + 1);
+    bgConfig[key] = bg.replace(/\#?/, '');
+}
+
+// 判断值类型是否为百分比 %
+function isPercentage(value) {
+    return percentageReg.test(value.m) && value.ct && value.ct.t === 'n'
+}
+
+// 获取二维数组
+for (let row = 0; row < downOriginData.length; row++) {
+    let arrRow = [];
+    for (let col = 0; col < downOriginData[row].length; col++) {
+        if (cellValue = downOriginData[row][col]) {
+            // 处理单元格的背景颜色
+            if (cellValue.bg) {
+                setBackground(row, col, cellValue.bg)
+            }
+            if (cellValue.ct != null && cellValue.ct.t == 'd') {
+                //  d为时间格式  2019-01-01   或者2019-01-01 10:10:10
+                arrRow.push(new Date(cellValue.m.replace(/\-/g, '/'))) //兼容IE
+            } else if (cellValue.m && isPercentage(cellValue)) {
+                //百分比问题
+                arrRow.push(cellValue.m)
+            } else {
+                arrRow.push(cellValue.v)
+            }
+        }
+    }
+    arr.push(arrRow)
+}
+let opts = {
+    dateNF: 'm/d/yy h:mm',
+    cellDates: true,
+    cellStyles: true
+}
+let ws = XLSX.utils.aoa_to_sheet(arr, opts)
+
+
+
+
+      let reg = /[\u4e00-\u9fa5]/g;
+for (let key in ws) {
+    let item = ws[key]
+    if (item.t === 'd') {
+        if (item.w) {
+            //时间格式的设置
+            let arr = item.w.split(' ')
+            if (arr[1] && arr[1] == '0:00') {
+                ws[key].z = 'm/d/yy'
+            } else {
+                item.z = 'yyyy/m/d h:mm:ss'
+            }
+        }
+    } else if (item.t === 's') {
+        //百分比设置格式
+        if (item.v && !item.v.match(reg) && item.v.indexOf('%') > -1) {
+            item.t = 'n'
+            item.z = '0.00%'
+            item.v = Number.parseFloat(item.v) / 100
+        }
+        else if (item.v && item.v.match(reg)) {
+            //含有中文的设置居中样式
+            item['s'] = {
+                alignment: { vertical: 'center', horizontal: 'center' }
+            }
+        }
+    }
+    // 设置单元格样式
+    if (bgConfig[key]) {
+        ws[key]['s'] = {
+            alignment: { vertical: 'center', horizontal: 'center' },
+            fill: { bgColor: { indexed: 32 }, fgColor: { rgb: bgConfig[key] } },
+            border: {
+                top: { style: 'thin', color: { rgb: '999999' } },
+                bottom: { style: 'thin', color: { rgb: '999999' } },
+                left: { style: 'thin', color: { rgb: '999999' } },
+                right: { style: 'thin', color: { rgb: '999999' } }
+            }
+        }
+    }
+}
+
+let name = 'sheet1';
+        let tmpWB = {
+          SheetNames: [name], //保存的表标题
+          Sheets: {
+            [name]: Object.assign({},ws)//内容
+          }
+        }
+
+
+let mergeConfig = sheet1.data
+var mergeArr = [];
+if (JSON.stringify(mergeConfig) !== '{}') {
+    mergeArr = handleMergeData(mergeConfig)
+　　　 tmpWB.Sheets[name]['!merges'] = mergeArr
+}
+//处理合并单元格config数据
+function handleMergeData(origin) {　　
+    let result = []
+    if (origin instanceof Object) {
+        var r = "r",
+            c = "c",
+            cs = "cs",
+            rs = "rs";
+        for (var key in origin) {
+            var startR = origin[key][r];
+            var endR = origin[key][r];
+            var startC = origin[key][c];
+            var endC = origin[key][c];
+
+            // 如果只占一行 为1 如果占两行 为2
+            if (origin[key][cs] > 0) {
+                endC = startC + (origin[key][cs] - 1);
+            }
+            if (origin[key][rs] > 0) {
+                endR = startR + (origin[key][rs] - 1);
+            }
+            // s为合并单元格的开始坐标  e为结束坐标
+            var obj = { s: { "r": startR, "c": startC }, e: { "r": endR, "c": endC } }
+            result.push(obj)
+        }
+    }　　return result
+}
+
+let fileName = 'test';
+// sheetjs js-xlsx 的方法 ，不能设置单元格格式
+ XLSX.writeFile(tmpWB,fileName + ".xlsx");
+ }
+
+        </script>
+    </body>
+</html>

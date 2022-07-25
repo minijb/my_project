@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en">
+
+<script src="/static/js/axios.min.js"></script>
+
+ <!-- 引入样式 -->
+<link rel="stylesheet" href="/static/css/element-ui/index.css">
+<!-- 引入组件库 -->
+
+ <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/vue.js"></script>
+ <script src="/static/js/element-ui/index.js"></script>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Dashboard Template for Bootstrap</title>
+		<!-- Bootstrap core CSS -->
+		<link href="/static/asserts/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="/static/asserts/css/dashboard.css" rel="stylesheet">
+		<style type="text/css">
+			/* Chart.js */
+			
+			@-webkit-keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			@keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			.chartjs-render-monitor {
+				-webkit-animation: chartjs-render-animation 0.001s;
+				animation: chartjs-render-animation 0.001s;
+			}
+            img{
+                width: 90px;
+                height: 140px;
+            }
+                  body {
+    background-image: url("/static/背景.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+			<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">{{ request.session.username }}</a>
+			<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+
+			<ul class="navbar-nav px-3">
+				<li class="nav-item text-nowrap">
+					<a class="nav-link" href="/user/loginout">Sign out</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+					<div class="sidebar-sticky">
+						<ul class="nav flex-column">
+
+							<li class="nav-item">
+								<a class="nav-link" href="/user/index>
+									<svg xmlns="/user/index" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+										<path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+										<polyline points="13 2 13 9 20 9"></polyline>
+									</svg>
+									主页
+								</a>
+							</li>
+							<li class="nav-item">
+
+								</a>
+							</li>
+
+						</ul>
+
+
+					</div>
+				</nav>
+
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+
+			                     <h1>
+                          Summary
+
+                      </h1>
+                        <p>
+大洋沉积物数据库是一个汇集国际大洋钻探计划产生的沉积物数据的平台，包括物质组成（宏观、微观）、沉积地球化学（有机、无机、孔隙水）、物理属性等沉积学核心数据，并计划与大洋沉积物年龄模型相链接。以“时间-空间-物质”的数据组织方式将沉积物数据相互关联，旨在解决大洋沉积物质演化等关键科学问题，并为大洋沉积物知识图谱的建设提供用例支撑。
+
+                        </p>
+                        <p>
+                            The Oceanic Sediment Database is a platform for collecting sedimentary data from the international oceanic drilling program, including core sedimentological data such as material composition (macroscopic, microscopic), sedimentary geochemistry (organic, inorganic, interstitial water) and physical properties and is planned to be linked to the oceanic sediment age model. The temporal-spatial-material data organization method correlates sediment data to solve key scientific problems such as the evolution of oceanic sedimentary material, and provides cases-driven support for the construction of oceanic sediment knowledge graph.
+
+                        </p>
+<div style="border:1px solid #CCC"></div>
+					<div class="table-responsive">
+
+                        <div id = 'user' v-loading="loading" element-loading-text="拼命加载中">
+
+                                                    <h1>
+                            Team
+                        </h1>
+                        <div id = 'user' v-loading="loading" element-loading-text="拼命加载中">
+                            <el-row class="demo-autocomplete">
+
+                                <el-col :span="2">
+                            <img src="/static/hxm.png">
+                                </el-col>
+                <el-col :span="2">
+                  <h3>Xiumian Hu</h3>
+                                    <p>
+                                        Leader, Professor Sedimentology
+                                    </p>
+                </el-col>
+
+
+
+
+                                <el-col :span="5">
+
+
+
+
+                                </el-col>
+
+                                <el-col :span="3">
+
+                                </el-col>
+                                </el-row>
+                            <el-row>
+                                <el-col :span="6">
+                                  <img src="/static/王学天.png">
+                                      <h3>Xuetian Wang</h3>
+                                    <p>
+                                        Postdoctoral researcher
+Sedimentology
+Coal geology
+Paleogeography
+
+                                    </p>
+                                </el-col>
+                                </el-col>
+                                <el-col :span="6">
+                                 <img src="/static/YiweiXu.png">
+                                      <h3>Yiwei Xu</h3>
+                                    <p>
+                                       Postdoctoral researcher
+Paleoenvironment and Paleoclimate
+
+                                    </p>
+
+                                </el-col>
+                                             <el-col :span="6">
+                                 <img src="/static/Jingxin Jiang.png">
+                                      <h3>Jingxin Jiang</h3>
+                                    <p>
+                                        PhD candidate
+Paleoenvironment and Paleoclimate
+                                    </p>
+
+                                </el-col>
+                                <el-col :span="6">
+                                 <img src="/static/Jiahao Wang.png">
+                                      <h3>Jiahao Wang
+</h3>
+                                    <p>
+                                        MSc candidate
+Sedimentological big data
+                                    </p>
+
+                                </el-col>
+                            </el-row>
+
+
+                           <el-row class="demo-autocomplete">
+
+                                <el-col :span="2">
+                            <img src="/static/Xiaolong%20Xu.png">
+                                </el-col>
+                <el-col :span="2">
+                  <h3>Xiaolong Xu
+</h3>
+                                    <p>
+                                       Professor
+Big data, Knowledge graph, Cloud computing
+
+                                    </p>
+                </el-col>
+
+
+
+
+                                <el-col :span="5">
+
+
+
+
+                                </el-col>
+
+                                <el-col :span="3">
+
+                                </el-col>
+                                </el-row>
+                            <el-row>
+                                <el-col :span="4">
+                                  <img src="/static/Zhicheng%20Hu.png">
+                                      <h3>Zhicheng Hu
+</h3>
+                                    <p>
+                                      MSe candidate
+Knowledge graph
+
+                                    </p>
+                                </el-col>
+                                </el-col>
+                                <el-col :span="5">
+                                 <img src="/static/Xiangben Hu.png">
+                                      <h3>Xiangben Hu
+</h3>
+                                    <p>
+                                      MSe candidate
+
+
+                                    </p>
+
+                                </el-col>
+                                             <el-col :span="5">
+                                 <img src="/static/Haoran Guo
+.png">
+                                      <h3>Haoran Guo
+</h3>
+                                    <p>
+                                        MSe candidate
+
+                                    </p>
+
+                                </el-col>
+                                <el-col :span="5">
+                                 <img src="/static/Yongwei Zhu.png">
+                                      <h3>Yongwei Zhu
+</h3>
+                                    <p>
+                                        MSc candidate
+                                    </p>
+
+                                </el-col>
+                                  <el-col :span="5">
+                                 <img src="/static/Zheng Yu
+.png">
+                                      <h3>Zheng Yu
+
+
+
+</h3>
+                                    <p>
+                                        MSc candidate
+                                    </p>
+
+                                </el-col>
+                            </el-row>
+                            <div style="border:1px solid #CCC"></div>
+<h1>
+    Partner
+</h1>
+                            <div>
+                                <img src="/static/school.png"style="width: auto;height: auto">
+                            </div>
+
+
+
+                        </div>
+					</div>
+
+			</div>
+
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+{#		<script type="text/javascript" src="/static/asserts/js/jquery-3.2.1.slim.min.js"></script>#}
+		<script type="text/javascript" src="/static/asserts/js/popper.min.js"></script>
+		<script type="text/javascript" src="/static/asserts/js/bootstrap.min.js"></script>
+
+		<!-- Icons -->
+		<script type="text/javascript" src="/static/asserts/js/feather.min.js"></script>
+		<script>
+			feather.replace()
+		</script>
+
+		<!-- Graphs -->
+		<script type="text/javascript" src="/static/asserts/js/Chart.min.js"></script>
+        <script>
+
+
+        var vm= new Vue({
+            el:"#user",
+            data:{
+                selectedHeaderId:'',
+                selectedValue:'',
+                  headers: [
+    ],
+            keys :null,
+                // 表头数据
+
+                values:null,
+                itemkey:1,
+                  filterList: [],
+                text:'',
+                input1:'',
+                input2:'',
+                loading:false,
+                query_state:false,
+
+                // 当前页
+                currentPage: 1,
+                // 每页多少条
+                pageSize: 10
+            },
+            methods:{
+                addfilter:function(){
+
+                    var input = this.selectedHeaderId;
+                    var input2 = $('#input2').val()
+                    this.text+=input.toString()+this.selectedValue+'"'+input2.toString()+'"'+"  "
+                    this.filterList.push([input,this.selectedValue,input2])
+
+                    document.getElementById('input2').value=''
+                },
+                download:function(){
+                    var that = this;
+
+                        $.ajax({
+                                type : "POST",
+                                dataType : "json",
+
+                                {#contentType: "application/json",#}
+                            traditional: true,
+                                url : "/user/download",
+                                data : {
+                                   "k":that.keys,
+                                    "v":JSON.stringify(that.values)
+                                },
+                                beforeSend:function(){
+
+                                },
+                                success : function(res){
+console.log(res.id)
+                                    var id =res.id
+                                    //console.log(res.content)
+{#document.getElementById('dl').click()#}
+
+         var a = document.createElement('a')
+
+    {#a.href = 'http://47.103.55.75/static/data.xlsx'#}
+                                    a.href='http://47.103.55.75/static/files/'+id.toString()+'.xlsx'
+    a.download = 'data.xlsx'
+    a.click()
+
+                                },
+                                error: function(){
+                                console.log('eorr')
+                                }
+                            });
+
+                },
+
+                queryre:function (){
+
+
+
+                      var that = this;
+                      that.loading = true;
+                    jQuery(function ($) {
+
+                        $.ajax({
+                            url: "/user/queryre",
+                            type : "POST",
+		                    dataType : "json",
+                            traditional: true,
+                            data: {'filter':that.filterList,
+                                  'headers':vm1.$data.typeValue,
+                                 'msg':[1,2]},
+
+                            success: function (res) {
+                                that.loading = false
+                                that.keys = res.keys
+                                console.log(that.keys)
+                                that.values =res.values
+                                console.log(that.values)
+
+
+
+                            }
+                        })
+                    })
+                },
+                   // 每页多少条
+            handleSizeChange(val) {
+                this.pageSize = val;
+            },
+            // 当前页
+            handleCurrentChange(val) {
+                this.currentPage = val;
+            },
+
+
+            }
+        })
+            var  vm1 = new Vue({
+
+                  el:"#headers",
+                components: {},
+  data () {
+    return {
+        text:'fasdfsa',
+      // 控制popover弹出框是否展示
+      popoverVisible: true,
+      // 需把数据整理成以下结构
+      // tree数据(children的id第一位为父级id，用于在select中清除某一点，可找到其父级去掉全选)
+      treeOptions: [
+        {
+          id: '1',
+          name: '父级1',
+          children: [
+            {
+              id: '1-1',
+              name: '类型1'
+            },
+              {
+              id: '1-2',
+              name: '类型2'
+            }, {
+              id: '1-3',
+              name: '类型3'
+            }, {
+              id: '1-4',
+              name: '类型4'
+            }, {
+              id: '1-5',
+              name: '类型5'
+            }
+          ]
+        }, {
+          id: '2',
+          name: '父级2',
+          children: [
+            {
+              id: '2-1',
+              name: '类型6'
+            }, {
+              id: '2-2',
+              name: '类型7'
+            }
+          ]
+        }
+      ],
+      // select选择框选项
+      typeOption: [
+        {
+          id: '1',
+          name: '父级1'
+        },
+        {
+          id: '1-1',
+          name: '类型1'
+        }, {
+          id: '1-2',
+          name: '类型2'
+        }, {
+          id: '1-3',
+          name: '类型3'
+        }, {
+          id: '1-4',
+          name: '类型4'
+        }, {
+          id: '1-5',
+          name: '类型5'
+        }, {
+          id: '2',
+          name: '父级2'
+        }, {
+          id: '2-1',
+          name: '类型6'
+        }, {
+          id: '2-2',
+          name: '类型7'
+        }
+      ],
+        headers:[],
+      defaultProps: {
+        children: 'children',
+        label: 'name'
+      },
+      // select的值
+      typeValue: []
+    }
+  },
+  created () {},
+  computed: {},
+  watch: {},
+  mounted () {
+                      var that = this;
+                                $.ajax({
+                                type : "POST",
+                                dataType : "json",
+
+                                {#contentType: "application/json",#}
+                            traditional: true,
+                                url : "/user/get_allheaders",
+                                data : {
+
+                                },
+                                beforeSend:function(){
+
+                                },
+                                success : function(res) {
+
+                                    that.treeOptions = res.datas;
+                                    that.headers=res.headers;
+
+                                    var ts=[]
+                                    var tem= res.types;
+
+                                for (let i = 0; i < tem.length; i++) {
+            ts.push({id:tem[i],name:tem[i]})
+        }
+                                   that.typeOption=ts;
+
+                                }
+                            });
+  },
+  methods: {
+    // tree选择值修改时
+    checkChange () {
+      this.typeValue = []
+      // 将tree选择的id赋值给select
+      this.$refs['tree'].getCheckedNodes().forEach(value => {
+        // 父级在select中不展示
+        if (this.headers.indexOf( value.id) != -1){
+          this.typeValue.push(value.id)
+        }
+        var select_data=[]
+          for(let i=0;i<this.typeValue.length;i++){
+              select_data.push({id:this.typeValue[i],name:this.typeValue[i]})
+          }
+          vm.$data.headers=select_data;
+      })
+
+    },
+    // 清空select
+    clearTag () {
+      // 清空tree选择
+      this.$refs['tree'].setCheckedKeys([])
+    },
+    // 从select中单个移除时，保持tree选择值同步移除
+    removeTag (data) {
+      // 获取tree目前选择的值
+      var chooseData = this.$refs['tree'].getCheckedKeys()
+      var deleteIndex = ''
+      // 找到chooseData中与清除的data相同的值
+      chooseData.forEach((value, index) => {
+        if (value === data) {
+          deleteIndex = index
+        }
+      })
+      // 从tree目前选择值中去掉
+      chooseData.splice(deleteIndex, 1)
+      // 若有全选情况，tree的选择值中有父级id，而select中无父级id，需用children的id找到父级id并去掉
+      // 查找其父级id是否在chooseData中（即原来此父级是否全选），若在则去掉
+      var findFatherData = chooseData.find(element => element === (data.split('-')[0]))
+      if (findFatherData) {
+        chooseData.splice(chooseData.indexOf(findFatherData), 1)
+      }
+      // 将修改后的值再赋给tree
+      this.$refs['tree'].setCheckedKeys(chooseData)
+    }
+  }
+
+                })
+
+</script>
+
+
+
+	</body>
+
+</html>

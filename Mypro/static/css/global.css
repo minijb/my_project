@@ -1,0 +1,239 @@
+*{
+    transition: all 1s;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.flex, article {
+    height: 100%;
+}
+
+.flex article {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex .top {
+    /* height: 120px; */
+    background: #002060;
+    position: relative;
+    width: 100vw;
+    min-height: 120px;
+}
+
+.flex .middle {
+    flex: 1;
+    height: 100%;
+    background-color: #f2f2f2;
+    background-size: 100% 100%;
+    overflow-y: auto;
+}
+
+.flex .bottom {
+    /* height: 40px; */
+    background: #2f5597;
+}
+
+p#p1 {
+    color: #EEEEEE;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.left-group {
+    width: 33%;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    color: #EEEEEE;
+}
+
+.right-group {
+    width: 33%;
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    color: #EEEEEE;
+}
+
+.mid-group {
+    /* flex: 1; */
+    width: 34%;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: #EEEEEE;
+}
+
+/* 导航条 */
+.topnav {
+    overflow: hidden;
+    background-color: #9dc3e6;
+    /* height: 100%; */
+    width: 100vw;
+    line-height: 50px;
+    display: none;
+    z-index: 10;
+}
+
+/* 导航链接 */
+.topnav li {
+    float: left;
+    display: block;
+    color: #002060;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.topnav ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.topnav li a {
+    float: left;
+    display: block;
+    text-align: center;
+    /* padding: 0px 40px; */
+    text-decoration: none;
+
+}
+
+/* 链接 - 修改颜色 */
+.topnav li a:hover {
+    background-color: #9dc3e6;
+    color: white;
+}
+
+.login_button {
+    float: right;
+    width: auto;
+    height: 40px;
+    border-radius: 15px;
+    border-color: white;
+    color: #a5aab0;
+    font-weight: bold;
+    background: transparent;
+    margin-right: 20px;
+    margin-top: -8px;
+}
+
+
+.bianse {
+    color: #0000ff;
+}
+
+.bianse1 {
+    color: #002060;
+}
+
+.hide {
+    display: none;
+}
+
+.c1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+    z-index: 10;
+}
+
+.c2 {
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    border-radius: 21px;
+    overflow: hidden;
+}
+
+#navbar_toggler {
+    height: 25px;
+    margin-right: 10px;
+    display: none;
+}
+
+@media only screen and (max-width: 1320px) {
+    .left-group {
+        width: 100%;
+        text-align: center;
+        float: none;
+        font-size: 15px;
+    }
+
+    .right-group {
+        width: 100%;
+        text-align: center;
+        float: none;
+        font-size: 15px;
+    }
+
+    .mid-group {
+        width: 100%;
+        text-align: center;
+        float: none;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .top {
+        position: relative !important;
+    }
+
+    .topnav {
+        display: none;
+        position: absolute;
+    }
+
+    .topnav li {
+        line-height: 35px;
+        width: 100vw;
+        text-align: center;
+        padding: 0;
+    }
+
+    #navbar_toggler {
+        display: inline-block !important;
+    }
+
+    .middle {
+        margin-top: 0px !important;
+    }
+
+}
+
+@media only screen and (min-width: 640px) {
+    .topnav {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    p#p1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .login_button {
+        float: none;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+
+}

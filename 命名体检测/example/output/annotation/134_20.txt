@@ -1,0 +1,8232 @@
+综,0
+述,0
+"
+",0
+凤,0
+),0
+;,0
+南,0
+京,0
+医,0
+科,0
+大,0
+学,0
+第,0
+一,0
+附,0
+属,0
+医,0
+院,0
+内,0
+分,0
+泌,0
+科,0
+(,0
+杨,0
+涛,0
+),0
+"
+",0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+中,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+与,0
+免,0
+疫,0
+调,0
+控,0
+的,0
+相,0
+关,0
+性,0
+及,0
+其,0
+研,0
+究,0
+进,0
+展,0
+"
+",0
+王,0
+国,0
+凤,0
+ ,0
+ ,0
+杨,0
+涛,0
+"
+",0
+[,0
+提,0
+要,0
+],0
+ ,0
+ ,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+是,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+介,0
+导,0
+的,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+疾,I-Disease
+病,I-Disease
+",",0
+发,0
+病,0
+机,0
+制,0
+尚,0
+未,0
+完,0
+全,0
+阐,0
+明,0
+。,0
+ ,0
+微,0
+小,0
+ ,0
+R,0
+N,0
+A,0
+(,0
+m,0
+i,0
+R,0
+N,0
+A,0
+),0
+"
+",0
+是,0
+一,0
+种,0
+非,0
+编,0
+码,0
+单,0
+链,0
+ ,0
+R,0
+N,0
+A,0
+",",0
+近,0
+年,0
+来,0
+研,0
+究,0
+发,0
+现,0
+",",0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+对,0
+免,0
+疫,0
+系,0
+统,0
+基,0
+因,0
+表,0
+达,0
+的,0
+调,0
+控,0
+起,0
+到,0
+关,0
+键,0
+作,0
+用,0
+",",0
+D,B-Reason
+i,I-Reason
+c,I-Reason
+e,I-Reason
+r,I-Reason
+ ,I-Reason
+酶,I-Reason
+或,I-Reason
+者,I-Reason
+"
+",I-Reason
+m,I-Reason
+i,I-Reason
+R,I-Reason
+N,I-Reason
+A,I-Reason
+ ,I-Reason
+异,I-Reason
+常,I-Reason
+都,0
+可,0
+能,0
+引,0
+起,0
+自,0
+身,0
+免,0
+疫,0
+反,0
+应,0
+",",0
+从,0
+而,0
+发,0
+生,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+",",0
+其,0
+有,0
+望,0
+成,0
+为,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+早,0
+期,0
+诊,0
+断,0
+和,0
+治,0
+疗,0
+的,0
+靶,0
+"
+",0
+点,0
+。,0
+ ,0
+本,0
+文,0
+就,0
+目,0
+前,0
+已,0
+知,0
+的,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+与,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+免,0
+疫,0
+调,0
+控,0
+的,0
+相,0
+关,0
+性,0
+及,0
+其,0
+研,0
+究,0
+进,0
+展,0
+作,0
+一,0
+综,0
+述,0
+。,0
+"
+",0
+[,0
+关,0
+键,0
+词,0
+],0
+ ,0
+ ,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+;,0
+ ,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+",",0
+ ,0
+1,0
+ ,0
+型,0
+;,0
+ ,0
+自,0
+身,0
+免,0
+疫,0
+"
+",0
+C,0
+o,0
+r,0
+r,0
+e,0
+l,0
+a,0
+t,0
+i,0
+o,0
+n,0
+ ,0
+b,0
+e,0
+t,0
+w,0
+e,0
+e,0
+n,0
+ ,0
+i,0
+m,0
+m,0
+u,0
+n,0
+e,0
+ ,0
+r,0
+e,0
+g,0
+u,0
+l,0
+a,0
+t,0
+i,0
+o,0
+n,0
+ ,0
+a,0
+n,0
+d,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+i,0
+n,0
+ ,0
+t,0
+y,0
+p,0
+e,0
+ ,0
+1,0
+ ,0
+d,0
+i,0
+a,0
+b,0
+e,0
+t,0
+e,0
+s,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+W,0
+a,0
+n,0
+g,0
+ ,0
+G,0
+u,0
+o,0
+f,0
+e,0
+n,0
+g,0
+ ,0
+*,0
+",",0
+ ,0
+Y,0
+a,0
+n,0
+g,0
+ ,0
+T,0
+a,0
+o,0
+.,0
+"
+",0
+*,0
+D,0
+e,0
+p,0
+a,0
+r,0
+t,0
+m,0
+e,0
+n,0
+t,0
+ ,0
+o,0
+f,0
+ ,0
+E,0
+n,0
+d,0
+o,0
+c,0
+r,0
+i,0
+n,0
+o,0
+l,0
+o,0
+g,0
+y,0
+",",0
+ ,0
+t,0
+h,0
+e,0
+ ,0
+F,0
+i,0
+r,0
+s,0
+t,0
+ ,0
+P,0
+e,0
+o,0
+p,0
+l,0
+e,0
+ ,0
+H,0
+o,0
+s,0
+p,0
+i,0
+t,0
+a,0
+l,0
+ ,0
+o,0
+f,0
+ ,0
+L,0
+i,0
+a,0
+n,0
+y,0
+u,0
+n,0
+g,0
+a,0
+n,0
+g,0
+",",0
+ ,0
+L,0
+i,0
+a,0
+n,0
+y,0
+u,0
+n,0
+g,0
+a,0
+n,0
+g,0
+ ,0
+2,0
+2,0
+2,0
+0,0
+0,0
+0,0
+",",0
+ ,0
+C,0
+h,0
+i,0
+n,0
+a,0
+"
+",0
+[,0
+S,0
+u,0
+m,0
+m,0
+a,0
+r,0
+y,0
+],0
+ ,0
+ ,0
+I,0
+t,0
+ ,0
+i,0
+s,0
+ ,0
+w,0
+e,0
+l,0
+l,0
+ ,0
+e,0
+s,0
+t,0
+a,0
+b,0
+l,0
+i,0
+s,0
+h,0
+e,0
+d,0
+ ,0
+t,0
+h,0
+a,0
+t,0
+ ,0
+t,0
+y,0
+p,0
+e,0
+ ,0
+1,0
+ ,0
+d,0
+i,0
+a,0
+b,0
+e,0
+t,0
+e,0
+s,0
+ ,0
+(,0
+ ,0
+T,B-Disease
+1,I-Disease
+D,I-Disease
+M,I-Disease
+),0
+ ,0
+i,0
+s,0
+ ,0
+a,0
+ ,0
+T,0
+ ,0
+c,0
+e,0
+l,0
+l,0
+-,0
+m,0
+e,0
+d,0
+i,0
+a,0
+t,0
+e,0
+d,0
+ ,0
+a,0
+u,0
+t,0
+o,0
+i,0
+m,0
+m,0
+u,0
+n,0
+e,0
+ ,0
+d,0
+i,0
+s,0
+e,0
+a,0
+s,0
+e,0
+.,0
+"
+",0
+C,0
+o,0
+n,0
+t,0
+r,0
+o,0
+v,0
+e,0
+r,0
+s,0
+i,0
+a,0
+l,0
+ ,0
+d,0
+a,0
+t,0
+a,0
+ ,0
+e,0
+x,0
+i,0
+s,0
+t,0
+ ,0
+r,0
+e,0
+g,0
+a,0
+r,0
+d,0
+i,0
+n,0
+g,0
+ ,0
+t,0
+h,0
+e,0
+ ,0
+d,0
+i,0
+f,0
+f,0
+e,0
+r,0
+e,0
+n,0
+t,0
+i,0
+a,0
+l,0
+ ,0
+c,0
+o,0
+n,0
+t,0
+r,0
+o,0
+l,0
+ ,0
+o,0
+f,0
+ ,0
+t,0
+h,0
+e,0
+ ,0
+i,0
+m,0
+m,0
+u,0
+n,0
+e,0
+ ,0
+s,0
+y,0
+s,0
+t,0
+e,0
+m,0
+ ,0
+i,0
+n,0
+ ,0
+T,0
+1,0
+D,0
+M,0
+.,0
+ ,0
+R,0
+e,0
+c,0
+e,0
+n,0
+t,0
+ ,0
+s,0
+t,0
+u,0
+d,0
+i,0
+e,0
+s,0
+ ,0
+h,0
+a,0
+v,0
+e,0
+"
+",0
+d,0
+e,0
+m,0
+o,0
+n,0
+s,0
+t,0
+r,0
+a,0
+t,0
+e,0
+d,0
+ ,0
+t,0
+h,0
+a,0
+t,0
+ ,0
+M,0
+i,0
+c,0
+r,0
+o,0
+R,0
+N,0
+A,0
+s,0
+(,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+),0
+",",0
+ ,0
+s,0
+i,0
+n,0
+g,0
+l,0
+e,0
+-,0
+s,0
+t,0
+r,0
+a,0
+n,0
+d,0
+e,0
+d,0
+ ,0
+n,0
+o,0
+n,0
+c,0
+o,0
+d,0
+i,0
+n,0
+g,0
+ ,0
+R,0
+N,0
+A,0
+s,0
+",",0
+ ,0
+m,0
+a,0
+y,0
+ ,0
+p,0
+l,0
+a,0
+y,0
+ ,0
+a,0
+ ,0
+k,0
+e,0
+y,0
+ ,0
+r,0
+o,0
+l,0
+e,0
+ ,0
+i,0
+n,0
+ ,0
+r,0
+e,0
+g,0
+u,0
+l,0
+a,0
+t,0
+i,0
+o,0
+n,0
+ ,0
+o,0
+f,0
+ ,0
+g,0
+e,0
+n,0
+e,0
+"
+",0
+e,0
+x,0
+p,0
+r,0
+e,0
+s,0
+s,0
+i,0
+o,0
+n,0
+ ,0
+i,0
+n,0
+ ,0
+t,0
+h,0
+e,0
+ ,0
+i,0
+m,0
+m,0
+u,0
+n,0
+e,0
+ ,0
+s,0
+y,0
+s,0
+t,0
+e,0
+m,0
+.,0
+ ,0
+D,0
+i,0
+c,0
+e,0
+r,0
+ ,0
+e,0
+n,0
+z,0
+y,0
+m,0
+e,0
+s,0
+ ,0
+o,0
+r,0
+ ,0
+a,0
+b,0
+n,0
+o,0
+r,0
+m,0
+a,0
+l,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+m,0
+a,0
+y,0
+ ,0
+l,0
+e,0
+a,0
+d,0
+ ,0
+t,0
+o,0
+ ,0
+a,0
+u,0
+t,0
+o,0
+i,0
+m,0
+m,0
+u,0
+n,0
+e,0
+ ,0
+r,0
+e,0
+a,0
+c,0
+t,0
+i,0
+o,0
+n,0
+s,0
+",",0
+ ,0
+a,0
+n,0
+d,0
+ ,0
+t,0
+h,0
+u,0
+s,0
+ ,0
+i,0
+s,0
+"
+",0
+e,0
+x,0
+p,0
+e,0
+c,0
+t,0
+e,0
+d,0
+ ,0
+t,0
+o,0
+ ,0
+b,0
+e,0
+c,0
+o,0
+m,0
+e,0
+ ,0
+a,0
+ ,0
+t,0
+a,0
+r,0
+g,0
+e,0
+t,0
+ ,0
+f,0
+o,0
+r,0
+ ,0
+e,0
+a,0
+r,0
+l,0
+y,0
+ ,0
+d,0
+i,0
+a,0
+g,0
+n,0
+o,0
+s,0
+i,0
+s,0
+ ,0
+a,0
+n,0
+d,0
+ ,0
+t,0
+r,0
+e,0
+a,0
+t,0
+m,0
+e,0
+n,0
+t,0
+ ,0
+o,0
+f,0
+ ,0
+T,B-Disease
+1,I-Disease
+D,I-Disease
+M,I-Disease
+ ,0
+i,0
+n,0
+ ,0
+t,0
+h,0
+e,0
+ ,0
+f,0
+u,0
+t,0
+u,0
+r,0
+e,0
+.,0
+ ,0
+T,0
+h,0
+i,0
+s,0
+ ,0
+a,0
+r,0
+t,0
+i,0
+c,0
+l,0
+e,0
+ ,0
+r,0
+e,0
+v,0
+i,0
+e,0
+w,0
+s,0
+ ,0
+t,0
+h,0
+e,0
+"
+",0
+c,0
+o,0
+r,0
+r,0
+e,0
+l,0
+a,0
+t,0
+i,0
+o,0
+n,0
+s,0
+ ,0
+o,0
+f,0
+ ,0
+k,0
+n,0
+o,0
+w,0
+n,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+w,0
+i,0
+t,0
+h,0
+ ,0
+t,0
+h,0
+e,0
+ ,0
+i,0
+m,0
+m,0
+u,0
+n,0
+e,0
+ ,0
+r,0
+e,0
+g,0
+u,0
+l,0
+a,0
+t,0
+i,0
+o,0
+n,0
+ ,0
+i,0
+n,0
+ ,0
+T,B-Disease
+1,I-Disease
+D,I-Disease
+M,I-Disease
+ ,0
+a,0
+n,0
+d,0
+ ,0
+t,0
+h,0
+e,0
+ ,0
+r,0
+e,0
+s,0
+e,0
+a,0
+r,0
+c,0
+h,0
+ ,0
+p,0
+r,0
+o,0
+g,0
+r,0
+e,0
+s,0
+s,0
+i,0
+o,0
+n,0
+.,0
+"
+",0
+[,0
+K,0
+e,0
+y,0
+ ,0
+w,0
+o,0
+r,0
+d,0
+s,0
+],0
+ ,0
+ ,0
+m,0
+i,0
+c,0
+r,0
+o,0
+R,0
+N,0
+A,0
+;,0
+ ,0
+D,0
+i,0
+a,0
+b,0
+e,0
+t,0
+e,0
+s,0
+ ,0
+m,0
+e,0
+l,0
+l,0
+i,0
+t,0
+u,0
+s,0
+",",0
+ ,0
+t,0
+y,0
+p,0
+e,0
+ ,0
+1,0
+;,0
+ ,0
+A,0
+u,0
+t,0
+o,0
+i,0
+m,0
+m,0
+u,0
+n,0
+e,0
+ ,0
+d,0
+i,0
+s,0
+e,0
+a,0
+s,0
+e,0
+s,0
+"
+",0
+(,0
+C,0
+h,0
+i,0
+n,0
+ ,0
+J,0
+ ,0
+E,0
+n,0
+d,0
+o,0
+c,0
+r,0
+i,0
+n,0
+o,0
+l,0
+ ,0
+M,0
+e,0
+t,0
+a,0
+b,0
+",",0
+ ,0
+2,0
+0,0
+1,0
+4,0
+",",0
+ ,0
+3,0
+0,0
+:,0
+ ,0
+4,0
+4,0
+1,0
+-,0
+4,0
+4,0
+3,0
+),0
+"
+",0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+是,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+疾,I-Disease
+病,I-Disease
+",",0
+其,0
+发,0
+病,0
+是,0
+由,0
+于,0
+遗,0
+传,0
+易,0
+感,0
+的,0
+"
+",0
+个,0
+体,0
+",",0
+在,0
+环,0
+境,0
+因,0
+素,0
+作,0
+用,0
+下,0
+触,0
+发,0
+自,0
+身,0
+免,0
+疫,0
+反,0
+应,0
+",",0
+T,B-Anatomy
+ ,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+选,0
+择,0
+"
+",0
+性,0
+破,0
+坏,0
+和,0
+杀,0
+伤,0
+胰,B-Anatomy
+岛,I-Anatomy
+ ,I-Anatomy
+β,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+",",0
+以,0
+致,0
+胰,B-Test
+岛,I-Test
+素,I-Test
+分,0
+泌,0
+不,0
+足,0
+",",0
+最,0
+终,0
+发,0
+展,0
+为,0
+"
+",0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+[,0
+1,0
+],0
+ ,0
+。,0
+ ,0
+发,0
+病,0
+机,0
+制,0
+尚,0
+未,0
+完,0
+全,0
+阐,0
+明,0
+",",0
+可,0
+能,0
+是,0
+免,0
+疫,0
+调,0
+节,0
+缺,0
+陷,0
+导,0
+致,0
+"
+",0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+失,0
+去,0
+了,0
+对,0
+胰,B-Anatomy
+岛,I-Anatomy
+ ,I-Anatomy
+β,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+抗,I-Anatomy
+原,I-Anatomy
+的,0
+免,0
+疫,0
+耐,0
+受,0
+",",0
+错,0
+误,0
+地,0
+攻,0
+击,0
+自,0
+身,0
+"
+",0
+组,0
+织,0
+。,0
+ ,0
+近,0
+来,0
+",",0
+越,0
+来,0
+越,0
+多,0
+的,0
+证,0
+据,0
+显,0
+示,0
+微,0
+小,0
+ ,0
+R,0
+N,0
+A,0
+s,0
+(,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+),0
+可,0
+能,0
+在,0
+"
+",0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+发,0
+病,0
+中,0
+发,0
+挥,0
+重,0
+要,0
+作,0
+用,0
+。,0
+ ,0
+本,0
+文,0
+就,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+中,0
+"
+",0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+与,0
+免,0
+疫,0
+调,0
+节,0
+的,0
+相,0
+关,0
+性,0
+及,0
+其,0
+研,0
+究,0
+进,0
+展,0
+作,0
+一,0
+综,0
+述,0
+。,0
+"
+",0
+一,0
+、,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+概,0
+述,0
+"
+",0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+是,0
+由,0
+ ,0
+1,0
+9,0
+ ,0
+~,0
+ ,0
+2,0
+5,0
+ ,0
+个,0
+核,0
+苷,0
+酸,0
+组,0
+成,0
+的,0
+单,0
+链,0
+ ,0
+R,0
+N,0
+A,0
+ ,0
+分,0
+子,0
+",",0
+广,0
+泛,0
+"
+",0
+存,0
+在,0
+于,0
+生,0
+物,0
+体,0
+内,0
+的,0
+ ,0
+1,0
+ ,0
+组,0
+内,0
+源,0
+性,0
+不,0
+编,0
+码,0
+蛋,0
+白,0
+质,0
+的,0
+ ,0
+R,0
+N,0
+A,0
+ ,0
+家,0
+族,0
+。,0
+ ,0
+一,0
+"
+",0
+般,0
+通,0
+过,0
+与,0
+靶,0
+ ,0
+m,0
+R,0
+N,0
+A,0
+ ,0
+的,0
+ ,0
+3,0
+忆,0
+U,0
+T,0
+R,0
+ ,0
+区,0
+互,0
+补,0
+配,0
+对,0
+",",0
+对,0
+靶,0
+ ,0
+m,0
+R,0
+N,0
+A,0
+ ,0
+进,0
+行,0
+切,0
+"
+",0
+割,0
+或,0
+抑,0
+制,0
+翻,0
+译,0
+",",0
+从,0
+而,0
+在,0
+转,0
+录,0
+后,0
+水,0
+平,0
+对,0
+基,0
+因,0
+的,0
+表,0
+达,0
+进,0
+行,0
+负,0
+调,0
+控,0
+",",0
+"
+",0
+影,0
+响,0
+蛋,0
+白,0
+质,0
+的,0
+翻,0
+译,0
+",",0
+参,0
+与,0
+机,0
+体,0
+各,0
+种,0
+重,0
+要,0
+的,0
+生,0
+理,0
+和,0
+病,0
+理,0
+过,0
+程,0
+。,0
+"
+",0
+二,0
+、,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+在,0
+免,0
+疫,0
+系,0
+统,0
+中,0
+的,0
+作,0
+用,0
+"
+",0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+具,0
+有,0
+多,0
+种,0
+免,0
+疫,0
+功,0
+能,0
+",",0
+包,0
+括,0
+辅,B-Anatomy
+助,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+活,0
+化,0
+、,0
+细,0
+胞,0
+"
+",0
+毒,0
+作,0
+用,0
+、,0
+诱,0
+导,0
+和,0
+激,0
+活,0
+其,0
+他,0
+天,B-Anatomy
+然,I-Anatomy
+免,I-Anatomy
+疫,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+、,0
+介,0
+导,0
+迟,0
+发,0
+性,0
+超,0
+敏,0
+反,0
+应,0
+、,0
+"
+",0
+调,0
+节,0
+免,0
+疫,0
+应,0
+答,0
+的,0
+强,0
+弱,0
+等,0
+",",0
+是,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+发,0
+病,0
+机,0
+制,0
+中,0
+重,0
+要,0
+的,0
+免,B-Anatomy
+疫,I-Anatomy
+"
+",I-Anatomy
+效,I-Anatomy
+应,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+",",0
+其,0
+分,0
+化,0
+将,0
+影,0
+响,0
+特,0
+异,0
+性,0
+免,0
+疫,0
+应,0
+答,0
+的,0
+方,0
+向,0
+和,0
+强,0
+度,0
+。,0
+ ,0
+深,0
+入,0
+"
+",0
+研,0
+究,0
+和,0
+阐,0
+明,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+分,0
+化,0
+过,0
+程,0
+中,0
+的,0
+调,0
+控,0
+机,0
+制,0
+",",0
+对,0
+于,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+病,I-Disease
+的,0
+"
+",0
+防,0
+治,0
+具,0
+有,0
+重,0
+要,0
+价,0
+值,0
+。,0
+ ,0
+随,0
+着,0
+研,0
+究,0
+技,0
+术,0
+的,0
+进,0
+步,0
+",",0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+对,0
+免,0
+疫,0
+系,0
+"
+",0
+统,0
+基,0
+因,0
+表,0
+达,0
+的,0
+调,0
+控,0
+作,0
+用,0
+逐,0
+渐,0
+受,0
+到,0
+重,0
+视,0
+",",0
+一,0
+系,0
+列,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+已,0
+被,0
+证,0
+"
+",0
+实,0
+参,0
+与,0
+了,0
+机,0
+体,0
+免,0
+疫,0
+反,0
+应,0
+调,0
+控,0
+",",0
+在,0
+淋,B-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+的,0
+生,0
+成,0
+、,0
+发,0
+育,0
+与,0
+免,0
+疫,0
+"
+",0
+功,0
+能,0
+中,0
+发,0
+挥,0
+重,0
+要,0
+作,0
+用,0
+。,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+动,0
+态,0
+调,0
+控,0
+着,0
+ ,0
+T,B-Anatomy
+、,I-Anatomy
+B,I-Anatomy
+ ,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+的,0
+发,0
+"
+",0
+育,0
+过,0
+程,0
+",",0
+参,0
+与,0
+了,0
+细,0
+胞,0
+分,0
+化,0
+、,0
+天,0
+然,0
+免,0
+疫,0
+反,0
+应,0
+、,0
+调,0
+节,0
+免,B-Anatomy
+疫,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+信,0
+号,0
+转,0
+"
+",0
+导,0
+等,0
+",",0
+D,B-Reason
+i,I-Reason
+c,I-Reason
+e,I-Reason
+r,I-Reason
+ ,I-Reason
+酶,I-Reason
+或,I-Reason
+者,I-Reason
+ ,I-Reason
+m,I-Reason
+i,I-Reason
+R,I-Reason
+N,I-Reason
+A,I-Reason
+ ,I-Reason
+异,I-Reason
+常,I-Reason
+均,0
+可,0
+引,0
+起,0
+自,0
+身,0
+免,0
+疫,0
+反,0
+应,0
+",",0
+从,0
+而,0
+"
+",0
+发,0
+生,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+等,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+疾,I-Disease
+病,I-Disease
+[,0
+2,0
+],0
+ ,0
+。,0
+ ,0
+另,0
+外,0
+",",0
+利,0
+用,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+作,0
+"
+",0
+用,0
+的,0
+靶,0
+点,0
+来,0
+调,0
+控,0
+免,0
+疫,0
+反,0
+应,0
+",",0
+为,0
+治,0
+疗,0
+疾,0
+病,0
+提,0
+供,0
+了,0
+新,0
+的,0
+途,0
+径,0
+和,0
+方,0
+"
+",0
+向,0
+。,0
+"
+",0
+三,0
+、,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+中,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+与,0
+免,0
+疫,0
+调,0
+控,0
+的,0
+相,0
+关,0
+性,0
+及,0
+其,0
+研,0
+究,0
+"
+",0
+进,0
+展,0
+"
+",0
+1,0
+.,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+:,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+在,0
+初,B-Anatomy
+始,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+(,0
+n,B-Anatomy
+a,I-Anatomy
+觙,I-Anatomy
+v,I-Anatomy
+e,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+",",0
+T,B-Anatomy
+n,I-Anatomy
+a,I-Anatomy
+i,I-Anatomy
+v,I-Anatomy
+e,I-Anatomy
+),0
+"
+",0
+中,0
+低,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+",",0
+在,0
+记,B-Anatomy
+忆,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+(,0
+m,B-Anatomy
+e,I-Anatomy
+m,I-Anatomy
+o,I-Anatomy
+r,I-Anatomy
+y,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+s,I-Anatomy
+",",0
+T,B-Anatomy
+m,I-Anatomy
+),0
+中,0
+高,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+;,0
+在,0
+ ,0
+T,B-Anatomy
+"
+",I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+向,0
+ ,0
+1,B-Anatomy
+ ,I-Anatomy
+型,I-Anatomy
+辅,I-Anatomy
+助,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+(,0
+T,B-Anatomy
+ ,I-Anatomy
+h,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+p,I-Anatomy
+e,I-Anatomy
+r,I-Anatomy
+ ,I-Anatomy
+t,I-Anatomy
+y,I-Anatomy
+p,I-Anatomy
+e,I-Anatomy
+ ,I-Anatomy
+1,I-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+s,I-Anatomy
+",",0
+ ,0
+T,B-Anatomy
+h,I-Anatomy
+1,I-Anatomy
+),0
+分,0
+化,0
+时,0
+升,B-Test_Value
+"
+",I-Test_Value
+高,I-Test_Value
+",",0
+向,0
+ ,0
+2,B-Anatomy
+ ,I-Anatomy
+型,I-Anatomy
+辅,I-Anatomy
+助,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+(,0
+T,B-Anatomy
+ ,I-Anatomy
+h,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+p,I-Anatomy
+e,I-Anatomy
+r,I-Anatomy
+ ,I-Anatomy
+t,I-Anatomy
+y,I-Anatomy
+p,I-Anatomy
+e,I-Anatomy
+ ,I-Anatomy
+2,I-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+s,I-Anatomy
+",",0
+T,B-Anatomy
+h,I-Anatomy
+2,I-Anatomy
+),0
+分,0
+化,0
+时,0
+降,B-Test_Value
+"
+",I-Test_Value
+低,I-Test_Value
+。,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+通,0
+过,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+受,I-Anatomy
+体,I-Anatomy
+(,0
+T,B-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+ ,I-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+p,I-Anatomy
+t,I-Anatomy
+o,I-Anatomy
+r,I-Anatomy
+",",0
+T,B-Anatomy
+C,I-Anatomy
+R,I-Anatomy
+),0
+的,0
+参,0
+与,0
+抑,0
+"
+",0
+制,0
+活,B-Anatomy
+化,I-Anatomy
+蛋,I-Anatomy
+白,I-Anatomy
+ ,I-Anatomy
+1,I-Anatomy
+(,0
+ ,0
+a,B-Anatomy
+c,I-Anatomy
+t,I-Anatomy
+i,I-Anatomy
+v,I-Anatomy
+a,I-Anatomy
+t,I-Anatomy
+o,I-Anatomy
+r,I-Anatomy
+ ,I-Anatomy
+p,I-Anatomy
+r,I-Anatomy
+o,I-Anatomy
+t,I-Anatomy
+e,I-Anatomy
+i,I-Anatomy
+n,I-Anatomy
+ ,I-Anatomy
+1,I-Anatomy
+",",0
+A,B-Anatomy
+P,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+),0
+的,0
+激,0
+活,0
+和,0
+白,B-Test
+细,I-Test
+胞,I-Test
+介,I-Test
+素,I-Test
+"
+",I-Test
+(,I-Test
+I,I-Test
+L,I-Test
+),I-Test
+-,I-Test
+2,I-Test
+ ,0
+产,0
+生,0
+。,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+在,0
+ ,0
+T,B-Anatomy
+h,I-Anatomy
+1,I-Anatomy
+ ,0
+中,0
+的,0
+高,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+很,0
+可,0
+能,0
+是,0
+对,0
+ ,0
+T,B-Anatomy
+h,I-Anatomy
+1,I-Anatomy
+ ,0
+应,0
+"
+",0
+答,0
+的,0
+一,0
+种,0
+负,0
+反,0
+馈,0
+。,0
+ ,0
+一,0
+旦,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+表,0
+达,0
+下,B-Test_Value
+调,I-Test_Value
+",",0
+将,0
+导,0
+致,0
+ ,0
+T,B-Anatomy
+h,I-Anatomy
+1,I-Anatomy
+ ,0
+细,0
+胞,0
+"
+",0
+增,0
+多,0
+",",0
+诱,0
+发,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+病,I-Disease
+。,0
+ ,0
+上,0
+海,0
+瑞,0
+金,0
+医,0
+院,0
+研,0
+究,0
+显,0
+示,0
+初,0
+发,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+"
+",I-Disease
+病,I-Disease
+患,0
+者,0
+外,B-Anatomy
+周,I-Anatomy
+血,I-Anatomy
+单,I-Anatomy
+个,I-Anatomy
+核,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+(,0
+P,B-Anatomy
+B,I-Anatomy
+M,I-Anatomy
+C,I-Anatomy
+",",0
+9,0
+5,0
+%,0
+ ,0
+为,0
+淋,B-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+),0
+较,0
+正,0
+常,0
+对,0
+"
+",0
+照,0
+有,0
+ ,0
+2,0
+6,0
+ ,0
+个,0
+的,0
+表,0
+达,0
+显,0
+著,0
+改,0
+变,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+[,0
+3,0
+],0
+ ,0
+。,0
+ ,0
+其,0
+中,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+和,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+b,I-Test
+-,I-Test
+5,I-Test
+P,I-Test
+ ,0
+改,0
+变,0
+最,0
+为,0
+明,0
+显,0
+(,0
+表,0
+达,0
+量,0
+较,0
+正,0
+常,0
+对,0
+照,0
+分,0
+别,0
+下,0
+降,0
+ ,0
+4,0
+8,0
+%,0
+ ,0
+和,0
+"
+",0
+2,0
+6,0
+%,0
+ ,0
+",",0
+P,0
+<,0
+0,0
+.,0
+ ,0
+0,0
+5,0
+),0
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+在,0
+高,B-Test_Value
+滴,I-Test_Value
+度,I-Test_Value
+谷,B-Test
+氨,I-Test
+酸,I-Test
+脱,I-Test
+羧,I-Test
+酶,I-Test
+抗,I-Test
+体,I-Test
+(,0
+G,B-Test
+A,I-Test
+D,I-Test
+A,I-Test
+),0
+"
+",0
+的,0
+初,0
+发,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+ ,0
+C,B-Anatomy
+D,I-Anatomy
+4,I-Anatomy
++,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+表,0
+达,0
+显,B-Test_Value
+著,I-Test_Value
+下,I-Test_Value
+调,I-Test_Value
+",",0
+其,0
+改,0
+变,0
+与,0
+"
+",0
+病,0
+程,0
+和,0
+血,B-Test
+糖,I-Test
+水,0
+平,0
+无,0
+明,0
+显,0
+相,0
+关,0
+",",0
+考,0
+虑,0
+可,0
+能,0
+与,0
+患,0
+者,0
+自,0
+身,0
+免,0
+疫,0
+状,0
+态,0
+密,0
+"
+",0
+切,0
+相,0
+关,0
+。,0
+ ,0
+在,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+发,0
+展,0
+阶,0
+段,0
+",",0
+胰,B-Anatomy
+岛,I-Anatomy
+ ,I-Anatomy
+β,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+暴,0
+露,0
+于,0
+入,0
+侵,0
+的,0
+淋,B-Anatomy
+"
+",I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+和,0
+胰,B-Anatomy
+岛,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+自,0
+身,0
+产,0
+生,0
+的,0
+促,0
+炎,0
+症,0
+细,0
+胞,0
+因,0
+子,0
+中,0
+",",0
+慢,0
+性,0
+炎,0
+症,0
+的,0
+"
+",0
+暴,0
+露,0
+最,0
+终,0
+导,0
+致,0
+胰,B-Anatomy
+岛,I-Anatomy
+ ,I-Anatomy
+β,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+功,0
+能,0
+丧,0
+失,0
+和,0
+凋,0
+亡,0
+",",0
+发,0
+展,0
+成,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+"
+",I-Disease
+病,I-Disease
+。,0
+ ,0
+有,0
+研,0
+究,0
+发,0
+现,0
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+4,I-Test
+a,I-Test
+ ,0
+在,0
+ ,0
+I,B-Test
+L,I-Test
+-,I-Test
+1,I-Test
+β,I-Test
+、,0
+肿,B-Test
+瘤,I-Test
+坏,I-Test
+"
+",I-Test
+死,I-Test
+因,I-Test
+子,I-Test
+ ,I-Test
+α,I-Test
+(,0
+T,B-Test
+N,I-Test
+F,I-Test
+-,I-Test
+α,I-Test
+),0
+等,0
+促,0
+炎,0
+细,0
+胞,0
+因,0
+子,0
+诱,0
+导,0
+的,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+衰,0
+竭,0
+中,0
+发,0
+挥,0
+"
+",0
+重,0
+要,0
+作,0
+用,0
+",",0
+尤,0
+其,0
+在,0
+ ,0
+N,0
+O,0
+D,0
+ ,0
+小,0
+鼠,0
+发,0
+展,0
+到,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+的,0
+前,B-Disease
+胰,I-Disease
+岛,I-Disease
+炎,I-Disease
+阶,0
+段,0
+[,0
+4,0
+],0
+ ,0
+。,0
+"
+",0
+其,0
+中,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+4,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+水,0
+平,0
+明,B-Test_Value
+显,I-Test_Value
+升,I-Test_Value
+高,I-Test_Value
+",",0
+应,0
+用,0
+反,0
+义,0
+寡,0
+核,0
+苷,0
+"
+",0
+酸,0
+沉,0
+默,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+4,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+",",0
+虽,0
+不,0
+能,0
+恢,0
+复,0
+胰,B-Anatomy
+岛,I-Anatomy
+素,I-Anatomy
+启,0
+动,0
+子,0
+的,0
+"
+",0
+活,0
+性,0
+",",0
+但,0
+能,0
+防,0
+止,0
+暴,0
+露,0
+于,0
+ ,0
+I,B-Anatomy
+L,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+β,I-Anatomy
+ ,0
+环,0
+境,0
+下,0
+的,0
+葡,0
+萄,0
+糖,0
+刺,0
+激,0
+胰,B-Test
+岛,I-Test
+素,I-Test
+分,I-Test
+泌,I-Test
+"
+",I-Test
+能,I-Test
+力,I-Test
+的,0
+下,0
+降,0
+。,0
+ ,0
+且,0
+反,0
+义,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+4,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+能,0
+够,0
+保,0
+护,0
+胰,B-Anatomy
+岛,I-Anatomy
+ ,I-Anatomy
+β,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+"
+",0
+M,0
+I,0
+N,0
+6,0
+ ,0
+免,0
+受,0
+细,0
+胞,0
+因,0
+子,0
+诱,0
+发,0
+的,0
+细,0
+胞,0
+死,0
+亡,0
+。,0
+ ,0
+研,0
+究,0
+最,0
+多,0
+的,0
+是,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+",",0
+N,B-Anatomy
+F,I-Anatomy
+-,I-Anatomy
+κ,I-Anatomy
+B,I-Anatomy
+ ,0
+通,0
+路,0
+的,0
+激,0
+活,0
+能,0
+够,0
+上,0
+调,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+",",0
+而,0
+ ,0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+ ,0
+与,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+ ,0
+结,0
+合,0
+位,0
+点,0
+的,0
+变,0
+异,0
+则,0
+取,0
+消,0
+了,0
+这,0
+种,0
+效,0
+应,0
+",",0
+说,0
+明,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+直,0
+接,0
+受,0
+"
+",0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+ ,0
+的,0
+调,0
+控,0
+",",0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+ ,0
+是,0
+细,0
+胞,0
+因,0
+子,0
+介,0
+导,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+失,0
+调,0
+和,0
+发,0
+生,0
+糖,B-Disease
+尿,I-Disease
+"
+",I-Disease
+病,I-Disease
+的,0
+一,0
+个,0
+关,0
+键,0
+转,0
+录,0
+因,0
+子,0
+",",0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+ ,I-Test
+超,I-Test
+阻,I-Test
+遏,I-Test
+物,I-Test
+的,0
+过,0
+表,0
+达,0
+能,0
+够,0
+防,0
+止,0
+ ,0
+β,B-Anatomy
+"
+",I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+发,0
+生,0
+细,0
+胞,0
+因,0
+子,0
+诱,0
+导,0
+的,0
+细,0
+胞,0
+凋,0
+亡,0
+",",0
+而,0
+沉,0
+默,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+则,0
+能,0
+够,0
+"
+",0
+改,0
+善,0
+经,0
+过,0
+ ,0
+I,B-Anatomy
+L,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+β,I-Anatomy
+ ,0
+处,0
+理,0
+细,0
+胞,0
+的,0
+葡,0
+萄,0
+糖,0
+刺,0
+激,0
+胰,B-Test
+岛,I-Test
+素,I-Test
+分,I-Test
+泌,I-Test
+能,I-Test
+力,I-Test
+",",0
+部,0
+分,0
+"
+",0
+防,0
+止,0
+细,0
+胞,0
+因,0
+子,0
+诱,0
+发,0
+的,0
+细,0
+胞,0
+凋,0
+亡,0
+。,0
+ ,0
+综,0
+上,0
+",",0
+可,0
+知,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+内,0
+ ,0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+ ,0
+通,0
+"
+",0
+路,0
+激,0
+活,0
+的,0
+部,0
+分,0
+效,0
+应,0
+可,0
+能,0
+是,0
+通,0
+过,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+上,0
+调,0
+介,0
+导,0
+的,0
+",",0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+"
+",0
+的,0
+持,0
+续,0
+激,0
+活,0
+对,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+有,0
+毒,0
+性,0
+影,0
+响,0
+",",0
+而,0
+暂,0
+时,0
+和,0
+轻,0
+度,0
+ ,0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+ ,0
+的,0
+激,0
+活,0
+"
+",0
+是,0
+胰,B-Anatomy
+岛,I-Anatomy
+素,I-Anatomy
+适,0
+当,0
+分,0
+泌,0
+和,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+生,0
+存,0
+所,0
+必,0
+需,0
+",",0
+I,B-Anatomy
+L,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+ ,I-Anatomy
+受,I-Anatomy
+体,I-Anatomy
+相,I-Anatomy
+关,I-Anatomy
+激,I-Anatomy
+酶,I-Anatomy
+ ,I-Anatomy
+1,I-Anatomy
+"
+",0
+(,0
+I,B-Anatomy
+R,I-Anatomy
+A,I-Anatomy
+K,I-Anatomy
+1,I-Anatomy
+),0
+和,0
+ ,0
+T,B-Anatomy
+N,I-Anatomy
+F,I-Anatomy
+ ,I-Anatomy
+受,I-Anatomy
+体,I-Anatomy
+相,I-Anatomy
+关,I-Anatomy
+因,I-Anatomy
+子,I-Anatomy
+ ,I-Anatomy
+6,I-Anatomy
+ ,0
+(,0
+ ,0
+T,B-Anatomy
+R,I-Anatomy
+A,I-Anatomy
+F,I-Anatomy
+6,I-Anatomy
+),0
+ ,0
+分,0
+别,0
+是,0
+ ,0
+I,B-Anatomy
+L,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+β,I-Anatomy
+ ,0
+和,0
+"
+",0
+T,B-Anatomy
+N,I-Anatomy
+F,I-Anatomy
+-,I-Anatomy
+α,I-Anatomy
+ ,0
+信,0
+号,0
+通,0
+路,0
+中,0
+重,0
+要,0
+的,0
+促,0
+炎,0
+症,0
+因,0
+子,0
+",",0
+也,0
+是,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+的,0
+ ,0
+2,0
+ ,0
+个,0
+重,0
+"
+",0
+要,0
+靶,0
+基,0
+因,0
+",",0
+适,0
+度,0
+的,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+上,B-Test_Value
+调,I-Test_Value
+有,0
+助,0
+于,0
+调,0
+整,0
+细,0
+胞,0
+对,0
+ ,0
+I,B-Anatomy
+R,I-Anatomy
+A,I-Anatomy
+K,I-Anatomy
+1,I-Anatomy
+、,0
+"
+",0
+T,B-Anatomy
+R,I-Anatomy
+A,I-Anatomy
+F,I-Anatomy
+6,I-Anatomy
+ ,0
+的,0
+反,0
+应,0
+",",0
+相,0
+反,0
+",",0
+在,0
+细,0
+胞,0
+因,0
+子,0
+存,0
+在,0
+的,0
+情,0
+况,0
+下,0
+",",0
+强,0
+而,0
+持,0
+续,0
+的,0
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+上,B-Test_Value
+调,I-Test_Value
+则,0
+可,0
+给,0
+葡,0
+萄,0
+糖,0
+刺,0
+激,0
+的,0
+胰,B-Test
+岛,I-Test
+素,I-Test
+分,0
+泌,0
+及,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+生,0
+存,0
+"
+",0
+带,0
+来,0
+不,0
+利,0
+影,0
+响,0
+。,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+对,0
+于,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+的,0
+细,0
+胞,0
+因,0
+子,0
+不,0
+同,0
+作,0
+用,0
+的,0
+"
+",0
+具,0
+体,0
+机,0
+制,0
+尚,0
+末,0
+完,0
+全,0
+阐,0
+明,0
+。,0
+ ,0
+研,0
+究,0
+发,0
+现,0
+沉,0
+默,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+在,0
+没,0
+有,0
+影,0
+响,0
+"
+",0
+c,0
+-,0
+J,0
+u,0
+n,0
+ ,0
+氨,0
+基,0
+末,0
+端,0
+激,0
+酶,0
+活,0
+性,0
+的,0
+情,0
+况,0
+下,0
+",",0
+能,0
+够,0
+抑,0
+制,0
+ ,0
+I,B-Anatomy
+L,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+β,I-Anatomy
+ ,0
+处,0
+理,0
+细,0
+胞,0
+的,0
+"
+",0
+c,B-Test
+-,I-Test
+J,I-Test
+u,I-Test
+n,I-Test
+ ,0
+产,0
+生,0
+",",0
+这,0
+可,0
+能,0
+解,0
+释,0
+了,0
+反,0
+义,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+的,0
+一,0
+些,0
+保,0
+护,0
+效,0
+应,0
+。,0
+ ,0
+但,0
+"
+",0
+c,0
+-,0
+J,0
+u,0
+n,0
+ ,0
+抑,0
+制,0
+的,0
+可,0
+能,0
+是,0
+由,0
+于,0
+这,0
+些,0
+改,0
+变,0
+的,0
+同,0
+步,0
+效,0
+应,0
+或,0
+者,0
+不,0
+是,0
+由,0
+于,0
+单,0
+"
+",0
+个,0
+靶,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+的,0
+抑,0
+制,0
+",",0
+因,0
+此,0
+",",0
+将,0
+来,0
+需,0
+要,0
+继,0
+续,0
+研,0
+究,0
+分,0
+析,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+6,I-Test
+a,I-Test
+ ,0
+对,0
+"
+",0
+涉,0
+及,0
+糖,0
+代,0
+谢,0
+、,0
+凋,0
+亡,0
+等,0
+方,0
+面,0
+的,0
+蛋,0
+白,0
+质,0
+影,0
+响,0
+。,0
+"
+",0
+2,0
+.,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+:,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+在,0
+分,0
+化,0
+的,0
+ ,0
+B,B-Anatomy
+ ,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+表,0
+达,0
+增,B-Test_Value
+多,I-Test_Value
+",",0
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+在,0
+双,B-Anatomy
+阳,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+高,0
+表,0
+达,0
+",",0
+而,0
+在,0
+成,B-Anatomy
+熟,I-Anatomy
+的,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+表,0
+达,0
+"
+",0
+降,0
+低,0
+[,0
+5,0
+],0
+ ,0
+",",0
+它,0
+在,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+和,0
+ ,0
+B,B-Anatomy
+ ,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+作,0
+用,0
+如,0
+下,0
+[,0
+6,0
+],0
+ ,0
+:,0
+(,0
+1,0
+),0
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+可,0
+抑,0
+制,0
+在,0
+ ,0
+T,B-Anatomy
+C,I-Anatomy
+R,I-Anatomy
+ ,0
+信,0
+号,0
+通,0
+路,0
+起,0
+负,0
+性,0
+调,0
+节,0
+作,0
+用,0
+的,0
+酪,B-Test
+氨,I-Test
+酸,I-Test
+蛋,I-Test
+"
+",I-Test
+白,I-Test
+磷,I-Test
+酸,I-Test
+酶,I-Test
+活,I-Test
+性,I-Test
+(,0
+如,0
+ ,0
+S,B-Test
+H,I-Test
+P,I-Test
+-,I-Test
+2,I-Test
+、,0
+P,B-Test
+T,I-Test
+P,I-Test
+N,I-Test
+2,I-Test
+2,I-Test
+、,0
+D,B-Test
+U,I-Test
+S,I-Test
+P,I-Test
+5,I-Test
+ ,0
+和,0
+ ,0
+D,B-Test
+U,I-Test
+S,I-Test
+P,I-Test
+6,I-Test
+),0
+",",0
+进,0
+而,0
+激,0
+"
+",0
+活,0
+ ,0
+T,B-Anatomy
+C,I-Anatomy
+R,I-Anatomy
+ ,0
+信,0
+号,0
+通,0
+路,0
+的,0
+淋,B-Test
+巴,I-Test
+细,I-Test
+胞,I-Test
+特,I-Test
+异,I-Test
+性,I-Test
+蛋,I-Test
+白,I-Test
+酪,I-Test
+氨,I-Test
+酸,I-Test
+激,I-Test
+酶,I-Test
+(,0
+L,B-Test
+C,I-Test
+K,I-Test
+),0
+和,0
+"
+",0
+细,B-Test
+胞,I-Test
+外,I-Test
+信,I-Test
+号,I-Test
+调,I-Test
+节,I-Test
+激,I-Test
+酶,I-Test
+(,0
+E,B-Test
+R,I-Test
+K,I-Test
+),0
+",",0
+增,0
+强,0
+ ,0
+T,B-Anatomy
+C,I-Anatomy
+R,I-Anatomy
+ ,0
+的,0
+信,0
+号,0
+强,0
+度,0
+",",0
+使,0
+双,B-Anatomy
+阳,I-Anatomy
+性,I-Anatomy
+"
+",I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+顺,0
+利,0
+通,0
+过,0
+阳,0
+性,0
+选,0
+择,0
+",",0
+但,0
+当,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+通,0
+过,0
+双,0
+阳,0
+性,0
+选,0
+择,0
+后,0
+其,0
+"
+",0
+表,0
+达,0
+降,0
+低,0
+",",0
+如,0
+持,0
+续,0
+表,0
+达,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+可,0
+以,0
+导,0
+致,0
+ ,0
+C,B-Anatomy
+D,I-Anatomy
+8,I-Anatomy
++,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+分,0
+化,0
+"
+",0
+受,0
+阻,0
+。,0
+ ,0
+同,0
+时,0
+",",0
+T,B-Anatomy
+C,I-Anatomy
+R,I-Anatomy
+ ,0
+信,0
+号,0
+通,0
+路,0
+能,0
+负,0
+反,0
+馈,0
+抑,0
+制,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+表,0
+达,0
+",",0
+T,B-Anatomy
+C,I-Anatomy
+R,I-Anatomy
+"
+",0
+与,0
+抗,0
+原,0
+结,0
+合,0
+后,0
+ ,0
+1,0
+ ,0
+h,0
+ ,0
+内,0
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+的,0
+表,0
+达,0
+迅,B-Test_Value
+速,I-Test_Value
+下,I-Test_Value
+调,I-Test_Value
+。,0
+ ,0
+(,0
+2,0
+),0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+可,0
+调,0
+节,0
+ ,0
+C,B-Anatomy
+D,I-Anatomy
+4,I-Anatomy
++,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+对,0
+抗,0
+原,0
+应,0
+答,0
+的,0
+数,0
+量,0
+",",0
+使,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+在,0
+接,0
+触,0
+"
+",0
+外,0
+源,0
+或,0
+内,0
+生,0
+抗,0
+原,0
+时,0
+产,0
+生,0
+不,0
+同,0
+强,0
+度,0
+的,0
+反,0
+应,0
+。,0
+ ,0
+(,0
+3,0
+),0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+能,0
+增,0
+"
+",0
+强,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+表,0
+达,0
+ ,0
+C,B-Anatomy
+D,I-Anatomy
+2,I-Anatomy
+8,I-Anatomy
+",",0
+抑,0
+制,0
+细,B-Test
+胞,I-Test
+毒,I-Test
+性,I-Test
+ ,I-Test
+T,I-Test
+ ,I-Test
+淋,I-Test
+巴,I-Test
+细,I-Test
+胞,I-Test
+抗,I-Test
+原,I-Test
+(,0
+c,0
+y,0
+t,0
+o,0
+t,0
+o,0
+x,0
+i,0
+c,0
+ ,0
+T,0
+"
+",0
+l,0
+y,0
+m,0
+p,0
+h,0
+o,0
+c,0
+y,0
+t,0
+e,0
+ ,0
+a,0
+n,0
+t,0
+i,0
+g,0
+e,0
+n,0
+ ,0
+4,0
+",",0
+C,B-Test
+T,I-Test
+L,I-Test
+A,I-Test
+-,I-Test
+4,I-Test
+),0
+活,0
+化,0
+而,0
+促,0
+进,0
+ ,0
+I,B-Test
+L,I-Test
+-,I-Test
+2,I-Test
+ ,0
+的,0
+分,0
+泌,0
+[,0
+7,0
+],0
+ ,0
+",",0
+增,0
+强,0
+"
+",0
+免,0
+疫,0
+应,0
+答,0
+。,0
+ ,0
+(,0
+4,0
+),0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+可,0
+以,0
+提,0
+高,0
+ ,0
+T,B-Test
+C,I-Test
+R,I-Test
+ ,I-Test
+的,I-Test
+敏,I-Test
+感,I-Test
+性,I-Test
+",",0
+当,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+"
+",0
+异,0
+常,0
+高,0
+表,0
+达,0
+时,0
+会,0
+使,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+与,0
+体,0
+内,0
+自,0
+身,0
+抗,0
+原,0
+的,0
+亲,0
+和,0
+力,0
+增,0
+强,0
+",",0
+进,0
+而,0
+"
+",0
+促,0
+进,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+病,I-Disease
+发,0
+生,0
+[,0
+8,0
+],0
+ ,0
+。,0
+ ,0
+N,0
+i,0
+e,0
+l,0
+s,0
+e,0
+n,0
+ ,0
+等,0
+[,0
+9,0
+],0
+ ,0
+对,0
+新,0
+诊,0
+断,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+和,0
+"
+",0
+正,0
+常,0
+对,0
+照,0
+组,0
+ ,0
+P,B-Anatomy
+B,I-Anatomy
+M,I-Anatomy
+C,I-Anatomy
+ ,0
+的,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+N,I-Test
+A,I-Test
+s,I-Test
+ ,I-Test
+表,I-Test
+达,I-Test
+谱,I-Test
+进,0
+行,0
+对,0
+比,0
+分,0
+析,0
+发,0
+现,0
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+5,I-Test
+2,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+0,I-Test
+a,I-Test
+-,I-Test
+5,I-Test
+P,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+4,I-Test
+8,I-Test
+a,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+0,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+7,I-Test
+a,I-Test
+、,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+5,I-Test
+"
+",0
+等,0
+ ,0
+1,0
+2,0
+ ,0
+个,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+表,0
+达,0
+上,B-Test_Value
+调,I-Test_Value
+",",0
+其,0
+中,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+与,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+自,0
+身,0
+免,0
+疫,0
+"
+",0
+状,0
+态,0
+有,0
+关,0
+。,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+8,I-Test
+1,I-Test
+a,I-Test
+ ,0
+可,0
+能,0
+与,0
+靶,B-Anatomy
+基,I-Anatomy
+因,I-Anatomy
+ ,I-Anatomy
+s,I-Anatomy
+i,I-Anatomy
+r,I-Anatomy
+t,I-Anatomy
+u,I-Anatomy
+i,I-Anatomy
+n,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+(,0
+ ,0
+S,B-Anatomy
+i,I-Anatomy
+r,I-Anatomy
+t,I-Anatomy
+1,I-Anatomy
+),0
+的,0
+ ,0
+3,0
+忆,0
+U,0
+T,0
+R,0
+"
+",0
+结,0
+合,0
+",",0
+S,B-Anatomy
+i,I-Anatomy
+r,I-Anatomy
+t,I-Anatomy
+1,I-Anatomy
+ ,I-Anatomy
+基,I-Anatomy
+因,I-Anatomy
+是,0
+著,0
+名,0
+的,0
+长,0
+寿,0
+基,0
+因,0
+",",0
+动,0
+物,0
+研,0
+究,0
+显,0
+示,0
+",",0
+S,B-Anatomy
+i,I-Anatomy
+r,I-Anatomy
+t,I-Anatomy
+1,I-Anatomy
+ ,I-Anatomy
+基,I-Anatomy
+因,I-Anatomy
+对,0
+"
+",0
+于,0
+胰,B-Test
+岛,I-Test
+素,I-Test
+分,0
+泌,0
+和,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+疾,I-Disease
+病,I-Disease
+也,0
+有,0
+调,0
+节,0
+作,0
+用,0
+",",0
+激,0
+活,0
+这,0
+一,0
+基,0
+因,0
+有,0
+"
+",0
+利,0
+于,0
+抵,0
+御,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+的,0
+发,0
+生,0
+。,0
+"
+",0
+3,0
+.,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+:,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+在,0
+ ,0
+T,B-Anatomy
+n,I-Anatomy
+a,I-Anatomy
+i,I-Anatomy
+v,I-Anatomy
+e,I-Anatomy
+ ,0
+阶,0
+段,0
+低,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+",",0
+但,0
+当,0
+ ,0
+T,B-Anatomy
+n,I-Anatomy
+a,I-Anatomy
+i,I-Anatomy
+v,I-Anatomy
+e,I-Anatomy
+ ,0
+的,0
+"
+",0
+T,B-Anatomy
+C,I-Anatomy
+R,I-Anatomy
+ ,0
+受,0
+到,0
+刺,0
+激,0
+后,0
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+迅,B-Test_Value
+速,I-Test_Value
+上,I-Test_Value
+升,I-Test_Value
+",",0
+这,0
+一,0
+过,0
+程,0
+与,0
+蛋,B-Anatomy
+白,I-Anatomy
+激,I-Anatomy
+酶,I-Anatomy
+ ,I-Anatomy
+J,I-Anatomy
+N,I-Anatomy
+K,I-Anatomy
+"
+",0
+及,0
+转,B-Anatomy
+录,I-Anatomy
+调,I-Anatomy
+节,I-Anatomy
+因,I-Anatomy
+子,I-Anatomy
+ ,I-Anatomy
+N,I-Anatomy
+F,I-Anatomy
+-,I-Anatomy
+κ,I-Anatomy
+B,I-Anatomy
+、,0
+转,B-Anatomy
+录,I-Anatomy
+激,I-Anatomy
+活,I-Anatomy
+蛋,I-Anatomy
+白,I-Anatomy
+ ,I-Anatomy
+A,I-Anatomy
+P,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+ ,0
+密,0
+切,0
+相,0
+关,0
+。,0
+ ,0
+尽,0
+管,0
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+缺,0
+陷,0
+的,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+和,0
+正,0
+常,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+在,0
+增,0
+殖,0
+方,0
+面,0
+没,0
+有,0
+区,0
+别,0
+",",0
+但,0
+"
+",0
+敲,0
+除,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+的,0
+小,0
+鼠,0
+ ,0
+T,B-Anatomy
+n,I-Anatomy
+a,I-Anatomy
+i,I-Anatomy
+v,I-Anatomy
+e,I-Anatomy
+ ,0
+识,0
+别,0
+抗,0
+原,0
+后,0
+无,0
+法,0
+正,0
+常,0
+分,0
+泌,0
+ ,0
+I,B-Test
+L,I-Test
+-,I-Test
+2,I-Test
+ ,0
+和,0
+"
+",0
+I,B-Test
+F,I-Test
+N,I-Test
+-,I-Test
+γ,I-Test
+",",0
+c,B-Test
+-,I-Test
+M,I-Test
+a,I-Test
+f,I-Test
+ ,0
+和,0
+ ,0
+I,B-Test
+t,I-Test
+k,I-Test
+ ,0
+的,0
+表,0
+达,0
+增,0
+加,0
+",",0
+c,B-Test
+-,I-Test
+M,I-Test
+a,I-Test
+f,I-Test
+ ,0
+是,0
+ ,0
+I,B-Test
+L,I-Test
+-,I-Test
+4,I-Test
+ ,0
+启,0
+动,0
+子,0
+的,0
+一,0
+个,0
+反,0
+"
+",0
+式,0
+作,0
+用,0
+因,0
+子,0
+",",0
+c,B-Test
+-,I-Test
+M,I-Test
+a,I-Test
+f,I-Test
+ ,0
+的,0
+上,0
+调,0
+会,0
+促,0
+进,0
+ ,0
+I,B-Test
+L,I-Test
+-,I-Test
+4,I-Test
+ ,0
+分,0
+泌,0
+增,0
+加,0
+",",0
+更,0
+倾,0
+向,0
+于,0
+向,0
+"
+",0
+T,B-Anatomy
+h,I-Anatomy
+2,I-Anatomy
+ ,0
+细,0
+胞,0
+分,0
+化,0
+。,0
+ ,0
+调,B-Anatomy
+节,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+ ,0
+(,0
+ ,0
+r,B-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+u,I-Anatomy
+l,I-Anatomy
+a,I-Anatomy
+t,I-Anatomy
+o,I-Anatomy
+r,I-Anatomy
+y,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+s,I-Anatomy
+",",0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+),0
+ ,0
+中,0
+"
+",0
+F,B-Anatomy
+O,I-Anatomy
+X,I-Anatomy
+P,I-Anatomy
+3,I-Anatomy
+ ,0
+(,0
+F,B-Anatomy
+o,I-Anatomy
+r,I-Anatomy
+k,I-Anatomy
+h,I-Anatomy
+e,I-Anatomy
+a,I-Anatomy
+d,I-Anatomy
+ ,I-Anatomy
+b,I-Anatomy
+o,I-Anatomy
+x,I-Anatomy
+ ,I-Anatomy
+P,I-Anatomy
+3,I-Anatomy
+),0
+ ,0
+直,0
+接,0
+作,0
+用,0
+于,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+启,0
+动,0
+子,0
+",",0
+使,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+在,0
+该,0
+细,0
+胞,0
+中,0
+高,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+",",0
+过,0
+表,0
+达,0
+的,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+抑,0
+制,0
+靶,0
+基,0
+因,0
+细,B-Anatomy
+胞,I-Anatomy
+因,I-Anatomy
+"
+",I-Anatomy
+子,I-Anatomy
+信,I-Anatomy
+号,I-Anatomy
+ ,I-Anatomy
+1,I-Anatomy
+ ,I-Anatomy
+的,I-Anatomy
+抑,I-Anatomy
+制,I-Anatomy
+物,I-Anatomy
+(,0
+S,0
+u,0
+p,0
+p,0
+r,0
+e,0
+s,0
+s,0
+o,0
+r,0
+ ,0
+o,0
+f,0
+ ,0
+c,0
+y,0
+t,0
+o,0
+k,0
+i,0
+n,0
+e,0
+ ,0
+s,0
+i,0
+g,0
+n,0
+a,0
+l,0
+i,0
+n,0
+g,0
+-,0
+1,0
+",",0
+ ,0
+S,B-Anatomy
+O,I-Anatomy
+C,I-Anatomy
+S,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+),0
+",",0
+"
+",0
+从,0
+而,0
+使,0
+ ,0
+I,0
+L,0
+-,0
+2,0
+ ,0
+/,0
+ ,0
+S,0
+T,0
+A,0
+T,0
+5,0
+ ,0
+信,0
+号,0
+通,0
+路,0
+增,0
+强,0
+",",0
+对,0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+细,0
+胞,0
+维,0
+持,0
+增,0
+殖,0
+活,0
+性,0
+"
+",0
+起,0
+到,0
+重,0
+要,0
+作,0
+用,0
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+缺,0
+陷,0
+的,0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+在,0
+维,0
+持,0
+自,0
+身,0
+动,0
+态,0
+平,0
+衡,0
+以,0
+及,0
+"
+",0
+增,0
+殖,0
+潜,0
+能,0
+方,0
+面,0
+明,0
+显,0
+下,0
+降,0
+。,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+缺,0
+失,0
+的,0
+髓,B-Anatomy
+系,I-Anatomy
+起,I-Anatomy
+源,I-Anatomy
+的,I-Anatomy
+树,I-Anatomy
+突,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+"
+",0
+失,0
+去,0
+了,0
+抗,0
+原,0
+呈,0
+递,0
+能,0
+力,0
+",",0
+导,0
+致,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+不,0
+能,0
+激,0
+活,0
+。,0
+ ,0
+敲,0
+除,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+的,0
+"
+",0
+鼠,0
+由,0
+于,0
+向,0
+ ,0
+1,B-Anatomy
+7,I-Anatomy
+ ,I-Anatomy
+型,I-Anatomy
+辅,I-Anatomy
+助,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+(,0
+T,B-Anatomy
+ ,I-Anatomy
+h,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+p,I-Anatomy
+e,I-Anatomy
+r,I-Anatomy
+ ,I-Anatomy
+t,I-Anatomy
+y,I-Anatomy
+p,I-Anatomy
+e,I-Anatomy
+ ,I-Anatomy
+1,I-Anatomy
+7,I-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+s,I-Anatomy
+",",0
+ ,0
+T,B-Anatomy
+h,I-Anatomy
+1,I-Anatomy
+7,I-Anatomy
+),0
+和,0
+"
+",0
+T,B-Anatomy
+h,I-Anatomy
+1,I-Anatomy
+ ,0
+分,0
+化,0
+受,0
+损,0
+",",0
+能,0
+抵,0
+抗,0
+实,0
+验,0
+性,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+脑,I-Disease
+脊,I-Disease
+髓,I-Disease
+炎,I-Disease
+(,0
+E,B-Disease
+A,I-Disease
+E,I-Disease
+),0
+的,0
+发,0
+"
+",0
+生,0
+",",0
+类,B-Disease
+风,I-Disease
+湿,I-Disease
+性,I-Disease
+关,I-Disease
+节,I-Disease
+炎,I-Disease
+和,0
+系,B-Disease
+统,I-Disease
+性,I-Disease
+红,I-Disease
+斑,I-Disease
+狼,I-Disease
+疮,I-Disease
+患,0
+者,0
+ ,0
+P,B-Anatomy
+B,I-Anatomy
+M,I-Anatomy
+C,I-Anatomy
+ ,0
+中,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+"
+",0
+表,0
+达,0
+升,B-Test_Value
+高,I-Test_Value
+",",0
+可,0
+能,0
+作,0
+为,0
+诊,0
+断,0
+的,0
+指,0
+标,0
+。,0
+ ,0
+但,0
+在,0
+链,B-Disease
+脲,I-Disease
+佐,I-Disease
+菌,I-Disease
+素,I-Disease
+介,0
+导,0
+的,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+"
+",I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+中,0
+",",0
+敲,0
+除,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+鼠,0
+与,0
+野,0
+生,0
+型,0
+ ,0
+B,0
+6,0
+ ,0
+鼠,0
+有,0
+相,0
+似,0
+的,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+发,0
+"
+",0
+生,0
+率,0
+",",0
+敲,0
+除,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+不,0
+能,0
+预,0
+防,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+发,0
+生,0
+",",0
+且,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+的,0
+缺,0
+"
+",0
+失,0
+也,0
+不,0
+能,0
+预,0
+防,0
+多,0
+种,0
+低,B-Amount
+剂,I-Amount
+量,I-Amount
+链,B-Drug
+脲,I-Drug
+菌,I-Drug
+素,I-Drug
+的,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+发,0
+生,0
+",",0
+即,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+与,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+无,0
+关,0
+",",0
+这,0
+可,0
+能,0
+是,0
+由,0
+于,0
+相,0
+同,0
+的,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+在,0
+"
+",0
+不,0
+同,0
+器,0
+官,0
+、,0
+条,0
+件,0
+下,0
+有,0
+不,0
+同,0
+的,0
+作,0
+用,0
+[,0
+1,0
+0,0
+],0
+ ,0
+。,0
+"
+",0
+4,0
+.,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+:,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+可,0
+以,0
+通,0
+过,0
+降,0
+低,0
+酯,B-Test
+酶,I-Test
+ ,I-Test
+1,I-Test
+(,0
+ ,0
+e,0
+s,0
+t,0
+e,0
+r,0
+a,0
+s,0
+-,0
+1,0
+",",0
+E,B-Test
+S,I-Test
+T,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+),0
+的,0
+表,0
+达,0
+",",0
+而,0
+促,0
+进,0
+ ,0
+T,B-Anatomy
+h,I-Anatomy
+1,I-Anatomy
+7,I-Anatomy
+ ,0
+的,0
+形,0
+成,0
+",",0
+诱,0
+发,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+疾,I-Disease
+病,I-Disease
+的,0
+发,0
+生,0
+。,0
+"
+",0
+研,0
+究,0
+发,0
+现,0
+",",0
+与,0
+自,0
+身,0
+抗,0
+体,0
+阴,0
+性,0
+的,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+相,0
+比,0
+",",0
+自,0
+身,0
+抗,0
+体,0
+"
+",0
+阳,0
+性,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+的,0
+外,B-Anatomy
+周,I-Anatomy
+血,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+表,B-Test_Value
+达,I-Test_Value
+增,I-Test_Value
+加,I-Test_Value
+",",0
+在,0
+"
+",0
+G,B-Test
+A,I-Test
+D,I-Test
+A,I-Test
+ ,0
+和,0
+ ,0
+I,B-Test
+A,I-Test
+-,I-Test
+2,I-Test
+A,I-Test
+ ,0
+均,0
+阳,B-Test_Value
+性,I-Test_Value
+的,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+",",0
+外,B-Anatomy
+周,I-Anatomy
+血,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+比,0
+抗,0
+体,0
+阴,0
+性,0
+的,0
+患,0
+者,0
+增,0
+加,0
+ ,0
+2,0
+ ,0
+倍,0
+左,0
+右,0
+",",0
+单,0
+个,0
+抗,0
+体,0
+阳,0
+性,0
+的,0
+ ,0
+1,B-Disease
+"
+",I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+外,B-Anatomy
+周,I-Anatomy
+血,I-Anatomy
+淋,I-Anatomy
+巴,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+比,0
+抗,0
+体,0
+阴,0
+性,0
+的,0
+增,0
+加,0
+近,0
+ ,0
+3,0
+ ,0
+倍,0
+",",0
+说,0
+明,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+在,0
+有,0
+进,0
+行,0
+性,0
+胰,B-Anatomy
+岛,I-Anatomy
+自,0
+身,0
+免,0
+疫,0
+的,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+中,0
+有,0
+较,0
+高,0
+的,0
+表,0
+"
+",0
+达,0
+",",0
+其,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+表,0
+达,0
+水,0
+平,0
+与,0
+疾,0
+病,0
+严,0
+重,0
+程,0
+度,0
+呈,0
+正,0
+相,0
+关,0
+[,0
+1,0
+1,0
+],0
+ ,0
+。,0
+ ,0
+根,0
+据,0
+"
+",0
+T,0
+a,0
+r,0
+g,0
+e,0
+t,0
+s,0
+c,0
+a,0
+n,0
+ ,0
+在,0
+线,0
+预,0
+测,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+靶,0
+基,0
+因,0
+",",0
+发,0
+现,0
+维,B-Anatomy
+生,I-Anatomy
+素,I-Anatomy
+ ,I-Anatomy
+D,I-Anatomy
+ ,I-Anatomy
+受,I-Anatomy
+体,I-Anatomy
+"
+",0
+(,0
+V,B-Anatomy
+D,I-Anatomy
+R,I-Anatomy
+),0
+的,0
+ ,0
+3,0
+忆,0
+非,0
+翻,0
+译,0
+区,0
+有,0
+ ,0
+4,0
+ ,0
+个,0
+位,0
+点,0
+可,0
+能,0
+与,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+结,0
+合,0
+",",0
+可,0
+能,0
+是,0
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+的,0
+靶,0
+基,0
+因,0
+。,0
+ ,0
+V,B-Anatomy
+D,I-Anatomy
+R,I-Anatomy
+ ,0
+表,0
+达,0
+于,0
+多,0
+数,0
+免,B-Anatomy
+疫,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+表,0
+面,0
+",",0
+维,B-Anatomy
+生,I-Anatomy
+素,I-Anatomy
+ ,I-Anatomy
+D,I-Anatomy
+"
+",0
+信,0
+号,0
+通,0
+路,0
+在,0
+免,0
+疫,0
+系,0
+统,0
+中,0
+有,0
+重,0
+要,0
+作,0
+用,0
+",",0
+在,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+动,0
+物,0
+模,0
+型,0
+"
+",0
+中,0
+",",0
+高,B-Amount
+剂,I-Amount
+量,I-Amount
+维,B-Drug
+生,I-Drug
+素,I-Drug
+ ,I-Drug
+D,I-Drug
+3,I-Drug
+ ,0
+可,0
+以,0
+预,0
+防,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+的,0
+发,0
+生,0
+",",0
+而,0
+基,0
+因,0
+敲,0
+除,0
+"
+",0
+V,B-Anatomy
+D,I-Anatomy
+R,I-Anatomy
+ ,0
+的,0
+动,0
+物,0
+则,0
+表,0
+现,0
+出,0
+免,0
+疫,0
+功,0
+能,0
+失,0
+调,0
+。,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+的,0
+高,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+可,0
+导,0
+"
+",0
+致,0
+ ,0
+V,B-Anatomy
+D,I-Anatomy
+R,I-Anatomy
+ ,0
+下,0
+调,0
+",",0
+从,0
+而,0
+诱,0
+发,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+。,0
+ ,0
+但,0
+遗,0
+憾,0
+的,0
+是,0
+",",0
+目,0
+前,0
+尚,0
+无,0
+研,0
+"
+",0
+究,0
+证,0
+实,0
+ ,0
+V,B-Anatomy
+D,I-Anatomy
+R,I-Anatomy
+ ,0
+是,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+3,I-Test
+2,I-Test
+6,I-Test
+ ,0
+的,0
+真,0
+正,0
+靶,0
+基,0
+因,0
+。,0
+"
+",0
+5,0
+.,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+:,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+位,0
+于,0
+ ,0
+1,0
+7,0
+q,0
+2,0
+3,0
+.,0
+ ,0
+2,0
+ ,0
+染,0
+色,0
+体,0
+ ,0
+F,0
+R,0
+A,0
+ ,0
+1,0
+7,0
+B,0
+ ,0
+脆,0
+性,0
+区,0
+"
+",0
+域,0
+",",0
+在,0
+细,0
+胞,0
+因,0
+子,0
+处,0
+理,0
+的,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+和,0
+胰,B-Disease
+岛,I-Disease
+炎,I-Disease
+的,0
+ ,0
+N,0
+O,0
+D,0
+ ,0
+小,0
+鼠,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+表,0
+"
+",0
+达,0
+升,B-Test_Value
+高,I-Test_Value
+。,0
+ ,0
+在,0
+多,B-Anatomy
+发,I-Anatomy
+性,I-Anatomy
+骨,I-Anatomy
+髓,I-Anatomy
+瘤,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+的,0
+过,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+是,0
+通,0
+过,0
+转,0
+录,0
+因,0
+"
+",0
+子,0
+ ,0
+S,0
+t,0
+a,0
+t,0
+3,0
+ ,0
+信,0
+号,0
+级,0
+联,0
+效,0
+应,0
+中,0
+的,0
+ ,0
+I,B-Anatomy
+L,I-Anatomy
+-,I-Anatomy
+6,I-Anatomy
+ ,0
+介,0
+导,0
+的,0
+",",0
+但,0
+是,0
+否,0
+相,0
+同,0
+的,0
+机,0
+制,0
+发,0
+"
+",0
+生,0
+在,0
+暴,0
+露,0
+于,0
+细,0
+胞,0
+因,0
+子,0
+的,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+尚,0
+不,0
+可,0
+知,0
+。,0
+ ,0
+M,B-Anatomy
+I,I-Anatomy
+N,I-Anatomy
+6,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+过,0
+表,0
+"
+",0
+达,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+可,0
+导,0
+致,0
+葡,0
+萄,0
+糖,0
+刺,0
+激,0
+的,0
+胰,B-Test
+岛,I-Test
+素,I-Test
+分,0
+泌,0
+受,0
+损,0
+",",0
+在,0
+胰,B-Anatomy
+岛,I-Anatomy
+素,I-Anatomy
+胞,0
+"
+",0
+吐,0
+中,0
+发,0
+挥,0
+重,0
+要,0
+作,0
+用,0
+的,0
+分,B-Test
+泌,I-Test
+颗,I-Test
+粒,I-Test
+蛋,I-Test
+白,I-Test
+ ,0
+V,B-Test
+A,I-Test
+M,I-Test
+P,I-Test
+2,I-Test
+ ,0
+表,0
+达,0
+下,0
+降,0
+",",0
+但,0
+"
+",0
+V,B-Test
+A,I-Test
+M,I-Test
+P,I-Test
+2,I-Test
+ ,0
+的,0
+ ,0
+3,0
+忆,0
+U,0
+T,0
+R,0
+ ,0
+并,0
+没,0
+有,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+的,0
+知,0
+别,0
+位,0
+点,0
+",",0
+提,0
+示,0
+这,0
+可,0
+能,0
+是,0
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+的,0
+间,0
+接,0
+作,0
+用,0
+。,0
+ ,0
+沉,0
+默,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+可,0
+恢,0
+复,0
+ ,0
+I,B-Anatomy
+L,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+β,I-Anatomy
+ ,0
+介,0
+导,0
+的,0
+ ,0
+V,B-Test
+A,I-Test
+M,I-Test
+P,I-Test
+2,I-Test
+"
+",0
+表,0
+达,0
+下,0
+降,0
+",",0
+减,0
+轻,0
+葡,0
+萄,0
+糖,0
+刺,0
+激,0
+的,0
+胰,B-Test
+岛,I-Test
+素,I-Test
+分,I-Test
+泌,I-Test
+能,I-Test
+力,I-Test
+的,0
+受,0
+损,0
+程,0
+度,0
+",",0
+因,0
+"
+",0
+此,0
+ ,0
+V,B-Test
+A,I-Test
+M,I-Test
+P,I-Test
+2,I-Test
+ ,0
+的,0
+表,0
+达,0
+改,0
+变,0
+不,0
+可,0
+能,0
+解,0
+释,0
+所,0
+有,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+的,0
+细,0
+胞,0
+效,0
+应,0
+",",0
+还,0
+"
+",0
+应,0
+该,0
+有,0
+其,0
+他,0
+主,0
+要,0
+基,0
+因,0
+修,0
+饰,0
+的,0
+改,0
+变,0
+涉,0
+及,0
+在,0
+其,0
+中,0
+。,0
+ ,0
+进,0
+一,0
+步,0
+研,0
+究,0
+发,0
+"
+",0
+现,0
+",",0
+在,0
+胰,B-Anatomy
+岛,I-Anatomy
+ ,I-Anatomy
+β,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+",",0
+核,B-Test
+因,I-Test
+子,I-Test
+ ,I-Test
+N,I-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+ ,0
+的,0
+ ,0
+p,B-Test
+6,I-Test
+5,I-Test
+ ,0
+和,0
+ ,0
+C,B-Test
+-,I-Test
+R,I-Test
+e,I-Test
+l,I-Test
+ ,0
+激,0
+活,0
+ ,0
+m,B-Test
+i,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,I-Test
+基,I-Test
+"
+",I-Test
+因,I-Test
+启,0
+动,0
+子,0
+",",0
+增,0
+加,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+表,0
+达,0
+水,0
+平,0
+",",0
+高,B-Test_Value
+表,I-Test_Value
+达,I-Test_Value
+的,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+ ,0
+反,0
+过,0
+来,0
+降,0
+"
+",0
+低,0
+了,0
+ ,0
+P,B-Test
+D,I-Test
+C,I-Test
+D,I-Test
+4,I-Test
+(,0
+P,B-Anatomy
+D,I-Anatomy
+C,I-Anatomy
+D,I-Anatomy
+4,I-Anatomy
+ ,0
+是,0
+能,0
+够,0
+通,0
+过,0
+ ,0
+B,B-Anatomy
+a,I-Anatomy
+x,I-Anatomy
+ ,I-Anatomy
+蛋,I-Anatomy
+白,I-Anatomy
+家,I-Anatomy
+族,I-Anatomy
+的,0
+凋,0
+亡,0
+蛋,0
+白,0
+诱,0
+"
+",0
+导,0
+细,0
+胞,0
+死,0
+亡,0
+的,0
+),0
+",",0
+导,0
+致,0
+ ,0
+β,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+功,0
+能,0
+衰,0
+竭,0
+[,0
+1,0
+2,0
+],0
+ ,0
+。,0
+ ,0
+因,0
+此,0
+",",0
+缺,0
+乏,0
+ ,0
+P,B-Anatomy
+D,I-Anatomy
+C,I-Anatomy
+D,I-Anatomy
+4,I-Anatomy
+"
+",0
+的,0
+ ,0
+N,0
+O,0
+D,0
+ ,0
+和,0
+ ,0
+C,0
+5,0
+7,0
+B,0
+L,0
+ ,0
+/,0
+ ,0
+6,0
+ ,0
+小,0
+鼠,0
+使,0
+他,0
+们,0
+能,0
+抵,0
+抗,0
+发,0
+生,0
+自,B-Disease
+发,I-Disease
+性,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+、,0
+自,B-Anatomy
+"
+",I-Anatomy
+身,I-Anatomy
+免,I-Anatomy
+疫,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+诱,0
+导,0
+的,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+或,0
+链,B-Drug
+脲,I-Drug
+佐,I-Drug
+菌,I-Drug
+素,I-Drug
+诱,0
+导,0
+的,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+。,0
+"
+",0
+进,0
+一,0
+步,0
+研,0
+究,0
+发,0
+现,0
+",",0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+ ,0
+P,B-Anatomy
+B,I-Anatomy
+M,I-Anatomy
+C,I-Anatomy
+ ,0
+中,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+[,0
+1,0
+3,0
+],0
+ ,0
+表,0
+达,0
+下,0
+"
+",0
+调,0
+",",0
+N,B-Test
+F,I-Test
+-,I-Test
+κ,I-Test
+B,I-Test
+-,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+1,I-Test
+-,0
+P,B-Test
+D,I-Test
+C,I-Test
+D,I-Test
+4,I-Test
+ ,0
+在,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+发,0
+病,0
+中,0
+起,0
+着,0
+重,0
+要,0
+的,0
+作,0
+"
+",0
+用,0
+",",0
+代,0
+表,0
+了,0
+一,0
+个,0
+可,0
+能,0
+治,0
+疗,0
+该,0
+病,0
+的,0
+靶,0
+点,0
+[,0
+1,0
+4,0
+],0
+ ,0
+。,0
+"
+",0
+6,0
+.,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+:,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+对,0
+于,0
+维,0
+持,0
+正,0
+常,0
+免,0
+疫,0
+系,0
+统,0
+的,0
+功,0
+能,0
+至,0
+关,0
+重,0
+要,0
+",",0
+"
+",0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+数,0
+量,0
+的,0
+减,0
+少,0
+或,0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+中,0
+的,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+失,0
+调,0
+会,0
+导,0
+致,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+在,0
+"
+",0
+内,0
+的,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+疾,I-Disease
+病,I-Disease
+的,0
+发,0
+生,0
+",",0
+因,0
+此,0
+",",0
+m,0
+i,0
+R,0
+N,0
+A,0
+ ,0
+对,0
+于,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+"
+",0
+者,0
+的,0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+稳,0
+定,0
+和,0
+功,0
+能,0
+至,0
+关,0
+重,0
+要,0
+。,0
+ ,0
+全,B-Anatomy
+反,I-Anatomy
+式,I-Anatomy
+视,I-Anatomy
+黄,I-Anatomy
+酸,I-Anatomy
+ ,0
+(,0
+ ,0
+A,0
+l,0
+l,0
+-,0
+t,0
+r,0
+a,0
+n,0
+s,0
+-,0
+"
+",0
+r,0
+e,0
+t,0
+i,0
+n,0
+o,0
+i,0
+c,0
+ ,0
+a,0
+c,0
+i,0
+d,0
+",",0
+ ,0
+R,B-Anatomy
+A,I-Anatomy
+),0
+在,0
+传,B-Anatomy
+统,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+向,0
+ ,0
+F,B-Anatomy
+O,I-Anatomy
+X,I-Anatomy
+P,I-Anatomy
+3,I-Anatomy
+ ,0
+的,0
+自,B-Anatomy
+适,I-Anatomy
+应,I-Anatomy
+调,I-Anatomy
+节,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+"
+",I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+(,0
+a,B-Anatomy
+d,I-Anatomy
+a,I-Anatomy
+p,I-Anatomy
+t,I-Anatomy
+i,I-Anatomy
+v,I-Anatomy
+e,I-Anatomy
+ ,I-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+u,I-Anatomy
+l,I-Anatomy
+a,I-Anatomy
+t,I-Anatomy
+o,I-Anatomy
+r,I-Anatomy
+y,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+c,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+l,I-Anatomy
+s,I-Anatomy
+",",0
+ ,0
+a,B-Anatomy
+T,I-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+),0
+的,0
+转,0
+化,0
+及,0
+维,0
+持,0
+ ,0
+i,B-Anatomy
+T,I-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+稳,0
+定,0
+"
+",0
+性,0
+中,0
+起,0
+重,0
+要,0
+作,0
+用,0
+",",0
+在,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+中,0
+",",0
+R,B-Anatomy
+A,I-Anatomy
+ ,0
+通,0
+过,0
+与,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+ ,0
+上,0
+的,0
+维,B-Anatomy
+甲,I-Anatomy
+酸,I-Anatomy
+"
+",I-Anatomy
+反,I-Anatomy
+应,I-Anatomy
+元,I-Anatomy
+件,I-Anatomy
+(,0
+ ,0
+r,B-Anatomy
+e,I-Anatomy
+t,I-Anatomy
+i,I-Anatomy
+n,I-Anatomy
+o,I-Anatomy
+i,I-Anatomy
+c,I-Anatomy
+ ,I-Anatomy
+a,I-Anatomy
+c,I-Anatomy
+i,I-Anatomy
+d,I-Anatomy
+ ,I-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+s,I-Anatomy
+p,I-Anatomy
+o,I-Anatomy
+n,I-Anatomy
+s,I-Anatomy
+e,I-Anatomy
+ ,I-Anatomy
+e,I-Anatomy
+l,I-Anatomy
+e,I-Anatomy
+m,I-Anatomy
+e,I-Anatomy
+n,I-Anatomy
+t,I-Anatomy
+",",0
+ ,0
+R,B-Anatomy
+A,I-Anatomy
+R,I-Anatomy
+E,I-Anatomy
+),0
+结,0
+合,0
+直,0
+接,0
+诱,0
+导,0
+"
+",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+ ,0
+的,0
+产,0
+生,0
+",",0
+防,0
+止,0
+发,0
+生,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+。,0
+ ,0
+具,0
+有,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+糖,I-Disease
+尿,I-Disease
+"
+",I-Disease
+病,I-Disease
+遗,0
+传,0
+易,0
+感,0
+性,0
+倾,0
+向,0
+的,0
+ ,0
+N,0
+O,0
+D,0
+ ,0
+小,0
+鼠,0
+的,0
+特,B-Anatomy
+异,I-Anatomy
+性,I-Anatomy
+调,I-Anatomy
+节,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+"
+",I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+ ,0
+表,0
+达,0
+要,0
+低,0
+于,0
+ ,0
+C,0
+5,0
+7,0
+B,0
+L,0
+ ,0
+/,0
+ ,0
+6,0
+J,0
+ ,0
+抗,0
+自,0
+身,0
+免,0
+疫,0
+性,0
+小,0
+鼠,0
+支,0
+持,0
+这,0
+一,0
+观,0
+点,0
+。,0
+"
+",0
+体,0
+外,0
+抑,0
+制,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+ ,0
+的,0
+表,0
+达,0
+导,0
+致,0
+了,0
+ ,0
+F,B-Anatomy
+O,I-Anatomy
+X,I-Anatomy
+P,I-Anatomy
+3,I-Anatomy
+ ,0
+表,0
+达,0
+下,0
+降,0
+",",0
+从,0
+而,0
+抑,0
+制,0
+转,B-Anatomy
+"
+",I-Anatomy
+化,I-Anatomy
+生,I-Anatomy
+长,I-Anatomy
+因,I-Anatomy
+子,I-Anatomy
+ ,I-Anatomy
+β,I-Anatomy
+(,0
+T,B-Anatomy
+G,I-Anatomy
+F,I-Anatomy
+-,I-Anatomy
+β,I-Anatomy
+),0
+介,0
+导,0
+的,0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+产,0
+生,0
+",",0
+丧,0
+失,0
+抑,0
+制,0
+性,0
+调,0
+控,0
+功,0
+"
+",0
+能,0
+",",0
+促,0
+使,0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+高,0
+表,0
+达,0
+效,B-Anatomy
+应,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+表,0
+面,0
+分,0
+子,0
+",",0
+最,0
+终,0
+诱,0
+发,0
+自,0
+身,0
+免,0
+"
+",0
+疫,0
+",",0
+这,0
+个,0
+过,0
+程,0
+中,0
+",",0
+还,0
+可,0
+能,0
+有,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+5,I-Test
+5,I-Test
+ ,0
+和,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+2,I-Test
+7,I-Test
+b,I-Test
+ ,0
+的,0
+参,0
+与,0
+。,0
+ ,0
+基,0
+因,0
+"
+",0
+敲,0
+除,0
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+ ,0
+不,0
+仅,0
+影,0
+响,0
+了,0
+调,B-Anatomy
+节,I-Anatomy
+性,I-Anatomy
+ ,I-Anatomy
+T,I-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+的,0
+数,0
+量,0
+、,0
+表,0
+型,0
+",",0
+还,0
+影,0
+响,0
+"
+",0
+F,B-Anatomy
+O,I-Anatomy
+X,I-Anatomy
+P,I-Anatomy
+3,I-Anatomy
+ ,0
+对,0
+ ,0
+T,B-Anatomy
+G,I-Anatomy
+F,I-Anatomy
+-,I-Anatomy
+β,I-Anatomy
+ ,0
+反,0
+应,0
+的,0
+能,0
+力,0
+。,0
+ ,0
+因,0
+此,0
+",",0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+ ,0
+在,0
+ ,0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+中,0
+发,0
+挥,0
+作,0
+"
+",0
+用,0
+",",0
+T,B-Anatomy
+r,I-Anatomy
+e,I-Anatomy
+g,I-Anatomy
+ ,0
+m,B-Test
+i,I-Test
+R,I-Test
+-,I-Test
+1,I-Test
+0,I-Test
+a,I-Test
+ ,0
+的,0
+表,0
+达,0
+水,0
+平,0
+与,0
+自,B-Disease
+身,I-Disease
+免,I-Disease
+疫,I-Disease
+性,I-Disease
+疾,I-Disease
+病,I-Disease
+易,0
+感,0
+性,0
+呈,0
+反,0
+"
+",0
+比,0
+[,0
+1,0
+5,0
+],0
+ ,0
+。,0
+"
+",0
+四,0
+、,0
+ ,0
+问,0
+题,0
+和,0
+展,0
+望,0
+"
+",0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+在,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+的,0
+发,0
+病,0
+机,0
+制,0
+中,0
+起,0
+重,0
+要,0
+作,0
+用,0
+",",0
+为,0
+我,0
+们,0
+"
+",0
+展,0
+示,0
+了,0
+一,0
+个,0
+全,0
+新,0
+的,0
+免,0
+疫,0
+调,0
+控,0
+机,0
+制,0
+",",0
+即,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+在,0
+转,0
+录,0
+水,0
+平,0
+对,0
+免,0
+"
+",0
+疫,0
+反,0
+应,0
+的,0
+调,0
+控,0
+",",0
+对,0
+其,0
+深,0
+入,0
+认,0
+识,0
+",",0
+有,0
+助,0
+于,0
+为,0
+治,0
+疗,0
+提,0
+供,0
+新,0
+的,0
+方,0
+案,0
+",",0
+如,0
+"
+",0
+考,0
+虑,0
+增,0
+强,0
+一,0
+些,0
+能,0
+抑,0
+制,0
+ ,0
+T,B-Anatomy
+ ,I-Anatomy
+细,I-Anatomy
+胞,I-Anatomy
+活,0
+化,0
+的,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+表,0
+达,0
+而,0
+实,0
+现,0
+治,0
+疗,0
+"
+",0
+作,0
+用,0
+。,0
+ ,0
+但,0
+目,0
+前,0
+已,0
+知,0
+与,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+免,0
+疫,0
+功,0
+能,0
+相,0
+关,0
+的,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+只,0
+是,0
+"
+",0
+冰,0
+山,0
+一,0
+角,0
+",",0
+对,0
+于,0
+ ,0
+m,0
+i,0
+R,0
+N,0
+A,0
+s,0
+ ,0
+与,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+的,0
+相,0
+关,0
+研,0
+究,0
+也,0
+才,0
+刚,0
+刚,0
+起,0
+"
+",0
+步,0
+",",0
+需,0
+要,0
+不,0
+断,0
+深,0
+入,0
+研,0
+究,0
+探,0
+索,0
+",",0
+为,0
+ ,0
+1,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+的,0
+防,0
+治,0
+提,0
+供,0
+新,0
+的,0
+线,0
+"
+",0
+索,0
+。,0
+"
+",0

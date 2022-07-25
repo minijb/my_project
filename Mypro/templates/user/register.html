@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>注册</title>
+    <!--semantic-ui-->
+    <link href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+</head>
+<script src="/static/js/jquery-3.1.1.min.js"></script>
+<script src="/static/js/semantic.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<body>
+
+<!--主容器-->
+<div class="ui container">
+
+    <div class="ui segment">
+
+        <div style="text-align: center">
+            <h1 class="header">注册</h1>
+        </div>
+
+        <div class="ui placeholder segment">
+            <div class="ui column very relaxed stackable grid">
+                <div class="column">
+                    <div class="ui form">
+                        <form th:action="@{/user/register}" method="post">
+                            <div class="field">
+                                <label>Username</label>
+                                <div class="ui left icon input" id="user">
+                                    <input type="text" placeholder="Username" name="username" id="name" v-on:blur="check()" v-model:value="username">
+                                  <p v-text="msg"></p>
+                                    <i class="user icon"></i>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Password</label>
+                                <div class="ui left icon input">
+                                    <input type="password" name="password">
+                                    <i class="lock icon"></i>
+                                </div>
+                            </div>
+                            <input type="submit" class="ui blue submit button" value="注册"/>
+                            <div class="field">
+                            <input type="checkbox" name="remember">记住我
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center">
+            <div class="ui label">
+                </i><a href="/user/login">登录</a>
+            </div>
+            <br><br>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<script>
+        var vm= new Vue({
+            el:"#user",
+            data:{
+                username:null,
+                msg:null,
+            },
+            methods:{
+
+                check:function (){
+
+                      var that = this;
+                    $.ajax({
+                url: "/user/check",
+                data: {username: this.username},
+
+                success: function (res) {
+
+                    that.msg = res.msg;
+                }
+            })
+                }
+            }
+        })
+
+</script>
+
+</body>
+</html></html>

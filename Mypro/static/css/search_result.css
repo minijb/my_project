@@ -1,0 +1,141 @@
+
+
+
+#Summary {
+  position: absolute;
+  left: 120px;
+  top: 20%;
+  color: #002060;
+}
+
+#wenzi {
+  position: absolute;
+  left: 120px;
+  top: 30%;
+  color: #002060;
+  width: 1250px;
+  height: 145px;
+  border: 2px solid #002060;
+  padding: 5px;
+  border-radius: 10px;
+  line-height: 30px;
+}
+
+.bianse {
+  color: #0000ff;
+}
+
+.bianse1 {
+  color: #002060;
+}
+.hide {
+    display: none;
+}
+
+.c1{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+    z-index: 10;
+}
+.c2{
+    background-color: white;
+    position: fixed;
+    width: 781px;
+    height: 586px;
+    top: 40%;
+    left: 40%;
+    z-index: 3;
+    margin-top: -150px;
+    margin-left: -200px;
+    z-index: 11;
+    border-radius: 21px;
+    overflow: hidden;
+}
+.left_box{
+    float: left;
+    width: 20%;
+    overflow: auto;
+    height: 100%;
+}
+.right_box{
+    float: right;
+    width: 80%;
+    height: 100%;
+    /*overflow-y: auto;*/
+}
+.el-popover{
+    height: 70%;
+    overflow: auto;
+}
+.right_result{
+    width: 99%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(0, 32, 96, 1);
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    /* background-color: #000080; */
+    border-spacing:0;
+}
+
+
+
+.right_result_title{
+    background-image: url(../Img/access_data_right_table/title.svg);
+    background-size: 99% 50px;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #F2F2F2;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    padding-left: 10px;
+    /*width: 790px;*/
+}
+.right_result_title .text{
+    padding-top: 10px;
+}
+.right_result td{
+    height: 40px;
+}
+
+.right_result_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.right_result_content .text{
+    margin: auto;
+    text-align: center;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000080;
+}
+
+.table_b_b{
+    width: 90px;
+    height: 40px;
+    line-height: 35px;
+    margin: auto;
+    border-radius:10px;
+    background-color: rgba(0, 112, 192, 1);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+    font-size: 20px;
+    color: #F2F2F2;
+    display: flex;
+    justify-content: center
+}
+.table-wrapper{
+    height: calc(100% - 200px);
+}

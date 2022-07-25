@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="/static/js/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    function showsubmenu(sid) {
+      for (i = 1; i < 4; i++) {
+        if (i == sid) {
+          if (document.getElementById(sid).className != "bianse") {
+            document.getElementById(sid).className = "bianse"
+          }
+        } else {
+          document.getElementById(i).className = "bianse1";
+        }
+      }
+    }
+  </script>
+  <script>
+    function show(){
+
+      var obj=document.getElementById("u297_input");
+      var list=[];
+
+      var data_txt=''
+      for(let i=0;i<obj.options.length;i++){
+        list.push(obj.options[i].text);
+        data_txt=data_txt+obj.options[i].text+' '
+          console.log(list);
+    console.log(data_txt)
+    sessionStorage.setItem("program_value",JSON.stringify(list));
+    sessionStorage.setItem("program_txt",data_txt);
+    window.location.href='/user/Access_data'
+
+      }
+
+      alert("success");
+    }
+  </script>
+  <script>
+    function selectSupp1(){
+      var obj = document.getElementById("u281_input");//获取信息
+      var index = obj.selectedIndex;
+
+      var state0=document.getElementById("u283_state0");
+      var state1=document.getElementById("u283_state1");
+      var state2=document.getElementById("u283_state2");
+      var state3=document.getElementById("u283_state3");
+      if (index==0){
+        state0.style.visibility="visible";
+        state1.style.visibility="hidden";
+        state2.style.visibility="hidden";
+        state3.style.visibility="hidden";
+      }
+      if (index==1){
+        state0.style.visibility="hidden";
+        state1.style.visibility="visible";
+        state2.style.visibility="hidden";
+        state3.style.visibility="hidden";
+      }
+      if (index==2){
+        state0.style.visibility="hidden";
+        state1.style.visibility="hidden";
+        state2.style.visibility="visible";
+        state3.style.visibility="hidden";
+      }
+      if (index==3){
+        state0.style.visibility="hidden";
+        state1.style.visibility="hidden";
+        state2.style.visibility="hidden";
+        state3.style.visibility="visible";
+      }
+
+    }
+  </script>
+  <script>
+    function selectSupp2(){
+      var sid;
+      if(document.getElementById("u283_state0").style.visibility=="visible"){
+        sid="u284_input";
+      }
+      if(document.getElementById("u283_state1").style.visibility=="visible"){
+        sid="u285_input";
+      }
+      if(document.getElementById("u283_state2").style.visibility=="visible"){
+        sid="u286_input";
+      }
+      if(document.getElementById("u283_state3").style.visibility == "visible"){
+        sid="u287_input";
+      }
+      var obj = document.getElementById(sid);//获取信息
+      var index = obj.selectedIndex;
+      var state0=document.getElementById("u289_state0");
+      var state1=document.getElementById("u289_state1");
+      var state2=document.getElementById("u289_state2");
+      var state3=document.getElementById("u289_state3");
+      if(sid=="u284_input") {
+        if (index == 0) {
+          state0.style.visibility = "visible";
+          state1.style.visibility = "hidden";
+          state2.style.visibility = "hidden";
+          state3.style.visibility = "hidden";
+        }
+        if (index == 1) {
+          state0.style.visibility = "hidden";
+          state1.style.visibility = "visible";
+          state2.style.visibility = "hidden";
+          state3.style.visibility = "hidden";
+        }
+        if (index == 2) {
+          state0.style.visibility = "hidden";
+          state1.style.visibility = "hidden";
+          state2.style.visibility = "visible";
+          state3.style.visibility = "hidden";
+        }
+        if (index >= 3) {
+          state0.style.visibility = "hidden";
+          state1.style.visibility = "hidden";
+          state2.style.visibility = "hidden";
+          state3.style.visibility = "visible";
+        }
+      }
+      else{
+        state0.style.visibility="hidden";
+        state1.style.visibility="hidden";
+        state2.style.visibility="hidden";
+        state3.style.visibility="visible";
+      }
+
+
+    }
+  </script>
+  <script>
+    function add(){
+
+      let leg;
+      if(document.getElementById("u283_state0").style.visibility=="visible"){
+        leg="u284_input";
+      }
+      if(document.getElementById("u283_state1").style.visibility=="visible"){
+        leg="u285_input";
+      }
+      if(document.getElementById("u283_state2").style.visibility=="visible"){
+        leg="u286_input";
+      }
+      if(document.getElementById("u283_state3").style.visibility == "visible"){
+        leg="u287_input";
+      }
+
+      let site;
+      if(document.getElementById("u289_state0").style.visibility=="visible"){
+        site="u290_input";
+      }
+      if(document.getElementById("u289_state1").style.visibility=="visible"){
+        site="u291_input";
+      }
+      if(document.getElementById("u289_state2").style.visibility=="visible"){
+        site="u292_input";
+      }
+      if(document.getElementById("u289_state3").style.visibility == "visible"){
+        site="u293_input";
+      }
+
+      var obj=document.getElementById(leg);
+
+      let index = obj.selectedIndex;
+
+      let text = obj.options[index].text;
+
+      var obj2=document.getElementById(site);
+      var target=document.getElementById("u297_input")
+      var flag;
+      var txt;
+
+      for(let i=0;i<obj2.options.length;i++) {
+
+        if (obj2.options[i].selected) {
+          if (obj2.options[i].text == "All") {
+           flag=0
+              txt = text + '-' + 'All';
+                target.options.add(new Option(txt, txt));
+
+
+
+          }
+          else {
+            flag=0;
+
+            txt = "";
+
+            txt = text + '-' + obj2.options[i].text;
+
+            for (let j = 0; j < target.options.length; j++) {
+              if (target.options[j].text == txt) {
+
+                flag = 1;
+                break;
+              }
+            }
+            if (flag == 0) {
+              target.options.add(new Option(txt, txt));
+
+            }
+
+
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    function addall() {
+
+      let leg;
+      if (document.getElementById("u283_state0").style.visibility == "visible") {
+        leg = "u284_input";
+      }
+      if (document.getElementById("u283_state1").style.visibility == "visible") {
+        leg = "u285_input";
+      }
+      if (document.getElementById("u283_state2").style.visibility == "visible") {
+        leg = "u286_input";
+      }
+      if (document.getElementById("u283_state3").style.visibility == "visible") {
+        leg = "u287_input";
+      }
+
+
+      site1 = "u290_input";
+      site2 = "u291_input";
+      site3 = "u292_input";
+      site4 = "u293_input";
+
+
+      var obj = document.getElementById(leg);
+
+      var obj1 = document.getElementById(site1);
+      var obj2 = document.getElementById(site2);
+      var obj3 = document.getElementById(site3);
+      var obj4 = document.getElementById(site4);
+
+      var target = document.getElementById("u297_input")
+      var flag = 0;
+      var len;
+      var ob1,ob2;
+
+      for (let i = 0; i < obj.options.length; i++) {
+
+        if(leg=="u284_input"&&i==0){
+
+          len=obj1.options.length;
+          ob1="349";
+          ob2=obj1;
+        }
+        else if(leg=="u284_input"&&i==1){
+
+          len=obj2.options.length;
+          ob1="350";
+          ob2=obj2;
+        }
+        else if(leg=="u284_input"&&i==2){
+
+          len=obj3.options.length;
+          ob1="351";
+          ob2=obj3;
+        }
+        else{
+
+          len=obj4.options.length;
+          ob1=obj.options[i].text;
+          ob2=obj4;
+        }
+        for (let j = 0; j < len; j++) {
+          flag=0;
+          var txt = "";
+
+          if (ob2.options[j].text != "All") {
+            txt = ob1 + '-' + ob2.options[j].text;
+
+            for (let k = 0; k < target.options.length; k++) {
+              if (target.options[k].text == txt) {
+
+                flag = 1;
+                break;
+              }
+            }
+            if (flag == 0) {
+
+              target.options.add(new Option(txt, txt));
+
+            }
+          }
+        }
+      }
+
+    }
+  </script>
+  <script>
+    function removeall(sid){
+
+      document.getElementById(sid).options.length = 0;
+    }
+  </script>
+  <script>
+    function remove(){
+
+      let obj=document.getElementById("u297_input");
+      let len=obj.options.length;
+
+      for(let i=0;i<len;i++) {
+
+        if (obj.options[i].selected) {
+
+          obj.options.remove(i);
+          i--;
+        }
+      }
+
+    }
+  </script>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/search_by_program.css">
+
+<body>
+
+<section class="top-bottom flex">
+  <article>
+    <div class="top">
+      <div>
+        <p id="p1">
+          Ocean Sediment Database
+         <button type="button" class="login_button" style="float: right;width:auto;height: 40px;border-radius:15px;border-color: white;
+                          color: #a5aab0;font-weight: bold;background:transparent;margin-right: 20px">
+                            <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
+                            <div id="login_name" style="float: right;">Login/Register</div>
+                        </button>
+        </p>
+      </div>
+      <div class="topnav">
+       <ul>
+                        <li><a id="1" class="bianse1" href="/user/Home" onclick="showsubmenu(this.id)">Home</a></li>
+                        <li><a id="2" class="bianse1" href="/user/Introduction"
+                                onclick="showsubmenu(this.id)">Introduction</a></li>
+                        <li><a class="bianse" href="/user/Access_data">Access Data</a></li>
+                        <li><a class="bianse1" href="#">Submit Data</a></li>
+                        <li><a id="3" class="bianse1" href="/user/About_us" onclick="showsubmenu(this.id)">About us</a>
+                        </li>
+                    </ul>
+      </div>
+    </div>
+
+    <div class="middle">
+      <div id="base" class="">
+
+
+        <div id="u262" class="ax_default heading_1">
+          <div id="u262_div" class=""></div>
+          <div id="u262_text" class="text ">
+            <p><span>Set Program &amp; Cruise</span></p>
+          </div>
+        </div>
+
+
+        <div id="u281" class="ax_default list_box" data-label="Program list">
+          <div id="u281_div" class=""></div>
+          <select id="u281_input" size="2" class="u281_input" onchange="selectSupp1()">
+            <option class="u281_input_option" selected value="IODP 2 (Leg 349 -)">IODP 2 (Leg 349 -)</option>
+            <option class="u281_input_option" value="IODP 1 (Leg 301 - 348)">IODP 1 (Leg 301 - 348)</option>
+            <option class="u281_input_option" value="ODP (Leg 101 - 210)">ODP (Leg 101 - 210)</option>
+            <option class="u281_input_option" value="DSDP (Leg 1 -96)">DSDP (Leg 1 -96)</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u282" class="ax_default heading_1">
+
+          <div id="u282_text" class="text ">
+            <p><span>Program</span></p>
+          </div>
+        </div>
+
+        <!-- Leg panel (Dynamic Panel) -->
+        <div id="u283" class="ax_default" data-label="Leg panel">
+          <div id="u283_state0" class="panel_state" data-label="IODP 2" style="visibility: visible;">
+            <div id="u283_state0_content" class="panel_state_content">
+
+
+              <div id="u284" class="ax_default list_box selected">
+                <div id="u284_div" class="selected"></div>
+                <select id="u284_input" size="2" class="u284_input" onchange="selectSupp2()">
+                  <option class="u284_input_option" value="349">349</option>
+                  <option class="u284_input_option" value="350">350</option>
+                  <option class="u284_input_option" value="351">351</option>
+                  <option class="u284_input_option" value="352">352</option>
+                  <option class="u284_input_option" value="353">353</option>
+                  <option class="u284_input_option" value="354">354</option>
+                  <option class="u284_input_option" value="355">355</option>
+                  <option class="u284_input_option" value="356">356</option>
+                  <option class="u284_input_option" value="357">357</option>
+                  <option class="u284_input_option" value="358">358</option>
+                  <option class="u284_input_option" value="359">359</option>
+                  <option class="u284_input_option" value="360">360</option>
+                  <option class="u284_input_option" value="361">361</option>
+                  <option class="u284_input_option" value="362">362</option>
+                  <option class="u284_input_option" value="363">363</option>
+                  <option class="u284_input_option" value="364">364</option>
+                  <option class="u284_input_option" value="365">365</option>
+                  <option class="u284_input_option" value="366">366</option>
+                  <option class="u284_input_option" value="367">367</option>
+                  <option class="u284_input_option" value="368">368</option>
+                  <option class="u284_input_option" value="369">369</option>
+                  <option class="u284_input_option" value="370">370</option>
+                  <option class="u284_input_option" value="371">371</option>
+                  <option class="u284_input_option" value="372">372</option>
+                  <option class="u284_input_option" value="373">373</option>
+                  <option class="u284_input_option" value="374">374</option>
+                  <option class="u284_input_option" value="375">375</option>
+                  <option class="u284_input_option" value="376">376</option>
+                  <option class="u284_input_option" value="377">377</option>
+                  <option class="u284_input_option" value="378">378</option>
+                  <option class="u284_input_option" value="379">379</option>
+                  <option class="u284_input_option" value="380">380</option>
+                  <option class="u284_input_option" value="381">381</option>
+                  <option class="u284_input_option" value="382">382</option>
+                  <option class="u284_input_option" value="383">383</option>
+                  <option class="u284_input_option" value="384">384</option>
+                  <option class="u284_input_option" value="385">385</option>
+                  <option class="u284_input_option" value="386">386</option>
+                  <option class="u284_input_option" value="387">387</option>
+                  <option class="u284_input_option" value="388">388</option>
+                  <option class="u284_input_option" value="389">389</option>
+                  <option class="u284_input_option" value="390">390</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div id="u283_state1" class="panel_state" data-label="IODP 1" style="visibility: hidden;">
+            <div id="u283_state1_content" class="panel_state_content">
+
+              <!-- Unnamed (List Box) -->
+              <div id="u285" class="ax_default list_box selected">
+                <div id="u285_div" class="selected"></div>
+                <select id="u285_input" size="2" class="u285_input" onchange="selectSupp2()">
+                  <option class="u285_input_option" value="301">301</option>
+                  <option class="u285_input_option" value="302">302</option>
+                  <option class="u285_input_option" value="303">303</option>
+                  <option class="u285_input_option" value="304">304</option>
+                  <option class="u285_input_option" value="305">305</option>
+                  <option class="u285_input_option" value="306">306</option>
+                  <option class="u285_input_option" value="307">307</option>
+                  <option class="u285_input_option" value="308">308</option>
+                  <option class="u285_input_option" value="309">309</option>
+                  <option class="u285_input_option" value="310">310</option>
+                  <option class="u285_input_option" value="311">311</option>
+                  <option class="u285_input_option" value="312">312</option>
+                  <option class="u285_input_option" value="313">313</option>
+                  <option class="u285_input_option" value="314">314</option>
+                  <option class="u285_input_option" value="315">315</option>
+                  <option class="u285_input_option" value="316">316</option>
+                  <option class="u285_input_option" value="317">317</option>
+                  <option class="u285_input_option" value="318">318</option>
+                  <option class="u285_input_option" value="319">319</option>
+                  <option class="u285_input_option" value="320">320</option>
+                  <option class="u285_input_option" value="321">321</option>
+                  <option class="u285_input_option" value="322">322</option>
+                  <option class="u285_input_option" value="323">323</option>
+                  <option class="u285_input_option" value="324">324</option>
+                  <option class="u285_input_option" value="325">325</option>
+                  <option class="u285_input_option" value="326">326</option>
+                  <option class="u285_input_option" value="327">327</option>
+                  <option class="u285_input_option" value="328">328</option>
+                  <option class="u285_input_option" value="329">329</option>
+                  <option class="u285_input_option" value="330">330</option>
+                  <option class="u285_input_option" value="331">331</option>
+                  <option class="u285_input_option" value="332">332</option>
+                  <option class="u285_input_option" value="333">333</option>
+                  <option class="u285_input_option" value="334">334</option>
+                  <option class="u285_input_option" value="335">335</option>
+                  <option class="u285_input_option" value="336">336</option>
+                  <option class="u285_input_option" value="337">337</option>
+                  <option class="u285_input_option" value="338">338</option>
+                  <option class="u285_input_option" value="339">339</option>
+                  <option class="u285_input_option" value="340">340</option>
+                  <option class="u285_input_option" value="341">341</option>
+                  <option class="u285_input_option" value="342">342</option>
+                  <option class="u285_input_option" value="343">343</option>
+                  <option class="u285_input_option" value="344">344</option>
+                  <option class="u285_input_option" value="345">345</option>
+                  <option class="u285_input_option" value="346">346</option>
+                  <option class="u285_input_option" value="347">347</option>
+                  <option class="u285_input_option" value="348">348</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div id="u283_state2" class="panel_state" data-label="ODP" style="visibility: hidden;">
+            <div id="u283_state2_content" class="panel_state_content">
+
+              <!-- Unnamed (List Box) -->
+              <div id="u286" class="ax_default list_box selected">
+                <div id="u286_div" class="selected"></div>
+                <select id="u286_input" size="2" class="u286_input" onchange="selectSupp2()">
+                  <option class="u286_input_option" value="101">101</option>
+                  <option class="u286_input_option" value="102">102</option>
+                  <option class="u286_input_option" value="103">103</option>
+                  <option class="u286_input_option" value="104">104</option>
+                  <option class="u286_input_option" value="105">105</option>
+                  <option class="u286_input_option" value="106">106</option>
+                  <option class="u286_input_option" value="107">107</option>
+                  <option class="u286_input_option" value="108">108</option>
+                  <option class="u286_input_option" value="109">109</option>
+                  <option class="u286_input_option" value="110">110</option>
+                  <option class="u286_input_option" value="111">111</option>
+                  <option class="u286_input_option" value="112">112</option>
+                  <option class="u286_input_option" value="113">113</option>
+                  <option class="u286_input_option" value="114">114</option>
+                  <option class="u286_input_option" value="115">115</option>
+                  <option class="u286_input_option" value="116">116</option>
+                  <option class="u286_input_option" value="117">117</option>
+                  <option class="u286_input_option" value="118">118</option>
+                  <option class="u286_input_option" value="119">119</option>
+                  <option class="u286_input_option" value="120">120</option>
+                  <option class="u286_input_option" value="121">121</option>
+                  <option class="u286_input_option" value="122">122</option>
+                  <option class="u286_input_option" value="123">123</option>
+                  <option class="u286_input_option" value="124">124</option>
+                  <option class="u286_input_option" value="125">125</option>
+                  <option class="u286_input_option" value="126">126</option>
+                  <option class="u286_input_option" value="127">127</option>
+                  <option class="u286_input_option" value="128">128</option>
+                  <option class="u286_input_option" value="129">129</option>
+                  <option class="u286_input_option" value="130">130</option>
+                  <option class="u286_input_option" value="131">131</option>
+                  <option class="u286_input_option" value="132">132</option>
+                  <option class="u286_input_option" value="133">133</option>
+                  <option class="u286_input_option" value="134">134</option>
+                  <option class="u286_input_option" value="135">135</option>
+                  <option class="u286_input_option" value="136">136</option>
+                  <option class="u286_input_option" value="137">137</option>
+                  <option class="u286_input_option" value="138">138</option>
+                  <option class="u286_input_option" value="139">139</option>
+                  <option class="u286_input_option" value="140">140</option>
+                  <option class="u286_input_option" value="141">141</option>
+                  <option class="u286_input_option" value="142">142</option>
+                  <option class="u286_input_option" value="143">143</option>
+                  <option class="u286_input_option" value="144">144</option>
+                  <option class="u286_input_option" value="145">145</option>
+                  <option class="u286_input_option" value="146">146</option>
+                  <option class="u286_input_option" value="147">147</option>
+                  <option class="u286_input_option" value="148">148</option>
+                  <option class="u286_input_option" value="149">149</option>
+                  <option class="u286_input_option" value="150">150</option>
+                  <option class="u286_input_option" value="151">151</option>
+                  <option class="u286_input_option" value="152">152</option>
+                  <option class="u286_input_option" value="153">153</option>
+                  <option class="u286_input_option" value="154">154</option>
+                  <option class="u286_input_option" value="155">155</option>
+                  <option class="u286_input_option" value="156">156</option>
+                  <option class="u286_input_option" value="157">157</option>
+                  <option class="u286_input_option" value="158">158</option>
+                  <option class="u286_input_option" value="159">159</option>
+                  <option class="u286_input_option" value="160">160</option>
+                  <option class="u286_input_option" value="161">161</option>
+                  <option class="u286_input_option" value="162">162</option>
+                  <option class="u286_input_option" value="163">163</option>
+                  <option class="u286_input_option" value="164">164</option>
+                  <option class="u286_input_option" value="165">165</option>
+                  <option class="u286_input_option" value="166">166</option>
+                  <option class="u286_input_option" value="167">167</option>
+                  <option class="u286_input_option" value="168">168</option>
+                  <option class="u286_input_option" value="169">169</option>
+                  <option class="u286_input_option" value="170">170</option>
+                  <option class="u286_input_option" value="171">171</option>
+                  <option class="u286_input_option" value="172">172</option>
+                  <option class="u286_input_option" value="173">173</option>
+                  <option class="u286_input_option" value="174">174</option>
+                  <option class="u286_input_option" value="175">175</option>
+                  <option class="u286_input_option" value="176">176</option>
+                  <option class="u286_input_option" value="177">177</option>
+                  <option class="u286_input_option" value="178">178</option>
+                  <option class="u286_input_option" value="179">179</option>
+                  <option class="u286_input_option" value="180">180</option>
+                  <option class="u286_input_option" value="181">181</option>
+                  <option class="u286_input_option" value="182">182</option>
+                  <option class="u286_input_option" value="183">183</option>
+                  <option class="u286_input_option" value="184">184</option>
+                  <option class="u286_input_option" value="185">185</option>
+                  <option class="u286_input_option" value="186">186</option>
+                  <option class="u286_input_option" value="187">187</option>
+                  <option class="u286_input_option" value="188">188</option>
+                  <option class="u286_input_option" value="189">189</option>
+                  <option class="u286_input_option" value="190">190</option>
+                  <option class="u286_input_option" value="191">191</option>
+                  <option class="u286_input_option" value="192">192</option>
+                  <option class="u286_input_option" value="193">193</option>
+                  <option class="u286_input_option" value="194">194</option>
+                  <option class="u286_input_option" value="195">195</option>
+                  <option class="u286_input_option" value="196">196</option>
+                  <option class="u286_input_option" value="197">197</option>
+                  <option class="u286_input_option" value="198">198</option>
+                  <option class="u286_input_option" value="199">199</option>
+                  <option class="u286_input_option" value="200">200</option>
+                  <option class="u286_input_option" value="201">201</option>
+                  <option class="u286_input_option" value="202">202</option>
+                  <option class="u286_input_option" value="203">203</option>
+                  <option class="u286_input_option" value="204">204</option>
+                  <option class="u286_input_option" value="205">205</option>
+                  <option class="u286_input_option" value="206">206</option>
+                  <option class="u286_input_option" value="207">207</option>
+                  <option class="u286_input_option" value="208">208</option>
+                  <option class="u286_input_option" value="209">209</option>
+                  <option class="u286_input_option" value="210">210</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div id="u283_state3" class="panel_state" data-label="DSDP" style="visibility: hidden;">
+            <div id="u283_state3_content" class="panel_state_content">
+
+              <!-- Unnamed (List Box) -->
+              <div id="u287" class="ax_default list_box selected">
+                <div id="u287_div" class="selected"></div>
+                <select id="u287_input" size="2" class="u287_input" onchange="selectSupp2()">
+                  <option class="u287_input_option" value="1">1</option>
+                  <option class="u287_input_option" value="2">2</option>
+                  <option class="u287_input_option" value="3">3</option>
+                  <option class="u287_input_option" value="4">4</option>
+                  <option class="u287_input_option" value="5">5</option>
+                  <option class="u287_input_option" value="6">6</option>
+                  <option class="u287_input_option" value="7">7</option>
+                  <option class="u287_input_option" value="8">8</option>
+                  <option class="u287_input_option" value="9">9</option>
+                  <option class="u287_input_option" value="10">10</option>
+                  <option class="u287_input_option" value="11">11</option>
+                  <option class="u287_input_option" value="12">12</option>
+                  <option class="u287_input_option" value="13">13</option>
+                  <option class="u287_input_option" value="14">14</option>
+                  <option class="u287_input_option" value="15">15</option>
+                  <option class="u287_input_option" value="16">16</option>
+                  <option class="u287_input_option" value="17">17</option>
+                  <option class="u287_input_option" value="18">18</option>
+                  <option class="u287_input_option" value="19">19</option>
+                  <option class="u287_input_option" value="20">20</option>
+                  <option class="u287_input_option" value="21">21</option>
+                  <option class="u287_input_option" value="22">22</option>
+                  <option class="u287_input_option" value="23">23</option>
+                  <option class="u287_input_option" value="24">24</option>
+                  <option class="u287_input_option" value="25">25</option>
+                  <option class="u287_input_option" value="26">26</option>
+                  <option class="u287_input_option" value="27">27</option>
+                  <option class="u287_input_option" value="28">28</option>
+                  <option class="u287_input_option" value="29">29</option>
+                  <option class="u287_input_option" value="30">30</option>
+                  <option class="u287_input_option" value="31">31</option>
+                  <option class="u287_input_option" value="32">32</option>
+                  <option class="u287_input_option" value="33">33</option>
+                  <option class="u287_input_option" value="34">34</option>
+                  <option class="u287_input_option" value="35">35</option>
+                  <option class="u287_input_option" value="36">36</option>
+                  <option class="u287_input_option" value="37">37</option>
+                  <option class="u287_input_option" value="38">38</option>
+                  <option class="u287_input_option" value="39">39</option>
+                  <option class="u287_input_option" value="40">40</option>
+                  <option class="u287_input_option" value="41">41</option>
+                  <option class="u287_input_option" value="42">42</option>
+                  <option class="u287_input_option" value="43">43</option>
+                  <option class="u287_input_option" value="44">44</option>
+                  <option class="u287_input_option" value="45">45</option>
+                  <option class="u287_input_option" value="46">46</option>
+                  <option class="u287_input_option" value="47">47</option>
+                  <option class="u287_input_option" value="48">48</option>
+                  <option class="u287_input_option" value="49">49</option>
+                  <option class="u287_input_option" value="50">50</option>
+                  <option class="u287_input_option" value="51">51</option>
+                  <option class="u287_input_option" value="52">52</option>
+                  <option class="u287_input_option" value="53">53</option>
+                  <option class="u287_input_option" value="54">54</option>
+                  <option class="u287_input_option" value="55">55</option>
+                  <option class="u287_input_option" value="56">56</option>
+                  <option class="u287_input_option" value="57">57</option>
+                  <option class="u287_input_option" value="58">58</option>
+                  <option class="u287_input_option" value="59">59</option>
+                  <option class="u287_input_option" value="60">60</option>
+                  <option class="u287_input_option" value="61">61</option>
+                  <option class="u287_input_option" value="62">62</option>
+                  <option class="u287_input_option" value="63">63</option>
+                  <option class="u287_input_option" value="64">64</option>
+                  <option class="u287_input_option" value="65">65</option>
+                  <option class="u287_input_option" value="66">66</option>
+                  <option class="u287_input_option" value="67">67</option>
+                  <option class="u287_input_option" value="68">68</option>
+                  <option class="u287_input_option" value="69">69</option>
+                  <option class="u287_input_option" value="70">70</option>
+                  <option class="u287_input_option" value="71">71</option>
+                  <option class="u287_input_option" value="72">72</option>
+                  <option class="u287_input_option" value="73">73</option>
+                  <option class="u287_input_option" value="74">74</option>
+                  <option class="u287_input_option" value="75">75</option>
+                  <option class="u287_input_option" value="76">76</option>
+                  <option class="u287_input_option" value="77">77</option>
+                  <option class="u287_input_option" value="78">78</option>
+                  <option class="u287_input_option" value="79">79</option>
+                  <option class="u287_input_option" value="80">80</option>
+                  <option class="u287_input_option" value="81">81</option>
+                  <option class="u287_input_option" value="82">82</option>
+                  <option class="u287_input_option" value="83">83</option>
+                  <option class="u287_input_option" value="84">84</option>
+                  <option class="u287_input_option" value="85">85</option>
+                  <option class="u287_input_option" value="86">86</option>
+                  <option class="u287_input_option" value="87">87</option>
+                  <option class="u287_input_option" value="88">88</option>
+                  <option class="u287_input_option" value="89">89</option>
+                  <option class="u287_input_option" value="90">90</option>
+                  <option class="u287_input_option" value="91">91</option>
+                  <option class="u287_input_option" value="92">92</option>
+                  <option class="u287_input_option" value="93">93</option>
+                  <option class="u287_input_option" value="94">94</option>
+                  <option class="u287_input_option" value="95">95</option>
+                  <option class="u287_input_option" value="96">96</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u288" class="ax_default heading_1">
+
+          <div id="u288_text" class="text ">
+            <p><span>Leg</span></p>
+          </div>
+        </div>
+
+        <!-- Site hole panel (Dynamic Panel) -->
+        <div id="u289" class="ax_default" data-label="Site hole panel">
+          <div id="u289_state0" class="panel_state" data-label="349" style="visibility: visible;">
+            <div id="u289_state0_content" class="panel_state_content">
+
+              <!-- Unnamed (List Box) -->
+              <div id="u290" class="ax_default list_box">
+                <div id="u290_div" class=""></div>
+                <select id="u290_input" size="2" class="u290_input" multiple>
+                  <option class="u290_input_option" value="All">All</option>
+                  <option class="u290_input_option" value="U1431">U1431</option>
+                  <option class="u290_input_option" value="U1432">U1432</option>
+                  <option class="u290_input_option" value="U1433">U1433</option>
+                  <option class="u290_input_option" value="U1434">U1434</option>
+                  <option class="u290_input_option" value="U1431A">U1431A</option>
+                  <option class="u290_input_option" value="U1431B">U1431B</option>
+                  <option class="u290_input_option" value="U1431C">U1431C</option>
+                  <option class="u290_input_option" value="U1431D">U1431D</option>
+                  <option class="u290_input_option" value="U1431E">U1431E</option>
+                  <option class="u290_input_option" value="U1432A">U1432A</option>
+                  <option class="u290_input_option" value="U1432B">U1432B</option>
+                  <option class="u290_input_option" value="U1432C">U1432C</option>
+                  <option class="u290_input_option" value="U1433A">U1433A</option>
+                  <option class="u290_input_option" value="U1433B">U1433B</option>
+                  <option class="u290_input_option" value="U1434A">U1434A</option>
+                  <option class="u290_input_option" value="U1435A">U1435A</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div id="u289_state1" class="panel_state" data-label="350" style="visibility: hidden;">
+            <div id="u289_state1_content" class="panel_state_content">
+
+              <!-- Unnamed (List Box) -->
+              <div id="u291" class="ax_default list_box">
+                <div id="u291_div" class=""></div>
+                <select id="u291_input" size="2" class="u291_input" multiple>
+                  <option class="u291_input_option" value="All">All</option>
+                  <option class="u291_input_option" value="U1436">U1436</option>
+                  <option class="u291_input_option" value="U1437">U1437</option>
+                  <option class="u291_input_option" value="U1436A">U1436A</option>
+                  <option class="u291_input_option" value="U1436B">U1436B</option>
+                  <option class="u291_input_option" value="U1436C">U1436C</option>
+                  <option class="u291_input_option" value="U1436D">U1436D</option>
+                  <option class="u291_input_option" value="U1437A">U1437A</option>
+                  <option class="u291_input_option" value="U1437B">U1437B</option>
+                  <option class="u291_input_option" value="U1437C">U1437C</option>
+                  <option class="u291_input_option" value="U1437D">U1437D</option>
+                  <option class="u291_input_option" value="U1437E">U1437E</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div id="u289_state2" class="panel_state" data-label="351" style="visibility: hidden;">
+            <div id="u289_state2_content" class="panel_state_content">
+
+              <!-- Unnamed (List Box) -->
+              <div id="u292" class="ax_default list_box">
+                <div id="u292_div" class=""></div>
+                <select id="u292_input" size="2" class="u292_input" multiple>
+                    <option class="u292_input_option" value="All">All</option>
+                  <option class="u292_input_option" value="U1438">U1438</option>
+                  <option class="u292_input_option" value="U1438A">U1438A</option>
+                  <option class="u292_input_option" value="U1438B">U1438B</option>
+                  <option class="u292_input_option" value="U1438C">U1438C</option>
+                  <option class="u292_input_option" value="U1438D">U1438D</option>
+                  <option class="u292_input_option" value="U1438E">U1438E</option>
+                  <option class="u292_input_option" value="U1438F">U1438F</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div id="u289_state3" class="panel_state" data-label="352" style="visibility: hidden;">
+            <div id="u289_state3_content" class="panel_state_content">
+
+              <!-- Unnamed (List Box) -->
+              <div id="u293" class="ax_default list_box">
+                <div id="u293_div" class=""></div>
+                <select id="u293_input" size="2" class="u293_input" multiple>
+                  <option class="u293_input_option" value="All">All</option>
+                  <option class="u293_input_option" value="U1439">U1439</option>
+                  <option class="u293_input_option" value="U1440">U1440</option>
+                  <option class="u293_input_option" value="U1441">U1441</option>
+                  <option class="u293_input_option" value="U1439A">U1439A</option>
+                  <option class="u293_input_option" value="U1439B">U1439B</option>
+                  <option class="u293_input_option" value="U1439C">U1439C</option>
+                  <option class="u293_input_option" value="U1440A">U1440A</option>
+                  <option class="u293_input_option" value="U1440B">U1440B</option>
+                  <option class="u293_input_option" value="U1441A">U1441A</option>
+                  <option class="u293_input_option" value="U1442A">U1442A</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u294" class="ax_default heading_1">
+
+          <div id="u294_text" class="text ">
+            <p><span>Site-Hole</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u295" class="ax_default heading_1">
+          <div id="u295_div" class=""></div>
+          <div id="u295_text" class="text ">
+            <p><span>Demo: 349-352</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <button id="u296" class="ax_default heading_1" onclick="show()">
+          <div id="u296_div" class=""></div>
+          <div id="u296_text" class="text ">
+            <p><span>Submit</span></p>
+          </div>
+        </button>
+
+        <!-- Unnamed (List Box) -->
+        <div id="u297" class="ax_default list_box">
+          <div id="u297_div" class=""></div>
+          <select id="u297_input" size="2" class="u297_input" multiple>
+
+          </select>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+
+          <button id="u298" class="ax_default heading_1" onclick="addall()">
+            <div id="u298_div" class=""></div>
+            <div id="u298_text" class="text ">
+              <p><span>Add All &gt;&gt;&gt;</span></p>
+            </div>
+          </button>
+
+        <!-- Unnamed (Rectangle) -->
+
+          <button id="u299" class="ax_default heading_1" onclick="add()">
+            <div id="u299_div" class=""></div>
+            <div id="u299_text" class="text ">
+              <p><span>Add &gt;&gt;</span></p>
+            </div>
+          </button>
+
+        <!-- Unnamed (Rectangle) -->
+
+          <button id="u300" class="ax_default heading_1" onclick="removeall('u297_input')" >
+
+            <div id="u300_div" class=""></div>
+            <div id="u300_text" class="text ">
+              <p><span>&lt;&lt;&lt; Remove All</span></p>
+            </div>
+
+          </button>
+
+
+
+          <button id="u301" class="ax_default heading_1" onclick="remove()">
+            <div id="u301_div" class=""></div>
+            <div id="u301_text" class="text ">
+              <p><span>&lt;&lt; Remove </span></p>
+            </div>
+          </button>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u302" class="ax_default heading_1">
+          <div id="u302_div" class=""></div>
+          <div id="u302_text" class="text ">
+            <p><span>Search Creteria of Curise &amp; Hole</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="left-group">Part of OneSediment in the DDE</div>
+      <div class="mid-group">Funded by the NSFC</div>
+      <div class="right-group">Ocean Sediment Database,Copyright @ 2022</div>
+    </div>
+  </article>
+  <div id="shade" class="c1 hide"></div>
+  <iframe id="page" class="c2 hide" src="/static/login_page.html" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+</section>
+<script src="/static/js/login.js"></script>
+<script src="/static/js/select_by_age.js"></script>
+</body>
+
+</html>

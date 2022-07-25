@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function showsubmenu(sid) {
+            for (i = 1; i < 4; i++) {
+                if (i == sid) {
+                    if (document.getElementById(sid).className != "bianse") {
+                        document.getElementById(sid).className = "bianse"
+                    }
+                } else {
+                    document.getElementById(i).className = "bianse1";
+                }
+            }
+        }
+    </script>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/global.css">
+<link rel="stylesheet" type="text/css" href="/static/css/select_by_element.css">
+
+<body>
+
+    <section class="top-bottom flex">
+        <!--    <style>-->
+
+        <!--    </style>-->
+        <article>
+            <div class="top">
+                <div>
+    
+                    <p id="p1">
+                        <img id="navbar_toggler" src="/static/navbar.svg" onclick="$('.topnav').toggle();">
+                        Ocean Sediment Database
+                        <button type="button" class="login_button">
+                            <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
+                            <div id="login_name" style="float: right;">Login/Register</div>
+                        </button>
+                    </p>
+                </div>
+                <div class="topnav">
+                    <ul>
+                        <li><a id="1" class="bianse" href="/user/Home">Home</a></li>
+                        <li><a id="2" class="bianse1" href="/user/Introduction">Introduction</a></li>
+                        <li><a id="3" class="bianse1" onclick="to_access()">Access Data</a></li>
+    
+                        <li><a id="5" class="bianse1" href="#">Submit Data</a></li>
+                        <li><a id="5" class="bianse1" href="/user/About_us">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="row">
+                    <div class="middle_left">
+                        <h3 class="title">Set Chemistry</h3>
+                        <p class="p">Major Elements</p>
+                        <table  class="table" id="table1">
+                            <tr style="border-bottom: 2px solid black;">
+                                <td class="td4" style="font-size:16px;">Exist</td>
+                                <td class="td2"></td>
+                                <td class="td3"></td>
+                                <td class="td2"></td>
+                                <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
+                                <td class="td4" >and/or<br>(uncheck/check)</td>
+                            </tr>
+                        </table>
+                        <p class="p">Trace Elements</p>
+                        <table  class="table" id="table2">
+                            <tr style="border-bottom: 2px solid black;">
+                                <td class="td4" style="font-size:16px;">Exist</td>
+                                <td class="td2"></td>
+                                <td class="td3"></td>
+                                <td class="td2"></td>
+                                <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
+                            <td class="td4" >and/or<br>(uncheck/check)</td>
+                        </tr>
+                        </table>
+                        <p class="p">Rare Earth Elements</p>
+                        <table  class="table" id="table3">
+                            <tr style="border-bottom: 2px solid black;">
+                                <td class="td4" style="font-size:16px;">Exist</td>
+                                <td class="td2"></td>
+                                <td class="td3"></td>
+                                <td class="td2"></td>
+                                <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
+                                <td class="td4" >and/or<br>(uncheck/check)</td>
+                            </tr>
+                        </table>
+                        <div class="block"></div>
+                    </div>
+                    <div class="middle_mid">
+                        <div class="add" id="add1" onclick="add(this)"> &nbspAdd>></div>
+                        <div class="mid_block">
+                            <div class="remove" onclick="remove()">&lt;&lt;remove&nbsp</div>
+                            <div class="removeall" onclick="removeall()">	&lt;&lt;remove all&nbsp</div>
+                        </div>
+                        <div class="add" id="add2" onclick="add(this)"> &nbspAdd>></div>
+                        <div class="add" id="add3" onclick="add(this)"> &nbspAdd>></div>  
+                    </div>
+                    <div class="middle_right">
+                        <p class="right_title">Search Creteria of Chemistry</p>
+                        <select id="contain" size="2" class="right_contain" id="contain">
+                            <option class="op" group="0" >Major Elements:</option>
+
+                            <option class="op" group="1" >Trace Elements:</option>
+                            <option class="op" group="2" >Rare Earth Elements:</option>
+                        </select>
+                        <input type="button" class="sub" onclick="element_sub()" value="Submit"></input>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left-group">Part of OneSediment in the DDE</div>
+                <div class="mid-group">Funded by the NSFC</div>
+                <div class="right-group">Ocean Sediment Database,Copyright @ 2022</div>
+            </div>
+        </article>
+        <div id="shade" class="c1 hide"></div>
+        <iframe id="page" class="c2 hide" src="/static/login_page.html" frameborder="no" border="0" marginwidth="0"
+            marginheight="0"></iframe>
+    </section>
+    <script src="/static/js/login.js"></script>
+    <script type="text/javascript">
+        num = 0;
+        function create_tr(n,des,unit){
+            var txt = '<tr class="table_tr"><td class="td_2"><input name="select" value="'+num+'" class="check" type="checkbox"></td><td class="td_4"><input id="min_'+num+'" class="cin"></td><td class="td_3"><div class="td3_tips"><p>&lt;</p><p class="txt" id="des_'+num+'"">'+des+'</p><p>&lt;</p></div></td><td class="td_4"><input id="max_'+num+'" class="cin"></td><td class="td_1" id="unit_'+num+'">'+unit+'</td><td class="td_5"><input name="check" class="check" type="checkbox" id="ch_'+num+'"></td></tr>';
+            return txt
+        }
+        
+        function insert_table(table,list_deses,unit){
+            for(let i = 0 ; i < list_deses.length ; i++){
+                let tr = document.createElement('tr');
+                tr.innerHTML = create_tr(i,list_deses[i],unit);
+                tr.setAttribute('class','table_tr');
+                table.appendChild(tr);
+                num = num +1;
+            }
+        }
+        list_deses = [
+            ["Al2O3","CaO","FeO","Fe2O3 Total","K2O","MgO","MnO","Na2O","P2O5","SiO2","TiO2"], 
+            ["Ag","Al","As","B","Ba","Be","Bi","Br","Co","Cr","Cs","Cu","Fe","Ga","Ge","Hf","K","Li","Mg","Mn","Mo","Na","Nb","Ni","P","Pb","Rb","Sb","Sc","Sn","Sr","Ta","Th","Ti","U","V","W","Y","Zn","Zr"],
+            ["Ce","Dy","Er","Eu","Gd","Ho","La","Lu","Nd","Sm","Tb","Tm","Yb"]
+        ];
+        units = ["WT%","PPM","PMM"];
+        
+        for(let i = 0,tables = document.getElementsByClassName("table") ; i < list_deses.length ; i++){
+            insert_table(tables[i],list_deses[i],units[i]);
+        }
+         function element_sub(){
+    var contain=document.getElementById('contain')
+    data=[]
+    data_txt=''
+    index =0
+    for(i of contain.options){
+
+        if(i.value!='Trace Elements:' && i.value!='Major Elements:' && i.value!='Rare Earth Elements:'){
+            data_txt=data_txt+' '+i.value.trim();
+            data.push(i.value.trim());
+        }
+
+        index=index+1
+
+    }
+    console.log(data);
+    console.log(data_txt)
+    sessionStorage.setItem("element_value",JSON.stringify(data));
+    sessionStorage.setItem("element_txt",data_txt);
+    window.location.href='/user/Access_data'
+}
+    </script>
+    <script type="text/javascript" src="/static/js/select_by_element.js"></script>
+</body>
+
+</html>

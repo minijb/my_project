@@ -1,0 +1,584 @@
+Exp/Leg __!__ Exp/Leg
+Site __!__ Site
+Hole __!__ Hole
+Latitude __!__ Latitude
+Longitude __!__ Longitude
+Water depth (m) __!__ Water depth (m)
+Core __!__ Core
+Type __!__ Type
+Core-Sect __!__ Core-Sect
+Section __!__ Section
+A/W __!__ A/W
+Interval (cm) __!__ Interval (cm)
+Top Offset [cm] __!__ Top Offset [cm]
+Top Depth (m) __!__ Top Depth (m)
+Top Depth (mcd) __!__ Top Depth (mcd)
+Top depth CSF-A (m) __!__ Top depth CSF-A (m)
+Top depth CSF-B (m) __!__ Top depth CSF-B (m)
+Top Depth MSF (m) __!__ Top Depth MSF (m)
+Bottom offset [cm] __!__ Bottom offset [cm]
+Bottom depth (m) __!__ Bottom depth (m)
+Bottom depth CSF-A (m) __!__ Bottom depth CSF-A (m)
+Bottom Depth CSF-B (m) __!__ Bottom Depth CSF-B (m)
+Bottom Depth MSF (m) __!__ Bottom Depth MSF (m)
+Midpoint depth (mbsf) __!__ Midpoint depth (mbsf)
+Reference __!__ Reference
+DOI __!__ DOI
+Method __!__ Method
+Cuttings sample  __!__ Cuttings sample 
+Instrument __!__ Instrument
+Instrument group __!__ Instrument group
+COMMENTS __!__ COMMENTS
+Carbon_CaCO3 (wt%) __!__ Carbon_CaCO3 (wt%)
+Carbon_Carbonate (wt%) __!__ Carbon_Carbonate (wt%)
+Carbon_Inorganic (wt%) __!__ Carbon_Inorganic (wt%)
+Carbon_Organic (wt%) __!__ Carbon_Organic (wt%)
+Carbon_Total (wt%) __!__ Carbon_Total (wt%)
+Comment_CHNS __!__ Comment_CHNS
+Hydrogen (wt%) __!__ Hydrogen (wt%)
+Hydrogen (mg HC/g) __!__ Hydrogen (mg HC/g)
+Nitrogen (wt%) __!__ Nitrogen (wt%)
+Sulfur (wt%) __!__ Sulfur (wt%)
+Comment_CHNS __!__ Comment_CHNS
+Method_CHNS __!__ Method_CHNS
+Age, kyr __!__ Age, kyr
+Chlorite, % __!__ Chlorite, %
+Illite Chemistry Index __!__ Illite Chemistry Index
+Illite Crystallinity __!__ Illite Crystallinity
+Illite, %  __!__ Illite, % 
+Kaolinite, % __!__ Kaolinite, %
+Smectite, % __!__ Smectite, %
+Advanced (m) __!__ Advanced (m)
+Bottom depth recovered (m) __!__ Bottom depth recovered (m)
+Sections (no.) __!__ Sections (no.)
+Top depth cored CSF (m) __!__ Top depth cored CSF (m)
+Top depth drilled DSF (m) __!__ Top depth drilled DSF (m)
+Curated length (m) __!__ Curated length (m)
+Section half samples (no.) __!__ Section half samples (no.)
+APC cores (no.) __!__ APC cores (no.)
+Cored interval (m) __!__ Cored interval (m)
+Drilled interval (m) __!__ Drilled interval (m)
+Drilled interval (no.) __!__ Drilled interval (no.)
+HLAPC cores (no.) __!__ HLAPC cores (no.)
+Other cores (no.) __!__ Other cores (no.)
+Penetration DSF (m) __!__ Penetration DSF (m)
+RCB cores (no.) __!__ RCB cores (no.)
+Total cores (no.) __!__ Total cores (no.)
+XCB cores (no.) __!__ XCB cores (no.)
+Recovery (%) __!__ Recovery (%)
+Recovered length (m) __!__ Recovered length (m)
+Al2O3_(%) __!__ Al2O3  percent
+Al2O3_(%)_308.2 nm __!__ Al2O3  percent  308.2 nm
+Al2O3_(%)_309.3 nm __!__ Al2O3  percent  309.3 nm
+Al2O3_(%)_394.4 nm __!__ Al2O3  percent  394.4 nm
+Al2O3_(%)_396.2 nm __!__ Al2O3  percent  396.2 nm
+CaO_(%) __!__ CaO  percent
+CaO_(%)_315.9 nm __!__ CaO  percent  315.9 nm
+CaO_(%)_317.9 nm __!__ CaO  percent  317.9 nm
+CaO_(%)_393.4 nm __!__ CaO  percent  393.4 nm
+CaO_(%)_396.8 nm __!__ CaO  percent  396.8 nm
+CaO_(%)_422.7 nm __!__ CaO  percent  422.7 nm
+Fe2O3t_(%) __!__ Fe2O3t  percent
+Fe2O3t_(%)_238.2 nm __!__ Fe2O3t  percent  238.2 nm
+Fe2O3t_(%)_239.6 nm __!__ Fe2O3t  percent  239.6 nm
+Fe2O3t_(%)_259.9 nm __!__ Fe2O3t  percent  259.9 nm
+K2O_(%) __!__ K2O  percent
+K2O_(%)_766.5 nm __!__ K2O  percent  766.5 nm
+K2O_(%)_769.9 nm __!__ K2O  percent  769.9 nm
+MgO_(%) __!__ MgO  percent
+MgO_(%)_202.6 nm __!__ MgO  percent  202.6 nm
+MgO_(%)_279.6 nm __!__ MgO  percent  279.6 nm
+MgO_(%)_280.3 nm __!__ MgO  percent  280.3 nm
+MgO_(%)_285.2 nm __!__ MgO  percent  285.2 nm
+MnO_(%) __!__ MnO  percent
+MnO_(%)_257.6 nm __!__ MnO  percent  257.6 nm
+MnO_(%)_259.4 nm __!__ MnO  percent  259.4 nm
+Na2O_(%) __!__ Na2O  percent
+Na2O_(%)_589 nm __!__ Na2O  percent  589 nm
+Na2O_(%)_589.6 nm __!__ Na2O  percent  589.6 nm
+P2O5_(%) __!__ P2O5  percent
+P2O5_(%)_177.4 nm __!__ P2O5  percent  177.4 nm
+P2O5_(%)_213.6 nm __!__ P2O5  percent  213.6 nm
+P2O5_(%)_214.9 nm __!__ P2O5  percent  214.9 nm
+SiO2_(%) __!__ SiO2  percent
+SiO2_(%)_221.7 nm __!__ SiO2  percent  221.7 nm
+SiO2_(%)_250.7 nm __!__ SiO2  percent  250.7 nm
+SiO2_(%)_251.6 nm __!__ SiO2  percent  251.6 nm
+SiO2_(%)_288.2 nm __!__ SiO2  percent  288.2 nm
+TiO2_(%) __!__ TiO2  percent
+TiO2_(%)_334.9 nm __!__ TiO2  percent  334.9 nm
+TiO2_(%)_336.1 nm __!__ TiO2  percent  336.1 nm
+TiO2_(%)_337.3 nm __!__ TiO2  percent  337.3 nm
+LOI_(wt%) __!__ LOI  wt percent
+Al_(ppm) __!__ Al  ppm
+Al_(ppm)_308.2 nm __!__ Al  ppm  308.2 nm
+Ba_(ppm) __!__ Ba  ppm
+Ba_(ppm)_233.5 nm __!__ Ba  ppm  233.5 nm
+Ba_(ppm)_455.4 nm __!__ Ba  ppm  455.4 nm
+Ba_(ppm)_493.4 nm __!__ Ba  ppm  493.4 nm
+Be_(ppm) __!__ Be  ppm
+Br_(ppm) __!__ Br  ppm
+Ce_(ppm) __!__ Ce  ppm
+Co_(ppm) __!__ Co  ppm
+Co_(ppm)_228.6 nm __!__ Co  ppm  228.6 nm
+Cr_(ppm) __!__ Cr  ppm
+Cr_(ppm)_205.6 nm __!__ Cr  ppm  205.6 nm
+Cr_(ppm)_206.1 nm __!__ Cr  ppm  206.1 nm
+Cr_(ppm)_267.7 nm __!__ Cr  ppm  267.7 nm
+Cr_(ppm)_283.6 nm __!__ Cr  ppm  283.6 nm
+Cs_(ppm) __!__ Cs  ppm
+Cu_(ppm) __!__ Cu  ppm
+Cu_(ppm)_224.7 nm __!__ Cu  ppm  224.7 nm
+Cu_(ppm)_324.8 nm __!__ Cu  ppm  324.8 nm
+Cu_(ppm)_327.4 nm __!__ Cu  ppm  327.4 nm
+Dy_(ppm) __!__ Dy  ppm
+Er_(ppm) __!__ Er  ppm
+Fe_(ppm) __!__ Fe  ppm
+Fe_(ppm)_238.2 nm __!__ Fe  ppm  238.2 nm
+Ga_(ppm) __!__ Ga  ppm
+Gd_(ppm) __!__ Gd  ppm
+Ge_(ppm) __!__ Ge  ppm
+Ge_(ppm)_219.9 nm  __!__ Ge  ppm  219.9 nm
+Ge_(ppm)_303.9 nm  __!__ Ge  ppm  303.9 nm
+Hf_(ppm) __!__ Hf  ppm
+K_(ppm) __!__ K  ppm
+K_(ppm)_769.9 nm  __!__ K  ppm  769.9 nm
+La_(ppm) __!__ La  ppm
+Mg_(ppm)_285.2 nm __!__ Mg  ppm  285.2 nm
+Mn_(ppm)_257.6 nm __!__ Mn  ppm  257.6 nm
+Mo_(ppm) __!__ Mo  ppm
+Mo_(ppm)_202.0nm __!__ Mo  ppm  202.0nm
+Na_(ppm) __!__ Na  ppm
+Na_(ppm)_589.6nm __!__ Na  ppm  589.6nm
+Nb_(ppm) __!__ Nb  ppm
+Nb_(ppm)_309.4 nm __!__ Nb  ppm  309.4 nm
+Nd_(ppm) __!__ Nd ppm
+Ni_(ppm) __!__ Ni  ppm
+Ni_(ppm)_221.6 nm __!__ Ni  ppm  221.6 nm
+Ni_(ppm)_231.6 nm __!__ Ni  ppm  231.6 nm
+Ni_(ppm)_361.9 nm __!__ Ni  ppm  361.9 nm
+P_(ppm)_214.9 nm __!__ P  ppm  214.9 nm
+Pb_(ppm) __!__ Pb  ppm
+Rb_(ppm) __!__ Rb  ppm
+S_(ppm) __!__ S  ppm
+Sc_(ppm) __!__ Sc  ppm
+Sc_(ppm)_357.3 nm __!__ Sc  ppm  357.3 nm
+Sc_(ppm)_361.4 nm __!__ Sc  ppm  361.4 nm
+Sm_(ppm) __!__ Sm  ppm
+Sr_(ppm) __!__ Sr  ppm
+Sr_(ppm)_407.8 nm __!__ Sr  ppm  407.8 nm
+Sr_(ppm)_421.6 nm __!__ Sr  ppm  421.6 nm
+Sr_(ppm)_460.7 nm __!__ Sr  ppm  460.7 nm
+Th_(ppm) __!__ Th ppm
+V_(ppm) __!__ V  ppm
+V_(ppm)_292.4 nm __!__ V  ppm  292.4 nm
+V_(ppm)_309.3 nm __!__ V  ppm  309.3 nm
+V_(ppm)_310.2 nm __!__ V  ppm  310.2 nm
+Y_(ppm) __!__ Y  ppm
+Y_(ppm)_360.1 nm __!__ Y  ppm  360.1 nm
+Y_(ppm)_371 nm __!__ Y  ppm  371 nm
+Y_(ppm)_377.4 nm __!__ Y  ppm  377.4 nm
+Yb_(ppm) __!__ Yb  ppm
+Zn_(ppm) __!__ Zn  ppm
+Zn_(ppm)_202.5 nm __!__ Zn  ppm  202.5 nm
+Zn_(ppm)_206.2 nm __!__ Zn  ppm  206.2 nm
+Zn_(ppm)_213.9 nm __!__ Zn  ppm  213.9 nm
+Zr (ppm) _273.5 nm  __!__ Zr  ppm   273.5 nm
+Zr (ppm) _327.307 nm  __!__ Zr  ppm   327.307 nm
+Zr_(ppm) __!__ Zr  ppm
+Zr_(ppm)_339.2 nm __!__ Zr  ppm  339.2 nm
+Zr_(ppm)_343.8 nm __!__ Zr  ppm  343.8 nm
+V_(nm)_n/a nm __!__ V_(nm)_n/a nm
+Comment_ICP __!__ Comment ICP
+Alkalinity (mM) __!__ Alkalinity  mM
+Comment_IW __!__ Comment IW
+DIC_(mM) __!__ DIC  mM
+DOC_(mM) __!__ DOC  mM
+PH __!__ PH
+Salinity __!__ Salinity
+Al2O3_(wt%)_XRF __!__ Al2O3 wt XRF
+CaO_(wt%)_XRF __!__ CaO wt percent XRF
+Fe2O3*_(wt%)_XRF __!__ Fe2O3 wt XRF
+FeO_(wt%)_XRF __!__ FeO  wt percent  XRF
+K2O_(wt%)_XRF __!__ K2O wt percent XRF
+MgO_(wt%)_XRF __!__ MgO wt percent XRF
+MnO_(wt%)_XRF __!__ MnO wt XRF
+Na2O_(wt%)_XRF __!__ Na2O wt percent XRF
+P2O5_(wt%)_XRF __!__ P2O5 wt percent XRF
+SiO2_(wt%)_XRF __!__ SiO2 wt XRF
+TiO2_(wt%)_XRF __!__ TiO2 wt XRF
+LOI_(wt%)_XRF __!__ LOI  wt percent  XRF
+Total_(wt%)_XRF __!__ Total wt percent XRF
+Al_(%)_XRF __!__ Al   percent  XRF
+Ca_(%)_XRF __!__ Ca   percent  XRF
+Cl_(%)_XRF __!__ Cl percent XRF
+Cr_(%)_XRF __!__ Cr   percent  XRF
+Fe_(%)_XRF __!__ Fe   percent  XRF
+K_(%)_XRF __!__ K   percent  XRF
+Mg_(%)_XRF __!__ Mg   percent  XRF
+Mn_(%)_XRF __!__ Mn   percent  XRF
+Na_(%)_XRF __!__ Na   percent  XRF
+P_(%)_XRF __!__ P   percent  XRF
+S_(%)_XRF __!__ S   percent  XRF
+Si_(%)_XRF __!__ Si   percent  XRF
+Ti_(%)_XRF __!__ Ti   percent  XRF
+Salt_(%)_XRF __!__ Salt   percent  XRF
+As_(ppm)_XRF __!__ As ppm XRF
+Ba_(ppm)_XRF __!__ Ba  ppm XRF
+Be_(ppm)_XRF __!__ Be  ppm XRF
+Br_(ppm)_XRF __!__ Br ppm XRF
+Ce_(ppm)_XRF __!__ Ce  ppm XRF
+Co_(ppm)_XRF __!__ Co  ppm XRF
+Cr_(ppm)_XRF __!__ Cr  ppm XRF
+Cs_(ppm)_XRF __!__ Cs  ppm XRF
+Cu_(ppm)_XRF __!__ Cu  ppm  XRF
+Dy_(ppm)_XRF __!__ Dy  ppm XRF
+Er_(ppm)_XRF __!__ Er  ppm XRF
+Eu_(ppm)_XRF __!__ Eu  ppm  XRF
+Ga_(ppm)_XRF __!__ Ga  ppm XRF
+Gd_(ppm)_XRF __!__ Gd  ppm XRF
+Hf_(ppm)_XRF __!__ Hf  ppm XRF
+Ho_(ppm)_XRF __!__ Ho  ppm  XRF
+La_(ppm)_XRF __!__ La  ppm XRF
+Li_(ppm)_XRF __!__ Li  ppm  XRF
+Lu_(ppm)_XRF __!__ Lu  ppm  XRF
+Mo_(ppm)_XRF __!__ Mo  ppm XRF
+Nb_(ppm)_XRF __!__ Nb  ppm XRF
+Nd_(ppm)_XRF __!__ Nd  ppm XRF
+Ni_(ppm)_XRF __!__ Ni  ppm XRF
+P_(ppm)_XRF __!__ P ppm XRF
+Pb_(ppm)_XRF __!__ Pb  ppm XRF
+Rb_(ppm)_XRF __!__ Rb  ppm XRF
+S_(ppm)_XRF __!__ S  ppm XRF
+Sc_(ppm)_XRF __!__ Sc  ppm XRF
+Sm(ppm)_XRF __!__ Sm ppm  XRF
+Sr_(ppm)_XRF __!__ Sr  ppm XRF
+Ta_(ppm)_XRF __!__ Ta  ppm  XRF
+Tb_(ppm)_XRF __!__ Tb  ppm  XRF
+Th_(ppm)_XRF __!__ Th  ppm XRF
+Ti_(ppm)_XRF __!__ Ti ppm XRF
+U_(ppm)_XRF __!__ U  ppm  XRF
+V_(ppm)_XRF __!__ V  ppm XRF
+W_(ppm)_XRF __!__ W  ppm  XRF
+Y_(ppm)_XRF __!__ Y  ppm XRF
+Yb_(ppm)_XRF __!__ Yb  ppm XRF
+Zn_(ppm)_XRF __!__ Zn  ppm XRF
+Zr_(ppm)_XRF __!__ Zr  ppm XRF
+Dy_(ppm)_XRF __!__ Dy  ppm XRF
+Sample Type_XRF __!__ Sample Type XRF
+Comment_XRF __!__ Comment XRF
+Drilling disturbance intensity __!__ Drilling disturbance intensity
+Drilling disturbance intensity rank __!__ Drilling disturbance intensity rank
+Drilling disturbance type __!__ Drilling disturbance type
+Bedding thickness __!__ Bedding thickness
+Layer/Beddding __!__ Layer/Beddding
+Lamination __!__ Lamination
+Grading __!__ Grading
+Sedimentary structures __!__ Sedimentary structures
+Subdominant sedimentary structure __!__ Subdominant sedimentary structure
+Color __!__ Color
+Color (name) __!__ Color (name)
+Facies __!__ Facies
+Lithification __!__ Lithification
+Deformational structures __!__ Deformational structures
+Degree of alteration __!__ Degree of alteration
+Degree of Consolidation __!__ Degree of Consolidation
+Diagenetic constituent __!__ Diagenetic constituent
+Diagenetic structure __!__ Diagenetic structure
+Bioturbation intensity __!__ Bioturbation intensity
+Bioturbation intensity rank __!__ Bioturbation intensity rank
+Bioturbation type __!__ Bioturbation type
+Lithology name __!__ Lithology name
+Lithology name+suffix __!__ Lithology name+suffix
+Lithology prefix + name __!__ Lithology prefix + name
+Lithology prefix+name+suffix __!__ Lithology prefix+name+suffix
+Lithology [%] __!__ Lithology [%]
+Ash(macro) __!__ Ash(macro)
+Tephra type __!__ Tephra type
+Biogenic material __!__ Biogenic material
+Classification(macro lithology) __!__ Classification(macro lithology)
+Lithology ave. grain size class __!__ Lithology ave. grain size class
+Major lithology [%] __!__ Major lithology [%]
+Major lithology macrofossil __!__ Major lithology macrofossil
+Major lithology prefix __!__ Major lithology prefix
+Major lithology principal name __!__ Major lithology principal name
+Major lithology suffix __!__ Major lithology suffix
+Minor lithology [%] __!__ Minor lithology [%]
+Minor lithology macrofossil __!__ Minor lithology macrofossil
+Minor lithology prefix __!__ Minor lithology prefix
+Minor lithology principal name __!__ Minor lithology principal name
+Minor lithology suffix __!__ Minor lithology suffix
+Clast igneous __!__ Clast igneous
+Clast sediment __!__ Clast sediment
+Clast volcaniclastic __!__ Clast volcaniclastic
+Clast other lithology __!__ Clast other lithology
+Subdominant Clasts __!__ Subdominant Clasts
+Dominant gravel clasts __!__ Dominant gravel clasts
+Subdominant gravel clasts __!__ Subdominant gravel clasts
+Clast percentage [%] __!__ Clast percentage [%]
+Clast grain size __!__ Clast grain size
+Dominant grain size __!__ Dominant grain size
+Grain size max __!__ Grain size max
+Dominant Clasts max. grain size class __!__ Dominant Clasts max. grain size class
+Subdominant Clasts ave. grain size class __!__ Subdominant Clasts ave. grain size class
+Subdominant Clasts max. grain size class __!__ Subdominant Clasts max. grain size class
+Clast roundness __!__ Clast roundness
+Subdominant clast roundness __!__ Subdominant clast roundness
+Clast sorting __!__ Clast sorting
+Clast color __!__ Clast color
+Skeletal components (intermediate) __!__ Skeletal components (intermediate)
+Skeletal components (major) __!__ Skeletal components (major)
+Skeletal components (minor) __!__ Skeletal components (minor)
+Non-skeletal components __!__ Non-skeletal components
+Primary trace fossils __!__ Primary trace fossils
+Minor trace fossils __!__ Minor trace fossils
+Fossil __!__ Fossil
+Macrofossil abundance __!__ Macrofossil abundance
+Groundmass color __!__ Groundmass color
+Groundmass grain size __!__ Groundmass grain size
+Matrix abundance [%] __!__ Matrix abundance [%]
+Clast/matrix texture __!__ Clast/matrix texture
+Cored (m) __!__ Cored (m)
+Section summary description __!__ Section summary description
+Summary description __!__ Summary description
+>4 mm Bulk Density (g/cm3) __!__ >4 mm Bulk Density (g/cm3)
+>4 mm Grain Density (g/cm3) __!__ >4 mm Grain Density (g/cm3)
+>4 mm Porosity (%) __!__ >4 mm Porosity (%)
+>4 mm Void ratio __!__ >4 mm Void ratio
+1-4 mm Bulk Density (g/cm3) __!__ 1-4 mm Bulk Density (g/cm3)
+1-4 mm Grain Density (g/cm3) __!__ 1-4 mm Grain Density (g/cm3)
+1-4 mm Porosity (%) __!__ 1-4 mm Porosity (%)
+1-4 mm Void ratio __!__ 1-4 mm Void ratio
+Bulk Density  (g/cm3) __!__ Bulk Density  (g/cm3)
+Comment_MAD __!__ Comment_MAD
+Dry Density  (g/cm3) __!__ Dry Density  (g/cm3)
+Dry Porosity (%) __!__ Dry Porosity (%)
+Dry volume (cm3) __!__ Dry volume (cm3)
+Dry Water content (wt%) __!__ Dry Water content (wt%)
+Grain Density  (g/cm3) __!__ Grain Density  (g/cm3)
+Mass dried sample (g) __!__ Mass dried sample (g)
+Mass porewater (g) __!__ Mass porewater (g)
+Mass salt (g) __!__ Mass salt (g)
+Mass solids (g) __!__ Mass solids (g)
+Mass wet sample (g) __!__ Mass wet sample (g)
+Method_MAD __!__ Method_MAD
+Moisture dry (wt%) __!__ Moisture dry (wt%)
+Moisture wet (wt%) __!__ Moisture wet (wt%)
+Porosity (%) __!__ Porosity (%)
+Porosity (fractional) __!__ Porosity (fractional)
+Void ratio __!__ Void ratio
+Vol porewater (cm3) __!__ Vol porewater (cm3)
+Vol salt (cm3) __!__ Vol salt (cm3)
+Vol solids (cm3) __!__ Vol solids (cm3)
+Vol wet sample (cm3) __!__ Vol wet sample (cm3)
+Water content (wt%) __!__ Water content (wt%)
+Wet bulk density (g/cm3) __!__ Wet bulk density (g/cm3)
+Wet Porosity (%) __!__ Wet Porosity (%)
+Wet Water content (wt%) __!__ Wet Water content (wt%)
+Color_Munsell __!__ Color Munsell
+Comment_RSC __!__ Comment RSC
+Reflectance a* __!__ Reflectance a
+Reflectance b* __!__ Reflectance b
+Reflectance L* __!__ Reflectance L
+Tristimulus X __!__ Tristimulus X
+Tristimulus Y __!__ Tristimulus Y
+Tristimulus Z __!__ Tristimulus Z
+Calculated Tmax (°C) __!__ Calculated Tmax (°C)
+Comment_SRA __!__ Comment_SRA
+Hydrogen index (HI) (n/a) __!__ Hydrogen index (HI) (n/a)
+Measured Tmax (°C) __!__ Measured Tmax (°C)
+Method_SRA __!__ Method_SRA
+Oxygen index (OI) (n/a) __!__ Oxygen index (OI) (n/a)
+Production index (PI) (n/a) __!__ Production index (PI) (n/a)
+Pyrolysis carbon (PC) (mg/g) __!__ Pyrolysis carbon (PC) (mg/g)
+RC (wt%) __!__ RC (wt%)
+S1 (mg HC/g C) __!__ S1 (mg HC/g C)
+S2 (mg HC/g C) __!__ S2 (mg HC/g C)
+S3 (mg CO2/g) __!__ S3 (mg CO2/g)
+S3 (mg HC/g C) __!__ S3 (mg HC/g C)
+Tmax (°C) __!__ Tmax (°C)
+TOC_SRA (wt%) __!__ TOC_SRA (wt%)
+Clay texture [%] __!__ Clay texture [%]
+Silt texture [%] __!__ Silt texture [%]
+Sand texture [%] __!__ Sand texture [%]
+Gravel texture [%] __!__ Gravel texture [%]
+Roundness __!__ Roundness
+Ash grain roundness __!__ Ash grain roundness
+Biogenic fragment roundness __!__ Biogenic fragment roundness
+Lithic roundness __!__ Lithic roundness
+Grain size __!__ Grain size
+Biogenic fragment size __!__ Biogenic fragment size
+Lithic grain size __!__ Lithic grain size
+Maximum grain size __!__ Maximum grain size
+Minimum grain size __!__ Minimum grain size
+Pore space __!__ Pore space
+Total texture __!__ Total texture
+Complete lithology __!__ Complete lithology
+Principal lithology __!__ Principal lithology
+Lithology prefix __!__ Lithology prefix
+Lithology suffix __!__ Lithology suffix
+Lithology classification __!__ Lithology classification
+Total composition __!__ Total composition
+Siliciclastic __!__ Siliciclastic
+Biogenic __!__ Biogenic
+Biogenic carbonate __!__ Biogenic carbonate
+Biogenic silica __!__ Biogenic silica
+Carbonate __!__ Carbonate
+Quartz __!__ Quartz
+Feldspar __!__ Feldspar
+K-Feldspar __!__ K-Feldspar
+Plagioclase __!__ Plagioclase
+Clay Mineral __!__ Clay Mineral
+Rock fragments/Lithic grain __!__ Rock fragments/Lithic grain
+Sedimentary lithic __!__ Sedimentary lithic
+Calcite (allogenic) __!__ Calcite (allogenic)
+Chert __!__ Chert
+Chlorite __!__ Chlorite
+Detrital carbonate __!__ Detrital carbonate
+Limestone __!__ Limestone
+Micrite __!__ Micrite
+Microcrystalline Quartz __!__ Microcrystalline Quartz
+Microsparite __!__ Microsparite
+Mudstone __!__ Mudstone
+Other sedimentary fragments __!__ Other sedimentary fragments
+Siltstone/Sandstone __!__ Siltstone/Sandstone
+Sparite __!__ Sparite
+Metamorphic lithic __!__ Metamorphic lithic
+Glauconitization __!__ Glauconitization
+Palagonite (altered) __!__ Palagonite (altered)
+Serpentine __!__ Serpentine
+Sericite __!__ Sericite
+Diagenetic __!__ Diagenetic
+Altered Grains __!__ Altered Grains
+Igneous fragment __!__ Igneous fragment
+Other volcanic __!__ Other volcanic
+Plutonic lithic __!__ Plutonic lithic
+Pyroclasts/Volcanic lithics __!__ Pyroclasts/Volcanic lithics
+Other lithic __!__ Other lithic
+Heavy minerals __!__ Heavy minerals
+Actinolite __!__ Actinolite
+Allanite __!__ Allanite
+Amphibole __!__ Amphibole
+Anhydrite __!__ Anhydrite
+Apatite __!__ Apatite
+Augite/Pyroxene __!__ Augite/Pyroxene
+Barite __!__ Barite
+Biotite __!__ Biotite
+Cassiterite __!__ Cassiterite
+Chloritoid __!__ Chloritoid
+Clinopyroxene __!__ Clinopyroxene
+Enstatite __!__ Enstatite
+Epidote __!__ Epidote
+Fluorite __!__ Fluorite
+Garnet __!__ Garnet
+Glaucophane __!__ Glaucophane
+Goethite __!__ Goethite
+Gypsum __!__ Gypsum
+Hematite __!__ Hematite
+Hypersthene __!__ Hypersthene
+Ilmenite __!__ Ilmenite
+Kyanite __!__ Kyanite
+Limonite __!__ Limonite
+Magnetite __!__ Magnetite
+Mica __!__ Mica
+Monazite __!__ Monazite
+Muscovite __!__ Muscovite
+Olivine __!__ Olivine
+Opaque __!__ Opaque
+Orthopyroxene __!__ Orthopyroxene
+Oxide __!__ Oxide
+Rutile __!__ Rutile
+Siderite __!__ Siderite
+Sillimanite __!__ Sillimanite
+Sphalerite __!__ Sphalerite
+Spinel __!__ Spinel
+Staurolite __!__ Staurolite
+Titanite/Sphene __!__ Titanite/Sphene
+Tourrmaline __!__ Tourrmaline
+Tremolite __!__ Tremolite
+Zeolite __!__ Zeolite
+Zircon __!__ Zircon
+Zoisite __!__ Zoisite
+Ash __!__ Ash
+Felsic tephra __!__ Felsic tephra
+Felsitic __!__ Felsitic
+Mafic tephra __!__ Mafic tephra
+Total bioclast __!__ Total bioclast
+Calcareous bioclasts __!__ Calcareous bioclasts
+Calcareous nannofossils __!__ Calcareous nannofossils
+Planktonic foraminifers __!__ Planktonic foraminifers
+Calcareous sponge spicule __!__ Calcareous sponge spicule
+Sponge spicule  __!__ Sponge spicule 
+Dinoflagelattes __!__ Dinoflagelattes
+Calcispheres __!__ Calcispheres
+Pelgaic __!__ Pelgaic
+Other calcareous bioclasts __!__ Other calcareous bioclasts
+Biosiliceous fossil __!__ Biosiliceous fossil
+Radiolaria __!__ Radiolaria
+Diatoms __!__ Diatoms
+Siliceous sponge spicule __!__ Siliceous sponge spicule
+Silicoflagelates __!__ Silicoflagelates
+Ebridians __!__ Ebridians
+Alga __!__ Alga
+Benthic foraminifer __!__ Benthic foraminifer
+Bivalve __!__ Bivalve
+Bryozoa __!__ Bryozoa
+Corals __!__ Corals
+Echinoderm __!__ Echinoderm
+Echinoids __!__ Echinoids
+Gastropod __!__ Gastropod
+Intraclast __!__ Intraclast
+Mollusk __!__ Mollusk
+Ostracodes __!__ Ostracodes
+Other Biclasts __!__ Other Biclasts
+Other microfossils __!__ Other microfossils
+Other skeletal fragments __!__ Other skeletal fragments
+Pteropod fragments __!__ Pteropod fragments
+Shell fragments __!__ Shell fragments
+Skeletal Debris __!__ Skeletal Debris
+Carbonate mud __!__ Carbonate mud
+Cement __!__ Cement
+Ooids __!__ Ooids
+Pellets __!__ Pellets
+Peloid __!__ Peloid
+Spherulite __!__ Spherulite
+Fe oxide __!__ Fe oxide
+Fe sulfides __!__ Fe sulfides
+Mn oxide __!__ Mn oxide
+Fe/Mn Oxide __!__ Fe/Mn Oxide
+Ferromagnesian minerals __!__ Ferromagnesian minerals
+Charcoal __!__ Charcoal
+Marine organic matter __!__ Marine organic matter
+Organic debris __!__ Organic debris
+Other organic matter __!__ Other organic matter
+Terrestrial organic matter __!__ Terrestrial organic matter
+Wood fragments __!__ Wood fragments
+Aragonite __!__ Aragonite
+Authigenic Pyrite __!__ Authigenic Pyrite
+Authigenic Quartz __!__ Authigenic Quartz
+Brucite __!__ Brucite
+Calcite __!__ Calcite
+Clinoptilolite __!__ Clinoptilolite
+Dolomite __!__ Dolomite
+Framboidal pyrite __!__ Framboidal pyrite
+Pyrite __!__ Pyrite
+Other authigenic abundance __!__ Other authigenic abundance
+Crystal abundance __!__ Crystal abundance
+Collophane __!__ Collophane
+Phosphates __!__ Phosphates
+Fish debris __!__ Fish debris
+Fish scales __!__ Fish scales
+Fish teeth __!__ Fish teeth
+Glauconite __!__ Glauconite
+Micronodules __!__ Micronodules
+Other mineral __!__ Other mineral
+Palygorskite __!__ Palygorskite
+Phillipsite __!__ Phillipsite
+Plant debris __!__ Plant debris
+Pollen __!__ Pollen
+Sulfate __!__ Sulfate
+Sulfides __!__ Sulfides
+Talc __!__ Talc
+Ti-oxides __!__ Ti-oxides
+Tunicate __!__ Tunicate
+Other __!__ Other

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        .anticon {
+            display: inline-block;
+            color: inherit;
+            font-style: normal;
+            line-height: 0;
+            text-align: center;
+            text-transform: none;
+            vertical-align: -0.125em;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .anticon > * {
+            line-height: 1;
+        }
+
+        .anticon svg {
+            display: inline-block;
+        }
+
+        .anticon::before {
+            display: none;
+        }
+
+        .anticon .anticon-icon {
+            display: block;
+        }
+
+        .anticon[tabindex] {
+            cursor: pointer;
+        }
+
+        .anticon-spin::before,
+        .anticon-spin {
+            display: inline-block;
+            -webkit-animation: loadingCircle 1s infinite linear;
+            animation: loadingCircle 1s infinite linear;
+        }
+
+        @-webkit-keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        .putOnRecords {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+    </style>
+    <title data-react-helmet="true"> DDE数据库系统</title>
+    <title>
+       DDE数据库系统
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+
+    <link rel="stylesheet" type="text/css" href="/static/index/font_2485739_z80nw8t0jr9.css">
+    <script async="" src="/static/index/sensors%2Fonline%2Fsa-sdk-javascript-1.14.24%2Fsensorsdata.min.js"
+            charset="UTF-8"></script>
+    <script charset="utf-8"
+            src="/static/index/b.js"></script>
+    <script src="https://hm.baidu.com/hm.js?ce15ee5e722f6c2785cdd131025e797f"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?ce15ee5e722f6c2785cdd131025e797f";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/index/favicon.ico">
+    <link rel="stylesheet" href="/static/index/vendors.chunk.css">
+    <link rel="stylesheet" href="/static/index/vendors1.chunk.css">
+    <link rel="stylesheet" href="/static/index/umi.css">
+    <link rel="stylesheet" href="/static/index/p__index.chunk.css">
+    <script>
+        window.routerBase = "/";
+    </script>
+    <script>
+        //! umi version: 3.3.3
+    </script>
+
+    <script charset="utf-8" src="/static/index/p__index.js"></script>
+    <script src="//sgoutong.baidu.com/embed/1652930761/asset/embed/pc_nb.js" charset="UTF-8"></script>
+    <link rel="stylesheet" type="text/css" href="//sgoutong.baidu.com/embed/1652930761/asset/embed/css/pc/main.css">
+    <script type="text/javascript"
+            data-bdms-faccdee21b68="eyJhcHBfa2V5IjoiNTQ4MCIsImFwcF92aWV3IjoicHJvbW90ZSIsImJyb3dzZXJfdXJsIjoiaHR0cHM6Ly9zb2ZpcmUuYmFpZHUuY29tL2RhdGEvdWEvYWIuanNvbiIsImZvcm1fZGVzYyI6IiIsInNlbmRfaW50ZXJ2YWwiOjUwLCJzZW5kX21ldGhvZCI6M30="
+            src="/static/index/dfxaf.js"></script>
+    <script type="text/javascript"
+            src="/static/index/poll"
+            id="id_jsonp_bridge_1653548959088_03200185126592958" charset="utf-8"></script>
+
+</head>
+<body>
+<div id="root">
+    <div class="templates-wrapper">
+
+    <div id="Header0_3" class="header0-wrapper home-page-wrapper theme-dark">
+        <div class="header0 home-page ">
+            <div class=" header0-mobile-menu"><em></em><em></em><em></em></div>
+            <div class="header0-bar-wrapper">
+                <div class="logo-wrapper">
+{#                    <img class="logo"#}
+{#                                                           src="http://web.wuyezhijia.cn/imgs/web_logo_13588620e4.png"#}
+{#                                                           alt="web-logo">#}
+                    <span class="brand" >Ocean Sediment Database</span></div>
+                <div style="flex: 110%;">
+                    <span></span>
+                    <ul style="flex: 110%;" class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+                        role="menu">
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span>
+                                <i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-item ant-menu-item-only-child header0-item" name="/index" role="menuitem">
+                            <a class="header0-item-block" href="/user/index" target="_self"><span>Home</span></a></li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span><i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal header0-item" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true">
+                                <div class="header0-item-block"><span>Data Access</span></div>
+                                <i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span><i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal header0-item" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true">
+                                <div class="header0-item-block"><span>Submit Data
+</span></div>
+                                <i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span><i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-item ant-menu-item-only-child header0-item" name="/customer-case"
+                            role="menuitem"><a class="header0-item-block" href="/customer-case" target="_self"><span>Communites</span></a>
+                        </li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span>
+                                <i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-item ant-menu-item-only-child header0-item" name="/information-list"
+                            role="menuitem"><a class="header0-item-block" href="/user/about" target="_self"><span>Connect Us
+</span></a>
+                        </li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span><i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span><i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+
+
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span><i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                        <li class="ant-menu-item ant-menu-item-only-child header0-item" name="contact" role="menuitem">
+                            <div class="header0-item-block">
+                                <div class="button-wrapper"><a href="/user/login" target="__blank"
+                                                               style="font-size: 16px; color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(20, 159, 138), rgb(52, 230, 129)) repeat scroll 0% 0%;"
+                                                               class="ant-btn apply-button  cu-button"><span>登 录</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="ant-menu-item ant-menu-item-only-child header0-item" name="register" role="menuitem">
+                            <div class="header0-item-block">
+                                <div class="button-wrapper">
+                                    <button style="font-size: 16px; color: rgb(22, 171, 112); background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-shadow: rgba(22, 171, 112, 0.88) 0px 0px 0px;"
+                                            type="button" class="ant-btn register-button  cu-button"><span>注 册</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+                            style="visibility: hidden; position: absolute; display: none;" role="menuitem">
+                            <div class="ant-menu-submenu-title" role="button" aria-expanded="false"
+                                 aria-haspopup="true"><span>···</span><i class="ant-menu-submenu-arrow"></i></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Banner0_1" class="banner0-wrapper home-page-wrapper">
+        <div class="banner-anim" style="opacity: 1;">
+            <div style="display: block; position: absolute; width: 100%; transform: translate(0px);"
+                 class="banner-anim-elem banner-user-elem">
+                <div class="bg bg0"
+                     style="background:url(/static/背景.png) no-repeat; margin:0px;background-attachment:fixed;background-size:100% 100%;;"></div>
+                <div class="banner0-content-wrapper">
+                    <div class="left-wrapper" style="opacity: 1; transform: translate(0px);">
+                        <div style="  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  transform: translate(0,-50%);
+}"><h1 class="title"><span>Ocean Sediment Database</span></h1>
+
+                            <div name="button" class="button-wrapper">
+                                
+                             <button style="box-shadow: rgba(255, 255, 255, 0.88) 0px 0px 0px;" type="button"
+                                            class="ant-btn button  cu-button" onclick="location.href='/user/search'"><span><img src="/static/search_37x37.png">&nbsp;Search
+</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div style="display: none; position: absolute; width: 100%; transform: translate(0px);"
+                 class="banner-anim-elem banner-user-elem">
+                <div class="bg bg0"
+                     style="background:url(http://web.wuyezhijia.cn/imgs/bg0_239333be29_a4b2f39c57.png)  100% 100% no-repeat"></div>
+            </div>
+            <div style="display: none; position: absolute; width: 100%; transform: translate(0px);"
+                 class="banner-anim-elem banner-user-elem">
+                <div class="bg bg0"
+                     style="background:url(http://web.wuyezhijia.cn/imgs/bg0_239333be29_a4b2f39c57.png)  100% 100% no-repeat"></div>
+            </div>
+            <div style="display: none; position: absolute; width: 100%; transform: translate(0px);"
+                 class="banner-anim-elem banner-user-elem">
+                <div class="bg bg0"
+                     style="background:url(http://web.wuyezhijia.cn/imgs/bg0_239333be29_a4b2f39c57.png)  100% 100% no-repeat"></div>
+            </div>
+            <div style="display: none; position: absolute; width: 100%; transform: translate(0px);"
+                 class="banner-anim-elem banner-user-elem">
+                <div class="bg bg0"
+                     style="background:url(http://web.wuyezhijia.cn/imgs/bg0_239333be29_a4b2f39c57.png)  100% 100% no-repeat"></div>
+            </div>
+            <div class="banner-anim-arrow banner-anim-arrow-default prev"></div>
+            <div class="banner-anim-arrow banner-anim-arrow-default next"></div>
+            <div class="banner-anim-thumb banner-anim-thumb-default"><span class="active"></span><span
+                    class=""></span><span class=""></span>
+                <span class=""></span><span class=""></span></div>
+        </div>
+        <div class="banner0-icon" style="bottom: 15px; transform: translate(0px, -13.8848px);">
+            <span role="img" aria-label="down" class="anticon anticon-down"><svg viewBox="64 64 896 896"
+                                                                                 focusable="false" data-icon="down"
+                                                                                 width="1em" height="1em"
+                                                                                 fill="currentColor" aria-hidden="true"><path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></span>
+        </div>
+    </div>
+
+    <div id="Feature10_1" class="home-page-wrapper feature10-wrapper">
+        <div class="home-page feature10">
+            <div class="title-wrapper">
+                <div class="title-link">
+                    <div style="display:none"><span class="mask"></span>
+                    </div>
+
+                    <div name="content" class="title-content" style="text-align:center">
+                        <br>
+                        <h1>Welcome to Ocean Sediment Database</h1>
+                        <br>
+                        <h1>......</h1>
+                        <br>
+                        <h1>About the Database</h1>
+                        <br>
+                        <h1>......</h1>
+</div>
+                </div>
+            </div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+<div style="background: black">
+    <div style=" text-align:center; color:white ">Part of the OneSediment in the DDE
+Founded by the NSFC
+<br>Ocean Sediment Database, Copyright @ 2022</div>
+
+</div>
+</div>
+</div>
+
+<script>
+    window.g_useSSR = true;
+    window.g_initialProps = {};
+</script>
+
+<script></script>
+
+<script src="/static/index/vendors.js"></script>
+<script src="/static/index/vendors1.js"></script>
+<script src="/static/index/global.js"></script>
+<script src="/static/index/umi.js"></script>
+<script src="/static/index/p__index.js"></script>
+
+
+
+</body>
+</html>

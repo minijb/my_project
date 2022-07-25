@@ -1,0 +1,3553 @@
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+致,0
+心,B-SideEff
+动,I-SideEff
+过,I-SideEff
+速,I-SideEff
+一,0
+例,0
+分,0
+析,0
+及,0
+文,0
+献,0
+复,0
+习,0
+"
+",0
+时,0
+学,0
+秀,0
+ ,0
+ ,0
+闫,0
+丹,0
+丹,0
+ ,0
+ ,0
+任,0
+彦,0
+红,0
+ ,0
+ ,0
+黄,0
+婷,0
+ ,0
+ ,0
+栗,0
+夏,0
+连,0
+"
+",0
+L,0
+i,0
+r,0
+a,0
+g,0
+l,0
+u,0
+t,0
+i,0
+d,0
+e,0
+ ,0
+i,0
+n,0
+d,0
+u,0
+c,0
+e,0
+d,0
+ ,0
+t,0
+a,0
+c,0
+h,0
+y,0
+c,0
+a,0
+r,0
+d,0
+i,0
+a,0
+:,0
+ ,0
+O,0
+n,0
+e,0
+ ,0
+c,0
+a,0
+s,0
+e,0
+ ,0
+r,0
+e,0
+p,0
+o,0
+r,0
+t,0
+ ,0
+a,0
+n,0
+d,0
+ ,0
+l,0
+i,0
+t,0
+e,0
+r,0
+a,0
+t,0
+u,0
+r,0
+e,0
+ ,0
+r,0
+e,0
+v,0
+i,0
+e,0
+w,0
+ ,0
+ ,0
+ ,0
+ ,0
+ ,0
+S,0
+h,0
+i,0
+ ,0
+X,0
+u,0
+e,0
+x,0
+i,0
+u,0
+",",0
+ ,0
+Y,0
+a,0
+n,0
+ ,0
+D,0
+a,0
+n,0
+d,0
+a,0
+n,0
+",",0
+ ,0
+R,0
+e,0
+n,0
+"
+",0
+Y,0
+a,0
+n,0
+h,0
+o,0
+n,0
+g,0
+",",0
+ ,0
+H,0
+u,0
+a,0
+n,0
+g,0
+ ,0
+T,0
+i,0
+n,0
+g,0
+",",0
+ ,0
+L,0
+i,0
+ ,0
+X,0
+i,0
+a,0
+l,0
+i,0
+a,0
+n,0
+.,0
+ ,0
+D,0
+e,0
+p,0
+a,0
+r,0
+t,0
+m,0
+e,0
+n,0
+t,0
+ ,0
+o,0
+f,0
+ ,0
+E,0
+n,0
+d,0
+o,0
+c,0
+r,0
+i,0
+n,0
+o,0
+l,0
+o,0
+g,0
+y,0
+",",0
+ ,0
+T,0
+h,0
+e,0
+ ,0
+F,0
+i,0
+r,0
+s,0
+t,0
+ ,0
+A,0
+f,0
+f,0
+i,0
+l,0
+i,0
+a,0
+t,0
+e,0
+d,0
+ ,0
+H,0
+o,0
+s,0
+p,0
+i,0
+t,0
+a,0
+l,0
+ ,0
+o,0
+f,0
+ ,0
+Z,0
+h,0
+e,0
+n,0
+g,0
+z,0
+h,0
+o,0
+u,0
+"
+",0
+U,0
+n,0
+i,0
+v,0
+e,0
+r,0
+s,0
+i,0
+t,0
+y,0
+",",0
+ ,0
+Z,0
+h,0
+e,0
+n,0
+g,0
+z,0
+h,0
+o,0
+u,0
+ ,0
+4,0
+5,0
+0,0
+0,0
+5,0
+2,0
+",",0
+ ,0
+C,0
+h,0
+i,0
+n,0
+a,0
+"
+",0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+是,0
+一,0
+种,0
+新,0
+型,0
+的,0
+胰,B-Drug
+升,I-Drug
+糖,I-Drug
+素,I-Drug
+样,I-Drug
+肽,I-Drug
+ ,I-Drug
+1,I-Drug
+ ,I-Drug
+(,I-Drug
+ ,I-Drug
+g,I-Drug
+l,I-Drug
+u,I-Drug
+c,I-Drug
+a,I-Drug
+g,I-Drug
+o,I-Drug
+n,I-Drug
+-,I-Drug
+l,I-Drug
+i,I-Drug
+k,I-Drug
+e,I-Drug
+"
+",I-Drug
+p,I-Drug
+e,I-Drug
+p,I-Drug
+t,I-Drug
+i,I-Drug
+d,I-Drug
+e,I-Drug
+-,I-Drug
+1,I-Drug
+",",I-Drug
+ ,I-Drug
+G,I-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+),I-Drug
+类,I-Drug
+似,I-Drug
+物,I-Drug
+",",0
+2,0
+0,0
+1,0
+1,0
+ ,0
+年,0
+在,0
+我,0
+国,0
+上,0
+市,0
+并,0
+用,0
+于,0
+ ,0
+2,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+"
+",I-Disease
+病,I-Disease
+的,0
+治,0
+疗,0
+",",0
+降,0
+糖,0
+作,0
+用,0
+显,0
+著,0
+",",0
+但,0
+长,0
+期,0
+心,B-Anatomy
+血,I-Anatomy
+管,I-Anatomy
+安,0
+全,0
+性,0
+尚,0
+未,0
+证,0
+实,0
+",",0
+近,0
+年,0
+"
+",0
+发,0
+现,0
+该,0
+药,0
+可,0
+致,0
+心,B-SideEff
+率,I-SideEff
+增,I-SideEff
+快,I-SideEff
+",",0
+现,0
+报,0
+道,0
+ ,0
+1,0
+ ,0
+例,0
+如,0
+下,0
+。,0
+"
+",0
+患,0
+者,0
+男,0
+性,0
+",",0
+4,0
+8,0
+ ,0
+岁,0
+",",0
+因,0
+血,B-Symptom
+糖,I-Symptom
+高,I-Symptom
+ ,0
+1,B-Duration
+0,I-Duration
+ ,I-Duration
+年,I-Duration
+",",0
+消,B-Symptom
+瘦,I-Symptom
+ ,0
+8,B-Duration
+ ,I-Duration
+个,I-Duration
+月,I-Duration
+",",0
+心,B-Symptom
+悸,I-Symptom
+ ,0
+3,B-Duration
+ ,I-Duration
+个,I-Duration
+月,I-Duration
+"
+",0
+入,0
+院,0
+",",0
+曾,0
+在,0
+饮,0
+食,0
+及,0
+运,0
+动,0
+基,0
+础,0
+上,0
+联,0
+合,0
+应,0
+用,0
+“,0
+二,B-Drug
+甲,I-Drug
+双,I-Drug
+胍,I-Drug
+、,0
+吡,B-Drug
+格,I-Drug
+列,I-Drug
+酮,I-Drug
+、,0
+"
+",0
+阿,B-Drug
+卡,I-Drug
+波,I-Drug
+糖,I-Drug
+及,0
+甘,B-Drug
+精,I-Drug
+胰,I-Drug
+岛,I-Drug
+素,I-Drug
+ ,0
+3,B-Amount
+0,I-Amount
+ ,I-Amount
+U,I-Amount
+冶,0
+治,0
+疗,0
+",",0
+血,B-Test
+糖,I-Test
+控,B-Test_Value
+制,I-Test_Value
+不,I-Test_Value
+佳,I-Test_Value
+(,0
+空,B-Test
+腹,I-Test
+血,I-Test
+糖,I-Test
+波,0
+"
+",0
+动,0
+于,0
+ ,0
+1,B-Test_Value
+5,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+7,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+),0
+。,0
+ ,0
+8,0
+ ,0
+个,0
+月,0
+前,0
+测,0
+ ,0
+H,B-Test
+B,I-Test
+A,I-Test
+1,I-Test
+C,I-Test
+ ,0
+9,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+%,I-Test_Value
+ ,0
+",",0
+心,B-Test
+率,I-Test
+"
+",0
+8,B-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+9,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+体,B-Test
+重,I-Test
+指,I-Test
+数,I-Test
+ ,0
+3,B-Test_Value
+0,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+k,I-Test_Value
+g,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+2,I-Test_Value
+",",0
+心,B-Test
+电,I-Test
+图,I-Test
+:,0
+侧,B-Test_Value
+壁,I-Test_Value
+、,I-Test_Value
+下,I-Test_Value
+壁,I-Test_Value
+心,I-Test_Value
+肌,I-Test_Value
+"
+",I-Test_Value
+呈,I-Test_Value
+缺,I-Test_Value
+血,I-Test_Value
+型,I-Test_Value
+改,I-Test_Value
+变,I-Test_Value
+",",0
+心,B-Test
+脏,I-Test
+彩,I-Test
+超,I-Test
+:,0
+左,B-Test_Value
+室,I-Test_Value
+舒,I-Test_Value
+张,I-Test_Value
+功,I-Test_Value
+能,I-Test_Value
+轻,I-Test_Value
+度,I-Test_Value
+下,I-Test_Value
+降,I-Test_Value
+",",0
+神,B-Test
+经,I-Test
+电,I-Test
+图,I-Test
+正,B-Test_Value
+"
+",I-Test_Value
+常,I-Test_Value
+",",0
+改,0
+用,0
+“,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+ ,0
+0,B-Amount
+.,I-Amount
+ ,I-Amount
+6,I-Amount
+ ,I-Amount
+m,I-Amount
+g,I-Amount
+ ,0
+q,B-Frequency
+d,I-Frequency
+、,0
+二,B-Drug
+甲,I-Drug
+双,I-Drug
+胍,I-Drug
+ ,0
+0,B-Amount
+.,I-Amount
+ ,I-Amount
+5,I-Amount
+ ,0
+t,B-Frequency
+i,I-Frequency
+d,I-Frequency
+冶,0
+同,0
+时,0
+予,0
+“,0
+比,B-Drug
+索,I-Drug
+"
+",I-Drug
+洛,I-Drug
+尔,I-Drug
+ ,0
+5,B-Amount
+ ,I-Amount
+m,I-Amount
+g,I-Amount
+ ,0
+q,B-Frequency
+d,I-Frequency
+冶,0
+ ,0
+治,0
+疗,0
+ ,0
+1,B-Duration
+0,I-Duration
+ ,I-Duration
+d,I-Duration
+ ,0
+后,0
+监,0
+测,0
+空,B-Test
+腹,I-Test
+血,I-Test
+糖,I-Test
+波,0
+动,0
+于,0
+ ,0
+6,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+"
+",I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+心,B-Test
+率,I-Test
+波,0
+动,0
+于,0
+ ,0
+7,B-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+因,0
+血,B-Test
+糖,I-Test
+控,B-Test_Value
+制,I-Test_Value
+良,I-Test_Value
+好,I-Test_Value
+",",0
+未,0
+增,0
+加,0
+"
+",0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+剂,0
+量,0
+。,0
+ ,0
+6,0
+ ,0
+个,0
+月,0
+前,0
+诉,0
+心,B-Symptom
+悸,I-Symptom
+",",0
+伴,0
+全,B-Symptom
+身,I-Symptom
+乏,I-Symptom
+力,I-Symptom
+、,0
+性,B-Symptom
+欲,I-Symptom
+减,I-Symptom
+退,I-Symptom
+",",0
+测,0
+空,B-Test
+"
+",I-Test
+腹,I-Test
+血,I-Test
+糖,I-Test
+波,0
+动,0
+于,0
+ ,0
+6,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+0,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+心,B-Symptom
+悸,I-Symptom
+于,0
+进,0
+食,0
+后,0
+无,0
+缓,0
+解,0
+",",0
+心,B-Test
+率,I-Test
+"
+",0
+波,0
+动,0
+于,0
+ ,0
+9,B-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+1,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+未,0
+诊,0
+治,0
+。,0
+ ,0
+3,0
+ ,0
+个,0
+月,0
+前,0
+因,0
+心,B-Symptom
+悸,I-Symptom
+、,0
+乏,B-Symptom
+力,I-Symptom
+加,0
+重,0
+住,0
+"
+",0
+本,0
+院,0
+",",0
+测,0
+空,B-Test
+腹,I-Test
+血,I-Test
+糖,I-Test
+波,0
+动,0
+于,0
+ ,0
+6,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+7,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+2,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+4,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+H,B-Test
+B,I-Test
+A,I-Test
+1,I-Test
+C,I-Test
+8,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+5,I-Test_Value
+%,I-Test_Value
+ ,0
+",",0
+甲,B-Test
+状,I-Test
+"
+",I-Test
+腺,I-Test
+功,I-Test
+能,I-Test
+、,0
+神,B-Test
+经,I-Test
+电,I-Test
+图,I-Test
+、,0
+胸,B-Test
+片,I-Test
+正,B-Test_Value
+常,I-Test_Value
+",",0
+心,B-Test
+脏,I-Test
+彩,I-Test
+超,I-Test
+及,0
+心,B-Test
+电,I-Test
+图,I-Test
+结,0
+果,0
+同,0
+前,0
+;,0
+2,B-Test
+4,I-Test
+ ,I-Test
+h,I-Test
+"
+",I-Test
+动,I-Test
+态,I-Test
+心,I-Test
+电,I-Test
+图,I-Test
+:,0
+全,B-Test
+程,I-Test
+心,I-Test
+跳,I-Test
+总,I-Test
+数,I-Test
+ ,0
+1,B-Test_Value
+2,I-Test_Value
+7,I-Test_Value
+ ,I-Test_Value
+3,I-Test_Value
+3,I-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+",",0
+平,B-Test
+均,I-Test
+心,I-Test
+率,I-Test
+ ,0
+9,B-Test_Value
+3,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+最,B-Test
+"
+",I-Test
+高,I-Test
+心,I-Test
+率,I-Test
+ ,0
+1,B-Test_Value
+1,I-Test_Value
+2,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+最,B-Test
+低,I-Test
+心,I-Test
+率,I-Test
+ ,0
+7,B-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+心,B-Test
+率,I-Test
+变,I-Test
+异,I-Test
+性,I-Test
+(,0
+h,0
+e,0
+a,0
+r,0
+t,0
+ ,0
+r,0
+a,0
+t,0
+e,0
+"
+",0
+n,0
+s,0
+ ,0
+/,0
+ ,0
+H,0
+z,0
+",",0
+停,0
+用,0
+“,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+冶,0
+改,0
+用,0
+“,0
+沙,B-Drug
+格,I-Drug
+列,I-Drug
+汀,I-Drug
+、,0
+二,B-Drug
+甲,I-Drug
+双,I-Drug
+胍,I-Drug
+、,0
+吡,B-Drug
+格,I-Drug
+列,I-Drug
+酮,I-Drug
+、,0
+"
+",0
+格,B-Drug
+列,I-Drug
+齐,I-Drug
+特,I-Drug
+冶,0
+",",0
+未,0
+调,0
+整,0
+比,B-Drug
+索,I-Drug
+洛,I-Drug
+尔,I-Drug
+用,0
+量,0
+",",0
+测,0
+空,B-Test
+腹,I-Test
+血,I-Test
+糖,I-Test
+波,0
+动,0
+于,0
+ ,0
+6,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+"
+",I-Test_Value
+m,I-Test_Value
+m,I-Test_Value
+o,I-Test_Value
+l,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+L,I-Test_Value
+",",0
+停,0
+药,0
+ ,0
+3,0
+ ,0
+d,0
+ ,0
+后,0
+心,B-Symptom
+悸,I-Symptom
+、,0
+乏,B-Symptom
+力,I-Symptom
+消,0
+失,0
+",",0
+测,0
+心,B-Test
+率,I-Test
+波,0
+动,0
+于,0
+ ,0
+7,B-Test_Value
+6,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+5,I-Test_Value
+"
+",I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+复,0
+查,0
+ ,0
+2,B-Test
+4,I-Test
+ ,I-Test
+h,I-Test
+ ,I-Test
+动,I-Test
+态,I-Test
+心,I-Test
+电,I-Test
+图,I-Test
+:,0
+全,B-Test
+程,I-Test
+心,I-Test
+跳,I-Test
+总,I-Test
+数,I-Test
+ ,0
+1,B-Test_Value
+1,I-Test_Value
+5,I-Test_Value
+ ,I-Test_Value
+7,I-Test_Value
+4,I-Test_Value
+9,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+",",0
+平,B-Test
+均,I-Test
+"
+",I-Test
+心,I-Test
+率,I-Test
+ ,0
+8,B-Test_Value
+2,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+最,B-Test
+高,I-Test
+心,I-Test
+率,I-Test
+ ,0
+9,B-Test_Value
+9,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+最,B-Test
+低,I-Test
+心,I-Test
+率,I-Test
+ ,0
+6,B-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+心,B-Test
+率,I-Test
+"
+",0
+后,0
+性,B-Symptom
+欲,I-Symptom
+恢,I-Symptom
+复,I-Symptom
+正,I-Symptom
+常,I-Symptom
+。,0
+ ,0
+患,0
+者,0
+应,0
+用,0
+“,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+冶,0
+治,0
+疗,0
+共,0
+ ,0
+8,B-Duration
+ ,I-Duration
+个,I-Duration
+月,I-Duration
+体,B-Test
+重,I-Test
+下,B-Test_Value
+"
+",I-Test_Value
+降,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+5,I-Test_Value
+ ,I-Test_Value
+k,I-Test_Value
+g,I-Test_Value
+。,0
+ ,0
+停,0
+药,0
+ ,0
+3,0
+ ,0
+个,0
+月,0
+后,0
+患,0
+者,0
+心,B-Test
+率,I-Test
+波,0
+动,0
+于,0
+ ,0
+7,B-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+6,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+由,0
+于,0
+"
+",0
+饮,0
+食,0
+、,0
+运,0
+动,0
+控,0
+制,0
+欠,0
+佳,0
+",",0
+H,B-Test
+B,I-Test
+A,I-Test
+1,I-Test
+C,I-Test
+升,B-Test_Value
+至,I-Test_Value
+ ,I-Test_Value
+9,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+%,I-Test_Value
+ ,0
+",",0
+目,0
+前,0
+仍,0
+在,0
+进,0
+一,0
+步,0
+随,0
+访,0
+"
+",0
+中,0
+。,0
+"
+",0
+讨,0
+论,0
+ ,0
+ ,0
+2,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+存,0
+在,0
+“,0
+肠,B-Symptom
+促,I-Symptom
+胰,I-Symptom
+素,I-Symptom
+效,I-Symptom
+应,I-Symptom
+受,I-Symptom
+损,I-Symptom
+冶,0
+",",0
+G,B-Test
+L,I-Test
+P,I-Test
+-,I-Test
+1,I-Test
+"
+",0
+分,0
+泌,0
+显,B-Test_Value
+著,I-Test_Value
+下,I-Test_Value
+降,I-Test_Value
+且,0
+不,0
+能,0
+反,0
+馈,0
+抑,0
+制,0
+其,0
+清,0
+除,0
+",",0
+导,0
+致,0
+ ,0
+G,B-Test
+L,I-Test
+P,I-Test
+-,I-Test
+1,I-Test
+ ,0
+水,0
+平,0
+进,B-Test_Value
+一,I-Test_Value
+步,I-Test_Value
+"
+",I-Test_Value
+降,I-Test_Value
+低,I-Test_Value
+[,0
+1,0
+",",0
+2,0
+],0
+ ,0
+。,0
+ ,0
+目,0
+前,0
+市,0
+场,0
+上,0
+基,0
+于,0
+肠,B-Anatomy
+促,I-Anatomy
+胰,I-Anatomy
+素,I-Anatomy
+治,0
+疗,0
+的,0
+药,0
+物,0
+有,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,I-Drug
+受,I-Drug
+体,I-Drug
+"
+",I-Drug
+激,I-Drug
+动,I-Drug
+剂,I-Drug
+和,0
+二,B-Drug
+肽,I-Drug
+基,I-Drug
+肽,I-Drug
+酶,I-Drug
+ ,I-Drug
+4,I-Drug
+(,I-Drug
+d,I-Drug
+i,I-Drug
+p,I-Drug
+e,I-Drug
+p,I-Drug
+t,I-Drug
+i,I-Drug
+d,I-Drug
+y,I-Drug
+l,I-Drug
+ ,I-Drug
+p,I-Drug
+e,I-Drug
+p,I-Drug
+t,I-Drug
+i,I-Drug
+d,I-Drug
+a,I-Drug
+s,I-Drug
+e,I-Drug
+-,I-Drug
+4,I-Drug
+",",I-Drug
+ ,I-Drug
+D,I-Drug
+P,I-Drug
+P,I-Drug
+-,I-Drug
+4,I-Drug
+),I-Drug
+抑,I-Drug
+制,I-Drug
+剂,I-Drug
+",",0
+"
+",0
+前,0
+者,0
+通,0
+过,0
+激,0
+活,0
+ ,0
+G,B-Anatomy
+L,I-Anatomy
+P,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+ ,I-Anatomy
+受,I-Anatomy
+体,I-Anatomy
+使,0
+ ,0
+G,B-Test
+L,I-Test
+P,I-Test
+-,I-Test
+1,I-Test
+ ,0
+的,0
+浓,0
+度,0
+达,0
+到,0
+空,0
+腹,0
+水,0
+平,0
+的,0
+ ,0
+8,0
+ ,0
+~,0
+"
+",0
+1,0
+0,0
+ ,0
+倍,0
+[,0
+3,0
+],0
+ ,0
+",",0
+后,0
+者,0
+通,0
+过,0
+抑,0
+制,0
+肠,B-Anatomy
+促,I-Anatomy
+胰,I-Anatomy
+素,I-Anatomy
+酶,I-Anatomy
+的,0
+降,0
+解,0
+使,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+的,0
+浓,0
+度,0
+达,0
+"
+",0
+到,0
+空,0
+腹,0
+水,0
+平,0
+的,0
+ ,0
+2,0
+ ,0
+~,0
+ ,0
+3,0
+ ,0
+倍,0
+[,0
+4,0
+],0
+ ,0
+。,0
+ ,0
+由,0
+于,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+升,0
+高,0
+水,0
+平,0
+不,0
+同,0
+",",0
+所,0
+致,0
+降,0
+"
+",0
+糖,0
+及,0
+降,0
+体,B-Test
+重,I-Test
+疗,0
+效,0
+有,0
+差,0
+异,0
+",",0
+结,0
+合,0
+本,0
+例,0
+表,0
+现,0
+为,0
+应,0
+用,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+后,0
+出,0
+现,0
+"
+",0
+心,B-SideEff
+动,I-SideEff
+过,I-SideEff
+速,I-SideEff
+",",0
+心,B-SideEff
+率,I-SideEff
+变,I-SideEff
+异,I-SideEff
+性,I-SideEff
+降,I-SideEff
+低,I-SideEff
+",",0
+性,B-SideEff
+欲,I-SideEff
+减,I-SideEff
+退,I-SideEff
+",",0
+改,0
+用,0
+沙,B-Drug
+格,I-Drug
+列,I-Drug
+汀,I-Drug
+后,0
+心,B-Symptom
+率,I-Symptom
+减,I-Symptom
+"
+",I-Symptom
+慢,I-Symptom
+",",0
+心,B-Symptom
+率,I-Symptom
+变,I-Symptom
+异,I-Symptom
+性,I-Symptom
+升,I-Symptom
+高,I-Symptom
+",",0
+性,B-Symptom
+欲,I-Symptom
+恢,I-Symptom
+复,I-Symptom
+",",0
+提,0
+示,0
+降,0
+糖,0
+外,0
+作,0
+用,0
+可,0
+能,0
+也,0
+与,0
+体,0
+内,0
+"
+",0
+G,B-Anatomy
+L,I-Anatomy
+P,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+ ,0
+水,0
+平,0
+存,0
+在,0
+量,0
+效,0
+关,0
+系,0
+。,0
+"
+",0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+的,0
+心,B-Anatomy
+血,I-Anatomy
+管,I-Anatomy
+安,0
+全,0
+性,0
+目,0
+前,0
+尚,0
+未,0
+完,0
+全,0
+清,0
+楚,0
+",",0
+其,0
+对,0
+心,B-Test
+率,I-Test
+的,0
+影,0
+"
+",0
+响,0
+正,0
+被,0
+广,0
+泛,0
+研,0
+究,0
+",",0
+B,0
+a,0
+r,0
+r,0
+a,0
+g,0
+a,0
+n,0
+ ,0
+等,0
+[,0
+5,0
+],0
+ ,0
+于,0
+ ,0
+1,0
+9,0
+9,0
+4,0
+ ,0
+年,0
+发,0
+现,0
+ ,0
+G,B-Anatomy
+L,I-Anatomy
+P,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+(,0
+7,0
+-,0
+3,0
+6,0
+),0
+可,0
+"
+",0
+呈,0
+浓,0
+度,0
+依,0
+赖,0
+性,0
+的,0
+增,0
+加,0
+心,B-Test
+率,I-Test
+",",0
+且,0
+不,0
+被,0
+利,B-Drug
+血,I-Drug
+平,I-Drug
+、,0
+普,B-Drug
+萘,I-Drug
+洛,I-Drug
+尔,I-Drug
+、,0
+酚,B-Drug
+妥,I-Drug
+拉,I-Drug
+明,I-Drug
+"
+",0
+阻,0
+断,0
+",",0
+提,0
+示,0
+ ,0
+G,B-Anatomy
+L,I-Anatomy
+P,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+ ,0
+导,0
+致,0
+的,0
+心,B-Test
+率,I-Test
+增,B-Test_Value
+快,I-Test_Value
+不,0
+为,0
+儿,B-Anatomy
+茶,I-Anatomy
+酚,I-Anatomy
+胺,I-Anatomy
+所,0
+介,0
+导,0
+",",0
+"
+",0
+Y,0
+a,0
+m,0
+a,0
+m,0
+o,0
+t,0
+o,0
+ ,0
+等,0
+[,0
+6,0
+],0
+也,0
+证,0
+实,0
+在,0
+外,B-Anatomy
+周,I-Anatomy
+和,I-Anatomy
+中,I-Anatomy
+枢,I-Anatomy
+系,I-Anatomy
+统,I-Anatomy
+应,0
+用,0
+长,B-Drug
+效,I-Drug
+ ,I-Drug
+G,I-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,I-Drug
+受,I-Drug
+体,I-Drug
+"
+",I-Drug
+激,I-Drug
+动,I-Drug
+ ,I-Drug
+剂,I-Drug
+ ,0
+E,B-Drug
+x,I-Drug
+e,I-Drug
+n,I-Drug
+d,I-Drug
+i,I-Drug
+n,I-Drug
+-,I-Drug
+4,I-Drug
+ ,0
+增,0
+ ,0
+加,0
+ ,0
+心,B-Test
+ ,I-Test
+率,I-Test
+ ,0
+的,0
+ ,0
+作,0
+ ,0
+用,0
+ ,0
+同,0
+ ,0
+样,0
+ ,0
+有,0
+ ,0
+剂,0
+ ,0
+量,0
+ ,0
+依,0
+ ,0
+赖,0
+ ,0
+性,0
+。,0
+"
+",0
+R,0
+o,0
+b,0
+i,0
+n,0
+s,0
+o,0
+n,0
+ ,0
+等,0
+[,0
+7,0
+],0
+对,0
+应,0
+用,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+和,0
+艾,B-Drug
+塞,I-Drug
+那,I-Drug
+肽,I-Drug
+的,0
+ ,0
+2,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+"
+",0
+进,0
+行,0
+ ,0
+1,0
+2,0
+ ,0
+周,0
+随,0
+访,0
+",",0
+对,0
+结,0
+果,0
+行,0
+ ,0
+m,0
+e,0
+t,0
+a,0
+ ,0
+分,0
+析,0
+发,0
+现,0
+",",0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+组,0
+心,B-Test
+率,I-Test
+较,0
+安,B-Drug
+"
+",I-Drug
+慰,I-Drug
+剂,I-Drug
+组,0
+增,B-Test_Value
+加,I-Test_Value
+约,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+7,I-Test_Value
+1,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+(,0
+P,0
+<,0
+0,0
+.,0
+ ,0
+0,0
+5,0
+),0
+",",0
+艾,B-Drug
+塞,I-Drug
+那,I-Drug
+肽,I-Drug
+组,0
+(,0
+2,B-Frequency
+ ,I-Frequency
+次,I-Frequency
+ ,I-Frequency
+/,I-Frequency
+ ,I-Frequency
+d,I-Frequency
+),0
+则,0
+"
+",0
+增,B-Test_Value
+加,I-Test_Value
+约,I-Test_Value
+ ,I-Test_Value
+0,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+8,I-Test_Value
+8,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+(,0
+P,0
+>,0
+0,0
+.,0
+ ,0
+0,0
+5,0
+),0
+",",0
+但,0
+日,0
+本,0
+研,0
+究,0
+发,0
+现,0
+ ,0
+2,B-Disease
+ ,I-Disease
+型,I-Disease
+糖,I-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+"
+",0
+者,0
+应,0
+用,0
+艾,B-Drug
+塞,I-Drug
+那,I-Drug
+肽,I-Drug
+ ,0
+2,B-Amount
+.,I-Amount
+ ,I-Amount
+5,I-Amount
+ ,I-Amount
+μ,I-Amount
+g,I-Amount
+ ,0
+和,0
+ ,0
+5,B-Amount
+ ,I-Amount
+μ,I-Amount
+g,I-Amount
+ ,0
+至,0
+第,0
+ ,0
+3,0
+ ,0
+天,0
+时,0
+",",0
+心,B-Test
+率,I-Test
+分,0
+别,0
+增,B-Test_Value
+加,I-Test_Value
+为,I-Test_Value
+"
+",I-Test_Value
+3,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+6,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+ ,0
+和,0
+ ,0
+7,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+7,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+应,0
+用,0
+ ,0
+1,B-Amount
+0,I-Amount
+ ,I-Amount
+μ,I-Amount
+g,I-Amount
+ ,0
+和,0
+ ,0
+1,B-Amount
+5,I-Amount
+ ,I-Amount
+μ,I-Amount
+g,I-Amount
+ ,0
+至,0
+第,0
+ ,0
+9,0
+ ,0
+天,0
+时,0
+心,B-Test
+"
+",I-Test
+率,I-Test
+增,B-Test_Value
+加,I-Test_Value
+约,I-Test_Value
+ ,I-Test_Value
+9,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+6,I-Test_Value
+7,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+ ,0
+和,0
+ ,0
+9,B-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+6,I-Test_Value
+6,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+[,0
+8,0
+],0
+ ,0
+。,0
+ ,0
+回,0
+顾,0
+病,0
+史,0
+本,0
+例,0
+患,0
+者,0
+"
+",0
+应,0
+用,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+后,0
+心,B-SideEff
+率,I-SideEff
+明,I-SideEff
+显,I-SideEff
+增,I-SideEff
+快,I-SideEff
+",",0
+与,0
+文,0
+献,0
+报,0
+道,0
+一,0
+致,0
+。,0
+"
+",0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+兴,0
+奋,0
+性,0
+降,0
+低,0
+或,0
+交,B-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+兴,0
+奋,0
+性,0
+增,0
+高,0
+可,0
+能,0
+是,0
+心,B-Symptom
+率,I-Symptom
+"
+",I-Symptom
+增,I-Symptom
+加,I-Symptom
+的,0
+影,0
+响,0
+因,0
+素,0
+[,0
+9,0
+],0
+ ,0
+。,0
+ ,0
+既,0
+往,0
+人,0
+们,0
+普,0
+遍,0
+认,0
+为,0
+心,B-Test
+率,I-Test
+主,0
+要,0
+由,0
+交,B-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+"
+",0
+支,0
+配,0
+",",0
+S,0
+w,0
+o,0
+a,0
+p,0
+ ,0
+等,0
+[,0
+1,0
+0,0
+],0
+将,0
+交,B-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+缺,0
+陷,0
+和,0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+缺,0
+陷,0
+的,0
+小,0
+鼠,0
+置,0
+于,0
+"
+",0
+热,0
+平,0
+衡,0
+(,0
+-,0
+3,0
+0,0
+℃,0
+),0
+环,0
+境,0
+中,0
+",",0
+发,0
+现,0
+交,B-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+缺,0
+陷,0
+组,0
+小,0
+鼠,0
+的,0
+心,B-Test
+率,I-Test
+与,0
+野,0
+"
+",0
+生,0
+型,0
+组,0
+的,0
+相,0
+同,0
+",",0
+而,0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+缺,0
+陷,0
+组,0
+小,0
+鼠,0
+的,0
+心,B-Test
+率,I-Test
+明,0
+显,0
+升,0
+高,0
+",",0
+而,0
+此,0
+"
+",0
+时,0
+的,0
+温,0
+度,0
+条,0
+件,0
+下,0
+小,0
+鼠,0
+的,0
+心,B-Anatomy
+脏,I-Anatomy
+自,B-Anatomy
+主,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+功,0
+能,0
+更,0
+接,0
+近,0
+于,0
+人,0
+类,0
+",",0
+这,0
+就,0
+"
+",0
+提,0
+示,0
+人,0
+类,0
+的,0
+心,B-Test
+率,I-Test
+可,0
+能,0
+主,0
+要,0
+由,0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+所,0
+控,0
+制,0
+。,0
+ ,0
+那,0
+么,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+导,0
+"
+",0
+致,0
+的,0
+心,B-SideEff
+率,I-SideEff
+增,I-SideEff
+快,I-SideEff
+是,0
+否,0
+是,0
+由,0
+于,0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+抑,0
+制,0
+所,0
+致,0
+?,0
+ ,0
+G,0
+r,0
+i,0
+f,0
+f,0
+i,0
+o,0
+e,0
+n,0
+ ,0
+等,0
+[,0
+1,0
+1,0
+],0
+"
+",0
+采,0
+用,0
+遥,0
+测,0
+系,0
+统,0
+证,0
+实,0
+在,0
+小,0
+鼠,0
+脑,B-Anatomy
+室,I-Anatomy
+中,0
+给,0
+予,0
+ ,0
+E,B-Drug
+x,I-Drug
+e,I-Drug
+n,I-Drug
+d,I-Drug
+i,I-Drug
+n,I-Drug
+-,I-Drug
+4,I-Drug
+ ,0
+可,0
+使,0
+心,B-SideEff
+率,I-SideEff
+增,I-SideEff
+"
+",I-SideEff
+快,I-SideEff
+",",0
+心,B-SideEff
+率,I-SideEff
+变,I-SideEff
+异,I-SideEff
+性,I-SideEff
+降,I-SideEff
+低,I-SideEff
+",",0
+传,0
+导,0
+至,0
+副,B-Anatomy
+交,I-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+节,B-Anatomy
+前,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+的,0
+兴,0
+奋,0
+性,0
+谷,0
+"
+",0
+氨,0
+酸,0
+能,0
+和,0
+抑,B-Anatomy
+制,I-Anatomy
+性,I-Anatomy
+甘,I-Anatomy
+氨,I-Anatomy
+酸,I-Anatomy
+能,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+元,I-Anatomy
+均,0
+减,0
+少,0
+",",0
+提,0
+示,0
+ ,0
+G,B-Anatomy
+L,I-Anatomy
+P,I-Anatomy
+-,I-Anatomy
+1,I-Anatomy
+ ,I-Anatomy
+受,I-Anatomy
+体,I-Anatomy
+兴,0
+奋,0
+"
+",0
+可,0
+通,0
+过,0
+抑,0
+制,0
+神,0
+经,0
+传,0
+导,0
+至,0
+心,B-Anatomy
+脏,I-Anatomy
+迷,I-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+而,0
+减,B-Test_Value
+弱,I-Test_Value
+心,B-Test
+率,I-Test
+和,0
+心,B-Test
+率,I-Test
+变,I-Test
+异,I-Test
+"
+",I-Test
+性,I-Test
+的,0
+变,0
+化,0
+。,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,I-Drug
+受,I-Drug
+体,I-Drug
+激,I-Drug
+动,I-Drug
+剂,I-Drug
+可,0
+激,0
+活,0
+肾,B-Anatomy
+上,I-Anatomy
+腺,I-Anatomy
+髓,I-Anatomy
+质,I-Anatomy
+和,0
+脑,B-Anatomy
+干,I-Anatomy
+交,I-Anatomy
+感,I-Anatomy
+"
+",I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+调,I-Anatomy
+节,I-Anatomy
+核,I-Anatomy
+的,0
+细,0
+胞,0
+",",0
+予,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+后,0
+加,0
+用,0
+心,B-Drug
+得,I-Drug
+安,I-Drug
+或,0
+行,0
+肾,B-Operation
+上,I-Operation
+腺,I-Operation
+切,I-Operation
+除,I-Operation
+术,I-Operation
+"
+",0
+不,0
+能,0
+抑,0
+制,0
+心,B-SideEff
+率,I-SideEff
+增,I-SideEff
+快,I-SideEff
+",",0
+而,0
+此,0
+时,0
+在,0
+麻,0
+醉,0
+的,0
+动,0
+物,0
+中,0
+行,0
+双,B-Operation
+侧,I-Operation
+迷,I-Operation
+走,I-Operation
+神,I-Operation
+经,I-Operation
+切,I-Operation
+"
+",I-Operation
+除,I-Operation
+却,0
+可,0
+抑,0
+制,0
+",",0
+提,0
+示,0
+心,B-SideEff
+率,I-SideEff
+增,I-SideEff
+快,I-SideEff
+不,0
+是,0
+由,0
+于,0
+交,B-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+的,0
+兴,0
+奋,0
+",",0
+而,0
+是,0
+由,0
+"
+",0
+于,0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+的,0
+阻,0
+断,0
+所,0
+致,0
+。,0
+"
+",0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+可,0
+能,0
+主,0
+要,0
+通,0
+过,0
+抑,0
+制,0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+兴,0
+奋,0
+性,0
+使,0
+心,B-Symptom
+率,I-Symptom
+增,I-Symptom
+快,I-Symptom
+",",0
+而,0
+"
+",0
+心,B-Anatomy
+脏,I-Anatomy
+迷,I-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+的,0
+控,0
+制,0
+情,0
+况,0
+很,0
+大,0
+程,0
+度,0
+上,0
+由,0
+心,B-Test
+率,I-Test
+变,I-Test
+异,I-Test
+性,I-Test
+反,0
+映,0
+",",0
+心,B-Test
+率,I-Test
+"
+",I-Test
+变,I-Test
+异,I-Test
+性,I-Test
+是,0
+心,B-Test
+率,I-Test
+节,0
+奏,0
+快,0
+慢,0
+随,0
+时,0
+间,0
+所,0
+发,0
+生,0
+的,0
+变,0
+化,0
+",",0
+健,0
+康,0
+人,0
+交,B-Anatomy
+感,I-Anatomy
+和,0
+副,B-Anatomy
+"
+",I-Anatomy
+交,I-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+系,I-Anatomy
+统,I-Anatomy
+间,0
+相,0
+互,0
+作,0
+用,0
+产,0
+生,0
+心,B-Test
+率,I-Test
+变,I-Test
+异,I-Test
+性,I-Test
+使,0
+心,B-Anatomy
+血,I-Anatomy
+管,I-Anatomy
+系,I-Anatomy
+统,I-Anatomy
+具,0
+有,0
+"
+",0
+调,0
+节,0
+能,0
+力,0
+",",0
+若,0
+疾,0
+病,0
+导,0
+致,0
+自,B-Anatomy
+主,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+系,I-Anatomy
+统,I-Anatomy
+调,0
+节,0
+作,0
+用,0
+减,0
+弱,0
+",",0
+会,0
+引,0
+起,0
+心,B-Symptom
+"
+",I-Symptom
+率,I-Symptom
+变,I-Symptom
+异,I-Symptom
+性,I-Symptom
+降,I-Symptom
+低,I-Symptom
+",",0
+心,B-Test
+率,I-Test
+变,I-Test
+异,I-Test
+性,I-Test
+目,0
+前,0
+被,0
+公,0
+认,0
+是,0
+判,0
+断,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+患,0
+者,0
+是,0
+否,0
+"
+",0
+伴,0
+有,0
+自,B-Symptom
+主,I-Symptom
+神,I-Symptom
+经,I-Symptom
+系,I-Symptom
+统,I-Symptom
+损,I-Symptom
+害,I-Symptom
+最,0
+准,0
+确,0
+、,0
+最,0
+敏,0
+感,0
+的,0
+指,0
+标,0
+。,0
+ ,0
+糖,B-Disease
+尿,I-Disease
+病,I-Disease
+可,0
+导,0
+致,0
+"
+",0
+自,B-Anatomy
+主,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+功,0
+能,0
+损,0
+害,0
+",",0
+交,B-Anatomy
+感,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+张,0
+力,0
+增,0
+高,0
+",",0
+迷,B-Anatomy
+走,I-Anatomy
+神,I-Anatomy
+经,I-Anatomy
+张,0
+力,0
+降,0
+低,0
+",",0
+因,0
+"
+",0
+此,0
+心,B-Test
+率,I-Test
+变,I-Test
+异,I-Test
+性,I-Test
+明,B-Test_Value
+显,I-Test_Value
+降,I-Test_Value
+低,I-Test_Value
+[,0
+1,0
+2,0
+",",0
+1,0
+3,0
+],0
+ ,0
+。,0
+ ,0
+而,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+可,0
+能,0
+会,0
+进,0
+一,0
+步,0
+加,B-SideEff
+剧,I-SideEff
+交,I-SideEff
+"
+",I-SideEff
+感,I-SideEff
+-,I-SideEff
+迷,I-SideEff
+走,I-SideEff
+神,I-SideEff
+经,I-SideEff
+的,I-SideEff
+失,I-SideEff
+衡,I-SideEff
+",",0
+使,B-SideEff
+心,I-SideEff
+率,I-SideEff
+变,I-SideEff
+异,I-SideEff
+性,I-SideEff
+进,I-SideEff
+一,I-SideEff
+步,I-SideEff
+降,I-SideEff
+低,I-SideEff
+",",0
+降,B-SideEff
+低,I-SideEff
+了,I-SideEff
+室,I-SideEff
+颤,I-SideEff
+"
+",I-SideEff
+阈,I-SideEff
+",",0
+易,0
+发,0
+生,0
+恶,B-SideEff
+性,I-SideEff
+心,I-SideEff
+律,I-SideEff
+失,I-SideEff
+常,I-SideEff
+导,0
+致,0
+猝,B-Disease
+死,I-Disease
+。,0
+"
+",0
+患,0
+者,0
+病,0
+史,0
+ ,0
+1,0
+0,0
+ ,0
+年,0
+",",0
+应,0
+用,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+前,0
+心,B-Test
+率,I-Test
+为,0
+ ,0
+8,B-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+~,I-Test_Value
+ ,I-Test_Value
+9,I-Test_Value
+0,I-Test_Value
+ ,I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+",",0
+"
+",0
+较,0
+中,0
+国,0
+健,0
+康,0
+男,0
+子,0
+平,0
+均,0
+心,B-Test
+率,I-Test
+(,B-Test_Value
+7,I-Test_Value
+4,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+4,I-Test_Value
+4,I-Test_Value
+ ,I-Test_Value
+±,I-Test_Value
+ ,I-Test_Value
+1,I-Test_Value
+3,I-Test_Value
+.,I-Test_Value
+ ,I-Test_Value
+2,I-Test_Value
+8,I-Test_Value
+),I-Test_Value
+次,I-Test_Value
+ ,I-Test_Value
+/,I-Test_Value
+ ,I-Test_Value
+m,I-Test_Value
+i,I-Test_Value
+n,I-Test_Value
+ ,0
+快,0
+[,0
+1,0
+4,0
+],0
+ ,0
+",",0
+并,0
+应,0
+"
+",0
+用,0
+了,0
+ ,0
+β,B-Drug
+ ,I-Drug
+受,I-Drug
+体,I-Drug
+阻,I-Drug
+断,I-Drug
+剂,I-Drug
+",",0
+证,0
+实,0
+其,0
+已,0
+存,0
+在,0
+心,B-SideEff
+脏,I-SideEff
+植,I-SideEff
+物,I-SideEff
+神,I-SideEff
+经,I-SideEff
+功,I-SideEff
+能,I-SideEff
+紊,I-SideEff
+乱,I-SideEff
+",",0
+但,0
+"
+",0
+患,0
+者,0
+无,0
+明,0
+显,0
+不,0
+适,0
+",",0
+应,0
+用,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+ ,0
+3,B-Duration
+ ,I-Duration
+个,I-Duration
+月,I-Duration
+后,0
+出,0
+现,0
+心,B-SideEff
+悸,I-SideEff
+",",0
+8,B-Duration
+ ,I-Duration
+个,I-Duration
+月,I-Duration
+后,0
+明,B-Level
+"
+",I-Level
+显,I-Level
+加,I-Level
+重,I-Level
+",",0
+原,0
+因,0
+可,0
+能,0
+为,0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+使,0
+迷,B-SideEff
+走,I-SideEff
+神,I-SideEff
+经,I-SideEff
+的,I-SideEff
+兴,I-SideEff
+奋,I-SideEff
+性,I-SideEff
+进,I-SideEff
+一,I-SideEff
+步,I-SideEff
+抑,I-SideEff
+"
+",I-SideEff
+制,I-SideEff
+",",0
+心,B-SideEff
+率,I-SideEff
+变,I-SideEff
+异,I-SideEff
+性,I-SideEff
+进,I-SideEff
+一,I-SideEff
+步,I-SideEff
+降,I-SideEff
+低,I-SideEff
+",",0
+心,B-SideEff
+率,I-SideEff
+明,I-SideEff
+显,I-SideEff
+增,I-SideEff
+快,I-SideEff
+所,I-SideEff
+致,I-SideEff
+",",0
+患,0
+者,0
+同,0
+时,0
+合,0
+并,0
+"
+",0
+性,B-SideEff
+欲,I-SideEff
+减,I-SideEff
+退,I-SideEff
+",",0
+但,0
+改,0
+用,0
+ ,0
+D,B-Drug
+P,I-Drug
+P,I-Drug
+-,I-Drug
+4,I-Drug
+ ,I-Drug
+抑,I-Drug
+制,I-Drug
+剂,I-Drug
+后,0
+症,0
+状,0
+消,0
+失,0
+",",0
+心,B-Symptom
+率,I-Symptom
+减,I-Symptom
+慢,I-Symptom
+",",0
+心,B-Symptom
+率,I-Symptom
+变,I-Symptom
+"
+",I-Symptom
+异,I-Symptom
+性,I-Symptom
+较,I-Symptom
+前,I-Symptom
+升,I-Symptom
+高,I-Symptom
+",",0
+性,B-Symptom
+欲,I-Symptom
+恢,I-Symptom
+复,I-Symptom
+",",0
+进,0
+一,0
+步,0
+说,0
+明,0
+了,0
+二,0
+者,0
+降,0
+糖,0
+外,0
+效,0
+果,0
+的,0
+差,0
+"
+",0
+别,0
+。,0
+"
+",0
+利,B-Drug
+拉,I-Drug
+鲁,I-Drug
+肽,I-Drug
+作,0
+为,0
+一,0
+种,0
+新,0
+型,0
+的,0
+降,0
+糖,0
+药,0
+",",0
+降,0
+糖,0
+、,0
+降,0
+低,0
+体,B-Test
+重,I-Test
+疗,0
+效,0
+显,0
+"
+",0
+著,0
+",",0
+但,0
+应,0
+用,0
+该,0
+药,0
+时,0
+除,0
+关,0
+注,0
+常,0
+见,0
+的,0
+不,0
+良,0
+反,0
+应,0
+外,0
+",",0
+需,0
+注,0
+意,0
+其,0
+对,B-SideEff
+心,I-SideEff
+率,I-SideEff
+"
+",I-SideEff
+和,I-SideEff
+情,I-SideEff
+绪,I-SideEff
+的,I-SideEff
+影,I-SideEff
+响,I-SideEff
+",",0
+改,0
+用,0
+ ,0
+D,B-Drug
+P,I-Drug
+P,I-Drug
+-,I-Drug
+4,I-Drug
+ ,I-Drug
+抑,I-Drug
+制,I-Drug
+剂,I-Drug
+后,0
+心,B-Symptom
+率,I-Symptom
+减,I-Symptom
+慢,I-Symptom
+",",0
+提,0
+示,0
+ ,0
+G,B-Drug
+L,I-Drug
+P,I-Drug
+-,I-Drug
+1,I-Drug
+ ,0
+的,0
+"
+",0
+疗,0
+效,0
+及,0
+不,0
+良,0
+反,0
+应,0
+均,0
+存,0
+在,0
+量,0
+效,0
+关,0
+系,0
+。,0
+"
+",0

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <script src="/static/js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function showsubmenu(sid) {
+            for (i = 1; i < 4; i++) {
+                if (i == sid) {
+                    if (document.getElementById(sid).className != "bianse") {
+                        document.getElementById(sid).className = "bianse"
+                    }
+                } else {
+                    document.getElementById(i).className = "bianse1";
+                }
+            }
+        }
+    </script>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/about_us.css">
+<link rel="stylesheet" type="text/css" href="/static/css/global.css">
+
+<body>
+
+<section class="top-bottom flex">
+    <!--    <style>-->
+
+    <!--    </style>-->
+    <article>
+        <div class="top">
+            <div>
+                <p id="p1">
+                    <img id="navbar_toggler" src="/static/navbar.svg" onclick="$('.topnav').toggle();">
+                    Ocean Sediment Database
+                    <button type="button" class="login_button">
+                        <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
+                        <div id="login_name" style="float: right;">Login/Register</div>
+                    </button>
+                </p>
+            </div>
+            <div class="topnav">
+                <ul>
+                    <li><a id="1" class="bianse1" href="/user/Home" onclick="showsubmenu(this.id)">Home</a></li>
+                    <li><a id="2" class="bianse1" href="/user/Introduction"
+                           onclick="showsubmenu(this.id)">Introduction</a></li>
+                    <li><a class="bianse1" onclick="to_access()">Access Data</a></li>
+                    <li><a class="bianse1" href="#">Submit Data</a></li>
+                    <li><a id="3" class="bianse" href="/user/About_us" onclick="showsubmenu(this.id)">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="row">
+                <div class="buju_side">
+                    <ul>
+                        <li><a class="active" href="#Sedimentology Team">Sedimentology Team</a></li>
+                        <li><a href="#Database Team">Database Team</a></li>
+                        <li><a href="#Partner">Partner</a></li>
+                        <li><a href="#Funding">Funding</a></li>
+                    </ul>
+                </div>
+                <div class="buju_middle">
+
+                    <h1 class="h1-1" id="Sedimentology Team">Sedimentology Team</h1>
+                    <div class="team">
+                        <div class="team1">
+                            <div style="float:left ; width:100%; height:75%;">
+                                <div><a href="https://es.nju.edu.cn/hxm/list.htm"><img
+                                        src="/static/Img/Xiumian%20Hu.png"
+                                        class="img-a"></a></div>
+                                <div style="font-size: 14px"><a
+                                        href="https://es.nju.edu.cn/hxm/list.htm"
+                                        style="color: #002060;text-align: center;font-weight:bold;">Xiumian Hu</a>
+                                </div>
+                            </div>
+                            <div style="float:left ; width:100%; height:24%;">
+                                <div style="color: #002060;font-size: 12px;font-weight:bold;">
+                                    Leader
+                                </div>
+                                <div style="color: #002060;font-size: 12px;font-weight:bold;">
+                                    Professor
+                                </div>
+                                <div style="font-size: 12px">Sedimentology</div>
+                            </div>
+                        </div>
+                        <div class="team2">
+                            <div class="team2-1">
+                                <div style="float:left ; width:100%; height:70%;">
+                                    <div style="padding-top: 9px"><a href="#"><img
+                                            src="/static/Img/Xuetian%20Wang.png"
+                                            class="img-a"></a></div>
+                                    <div
+                                            style="font-size: 12px;color: #002060;font-weight: bold">
+                                        Xuetian Wang
+                                    </div>
+                                </div>
+                                <div style="float:left ; width:100%; height:29%;">
+                                    <div style="font-size: 12px">Postdoctoral researcher</div>
+                                    <div style="font-size: 12px">Sedimentology</div>
+                                    <div style="font-size: 12px">Coal geology</div>
+                                    <div style="font-size: 12px">Paleogeography</div>
+                                </div>
+                            </div>
+                            <div class="team2-1">
+                                <div style="float:left ; width:100%; height:70%;">
+                                    <div style="padding-top: 9px"><a href="#"><img src="/static/Img/Yiwei%20Xu.png"
+                                                                                   class="img-a"></a></div>
+                                    <div
+                                            style="font-size: 12px;color: #002060;font-weight: bold">
+                                        Yiwei Xu
+                                    </div>
+                                </div>
+                                <div style="float:left ; width:100%; height:29%;">
+                                    <div style="font-size: 12px">Postdoctoral researcher</div>
+                                    <div style="font-size: 12px">Paleoenvironment</div>
+                                    <div style="font-size: 12px">Paleoclimate</div>
+                                </div>
+                            </div>
+                            <div class="team2-1">
+                                <div style="float:left ; width:100%; height:70%;">
+                                    <div style="padding-top: 9px"><a href="#"><img
+                                            src="/static/Img/Jingxin%20Jiang.png"
+                                            class="img-a"></a></div>
+                                    <div
+                                            style="font-size: 12px;color: #002060;font-weight: bold">
+                                        Jingxin Jiang
+                                    </div>
+                                </div>
+                                <div style="float:left ; width:100%; height:29%;">
+                                    <div style="font-size: 12px">PhD candidate</div>
+                                    <div style="font-size: 12px">Paleoenvironment</div>
+                                    <div style="font-size: 12px">Paleoclimate</div>
+                                </div>
+                            </div>
+                            <div class="team2-1">
+                                <div style="float:left ; width:100%; height:70%;">
+                                    <div style="padding-top: 9px"><a href="#"><img
+                                            src="/static/Img/Jiahao%20Wang.png"
+                                            class="img-a"></a></div>
+                                    <div
+                                            style="font-size: 12px;color: #002060;font-weight: bold">
+                                        Jiahao Wang
+                                    </div>
+                                </div>
+                                <div style="float:left ; width:100%; height:29%;">
+                                    <div style="font-size: 12px">PhD candidate</div>
+                                    <div style="font-size: 12px">MSc candidate</div>
+                                    <div style="font-size: 12px">Sedimentological big data</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <h1 class="h1-1" id="Database Team">Database Team</h1>
+                        <div class="team">
+                            <div class="team1">
+                                <div style="float:left ; width:100%; height:70%;">
+                                    <div><a href="https://faculty.nuist.edu.cn/xuxiaolong/zh_CN/index.htm"><img
+                                            src="/static/Img/Xiaolong%20Xu.png" class="img-a"></a></div>
+                                    <div style="font-size: 14px"><a
+                                            href="https://faculty.nuist.edu.cn/xuxiaolong/zh_CN/index.htm"
+                                            style="color: #002060;text-align: center;font-weight:bold;">Xiaolong Xu</a>
+                                    </div>
+                                </div>
+                                <div style="float:left ; width:100%; height:29%;">
+                                    <div style="color: #002060;font-size: 12px;font-weight:bold;">
+                                        Professor
+                                    </div>
+                                    <div style="color: #002060;font-size: 12px;">Big data</div>
+                                    <div style="font-size: 12px">Knowledge graph</div>
+                                    <div style="font-size: 12px">Cloud computing</div>
+                                </div>
+                            </div>
+                            <div class="team2">
+                                <div class="team2-1">
+                                    <div style="float:left ; width:100%; height:70%;">
+                                        <div style="padding-top: 9px"><a href="#"><img
+                                                src="/static/Img/Zhicheng%20Hu.png"
+                                                class="img-a"></a></div>
+                                        <div
+                                                style="font-size: 12px;color: #002060;font-weight: bold">
+                                            Zhichen Hu
+                                        </div>
+                                    </div>
+                                    <div style="float:left ; width:100%; height:29%;">
+                                        <div style="font-size: 12px">MSe candidate</div>
+                                        <div style="font-size: 12px">Knowledge graph</div>
+                                    </div>
+                                </div>
+                                <div class="team2-1">
+                                    <div style="float:left ; width:100%; height:70%;">
+                                        <div style="padding-top: 9px"><a href="#"><img
+                                                src="/static/Img/Xiangben%20Hu.png"
+                                                class="img-a"></a></div>
+                                        <div
+                                                style="font-size: 12px;color: #002060;font-weight: bold">
+                                            Xiangben Hu
+                                        </div>
+                                    </div>
+                                    <div style="float:left ; width:100%; height:29%;">
+                                        <div style="font-size: 12px">MSe candidate</div>
+                                    </div>
+                                </div>
+                                <div class="team2-1">
+                                    <div style="float:left ; width:100%; height:70%;">
+                                        <div style="padding-top: 9px"><a href="#"><img
+                                                src="/static/Img/Haoran%20Guo.png"
+                                                class="img-a"></a></div>
+                                        <div
+                                                style="font-size: 12px;color: #002060;font-weight: bold">
+                                            Haoran Guo
+                                        </div>
+                                    </div>
+                                    <div style="float:left ; width:100%; height:29%;">
+                                        <div style="font-size: 12px">MSe candidate</div>
+                                        <div style="font-size: 12px">Database</div>
+                                    </div>
+                                </div>
+                                <div class="team2-1">
+                                    <div style="float:left ; width:100%; height:70%;">
+                                        <div style="padding-top: 9px"><a href="#"><img
+                                                src="/static/Img/Yongwei%20Zhu.png"
+                                                class="img-a"></a></div>
+                                        <div
+                                                style="font-size: 12px;color: #002060;font-weight: bold">
+                                            Yongwei Zhu
+                                        </div>
+                                    </div>
+                                    <div style="float:left ; width:100%; height:29%;">
+                                        <div style="font-size: 12px">MSe candidate</div>
+                                    </div>
+                                </div>
+                                <div class="team2-1">
+                                    <div style="float:left ; width:100%; height:70%;">
+                                        <div style="padding-top: 9px"><a href="#"><img src="/static/Img/Zheng%20Yu.png"
+                                                                                       class="img-a"></a></div>
+                                        <div
+                                                style="font-size: 12px;color: #002060;font-weight: bold">
+                                            Zheng Yu
+                                        </div>
+                                    </div>
+                                    <div style="float:left ; width:100%; height:29%;">
+                                        <div style="font-size: 12px">MSe candidate</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: inline-grid;">
+                        <h1 class="h1-1" id="Partner">Partner</h1>
+                        <div class="partner"
+                             style="
+                                    background-color: white;
+                                    border-radius: 15px;
+                                    width: inherit;
+                                    display: inline-flex;
+                                    overflow-x: scroll;
+                                "
+                        >
+                            <div><a href="https://www.nju.edu.cn/main.htm"><img src="/static/Img/南京大学.png"></a></div>
+                            <div><a href="https://www.nuist.edu.cn/"><img src="/static/Img/南京信息工程大学.png"></a></div>
+                            <div><a href="https://www.cdut.edu.cn/"><img src="/static/Img/南京理工大学.png"></a></div>
+                            <div><a href="https://www.tongji.edu.cn/"><img src="/static/Img/同济大学.png"></a></div>
+                            <div><a href="https://www.cugb.edu.cn/"><img src="/static/Img/中国地质大学.png"></a></div>
+                            <div><a href="https://www.ddeworld.org/"><img src="/static/Img/江西.png"></a></div>
+                        </div>
+                    </div>
+
+                    <div style="display: inline-grid;">
+                        <h1 class="h1-1" id="Funding">Funding</h1>
+                        <div id="Funding_WenZi" style="border-radius:10px">
+                            The Oceanic Sediment Database is mainly supported by the Project of “Study of Knowledge
+                            graph and Knowledge
+                            evolution based on IODP sediments” of the National Natural Science Foundation of China
+                            (grant number: 42050102).
+
+                            <div>
+                                <img src="/static/Img/国家自然科学基金.png" style="width: 300px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="left-group">Part of OneSediment in the DDE</div>
+            <div class="mid-group">Funded by the NSFC</div>
+            <div class="right-group">Ocean Sediment Database,Copyright @ 2022</div>
+        </div>
+    </article>
+    <div id="shade" class="c1 hide"></div>
+    <iframe id="page" class="c2 hide" src="/static/login_page.html" frameborder="no" border="0" marginwidth="0"
+            marginheight="0"></iframe>
+</section>
+<script src="/static/js/login.js"></script>
+</body>
+
+</html>

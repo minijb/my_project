@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function showsubmenu(sid) {
+            for (i = 1; i < 4; i++) {
+                if (i == sid) {
+                    if (document.getElementById(sid).className != "bianse") {
+                        document.getElementById(sid).className = "bianse"
+                    }
+                } else {
+                    document.getElementById(i).className = "bianse1";
+                }
+            }
+        }
+    </script>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/global.css">
+<link rel="stylesheet" type="text/css" href="/static/css/search_by_age.css">
+
+<body>
+
+    <section class="top-bottom flex">
+        <article>
+            <div class="top">
+                <div>
+    
+                    <p id="p1">
+                        <img id="navbar_toggler" src="/static/navbar.svg" onclick="$('.topnav').toggle();">
+                        Ocean Sediment Database
+                        <button type="button" class="login_button">
+                            <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
+                            <div id="login_name" style="float: right;">Login/Register</div>
+                        </button>
+                    </p>
+                </div>
+                <div class="topnav">
+                    <ul>
+                        <li><a id="1" class="bianse" href="/user/Home">Home</a></li>
+                        <li><a id="2" class="bianse1" href="/user/Introduction">Introduction</a></li>
+                        <li><a id="3" class="bianse1" onclick="to_access()">Access Data</a></li>
+    
+                        <li><a id="5" class="bianse1" href="#">Submit Data</a></li>
+                        <li><a id="5" class="bianse1" href="/user/About_us">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="middle">
+                <div class="middle_class">
+                    <h1 class="middle_title">Set Age</h1>
+                    <div class="box">
+                        <div class="title">Age Span</div>
+                        <div class="content">
+                            <div class="ss">Min:</div>
+                            <input class="text" type="text"placeholder="Minimum Age" id="Age_span_min"/>
+                            <div class="ss">Ma</div>
+                        </div>
+                        <div class="content">
+                            <div class="ss">Max:</div>
+                            <input class="text" type="text" placeholder="Maximum Age" id="Age_span_max" />
+                            <div class="ss">Ma</div>
+                        </div>
+                    </div>
+                    <div class="blank"><span>or</span></div>
+                    <div class="box">
+                        <div class="title">Exact Age</div>
+                        <div class="content" id="exact">
+                            <input class="text" type="text" placeholder="Exact Age" id="Exact_age"/>
+                            <div class="ss">Ma</div>
+                        </div>
+                    </div>
+                    <div class="blank"><span>or</span></div>
+                    <div class="box2">
+                        <div class="content1">
+                            <div><span class="span1">Geological Age</span></div>
+                            <div><span class="span2">(According to International Chronostratigraphic Chart 2022)</span></div>
+                        </div>
+                        <div class="content2">
+                            <div class="con_line">
+                                <div class="con_block"></div>
+                                <select class="text" id="geological_era">
+                                    <option disabled hidden selected value>--Select by Era or Period --</option>
+                                    <option value="Cenozoic (0 Ma - 66.0 Ma)" >Cenozoic (0 Ma - 66.0 Ma)</option>
+                                    <option value="Mesozoic (66.0 Ma - 251.902 Ma)">Mesozoic (66.0 Ma - 251.902 Ma)</option>
+                                    <option value="Quaternary (0 Ma - 2.58 Ma)">Quaternary (0 Ma - 2.58 Ma)</option>
+                                    <option value="Neogene (2.58 Ma - 23.03 Ma)">Neogene (2.58 Ma - 23.03 Ma)</option>
+                                    <option value="Paleogene (23.03 Ma - 66.0 Ma)">Paleogene (23.03 Ma - 66.0 Ma)</option>
+                                    <option value="Cretacceous (66.0 Ma - 145.0 Ma)">Cretacceous (66.0 Ma - 145.0 Ma)</option>
+                                    <option value="Jurassic (145.0 Ma - 201.3 Ma)">Jurassic (145.0 Ma - 201.3 Ma)</option>
+                                </select>
+                            </div>
+                            <div class="con_line">
+                                <div class="con_block"><span>or</span></div>
+                                <select class="text" id="geological_epoch">
+                                    <option value="" disabled hidden selected value>--Select by Epoch --</option>
+                                    <option value="Holocene (0 Ma - 0.0117 Ma)">Holocene (0 Ma - 0.0117 Ma)</option>
+                                    <option value="Pleistocene (0.0117 Ma - 2.58 Ma)">Pleistocene (0.0117 Ma - 2.58 Ma)</option>
+                                    <option value="Pliocene (2.58 Ma - 5.333 Ma)">Pliocene (2.58 Ma - 5.333 Ma)</option>
+                                    <option value="Miocene (5.333 Ma - 23.03 Ma)">Miocene (5.333 Ma - 23.03 Ma)</option>
+                                    <option value="Oligocene (23.03 Ma - 33.9 Ma)">Oligocene (23.03 Ma - 33.9 Ma)</option>
+                                    <option value="Eocene (33.9 Ma - 56.0 Ma)">Eocene (33.9 Ma - 56.0 Ma)</option>
+                                    <option value="Paleocene (56.0 Ma - 66.0 Ma)">Paleocene (56.0 Ma - 66.0 Ma)</option>
+                                    <option value="Late Cretaceous (66.0 Ma - 100.5 Ma)">Late Cretaceous (66.0 Ma - 100.5 Ma)</option>
+                                    <option value="Early Cretaceous (100.5 Ma - 145.0 Ma)">Early Cretaceous (100.5 Ma - 145.0 Ma)</option>
+                                </select>
+                            </div>
+                            <div class="con_line">
+                                <div class="con_block"><span>or</span></div>
+                                <select class="text" id="geological_age">
+                                    <option value="" disabled hidden selected value>--Select by Age --</option>
+                                    <option value="Meghalayan (0 Ma - 0.0042 Ma)">Meghalayan (0 Ma - 0.0042 Ma)</option>
+                                    <option value="Northgrippian (0.0042 Ma - 0.0082 Ma)">Northgrippian (0.0042 Ma - 0.0082 Ma)</option>
+                                    <option value="Greenlandian (0.0082 Ma - 0.0117 Ma)">Greenlandian (0.0082 Ma - 0.0117 Ma)</option>
+                                    <option value="Late Pleistocene (0.0117 Ma - 0.129 Ma)">Late Pleistocene (0.0117 Ma - 0.129 Ma)</option>
+                                    <option value="Chibanian (0.129 Ma - 0.774 Ma)">Chibanian (0.129 Ma - 0.774 Ma)</option>
+                                    <option value="Calabrain (0.774 Ma - 1.80 Ma)">Calabrain (0.774 Ma - 1.80 Ma)</option>
+                                    <option value="Gelasian (1.80 Ma - 2.58 Ma)">Gelasian (1.80 Ma - 2.58 Ma)</option>
+                                    <option value="Piacenzian (2.58 Ma - 3.600 Ma)">Piacenzian (2.58 Ma - 3.600 Ma)</option>
+                                    <option value="Zanclean (3.600 Ma - 5.333 Ma)">Zanclean (3.600 Ma - 5.333 Ma)</option>
+                                    <option value="Messinian (5.333 Ma - 7.246 Ma)">Messinian (5.333 Ma - 7.246 Ma)</option>
+                                    <option value="Tortonian (7.246 Ma - 11.63 Ma)">Tortonian (7.246 Ma - 11.63 Ma)</option>
+                                    <option value="Serravallian (11.63 Ma - 13.82 Ma)">Serravallian (11.63 Ma - 13.82 Ma)</option>
+                                    <option value="Langhian (13.82 Ma - 15.97 Ma)">Langhian (13.82 Ma - 15.97 Ma)</option>
+                                    <option value="Burdigalian (15.97 Ma - 20.44 Ma)">Burdigalian (15.97 Ma - 20.44 Ma)</option>
+                                    <option value="Aquitanian (20.44 Ma - 23.03 Ma)">Aquitanian (20.44 Ma - 23.03 Ma)</option>
+                                    <option value="Chattian (23.03 Ma - 27.82 Ma)">Chattian (23.03 Ma - 27.82 Ma)</option>
+                                    <option value="Rupelian (27.82 Ma - 33.9 Ma)">Rupelian (27.82 Ma - 33.9 Ma)</option>
+                                    <option value="Priabonian (33.9 Ma - 37.71 Ma)">Priabonian (33.9 Ma - 37.71 Ma)</option>
+                                    <option value="Bartonian (37.71 Ma - 41.2 Ma)">Bartonian (37.71 Ma - 41.2 Ma)</option>
+                                    <option value="Lutetian (41.2 Ma - 47.8 Ma)">Lutetian (41.2 Ma - 47.8 Ma)</option>
+                                    <option value="Ypresian (47.8 Ma - 56.0 Ma)">Ypresian (47.8 Ma - 56.0 Ma)</option>
+                                    <option value="Thanetian (56.0 Ma - 59.2 Ma)">Thanetian (56.0 Ma - 59.2 Ma)</option>
+                                    <option value="Selandian (59.2 Ma - 61.6 Ma)">Selandian (59.2 Ma - 61.6 Ma)</option>
+                                    <option value="Danian (61.6 Ma - 66.0 Ma)">Danian (61.6 Ma - 66.0 Ma)</option>
+                                    <option value="Maastrichtian (66.0 Ma - 72.1 Ma)">Maastrichtian (66.0 Ma - 72.1 Ma)</option>
+                                    <option value="Campanian (72.1 Ma - 83.6 Ma)">Campanian (72.1 Ma - 83.6 Ma)</option>
+                                    <option value="Santonian (83.6 Ma - 86.3 Ma)">Santonian (83.6 Ma - 86.3 Ma)</option>
+                                    <option value="Coniacian (86.3 Ma - 89.8 Ma)">Coniacian (86.3 Ma - 89.8 Ma)</option>
+                                    <option value="Turonian (89.8 Ma - 93.9 Ma)<">Turonian (89.8 Ma - 93.9 Ma)</option>
+                                    <option value="Cenomanian (93.9 Ma - 100.5 Ma)">Cenomanian (93.9 Ma - 100.5 Ma)</option>
+                                    <option value="Albian (100.5 Ma - 113.0 Ma)">Albian (100.5 Ma - 113.0 Ma)</option>
+                                    <option value="Aptian (113.0 Ma - 121.4 Ma)">Aptian (113.0 Ma - 121.4 Ma)</option>
+                                    <option value="Barremian (121.4 Ma - 129.4 Ma)">Barremian (121.4 Ma - 129.4 Ma)</option>
+                                    <option value="Hauterivian (129.4 Ma - 132.6 Ma)">Hauterivian (129.4 Ma - 132.6 Ma)</option>
+                                    <option value="Valangianian (132.6 Ma - 139.8 Ma)">Valangianian (132.6 Ma - 139.8 Ma)</option>
+                                    <option value="Berriasian (139.8 Ma - 145 Ma)">Berriasian (139.8 Ma - 145 Ma)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blank"><span>or</span></div>
+                    <div class="box">
+                        <div class="title">Age Exists</div>
+                        <div class="con_img">
+                            <input type="checkbox"  con=0  alt="" id="Age_exsit" name="Age_exsit">
+                            <label for="img_bu"></label>
+                        </div>
+                        <div class="con_text">
+                            <span>return all samples that have age values assoicated with them
+
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blank"></div>
+                    <div class="sub">
+                        <button onclick="age_sub()">Submit</button>
+                    </div>
+                    <div class="blank"></div>
+                </div>
+
+            </div>
+
+            <div class="bottom">
+                <div class="left-group">Part of OneSediment in the DDE</div>
+                <div class="mid-group">Funded by the NSFC</div>
+                <div class="right-group">Ocean Sediment Database,Copyright @ 2022</div>
+            </div>
+        </article>
+        <div id="shade" class="c1 hide"></div>
+        <iframe id="page" class="c2 hide" src="/static/login_page.html" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+    </section>
+    <script src="/static/js/login.js"></script>
+    <script src="/static/js/select_by_age.js"></script>
+<script>
+    function age_sub() {
+        Age_span_min=document.getElementById('Age_span_min').value;
+        Age_span_max=document.getElementById('Age_span_max').value;
+        Exact_age=document.getElementById('Exact_age').value;
+        geological_era=document.getElementById('geological_era').value;
+        geological_epoch=document.getElementById('geological_epoch').value;
+        geological_age=document.getElementById('geological_age').value;
+        Age_exsit_check=document.getElementById('Age_exsit')
+        if(Age_exsit_check.checked){
+         Age_exsit='Exist'
+        }
+        else {
+            Age_exsit='No'
+        }
+        console.log(Age_span_min+' '+Age_span_max)
+        console.log(Exact_age)
+        console.log(geological_era)
+        console.log(geological_epoch)
+        count=0
+        if(Age_span_min!=''||Age_span_max!=''){
+            count=count+1
+            sessionStorage.setItem('Age_txt',Age_span_min+' - '+Age_span_max+' Ma')
+        }
+        if (Exact_age!=''){
+            count=count+1
+            sessionStorage.setItem('Age_txt',Exact_age+' Ma')
+        }
+        if(geological_era!=''){
+            count=count+1
+            sessionStorage.setItem('Age_txt',geological_era)
+        }
+        if(geological_epoch!=''){
+            count=count+1
+            sessionStorage.setItem('Age_txt',geological_epoch)
+        }
+        if(geological_age!=''){
+            count=count+1
+               sessionStorage.setItem('Age_txt',geological_age)
+        }
+        if(Age_exsit=='Exist'){
+            count=count+1
+            sessionStorage.setItem('Age_txt',Age_exsit)
+
+        }
+        if(count>1){
+            alert('存在多个OR条件语句')
+        }
+        else {
+            window.location.href='/user/Access_data'
+        }
+
+    }
+</script>
+</body>
+
+</html>

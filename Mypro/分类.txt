@@ -1,0 +1,583 @@
+>4 mm Bulk Density (g/cm3) __!__ MAD
+>4 mm Grain Density (g/cm3) __!__ MAD
+>4 mm Porosity (%) __!__ MAD
+>4 mm Void ratio __!__ MAD
+1-4 mm Bulk Density (g/cm3) __!__ MAD
+1-4 mm Grain Density (g/cm3) __!__ MAD
+1-4 mm Porosity (%) __!__ MAD
+1-4 mm Void ratio __!__ MAD
+A/W __!__ Public
+Actinolite __!__ Microscopic
+Advanced (m) __!__ Core summary
+Age, kyr __!__ Clay Minerals
+Al2O3_(%) __!__ ICP-AES Solids
+Al2O3_(%)_308.2 nm __!__ ICP-AES Solids
+Al2O3_(%)_309.3 nm __!__ ICP-AES Solids
+Al2O3_(%)_394.4 nm __!__ ICP-AES Solids
+Al2O3_(%)_396.2 nm __!__ ICP-AES Solids
+Al2O3_(wt%)_XRF __!__ XRF
+Al_(%)_XRF __!__ XRF
+Al_(ppm) __!__ ICP-AES Solids
+Al_(ppm)_308.2 nm __!__ ICP-AES Solids
+Alga __!__ Microscopic
+Alkalinity (mM) __!__ IW
+Allanite  __!__ Microscopic
+Altered Grains __!__ Microscopic
+Amphibole __!__ Microscopic
+Anhydrite __!__ Microscopic
+Apatite __!__ Microscopic
+APC cores (no.) __!__ Hole summary
+Aragonite __!__ Microscopic
+As_(ppm)_XRF __!__ XRF
+Ash __!__ Microscopic
+Ash grain roundness __!__ Microscopic
+Ash(macro) __!__ Macroscopic
+Augite/Pyroxene __!__ Microscopic
+Authigenic Pyrite __!__ Microscopic
+Authigenic Quartz __!__ Microscopic
+Ba_(ppm) __!__ ICP-AES Solids
+Ba_(ppm)_233.5 nm __!__ ICP-AES Solids
+Ba_(ppm)_455.4 nm __!__ ICP-AES Solids
+Ba_(ppm)_493.4 nm __!__ ICP-AES Solids
+Ba_(ppm)_XRF __!__ XRF
+Barite __!__ Microscopic
+Be_(ppm) __!__ ICP-AES Solids
+Be_(ppm)_XRF __!__ XRF
+Bedding thickness __!__ Macroscopic
+Benthic foraminifer  __!__ Microscopic
+Biogenic __!__ Microscopic
+Biogenic carbonate __!__ Microscopic
+Biogenic fragment roundness __!__ Microscopic
+Biogenic fragment size __!__ Microscopic
+Biogenic material __!__ Macroscopic
+Biogenic silica __!__ Microscopic
+Biosiliceous fossil __!__ Microscopic
+Biotite __!__ Microscopic
+Bioturbation intensity __!__ Macroscopic
+Bioturbation intensity rank __!__ Macroscopic
+Bioturbation type __!__ Macroscopic
+Bivalve __!__ Microscopic
+Bottom depth (m) __!__ Public
+Bottom depth CSF-A (m) __!__ Public
+Bottom Depth CSF-B (m) __!__ Public
+Bottom Depth MSF (m) __!__ Public
+Bottom depth recovered (m) __!__ Core summary
+Bottom offset [cm] __!__ Public
+Br_(ppm) __!__ ICP-AES Solids
+Br_(ppm)_XRF __!__ XRF
+Brucite __!__ Microscopic
+Bryozoa __!__ Microscopic
+Bulk Density  (g/cm3) __!__ MAD
+Ca_(%)_XRF __!__ XRF
+Calcareous bioclasts __!__ Microscopic
+Calcareous nannofossils __!__ Microscopic
+Calcareous sponge spicule __!__ Microscopic
+Calcispheres __!__ Microscopic
+Calcite __!__ Microscopic
+Calcite (allogenic) __!__ Microscopic
+Calculated Tmax (¡ãC) __!__ SRA
+CaO_(%) __!__ ICP-AES Solids
+CaO_(%)_315.9 nm __!__ ICP-AES Solids
+CaO_(%)_317.9 nm __!__ ICP-AES Solids
+CaO_(%)_393.4 nm __!__ ICP-AES Solids
+CaO_(%)_396.8 nm __!__ ICP-AES Solids
+CaO_(%)_422.7 nm __!__ ICP-AES Solids
+CaO_(wt%)_XRF __!__ XRF
+Carbon_CaCO3 (wt%) __!__ Carbonate
+Carbon_Carbonate (wt%) __!__ Carbonate
+Carbon_Inorganic (wt%) __!__ Carbonate
+Carbon_Organic (wt%) __!__ Carbonate
+Carbon_Total (wt%) __!__ Carbonate
+Carbonate __!__ Microscopic
+Carbonate mud __!__ Microscopic
+Cassiterite __!__ Microscopic
+Ce_(ppm) __!__ ICP-AES Solids
+Ce_(ppm)_XRF __!__ XRF
+Cement __!__ Microscopic
+Charcoal __!__ Microscopic
+Chert __!__ Microscopic
+Chlorite __!__ Microscopic
+Chlorite, % __!__ Clay Minerals
+Chloritoid __!__ Microscopic
+Cl_(%)_XRF __!__ XRF
+Classification(macro lithology) __!__ Macroscopic
+Clast color __!__ Macroscopic
+Clast grain size __!__ Macroscopic
+Clast igneous __!__ Macroscopic
+Clast other lithology __!__ Macroscopic
+Clast percentage [%] __!__ Macroscopic
+Clast roundness __!__ Macroscopic
+Clast sediment __!__ Macroscopic
+Clast sorting __!__ Macroscopic
+Clast volcaniclastic __!__ Macroscopic
+Clast/matrix texture __!__ Macroscopic
+Clay Mineral __!__ Microscopic
+Clay texture [%] __!__ Microscopic
+Clinoptilolite __!__ Microscopic
+Clinopyroxene __!__ Microscopic
+Co_(ppm) __!__ ICP-AES Solids
+Co_(ppm)_228.6 nm __!__ ICP-AES Solids
+Co_(ppm)_XRF __!__ XRF
+Collophane __!__ Microscopic
+Color __!__ Macroscopic
+Color (name) __!__ Macroscopic
+Color_Munsell __!__ RSC
+Comment_CHNS __!__ Carbonate
+Comment_ICP __!__ ICP-AES Solids
+Comment_IW __!__ IW
+Comment_MAD __!__ MAD
+Comment_RSC __!__ RSC
+Comment_SRA __!__ SRA
+Comment_XRF __!__ XRF
+COMMENTS __!__ Public
+Complete lithology __!__ Microscopic
+Corals __!__ Microscopic
+Core __!__ Public
+Cored (m) __!__ Macroscopic-Core description
+Cored interval (m) __!__ Hole summary
+Core-Sect __!__ Public
+Cr_(%)_XRF __!__ XRF
+Cr_(ppm) __!__ ICP-AES Solids
+Cr_(ppm)_205.6 nm __!__ ICP-AES Solids
+Cr_(ppm)_206.1 nm __!__ ICP-AES Solids
+Cr_(ppm)_267.7 nm __!__ ICP-AES Solids
+Cr_(ppm)_283.6 nm __!__ ICP-AES Solids
+Cr_(ppm)_XRF __!__ XRF
+Crystal abundance __!__ Microscopic
+Cs_(ppm) __!__ ICP-AES Solids
+Cs_(ppm)_XRF __!__ XRF
+Cu_(ppm) __!__ ICP-AES Solids
+Cu_(ppm)_224.7 nm __!__ ICP-AES Solids
+Cu_(ppm)_324.8 nm __!__ ICP-AES Solids
+Cu_(ppm)_327.4 nm __!__ ICP-AES Solids
+Cu_(ppm)_XRF __!__ XRF
+Curated length (m) __!__ Core summary¡¢Section summary
+Cuttings sample  __!__ Public
+Deformational structures __!__ Macroscopic
+Degree of alteration __!__ Macroscopic
+Degree of Consolidation __!__ Macroscopic
+Detrital carbonate __!__ Microscopic
+Diagenetic __!__ Microscopic
+Diagenetic constituent __!__ Macroscopic
+Diagenetic structure __!__ Macroscopic
+Diatoms __!__ Microscopic
+DIC_(mM) __!__ IW
+Dinoflagelattes __!__ Microscopic
+DOC_(mM) __!__ IW
+DOI __!__ Public
+Dolomite __!__ Microscopic
+Dominant Clasts max. grain size class __!__ Macroscopic
+Dominant grain size __!__ Macroscopic
+Dominant gravel clasts __!__ Macroscopic
+Drilled interval (m) __!__ Hole summary
+Drilled interval (no.) __!__ Hole summary
+Drilling disturbance intensity __!__ Macroscopic
+Drilling disturbance intensity rank __!__ Macroscopic
+Drilling disturbance type __!__ Macroscopic
+Dry Density  (g/cm3) __!__ MAD
+Dry Porosity (%) __!__ MAD
+Dry volume (cm3) __!__ MAD
+Dry Water content (wt%) __!__ MAD
+Dy_(ppm) __!__ ICP-AES Solids
+Dy_(ppm)_XRF __!__ XRF
+Ebridians __!__ Microscopic
+Echinoderm __!__ Microscopic
+Echinoids __!__ Microscopic
+Enstatite __!__ Microscopic
+Epidote __!__ Microscopic
+Er_(ppm) __!__ ICP-AES Solids
+Er_(ppm)_XRF __!__ XRF
+Eu_(ppm)_XRF __!__ XRF
+Exp/Leg __!__ Public
+Facies __!__ Macroscopic
+Fe oxide __!__ Microscopic
+Fe sulfides __!__ Microscopic
+Fe/Mn Oxide __!__ Microscopic
+Fe2O3*_(wt%)_XRF __!__ XRF
+Fe2O3t_(%) __!__ ICP-AES Solids
+Fe2O3t_(%)_238.2 nm __!__ ICP-AES Solids
+Fe2O3t_(%)_239.6 nm __!__ ICP-AES Solids
+Fe2O3t_(%)_259.9 nm __!__ ICP-AES Solids
+Fe_(%)_XRF __!__ XRF
+Fe_(ppm) __!__ ICP-AES Solids
+Fe_(ppm)_238.2 nm __!__ ICP-AES Solids
+Feldspar __!__ Microscopic
+Felsic tephra __!__ Microscopic
+Felsitic __!__ Microscopic
+FeO_(wt%)_XRF __!__ XRF
+Ferromagnesian minerals __!__ Microscopic
+Fish debris __!__ Microscopic
+Fish scales __!__ Microscopic
+Fish teeth __!__ Microscopic
+Fluorite __!__ Microscopic
+Fossil __!__ Macroscopic
+Framboidal pyrite __!__ Microscopic
+Ga_(ppm) __!__ ICP-AES Solids
+Ga_(ppm)_XRF __!__ XRF
+Garnet __!__ Microscopic
+Gastropod __!__ Microscopic
+Gd_(ppm) __!__ ICP-AES Solids
+Gd_(ppm)_XRF __!__ XRF
+Ge_(ppm) __!__ ICP-AES Solids
+Ge_(ppm)_219.9 nm  __!__ ICP-AES Solids
+Ge_(ppm)_303.9 nm  __!__ ICP-AES Solids
+Glauconite __!__ Microscopic
+Glauconitization __!__ Microscopic
+Glaucophane __!__ Microscopic
+Goethite __!__ Microscopic
+Grading __!__ Macroscopic
+Grain Density  (g/cm3) __!__ MAD
+Grain size __!__ Microscopic
+Grain size max __!__ Macroscopic
+Gravel texture [%] __!__ Microscopic
+Groundmass color __!__ Macroscopic
+Groundmass grain size __!__ Macroscopic
+Gypsum __!__ Microscopic
+Heavy minerals __!__ Microscopic
+Hematite __!__ Microscopic
+Hf_(ppm) __!__ ICP-AES Solids
+Hf_(ppm)_XRF __!__ XRF
+HLAPC cores (no.) __!__ Hole summary
+Ho_(ppm)_XRF __!__ XRF
+Hole __!__ Public
+Hydrogen (mg HC/g) __!__ Carbonate
+Hydrogen (wt%) __!__ Carbonate
+Hydrogen index (HI) (n/a) __!__ SRA
+Hypersthene __!__ Microscopic
+Igneous fragment __!__ Microscopic
+Illite Chemistry Index __!__ Clay Minerals
+Illite Crystallinity __!__ Clay Minerals
+Illite, %  __!__ Clay Minerals
+Ilmenite __!__ Microscopic
+Instrument __!__ Public
+Instrument group __!__ Public
+Interval (cm) __!__ Public
+Intraclast  __!__ Microscopic
+K2O_(%) __!__ ICP-AES Solids
+K2O_(%)_766.5 nm __!__ ICP-AES Solids
+K2O_(%)_769.9 nm __!__ ICP-AES Solids
+K2O_(wt%)_XRF __!__ XRF
+K_(%)_XRF __!__ XRF
+K_(ppm) __!__ ICP-AES Solids
+K_(ppm)_769.9 nm  __!__ ICP-AES Solids
+Kaolinite, % __!__ Clay Minerals
+K-Feldspar __!__ Microscopic
+Kyanite __!__ Microscopic
+La_(ppm) __!__ ICP-AES Solids
+La_(ppm)_XRF __!__ XRF
+Lamination __!__ Macroscopic
+Latitude __!__ Public
+Layer/Beddding __!__ Macroscopic
+Li_(ppm)_XRF __!__ XRF
+Limestone __!__ Microscopic
+Limonite __!__ Microscopic
+Lithic grain size __!__ Microscopic
+Lithic roundness __!__ Microscopic
+Lithology [%] __!__ Macroscopic
+Lithology ave. grain size class __!__ Macroscopic
+Lithology classification __!__ Microscopic
+Lithology name __!__ Macroscopic
+Lithology name+suffix __!__ Macroscopic
+Lithology prefix __!__ Microscopic
+Lithology prefix + name __!__ Macroscopic
+Lithology prefix+name+suffix __!__ Macroscopic
+Lithology suffix __!__ Microscopic
+LOI_(wt%) __!__ ICP-AES Solids
+LOI_(wt%)_XRF __!__ XRF
+Longitude __!__ Public
+Lu_(ppm)_XRF __!__ XRF
+Macrofossil abundance __!__ Macroscopic
+Mafic tephra __!__ Microscopic
+Magnetite __!__ Microscopic
+Major lithology [%] __!__ Macroscopic
+Major lithology macrofossil __!__ Macroscopic
+Major lithology prefix __!__ Macroscopic
+Major lithology principal name __!__ Macroscopic
+Major lithology suffix __!__ Macroscopic
+Marine organic matter __!__ Microscopic
+Mass dried sample (g) __!__ MAD
+Mass porewater (g) __!__ MAD
+Mass salt (g) __!__ MAD
+Mass solids (g) __!__ MAD
+Mass wet sample (g) __!__ MAD
+Matrix abundance [%] __!__ Macroscopic
+Maximum grain size __!__ Microscopic
+Measured Tmax (¡ãC) __!__ SRA
+Metamorphic lithic __!__ Microscopic
+Method __!__ Public
+Method_CHNS __!__ Carbonate
+Method_MAD __!__ MAD
+Method_SRA __!__ SRA
+Mg_(%)_XRF __!__ XRF
+Mg_(ppm)_285.2 nm __!__ ICP-AES Solids
+MgO_(%) __!__ ICP-AES Solids
+MgO_(%)_202.6 nm __!__ ICP-AES Solids
+MgO_(%)_279.6 nm __!__ ICP-AES Solids
+MgO_(%)_280.3 nm __!__ ICP-AES Solids
+MgO_(%)_285.2 nm __!__ ICP-AES Solids
+MgO_(wt%)_XRF __!__ XRF
+Mica __!__ Microscopic
+Micrite __!__ Microscopic
+Microcrystalline Quartz __!__ Microscopic
+Micronodules __!__ Microscopic
+Microsparite __!__ Microscopic
+Midpoint depth (mbsf) __!__ Public
+Minimum grain size __!__ Microscopic
+Minor lithology [%] __!__ Macroscopic
+Minor lithology macrofossil __!__ Macroscopic
+Minor lithology prefix __!__ Macroscopic
+Minor lithology principal name __!__ Macroscopic
+Minor lithology suffix __!__ Macroscopic
+Minor trace fossils __!__ Macroscopic
+Mn oxide __!__ Microscopic
+Mn_(%)_XRF __!__ XRF
+Mn_(ppm)_257.6 nm __!__ ICP-AES Solids
+MnO_(%) __!__ ICP-AES Solids
+MnO_(%)_257.6 nm __!__ ICP-AES Solids
+MnO_(%)_259.4 nm __!__ ICP-AES Solids
+MnO_(wt%)_XRF __!__ XRF
+Mo_(ppm) __!__ ICP-AES Solids
+Mo_(ppm)_202.0nm __!__ ICP-AES Solids
+Mo_(ppm)_XRF __!__ XRF
+Moisture dry (wt%) __!__ MAD
+Moisture wet (wt%) __!__ MAD
+Mollusk __!__ Microscopic
+Monazite __!__ Microscopic
+Mudstone  __!__ Microscopic
+Muscovite __!__ Microscopic
+Na2O_(%) __!__ ICP-AES Solids
+Na2O_(%)_589 nm __!__ ICP-AES Solids
+Na2O_(%)_589.6 nm __!__ ICP-AES Solids
+Na2O_(wt%)_XRF __!__ XRF
+Na_(%)_XRF __!__ XRF
+Na_(ppm) __!__ ICP-AES Solids
+Na_(ppm)_589.6nm __!__ ICP-AES Solids
+Nb_(ppm) __!__ ICP-AES Solids
+Nb_(ppm)_309.4 nm __!__ ICP-AES Solids
+Nb_(ppm)_XRF __!__ XRF
+Nd_(ppm) __!__ ICP-AES Solids
+Nd_(ppm)_XRF __!__ XRF
+Ni_(ppm) __!__ ICP-AES Solids
+Ni_(ppm)_221.6 nm __!__ ICP-AES Solids
+Ni_(ppm)_231.6 nm __!__ ICP-AES Solids
+Ni_(ppm)_361.9 nm __!__ ICP-AES Solids
+Ni_(ppm)_XRF __!__ XRF
+Nitrogen (wt%) __!__ Carbonate
+Non-skeletal components __!__ Macroscopic
+Olivine __!__ Microscopic
+Ooids __!__ Microscopic
+Opaque __!__ Microscopic
+Organic debris __!__ Microscopic
+Orthopyroxene __!__ Microscopic
+Ostracodes __!__ Microscopic
+Other __!__ Microscopic
+Other authigenic abundance __!__ Microscopic
+Other Biclasts __!__ Microscopic
+Other calcareous bioclasts __!__ Microscopic
+Other cores (no.) __!__ Hole summary
+Other lithic __!__ Microscopic
+Other microfossils __!__ Microscopic
+Other mineral __!__ Microscopic
+Other organic matter __!__ Microscopic
+Other sedimentary fragments __!__ Microscopic
+Other skeletal fragments __!__ Microscopic
+Other volcanic __!__ Microscopic
+Oxide __!__ Microscopic
+Oxygen index (OI) (n/a) __!__ SRA
+P2O5_(%) __!__ ICP-AES Solids
+P2O5_(%)_177.4 nm __!__ ICP-AES Solids
+P2O5_(%)_213.6 nm __!__ ICP-AES Solids
+P2O5_(%)_214.9 nm __!__ ICP-AES Solids
+P2O5_(wt%)_XRF __!__ XRF
+P_(%)_XRF __!__ XRF
+P_(ppm)_214.9 nm __!__ ICP-AES Solids
+P_(ppm)_XRF __!__ XRF
+Palagonite (altered) __!__ Microscopic
+Palygorskite __!__ Microscopic
+Pb_(ppm) __!__ ICP-AES Solids
+Pb_(ppm)_XRF __!__ XRF
+Pelgaic __!__ Microscopic
+Pellets __!__ Microscopic
+Peloid  __!__ Microscopic
+Penetration DSF (m) __!__ Hole summary
+PH __!__ IW
+Phillipsite __!__ Microscopic
+Phosphates __!__ Microscopic
+Plagioclase __!__ Microscopic
+Planktonic foraminifers __!__ Microscopic
+Plant debris __!__ Microscopic
+Plutonic lithic  __!__ Microscopic
+Pollen __!__ Microscopic
+Pore space __!__ Microscopic
+Porosity (%) __!__ MAD
+Porosity (fractional) __!__ MAD
+Primary trace fossils __!__ Macroscopic
+Principal lithology __!__ Microscopic
+Production index (PI) (n/a) __!__ SRA
+Pteropod fragments __!__ Microscopic
+Pyrite __!__ Microscopic
+Pyroclasts/Volcanic lithics __!__ Microscopic
+Pyrolysis carbon (PC) (mg/g) __!__ SRA
+Quartz __!__ Microscopic
+Radiolaria __!__ Microscopic
+Rb_(ppm) __!__ ICP-AES Solids
+Rb_(ppm)_XRF __!__ XRF
+RC (wt%) __!__ SRA
+RCB cores (no.) __!__ Hole summary
+Recovered length (m) __!__ Hole summary¡¢Core summary¡¢Section summary
+Recovery (%) __!__ Hole summary¡¢Core summary
+Reference __!__ Public
+Reflectance a* __!__ RSC
+Reflectance b* __!__ RSC
+Reflectance L* __!__ RSC
+Rock fragments/Lithic grain __!__ Microscopic
+Roundness __!__ Microscopic
+Rutile __!__ Microscopic
+S1 (mg HC/g C) __!__ SRA
+S2 (mg HC/g C) __!__ SRA
+S3 (mg CO2/g) __!__ SRA
+S3 (mg HC/g C) __!__ SRA
+S_(%)_XRF __!__ XRF
+S_(ppm) __!__ ICP-AES Solids
+S_(ppm)_XRF __!__ XRF
+Salinity __!__ IW
+Salt_(%)_XRF __!__ XRF
+Sample Type_XRF __!__ XRF
+Sand texture [%] __!__ Microscopic
+Sc_(ppm) __!__ ICP-AES Solids
+Sc_(ppm)_357.3 nm __!__ ICP-AES Solids
+Sc_(ppm)_361.4 nm __!__ ICP-AES Solids
+Sc_(ppm)_XRF __!__ XRF
+Section __!__ Public
+Section half samples (no.) __!__ Section summary
+Section summary description __!__ Macroscopic-Core description
+Sections (no.) __!__ Core summary
+Sedimentary lithic __!__ Microscopic
+Sedimentary structures __!__ Macroscopic
+Sericite __!__ Microscopic
+Serpentine __!__ Microscopic
+Shell fragments __!__ Microscopic
+Si_(%)_XRF __!__ XRF
+Siderite __!__ Microscopic
+Siliceous sponge spicule __!__ Microscopic
+Siliciclastic __!__ Microscopic
+Silicoflagelates __!__ Microscopic
+Sillimanite __!__ Microscopic
+Silt texture [%] __!__ Microscopic
+Siltstone/Sandstone  __!__ Microscopic
+SiO2_(%) __!__ ICP-AES Solids
+SiO2_(%)_221.7 nm __!__ ICP-AES Solids
+SiO2_(%)_250.7 nm __!__ ICP-AES Solids
+SiO2_(%)_251.6 nm __!__ ICP-AES Solids
+SiO2_(%)_288.2 nm __!__ ICP-AES Solids
+SiO2_(wt%)_XRF __!__ XRF
+Site __!__ Public
+Skeletal components (intermediate) __!__ Macroscopic
+Skeletal components (major) __!__ Macroscopic
+Skeletal components (minor) __!__ Macroscopic
+Skeletal Debris __!__ Microscopic
+Sm(ppm)_XRF __!__ XRF
+Sm_(ppm) __!__ ICP-AES Solids
+Smectite, % __!__ Clay Minerals
+Sparite __!__ Microscopic
+Sphalerite __!__ Microscopic
+Spherulite __!__ Microscopic
+Spinel __!__ Microscopic
+Sponge spicule  __!__ Microscopic
+Sr_(ppm) __!__ ICP-AES Solids
+Sr_(ppm)_407.8 nm __!__ ICP-AES Solids
+Sr_(ppm)_421.6 nm __!__ ICP-AES Solids
+Sr_(ppm)_460.7 nm __!__ ICP-AES Solids
+Sr_(ppm)_XRF __!__ XRF
+Staurolite __!__ Microscopic
+Subdominant clast roundness __!__ Macroscopic
+Subdominant Clasts __!__ Macroscopic
+Subdominant Clasts ave. grain size class __!__ Macroscopic
+Subdominant Clasts max. grain size class __!__ Macroscopic
+Subdominant gravel clasts __!__ Macroscopic
+Subdominant sedimentary structure __!__ Macroscopic
+Sulfate __!__ Microscopic
+Sulfides __!__ Microscopic
+Sulfur (wt%) __!__ Carbonate
+Summary description __!__ Macroscopic-Core description
+Ta_(ppm)_XRF __!__ XRF
+Talc __!__ Microscopic
+Tb_(ppm)_XRF __!__ XRF
+Terrestrial organic matter __!__ Microscopic
+Th_(ppm) __!__ ICP-AES Solids
+Th_(ppm)_XRF __!__ XRF
+Ti_(%)_XRF __!__ XRF
+Ti_(ppm)_XRF __!__ XRF
+TiO2_(%) __!__ ICP-AES Solids
+TiO2_(%)_334.9 nm __!__ ICP-AES Solids
+TiO2_(%)_336.1 nm __!__ ICP-AES Solids
+TiO2_(%)_337.3 nm __!__ ICP-AES Solids
+TiO2_(wt%)_XRF __!__ XRF
+Ti-oxides __!__ Microscopic
+Titanite/Sphene __!__ Microscopic
+Tmax (¡ãC) __!__ SRA
+TOC_SRA (wt%) __!__ SRA
+Top Depth (m) __!__ Public
+Top Depth (mcd) __!__ Public
+Top depth cored CSF (m) __!__ Core summary
+Top depth CSF-A (m) __!__ Public
+Top depth CSF-B (m) __!__ Public
+Top depth drilled DSF (m) __!__ Core summary
+Top Depth MSF (m) __!__ Public
+Top Offset [cm] __!__ Public
+Total bioclast __!__ Microscopic
+Total composition __!__ Microscopic
+Total cores (no.) __!__ Hole summary
+Total texture __!__ Microscopic
+Total_(wt%)_XRF __!__ XRF
+Tourrmaline __!__ Microscopic
+Tremolite __!__ Microscopic
+Tristimulus X __!__ RSC
+Tristimulus Y __!__ RSC
+Tristimulus Z __!__ RSC
+Tunicate __!__ Microscopic
+Type __!__ Public
+U_(ppm)_XRF __!__ XRF
+V_(nm)_n/a nm __!__ ICP-AES Solids
+V_(ppm) __!__ ICP-AES Solids
+V_(ppm)_292.4 nm __!__ ICP-AES Solids
+V_(ppm)_309.3 nm __!__ ICP-AES Solids
+V_(ppm)_310.2 nm __!__ ICP-AES Solids
+V_(ppm)_XRF __!__ XRF
+Void ratio __!__ MAD
+Vol porewater (cm3) __!__ MAD
+Vol salt (cm3) __!__ MAD
+Vol solids (cm3) __!__ MAD
+Vol wet sample (cm3) __!__ MAD
+W_(ppm)_XRF __!__ XRF
+Water content (wt%) __!__ MAD
+Water depth (m) __!__ Public
+Wet bulk density (g/cm3) __!__ MAD
+Wet Porosity (%) __!__ MAD
+Wet Water content (wt%) __!__ MAD
+Wood fragments __!__ Microscopic
+XCB cores (no.) __!__ Hole summary
+Y_(ppm) __!__ ICP-AES Solids
+Y_(ppm)_360.1 nm __!__ ICP-AES Solids
+Y_(ppm)_371 nm __!__ ICP-AES Solids
+Y_(ppm)_377.4 nm __!__ ICP-AES Solids
+Y_(ppm)_XRF __!__ XRF
+Yb_(ppm) __!__ ICP-AES Solids
+Yb_(ppm)_XRF __!__ XRF
+Zeolite __!__ Microscopic
+Zircon __!__ Microscopic
+Zn_(ppm) __!__ ICP-AES Solids
+Zn_(ppm)_202.5 nm __!__ ICP-AES Solids
+Zn_(ppm)_206.2 nm __!__ ICP-AES Solids
+Zn_(ppm)_213.9 nm __!__ ICP-AES Solids
+Zn_(ppm)_XRF __!__ XRF
+Zoisite __!__ Microscopic
+Zr (ppm) _273.5 nm  __!__ ICP-AES Solids
+Zr (ppm) _327.307 nm  __!__ ICP-AES Solids
+Zr_(ppm) __!__ ICP-AES Solids
+Zr_(ppm)_339.2 nm __!__ ICP-AES Solids
+Zr_(ppm)_343.8 nm __!__ ICP-AES Solids
+Zr_(ppm)_XRF __!__ XRF
+Lithification __!__ Macroscopic
+Tephra type __!__ Macroscopic
+Dy_(ppm)_XRF __!__ XRF

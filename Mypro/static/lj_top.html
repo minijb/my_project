@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/total.css">
+    <script src="/static/js/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="top">
+        <div style="height: 50%;">
+            <p id="p1" >
+                Ocean Sediment Database
+               <button type="button" class="login_button" style="float: right;width:auto;height: 40px;border-radius:15px;border-color: white;
+                          color: #a5aab0;font-weight: bold;background:transparent;margin-right: 20px">
+                            <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
+                            <div id="login_name" style="float: right;">Login/Register</div>
+                        </button>
+            </p>
+        </div>
+        <div class="topnav">
+                <a id="1" class="bianse1" target="_parent" href="/user/Home" onclick="showsubmenu(this.id)">Home</a>
+                <a id="2" class="bianse1" target="_parent" href="/user/Introduction" onclick="showsubmenu(this.id)">Introducation</a>
+                <a  id ="3" class="bianse1" target="_parent" href="/user/Access_data" onclick="showsubmenu(this.id)">Acces Data</a>
+                <a id ="4" class="bianse1" target="_parent" href="#" onclick="showsubmenu(this.id)">Submit Data</a>
+                <a id="5" class="bianse" target="_parent" href="/user/About_us" onclick="showsubmenu(this.id)">About us</a>
+        </div>
+    </div>
+</body>
+<script>
+      $(document).ready(function(){
+
+let login_status = sessionStorage.getItem("log_status");
+if (login_status==null){
+    sessionStorage.setItem("log_status","0");
+    login_status = "0"
+}
+console.log(login_status)
+if(login_status!="0"){
+    document.getElementById("login_name").innerText  = login_status;
+}
+})
+</script>
+</html>

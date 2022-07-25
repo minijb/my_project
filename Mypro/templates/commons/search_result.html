@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function showsubmenu(sid) {
+            for (i = 1; i < 4; i++) {
+                if (i == sid) {
+                    if (document.getElementById(sid).className != "bianse") {
+                        document.getElementById(sid).className = "bianse"
+                    }
+                } else {
+                    document.getElementById(i).className = "bianse1";
+                }
+            }
+        }
+    </script>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/search_result.css">
+
+<body>
+
+    <section class="top-bottom flex">
+        <article>
+            <div class="top">
+                <div>
+                    <p id="p1">
+                        Ocean Sediment Database
+                        <button type="button" class="login_button" style="float: right;width:auto;height: 40px;border-radius:15px;border-color: white;
+                          color: #a5aab0;font-weight: bold;background:transparent;margin-right: 20px">
+                            <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
+                            <div id="login_name" style="float: right;">Login/Register</div>
+                        </button>
+                    </p>
+                </div>
+                <div class="topnav">
+                    <ul>
+                        <li><a id="1" class="bianse1" href="/user/Home" onclick="showsubmenu(this.id)">Home</a></li>
+                        <li><a id="2" class="bianse" href="/user/Introduction"
+                                onclick="showsubmenu(this.id)">Introducation</a></li>
+                        <li><a class="bianse1" href="/user/Access_data">Acces Data</a></li>
+                        <li><a class="bianse1" href="#">Submit Data</a></li>
+                        <li><a id="3" class="bianse1" href="/user/About_us" onclick="showsubmenu(this.id)">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="middle">
+                <div id="Summary">
+                    <h1>Summary</h1>
+                </div>
+                <div id="wenzi">
+                    <span style="font-weight:bold">The Ocean Sediment Database</span> (OSD) is a platform for collecting
+                    sedimentary data from the international oceanic drilling program, including core
+                    sedimentological data such as material composition (macroscopic, microscopic), sedimentary
+                    geochemistry (organic, inorganic, interstitial water) and
+                    physical properties and is planned to be linked to the oceanic sediment age model. The
+                    temporal-spatial-material data organization method correlates
+                    sediment data to solve key scientific problems such as the evolution of oceanic sedimentary
+                    material, and provides cases-driven support for the construction
+                    of oceanic sediment knowledge graph.
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="left-group">Pert of OneSediment in the DDE</div>
+                <div class="mid-group">Funded by the NSFC</div>
+                <div class="right-group">Ocean Sediment Database,Copyright @ 2022</div>
+            </div>
+        </article>
+        <div id="shade" class="c1 hide"></div>
+        <iframe id="page" class="c2 hide" src="/static/login_page.html" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+    </section>
+    <script src="/static/js/login.js"></script>
+</body>
+
+</html>

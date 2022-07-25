@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<script src="/static/js/axios.min.js"></script>
+
+ <!-- 引入样式 -->
+<link rel="stylesheet" href="/static/css/element-ui/index.css">
+<!-- 引入组件库 -->
+
+ <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/vue.js"></script>
+ <script src="/static/js/element-ui/index.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function showsubmenu(sid) {
+            for (i = 1; i < 4; i++) {
+                if (i == sid) {
+                    if (document.getElementById(sid).className != "bianse") {
+                        document.getElementById(sid).className = "bianse"
+                    }
+                } else {
+                    document.getElementById(i).className = "bianse1";
+                }
+            }
+        }
+    </script>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/search_result.css">
+
+<body>
+
+    <section class="top-bottom flex">
+        <article>
+            <div class="top">
+                <div>
+                    <p id="p1">
+                        Ocean Sediment Database
+                        <button type="button" class="login_button" style="float: right;width:auto;height: 40px;border-radius:15px;border-color: white;
+                          color: #a5aab0;font-weight: bold;background:transparent;margin-right: 20px">
+                            <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
+                            <div id="login_name" style="float: right;">Login/Register</div>
+                        </button>
+                    </p>
+                </div>
+                <div class="topnav">
+                    <ul>
+                        <li><a id="1" class="bianse1" href="/user/Home" onclick="showsubmenu(this.id)">Home</a></li>
+                        <li><a id="2" class="bianse1" href="/user/Introduction"
+                                onclick="showsubmenu(this.id)">Introduction</a></li>
+                        <li><a class="bianse" href="/user/Access_data">Access Data</a></li>
+                        <li><a class="bianse1" href="#">Submit Data</a></li>
+                        <li><a id="3" class="bianse1" href="/user/About_us" onclick="showsubmenu(this.id)">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="middle" id="middle">
+
+                <div class="left_box" id="headers">
+
+
+                   <el-popover
+      v-model="popoverVisible"
+      placement="bottom"
+      width="300"
+      trigger="click"> <!-- click:点击select时弹出框显示 -->
+      <!-- popover+tree用于选择，树形控件放在弹出框中 -->
+      <el-tree
+        :data="treeOptions"
+        :props="defaultProps"
+        show-checkbox
+        @check="checkChange"
+        ref="tree"
+        node-key="id"/>
+      <!-- select展示选择结果，储存选择值typeValue -->
+      <el-select
+        slot="reference"
+        multiple
+        collapse-tags
+        v-model="typeValue"
+        placeholder="请选择"
+        popper-class="hiddenSel"
+        clearable
+        @clear="clearTag"
+        @remove-tag="removeTag">
+        <el-option
+          v-for="item in typeOption"
+          :key="item.id"
+          :label="item.name"
+          :value="item.id"/>
+      </el-select>
+    </el-popover>
+                </div>
+                <div class="right_box" id="user" v-loading="loading" element-loading-text="loading">
+                    <div>
+                        <table class="right_result">
+                    <tr class="right_result_tr">
+                        <td colspan="6">
+                            <div class="right_result_title">
+                                <div class="text"><span>Result</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="right_result_tr">
+                        <td style="width: 10%;"></td>
+                        <td style="width: 25%;">
+                            <div class="right_result_content">
+                                <div class="text"> <span>Exp/Leg</span></div>
+                            </div>
+                        </td>
+                        <td style="width: 10%;">
+                            <div class="right_result_content">
+                                <div class="text"> <span>Site</span></div>
+                            </div>
+                        </td>
+                        <td style="width: 25%;">
+                            <div class="right_result_content">
+                                <div class="text"> <span>Hole & Location</span></div>
+                            </div>
+                        </td>
+                        <td style="width: 10%;">
+                            <div class="right_result_content">
+                                <div class="text"> <span>Sample</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="right_result_tr">
+                        <td style="width: 18%;">
+                            <div class="right_result_content">
+                                <div class="text"> <span>Count</span></div>
+                            </div>
+                        </td>
+                        <td style="width: 22%;">
+                            <div class="right_result_content">
+                                <div class="text" id="leg_count"> <span></span></div>
+                            </div>
+                        </td>
+                        <td style="width: 18%;">
+                            <div class="right_result_content">
+                                <div class="text" id="site_count"> <span></span></div>
+                            </div>
+                        </td>
+                        <td style="width: 22%;">
+                            <div class="right_result_content">
+                                <div class="text" id="hole_count"> <span></span></div>
+                            </div>
+                        </td>
+                        <td style="width: 18%;">
+                            <div class="right_result_content">
+                                <div class="text" id="sample_count"> <span></span></div>
+                            </div>
+                        </td>
+                    </tr>
+                </table></div>
+                 <div style="float: left;padding-top: 10px;padding-bottom: 10px;" > <div style="float: left;align-items: center;padding-right: 10px;padding-top: 5px"><input  style="width: 20px;height: 20px;" type="checkbox" id="rsc_check" >(include RSC)</div>
+                     <button class="table_b_b" onclick="vm.queryre()">Search</button></div>
+                    <div style="float: right;padding-top: 10px;padding-bottom: 10px;" > <button class="table_b_b" onclick="vm.download()">Download</button></div>
+   <el-table
+
+               :data="values.slice((currentPage-1)*pageSize,currentPage*pageSize) " v-if="values!=null"
+               row-key="id"
+               :show-header="true"
+               :header-cell-style="tableHeaderStyle"
+               :height="elTableHeight1"
+
+
+     >
+      <el-table-column v-for="(item,index) in keys" :key="index" :label="item" :prop="item"></el-table-column>
+    </el-table>
+<el-pagination
+    @size-change="handleSizeChange"
+    @current-change="handleCurrentChange"
+    :current-page="currentPage"
+    :page-sizes="[10, 20, 30, 50, 100]"
+    :page-size="pageSize"
+    layout="total, sizes, prev, pager, next, jumper"
+    :total="values.length"
+    v-if="values!=null"
+>
+</el-pagination>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="left-group">Part of OneSediment in the DDE</div>
+                <div class="mid-group">Funded by the NSFC</div>
+                <div class="right-group">Ocean Sediment Database,Copyright @ 2022</div>
+            </div>
+        </article>
+        <div id="shade" class="c1 hide"></div>
+        <iframe id="page" class="c2 hide" src="/static/login_page.html" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+    </section>
+    <script src="/static/js/login.js"></script>
+</body>
+<script>
+            var  vm1 = new Vue({
+
+                  el:"#headers",
+                components: {},
+  data () {
+    return {
+        text:'fasdfsa',
+      // 控制popover弹出框是否展示
+      popoverVisible: true,
+      // 需把数据整理成以下结构
+      // tree数据(children的id第一位为父级id，用于在select中清除某一点，可找到其父级去掉全选)
+      treeOptions: [
+        {
+          id: '1',
+          name: '父级1',
+          children: [
+            {
+              id: '1-1',
+              name: '类型1'
+            },
+              {
+              id: '1-2',
+              name: '类型2'
+            }, {
+              id: '1-3',
+              name: '类型3'
+            }, {
+              id: '1-4',
+              name: '类型4'
+            }, {
+              id: '1-5',
+              name: '类型5'
+            }
+          ]
+        }, {
+          id: '2',
+          name: '父级2',
+          children: [
+            {
+              id: '2-1',
+              name: '类型6'
+            }, {
+              id: '2-2',
+              name: '类型7'
+            }
+          ]
+        }
+      ],
+      // select选择框选项
+      typeOption: [
+        {
+          id: '1',
+          name: '父级1'
+        },
+        {
+          id: '1-1',
+          name: '类型1'
+        }, {
+          id: '1-2',
+          name: '类型2'
+        }, {
+          id: '1-3',
+          name: '类型3'
+        }, {
+          id: '1-4',
+          name: '类型4'
+        }, {
+          id: '1-5',
+          name: '类型5'
+        }, {
+          id: '2',
+          name: '父级2'
+        }, {
+          id: '2-1',
+          name: '类型6'
+        }, {
+          id: '2-2',
+          name: '类型7'
+        }
+      ],
+        headers:[],
+      defaultProps: {
+        children: 'children',
+        label: 'name'
+      },
+      // select的值
+      typeValue: []
+    }
+  },
+  created () {},
+  computed: {},
+  watch: {},
+  mounted () {
+                      var that = this;
+                                $.ajax({
+                                type : "POST",
+                                dataType : "json",
+
+                                {#contentType: "application/json",#}
+                            traditional: true,
+                                url : "/user/get_allheaders",
+                                data : {
+
+                                },
+                                beforeSend:function(){
+
+                                },
+                                success : function(res) {
+
+                                    that.treeOptions = res.datas;
+                                    that.headers=res.headers;
+
+                                    var ts=[]
+                                    var tem= res.types;
+
+                                for (let i = 0; i < tem.length; i++) {
+            ts.push({id:tem[i],name:tem[i]})
+        }
+                                   that.typeOption=ts;
+
+                                }
+                            });
+  },
+  methods: {
+    // tree选择值修改时
+    checkChange () {
+      this.typeValue = []
+      // 将tree选择的id赋值给select
+      this.$refs['tree'].getCheckedNodes().forEach(value => {
+        // 父级在select中不展示
+        if (this.headers.indexOf( value.id) != -1){
+          this.typeValue.push(value.id)
+        }
+        var select_data=[]
+          for(let i=0;i<this.typeValue.length;i++){
+              select_data.push({id:this.typeValue[i],name:this.typeValue[i]})
+          }
+          vm.$data.headers=select_data;
+      })
+
+    },
+    // 清空select
+    clearTag () {
+      // 清空tree选择
+      this.$refs['tree'].setCheckedKeys([])
+    },
+    // 从select中单个移除时，保持tree选择值同步移除
+    removeTag (data) {
+      // 获取tree目前选择的值
+      var chooseData = this.$refs['tree'].getCheckedKeys()
+      var deleteIndex = ''
+      // 找到chooseData中与清除的data相同的值
+      chooseData.forEach((value, index) => {
+        if (value === data) {
+          deleteIndex = index
+        }
+      })
+      // 从tree目前选择值中去掉
+      chooseData.splice(deleteIndex, 1)
+      // 若有全选情况，tree的选择值中有父级id，而select中无父级id，需用children的id找到父级id并去掉
+      // 查找其父级id是否在chooseData中（即原来此父级是否全选），若在则去掉
+      var findFatherData = chooseData.find(element => element === (data.split('-')[0]))
+      if (findFatherData) {
+        chooseData.splice(chooseData.indexOf(findFatherData), 1)
+      }
+      // 将修改后的值再赋给tree
+      this.$refs['tree'].setCheckedKeys(chooseData)
+    }
+  }
+
+                })
+        var vm= new Vue({
+            el:"#user",
+            data:{
+                elTableHeight1:800,
+                selectedHeaderId:'',
+                selectedValue:'',
+                  headers: [],
+            keys :null,
+                // 表头数据
+
+                values:null,
+                itemkey:1,
+                  filterList: [],
+                text:'',
+                input1:'',
+                input2:'',
+                loading:false,
+                query_state:false,
+
+                // 当前页
+                currentPage: 1,
+                // 每页多少条
+                pageSize: 10,
+                leg_count:'',
+                site_count:'',
+                hole_count:'',
+                samole_count:'',
+            },
+            mounted:function() {
+          // 高度调整
+                console.log('mounted')
+                console.log(this.elTableHeight1)
+    this.elTableHeight1 = $('#middle').height();
+    console.log(this.elTableHeight1)
+            },
+            methods:{
+                addfilter:function(){
+
+                    var input = this.selectedHeaderId;
+                    var input2 = $('#input2').val()
+                    this.text+=input.toString()+this.selectedValue+'"'+input2.toString()+'"'+"  "
+                    this.filterList.push([input,this.selectedValue,input2])
+
+                    document.getElementById('input2').value=''
+                },
+                download:function(){
+                    var that = this;
+
+                        $.ajax({
+                                type : "POST",
+                                dataType : "json",
+
+                                {#contentType: "application/json",#}
+                            traditional: true,
+                                url : "/user/download",
+                                data : {
+                                   "k":that.keys,
+                                    "v":JSON.stringify(that.values)
+                                },
+                                beforeSend:function(){
+
+                                },
+                                success : function(res){
+console.log(res.id)
+                                    var id =res.id
+                                    //console.log(res.content)
+{#document.getElementById('dl').click()#}
+
+         var a = document.createElement('a')
+
+    {#a.href = 'http://47.103.55.75/static/data.xlsx'#}
+                                    a.href='http://47.103.55.75/static/files/'+id.toString()+'.xlsx'
+    a.download = 'data.xlsx'
+    a.click()
+
+                                },
+                                error: function(){
+                                console.log('eorr')
+                                }
+                            });
+
+                },
+
+                queryre:function (){
+
+
+
+                      var that = this;
+                      that.loading = true;
+                    jQuery(function ($) {
+
+                        $.ajax({
+                            url: "/user/queryre",
+                            type : "POST",
+		                    dataType : "json",
+                            traditional: true,
+                            data: {'location':JSON.parse(sessionStorage.getItem('location_value')),
+                                   'age':sessionStorage.getItem('Age_txt'),
+                                'program':JSON.parse(sessionStorage.getItem('program_value')),
+                                'element':JSON.parse(sessionStorage.getItem('element_value')),
+                                'iw':JSON.parse(sessionStorage.getItem('iw_value')),
+                                'cnhs':JSON.parse(sessionStorage.getItem('cnhs_value')),
+                                'sra':JSON.parse(sessionStorage.getItem('sra_value')),
+                                'src_check':document.getElementById('rsc_check').checked,
+                                  'headers':vm1.$data.typeValue,
+
+                                 'msg':[1,2]},
+
+                            success: function (res) {
+                                that.loading = false
+                                that.keys = res.keys
+                                that.leg_count=res.counts[0]
+                                document.getElementById('leg_count').innerText=res.counts[0]
+                                document.getElementById('site_count').innerText=res.counts[1]
+                                document.getElementById('hole_count').innerText=res.counts[2]
+                                document.getElementById('sample_count').innerText=res.counts[3]
+                                that.site_count=res.counts[1]
+                                that.hole_count = res.counts[2]
+                                that.samole_count = res.counts[3]
+                                console.log(res.counts[0])
+                                that.values =res.values
+                                console.log(that.values)
+
+
+
+                            }
+                        })
+                    })
+                },
+                   // 每页多少条
+            handleSizeChange(val) {
+                this.pageSize = val;
+            },
+            // 当前页
+            handleCurrentChange(val) {
+                this.currentPage = val;
+            },
+
+
+            }
+        })
+
+</script>
+</html>
