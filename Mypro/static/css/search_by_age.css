@@ -28,7 +28,6 @@
 
 
 .box .ss{
-    display: inline-block;
     vertical-align: top;
     margin-top: 10px;
     font-weight: 700;
@@ -40,8 +39,6 @@
 .content input{
     display: inline-block;
     vertical-align: top;
-    width: 220px;
-    height: 30px;
     padding: 2px 2px 2px 2px;
     font-family: 'Arial Normal', 'Arial', sans-serif;
     font-weight: 400;
@@ -278,7 +275,7 @@ input[type="checkbox"]{
     .middle_class{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin: auto;
         font-size: 1rem;
     }
@@ -296,6 +293,7 @@ input[type="checkbox"]{
         display: flex;
         align-items: flex-start;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     .box .title{
         flex : 0 0 100px;
@@ -321,6 +319,9 @@ input[type="checkbox"]{
     .con_line{
         display: flex;
     }
+    .con_line select{
+        width: 80%;
+    }
 
     .content1{
         margin-top: 30px;
@@ -334,4 +335,18 @@ input[type="checkbox"]{
         margin-top: 10px;
         flex:0 0 40%
     }
+    .content div{
+        flex: 0 0 
+    }
+
 }
+@media  screen and (max-width: 580px){
+    #boxx{
+        flex-wrap: wrap;
+        justify-content:space-around;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+

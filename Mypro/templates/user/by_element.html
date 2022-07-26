@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Title</title>
     <script src="/static/js/jquery.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -31,84 +32,108 @@
         <article>
             <div class="top">
                 <div>
-    
                     <p id="p1">
                         <img id="navbar_toggler" src="/static/navbar.svg" onclick="$('.topnav').toggle();">
                         Ocean Sediment Database
-                        <button type="button" class="login_button">
+                       <button type="button" class="login_button">
                             <img src="/static/Img/登录.png" style="width: 20px;padding-right: 10px;">
-                            <div id="login_name" style="float: right;">Login/Register</div>
+                            <div id="login_name" style="float: right;">朱永伟</div>
                         </button>
                     </p>
                 </div>
                 <div class="topnav">
-                    <ul>
-                        <li><a id="1" class="bianse" href="/user/Home">Home</a></li>
-                        <li><a id="2" class="bianse1" href="/user/Introduction">Introduction</a></li>
-                        <li><a id="3" class="bianse1" onclick="to_access()">Access Data</a></li>
-    
-                        <li><a id="5" class="bianse1" href="#">Submit Data</a></li>
-                        <li><a id="5" class="bianse1" href="/user/About_us">About us</a></li>
+                   <ul>
+                        <li><a id="1" class="bianse1" href="/user/Home" onclick="showsubmenu(this.id)">Home</a></li>
+                        <li><a id="2" class="bianse1" href="/user/Introduction"
+                                onclick="showsubmenu(this.id)">Introduction</a></li>
+                        <li><a class="bianse" href="/user/Access_data">Access Data</a></li>
+                        <li><a class="bianse1" href="#">Submit Data</a></li>
+                        <li><a id="3" class="bianse1" href="/user/About_us" onclick="showsubmenu(this.id)">About us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
+            <!-- <div class="middle_mid">
+                <div class="add" id="add1" onclick="add(this)"> &nbspAdd>></div>
+                <div class="mid_block">
+                    <div class="remove" onclick="remove()">&lt;&lt;remove&nbsp</div>
+                    <div class="removeall" onclick="removeall()">	&lt;&lt;remove all&nbsp</div>
+                </div>
+                <div class="add" id="add2" onclick="add(this)"> &nbspAdd>></div>
+                <div class="add" id="add3" onclick="add(this)"> &nbspAdd>></div>  
+            </div> -->
             <div class="middle">
                 <div class="row">
-                    <div class="middle_left">
-                        <h3 class="title">Set Chemistry</h3>
-                        <p class="p">Major Elements</p>
-                        <table  class="table" id="table1">
-                            <tr style="border-bottom: 2px solid black;">
-                                <td class="td4" style="font-size:16px;">Exist</td>
-                                <td class="td2"></td>
-                                <td class="td3"></td>
-                                <td class="td2"></td>
-                                <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
-                                <td class="td4" >and/or<br>(uncheck/check)</td>
-                            </tr>
-                        </table>
-                        <p class="p">Trace Elements</p>
-                        <table  class="table" id="table2">
-                            <tr style="border-bottom: 2px solid black;">
-                                <td class="td4" style="font-size:16px;">Exist</td>
-                                <td class="td2"></td>
-                                <td class="td3"></td>
-                                <td class="td2"></td>
-                                <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
-                            <td class="td4" >and/or<br>(uncheck/check)</td>
-                        </tr>
-                        </table>
-                        <p class="p">Rare Earth Elements</p>
-                        <table  class="table" id="table3">
-                            <tr style="border-bottom: 2px solid black;">
-                                <td class="td4" style="font-size:16px;">Exist</td>
-                                <td class="td2"></td>
-                                <td class="td3"></td>
-                                <td class="td2"></td>
-                                <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
-                                <td class="td4" >and/or<br>(uncheck/check)</td>
-                            </tr>
-                        </table>
-                        <div class="block"></div>
-                    </div>
-                    <div class="middle_mid">
-                        <div class="add" id="add1" onclick="add(this)"> &nbspAdd>></div>
-                        <div class="mid_block">
+                        <div class="middle_left">
+                            <h3 class="title">Set Chemistry</h3>
+                            <p class="p">Major Elements</p>
+                            <div class="table_ele">
+                                <table  class="table" id="table1">
+                                    <tr style="border-bottom: 2px solid black;">
+                                        <td class="td4" style="font-size:16px;">Exist</td>
+                                        <td class="td2"></td>
+                                        <td class="td3"></td>
+                                        <td class="td2"></td>
+                                        <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
+                                        <td class="td4" >and/or<br>(uncheck/check)</td>
+                                    </tr>
+                                </table>
+                                <div class="add" id="add1" onclick="add(this)"> &nbspAdd>></div>
+                            </div>
+                            
+                            <p class="p">Trace Elements</p>
+                            <div class="table_ele">
+                                <table  class="table" id="table2">
+                                    <tr style="border-bottom: 2px solid black;">
+                                        <td class="td4" style="font-size:16px;">Exist</td>
+                                        <td class="td2"></td>
+                                        <td class="td3"></td>
+                                        <td class="td2"></td>
+                                        <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
+                                    <td class="td4" >and/or<br>(uncheck/check)</td>
+                                </tr>
+                                </table>
+                                <div class="add" id="add2" onclick="add(this)"> &nbspAdd>></div>
+                                
+                            </div>
+
+                            <p class="p">Rare Earth Elements</p>
+                            <div class="table_ele">
+                                <table  class="table" id="table3">
+                                    <tr style="border-bottom: 2px solid black;">
+                                        <td class="td4" style="font-size:16px;">Exist</td>
+                                        <td class="td2"></td>
+                                        <td class="td3"></td>
+                                        <td class="td2"></td>
+                                        <td class="td1" style="padding-top: 8px;font-size: 16px;">Units</td>
+                                        <td class="td4" >and/or<br>(uncheck/check)</td>
+                                    </tr>
+                                </table>
+                                <div class="add" id="add3" onclick="add(this)"> &nbspAdd>></div>  
+                            </div>
+
+                            <div class="block"></div>
+                        </div>
+
+
+                    <div class="middle_right">
+                        <div class="rr">
                             <div class="remove" onclick="remove()">&lt;&lt;remove&nbsp</div>
                             <div class="removeall" onclick="removeall()">	&lt;&lt;remove all&nbsp</div>
                         </div>
-                        <div class="add" id="add2" onclick="add(this)"> &nbspAdd>></div>
-                        <div class="add" id="add3" onclick="add(this)"> &nbspAdd>></div>  
-                    </div>
-                    <div class="middle_right">
-                        <p class="right_title">Search Creteria of Chemistry</p>
-                        <select id="contain" size="2" class="right_contain" id="contain">
-                            <option class="op" group="0" >Major Elements:</option>
-
-                            <option class="op" group="1" >Trace Elements:</option>
-                            <option class="op" group="2" >Rare Earth Elements:</option>
-                        </select>
-                        <input type="button" class="sub" onclick="element_sub()" value="Submit"></input>
+                        
+                        <div class="select_ele">
+                            <p class="right_title">Search Creteria of Chemistry</p>
+                            <select id="contain" size="2" class="right_contain" id="contain">
+                                <option class="op" group="0" >Major Elements:</option>
+    
+                                <option class="op" group="1" >Trace Elements:</option>
+                                <option class="op" group="2" >Rare Earth Elements:</option>
+                            </select>
+                            <input type="button" class="sub" onclick="element_sub()" value="Submit"></input>
+                        </div>
+                        
+                        
                     </div>
                 </div>
             </div>
