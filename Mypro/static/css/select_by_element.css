@@ -160,14 +160,16 @@ td{
 }
 
 .remove{
-    font-weight: bold;
     width: 100px;
-    background-color: #0070c0;
-    height: 32px;
-    border-radius: 8px;
-    text-align: right;
-    line-height: 32px;
-    color: #F2F2F2;
+     font-weight: bolder;
+     background-color: #0070c0;
+     height: 32px;
+     border-radius: 8px;
+     text-align: right;
+     margin-top: 16px;
+     line-height: 32px;
+     font-size: 14px;
+     color: #F2F2F2;
  
 }
 .mid_block{
@@ -184,11 +186,10 @@ td{
     height: 32px;
     border-radius: 8px;
     text-align: right;
+    margin-top: 16px;
     line-height: 32px;
     font-size: 14px;
     color: #F2F2F2;
-    margin-top: 10px;
-    
 }
 
 
@@ -204,6 +205,11 @@ td{
     background-color: #0070c0;
     margin-top: 24px;
     margin-left: 200px;
+}
+
+.td6{
+    font-size: 10px;
+    display: none;
 }
 
 
@@ -286,8 +292,97 @@ td{
         flex-direction: column;
         margin-top: 200px;
     }
+    .remove{
+        margin-top: 0px;
+    }
 }
 
+@media screen and  (max-width: 600px){
+    .middle_right{
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content :flex-start;
+        margin-left: 10%;
+    }
+    .rr{
+        flex-direction: row;
+        margin-top: 0px;
+    }
+
+    .select_ele p{
+        margin-top: 0px;
+        
+    }
+
+    .remove{
+        font-size: 12px;
+        height: 24px;
+        margin-top: 0px;
+        margin-left: 0px;
+        line-height: 24px;
+        width: 80px;
+    }
+    .removeall{
+        margin-top: 0px;
+        margin-left: 10px;
+        font-size: 12px;
+        height: 24px;
+        margin-top: 0px;
+        line-height: 24px;
+    }
+    .right_contain{
+        width: 90%;
+    }
+    .op{
+        font-size: 12px;
+    }
+
+    .sub{
+        width: 148px;
+        height: 39px; 
+        font-size: 24px;
+    }
+    .right_title{
+        font-size: 24px;
+        margin-top: 24px;
+    }
+    .middle_left .title{
+        margin-left: 0%;
+        font-size: 26px;
+    }
+    .middle_left .p{
+        margin-left: 0%;
+        font-size: 26px;
+    }
+    .td3_tips p{
+        font-size: 12px;
+    }
+    .td_1{
+        font-size: 10px;
+        width: 20%;
+    }
+}
+@media screen and  (max-width: 840px){
+    .td4{
+        display: none;
+    }
+    .td6{
+        display: block;
+        width: 13%;
+        font-size: 8px;
+        padding-top: 8px;
+    }
+    .table_ele{
+        flex-direction: column;
+    }
+    .add{
+        margin-top: 10px;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        width: 80px;
+    }
+}
 
 
 
