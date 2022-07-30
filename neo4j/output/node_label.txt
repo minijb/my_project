@@ -1,0 +1,14 @@
+acicular
+bladed
+blocky
+botryoidal
+dog_tooth
+dripstone
+drusy
+fibrous
+granular
+meniscus
+micrite_cement
+peloidal_microcrystalline_cement
+radiaxial_fibrous
+syntaxial_calcite_overgrowth_cement
